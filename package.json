@@ -1,0 +1,12 @@
+{
+	"name": "wcdb-frontend",
+	"version": "0.1.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "live-server",
+		"test": "echo \"Error: No test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "David MacDonald <davidjohnmacdonald@gmail.com>"
+}
