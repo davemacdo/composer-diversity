@@ -4,6 +4,11 @@
   font-family: 'Lato', sans-serif; }
 
 .wrapper {
+  width: 100%; }
+  .wrapper h1 {
+    text-align: center; }
+
+.list-wrapper {
   max-width: 20rem;
   margin: auto; }
 

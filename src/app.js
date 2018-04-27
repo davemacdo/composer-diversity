@@ -234,9 +234,11 @@ const vm = new Vue ({
 	template: `
 		<div class="wrapper">
 			<h1>{{title}}</h1>
-			<ul class="composer-list">
-				<li v-for="composer in list"><span class="name"><a :href="composer[36]" target="_blank">{{composer[0]}}</a></span><span class="composer-props" v-html="composerProps(composer)"></span><span class="composer-geo" v-html="composerGeo(composer)"></span></li>
-			</ul>
+			<div class="list-wrapper">
+				<ul class="composer-list">
+					<li v-for="composer in list"><span class="name"><a :href="composer[36]" target="_blank">{{composer[0]}}</a></span><span class="composer-props" v-html="composerProps(composer)"></span><span class="composer-geo" v-html="composerGeo(composer)"></span></li>
+				</ul>
+			</div>
 		</div>
 	`
 }); // vm
