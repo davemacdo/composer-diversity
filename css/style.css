@@ -73,10 +73,10 @@ a:hover, a:active, a:target {
     box-shadow: 3px 3px 3px 0px rgba(76, 62, 76, 0.6);
     background-color: #e9dccb; }
 
-@media screen and (min-width: 35em) {
-  .composer-list {
-    grid-template-columns: repeat(2, 1fr); } }
-
 @media screen and (min-width: 70em) {
   .composer-list {
     grid-template-columns: repeat(3, 1fr); } }
+
+@media screen and (min-width: 35em) {
+  .composer-list {
+    grid-template-columns: repeat(2, 1fr); } }
