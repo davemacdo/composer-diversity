@@ -221,7 +221,7 @@ const vm = new Vue ({
 				}
 			}
 
-			if (!nodata.includes(row[25])) { // if there's only a country, give that
+			if (geoSpan == '' && !nodata.includes(row[25])) { // if there's only a country, give that
 				geoSpan = row[25];
 			}
 			return geoSpan;
