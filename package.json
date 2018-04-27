@@ -1,12 +1,34 @@
 {
-	"name": "wcdb-frontend",
-	"version": "0.1.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"start": "live-server",
-		"test": "echo \"Error: No test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "David MacDonald <davidjohnmacdonald@gmail.com>"
+  "name": "wcdb-frontend",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "watch": "webpack --w",
+    "dev": "concurrently \"npm run watch\" \"npm run start\"",
+    "build": "webpack",
+    "test": "echo \"Error: No test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David MacDonald <davidjohnmacdonald@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "babel-core": "^6.26.2",
+    "babel-loader": "^7.1.4",
+    "concurrently": "^3.5.1",
+    "css-flip": "^0.5.0",
+    "css-loader": "^0.28.11",
+    "extract-loader": "^2.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.11",
+    "node-sass": "^4.9.0",
+    "postcss-cli": "^5.0.0",
+    "postcss-loader": "^2.1.4",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  }
 }
