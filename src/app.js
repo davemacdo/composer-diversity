@@ -20,6 +20,7 @@ const fields = [
 	},
 	{
 		'label': 'wind band',
+		'class': 'wind-band',
 		'icon': 'W'
 	},
 	{
@@ -40,6 +41,7 @@ const fields = [
 	},
 	{
 		'label': 'jazz/improvisation',
+		'class': 'jazz',
 		'icon': 'J'
 	},
 	{
@@ -48,10 +50,12 @@ const fields = [
 	},
 	{
 		'label': 'video games',
+		'class': 'video-games',
 		'icon': 'VG'
 	},
 	{
 		'label': 'music theatre',
+		'class': 'music-theatre',
 		'icon': 'MT'
 	},
 	{
@@ -60,10 +64,12 @@ const fields = [
 	},
 	{
 		'label': 'electroacoustic & installation',
+		'class': 'electroacoustic',
 		'icon': 'EA'
 	},
 	{
 		'label': 'folk/traditional genres',
+		'class': 'folk',
 		'icon': 'F/Tr'
 	},
 	{
@@ -76,23 +82,28 @@ const fields = [
 	},
 	{
 		'label': 'Latinx',
+		'class': 'latinx',
 		'icon': 'Lat'
 	},
 	{
 		'label': 'Asian',
+		'class': 'asian',
 		'icon': 'Asn'
 	},
 	{
 		'label': 'West Asian/North African',
+		'class': 'wana',
 		'icon': 'WANA'
 	},
 	{
 		'label': 'South Asian',
+		'class': 'south-asian',
 		'icon': 'SoAs'
 	},
 	{
-		'label': 'AmIn',
-		'icon': 'American Indian'
+		'label': 'American Indian',
+		'class': 'american-indian',
+		'icon': 'AmIn'
 	},
 	{
 		'label': 'other',
@@ -108,30 +119,37 @@ const fields = [
 	},
 	{
 		'label': 'string quartet',
+		'class': 'string-quartet',
 		'icon': 'sq'
 	},
 	{
 		'label': 'wind quartet',
+		'class': 'wind-quartet',
 		'icon': 'WQ'
 	},
 	{
 		'label': 'brass quintet',
+		'class': 'brass-quintet',
 		'icon': 'bq'
 	},
 	{
 		'label': 'young band',
+		'class': 'young-band',
 		'icon': 'YB'
 	},
 	{
 		'label': 'young orchestra',
+		'class': 'young-orchestra',
 		'icon': 'YO'
 	},
 	{
 		'label': 'young choir',
+		'class': 'young-choir',
 		'icon': 'YC'
 	},
 	{
 		'label': 'young piano',
+		'class': 'young-piano',
 		'icon': 'YP'
 	},
 	{
@@ -187,7 +205,7 @@ const vm = new Vue ({
 			var propSpan = '';
 			for (i = 1; i < fields.length; i++){
 				if (row[i] == "X") {
-					propSpan += '<span class="' + fields[i].label + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
+					propSpan += '<span class="' + (fields[i].hasOwnProperty('class') ? fields[i].class : fields[i].label) + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
 				}
 			}
 			return propSpan;
@@ -197,10 +215,10 @@ const vm = new Vue ({
 		this.getData();
 	}, // mounted
 	template: `
-		<div id="number-box">
+		<div class="wrapper">
 			<h1>{{title}}</h1>
-			<ul>
-				<li v-for="composer in list"><a :href="composer[36]" target="_blank">{{composer[0]}}</a><span class="composer-props" v-html="composerProps(composer)"></span></li>
+			<ul class="composer-list">
+				<li v-for="composer in list"><span class="name"><a :href="composer[36]" target="_blank">{{composer[0]}}</a></span><span class="composer-props" v-html="composerProps(composer)"></span></li>
 			</ul>
 		</div>
 	`

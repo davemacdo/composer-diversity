@@ -1,0 +1,65 @@
+@import 'normalize';
+@import 'vars';
+
+body {
+	background-color: $bg;
+	color: $fg;
+	font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+	max-width: 20rem;
+	margin: auto;
+
+}
+
+.composer-list {
+	padding: 0;
+
+	li {
+		list-style-type: none;
+		padding: 0.5rem;
+
+		.name {
+			display: block;
+			clear: both;
+		}
+
+		.living, .dead {
+			font-size: 80%;
+		}
+
+		// genres
+		.orchestra, .wind-band, .chorus, .chamber, .voice, .opera, .jazz, .film, .video-games, .music-theatre, .songwriting, .electroacoustic, .folk {
+			font-size: 80%;
+			background-color: transparentize($fg, 0.8);
+			border-radius: 2px;
+			margin: 2px;
+			padding: 2px;
+		}
+
+		// demographics
+		.white, .black, .latinx, .asian, .wana, .south-asian, .american-indian, .other {
+			font-size: 80%;
+			background-color: transparentize($em1a, 0.8);
+			border-radius: 2px;
+			margin: 2px;
+			padding: 2px;
+		}
+
+		// mediums
+		.string-quartet, .wind-quartet, .brass-quintet, .young-band, .young-orchestra, .young-choir, .young-p {
+			font-size: 80%;
+			background-color: transparentize($fg, 0.8);
+			border-radius: 2px;
+			margin: 2px;
+			padding: 2px;
+		}
+
+	}
+
+	li:nth-child(odd) {
+		background-color: $em2;
+	}
+
+}
