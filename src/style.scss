@@ -13,10 +13,18 @@ body {
 	h1 {text-align: center}
 }
 
-.list-wrapper {
-	max-width: 20rem;
-	margin: auto;
+// .list-wrapper {
+// 	max-width: 20rem;
+// 	margin: auto;
+//
+// }
 
+a, a:visited {
+	color: $em2
+}
+
+a:hover, a:active, a:target {
+	color: $em1;
 }
 
 .composer-list {
@@ -70,14 +78,11 @@ body {
 		.composer-geo {
 			display: block;
 			clear: both;
-			text-align: right;
 		}
 
 
 	}
 
-	li:nth-child(odd) {
-		background-color: $em2;
-	}
-
 }
+
+@import 'grid-layout';
