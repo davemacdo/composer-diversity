@@ -17,6 +17,8 @@
       clear: both; }
     .composer-list li .living, .composer-list li .dead {
       font-size: 80%; }
+    .composer-list li span {
+      display: inline-block; }
     .composer-list li .orchestra, .composer-list li .wind-band, .composer-list li .chorus, .composer-list li .chamber, .composer-list li .voice, .composer-list li .opera, .composer-list li .jazz, .composer-list li .film, .composer-list li .video-games, .composer-list li .music-theatre, .composer-list li .songwriting, .composer-list li .electroacoustic, .composer-list li .folk {
       font-size: 80%;
       background-color: rgba(76, 62, 76, 0.2);
@@ -35,5 +37,9 @@
       border-radius: 2px;
       margin: 2px;
       padding: 2px; }
+    .composer-list li .composer-geo {
+      display: block;
+      clear: both;
+      text-align: right; }
   .composer-list li:nth-child(odd) {
     background-color: #8EBEB5; }

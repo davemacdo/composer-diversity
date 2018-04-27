@@ -1,5 +1,6 @@
 // currently using my dev copy of the sheet which has the urls in a separate column
 const sheet = 'https://sheets.googleapis.com/v4/spreadsheets/191ExX5H64wdAvxqfdaxj13bHn31hDifH8uhczhzkyLU/values/Women%20Composers%20Database!A3:AK?key=AIzaSyA-h6VkeSPqfe299CwSS88O-qwI2MVQw0A';
+const {flag, name, code} = require('country-emoji');
 
 const fields = [
 	{
@@ -217,12 +218,12 @@ const vm = new Vue ({
 				geoSpan = row[24];
 
 				if (!nodata.includes(row[25])) { // if there's *also* a country, add that
-					geoSpan += ', ' + row[25];
+					geoSpan += ', ' + row[25] + ( flag( row[25] ) ? (' ' + flag( row[25] )) : '' );
 				}
 			}
 
 			if (geoSpan == '' && !nodata.includes(row[25])) { // if there's only a country, give that
-				geoSpan = row[25];
+				geoSpan = row[25] + ( flag( row[25] ) ? (' ' + flag( row[25] )) : '' );
 			}
 			return geoSpan;
 		} // composerProps

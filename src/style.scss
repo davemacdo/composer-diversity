@@ -29,6 +29,10 @@ body {
 			font-size: 80%;
 		}
 
+		span {
+			display: inline-block;
+		}
+
 		// genres
 		.orchestra, .wind-band, .chorus, .chamber, .voice, .opera, .jazz, .film, .video-games, .music-theatre, .songwriting, .electroacoustic, .folk {
 			font-size: 80%;
@@ -55,6 +59,14 @@ body {
 			margin: 2px;
 			padding: 2px;
 		}
+
+		// geography
+		.composer-geo {
+			display: block;
+			clear: both;
+			text-align: right;
+		}
+
 
 	}
 
