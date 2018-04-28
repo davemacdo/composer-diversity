@@ -190,7 +190,12 @@ const vm = new Vue ({
 	data: {
 		title: 'Women Composers Database',
 		headings: null,
-		list: null
+		list: null,
+		search: '',
+		filters: new Array(36),
+		// these are the fields in fields[] that have associated filter checkboxes
+		filterOptions: filterOptions = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 26, 27, 28, 29, 30, 31, 32 ],
+		vueFields: fields // brings in the fields array as part of the Vue data
 	}, // data
 	methods: {
 		getData: function(){
@@ -202,6 +207,19 @@ const vm = new Vue ({
 				console.log(error.statusText);
 			});
 		}, // getData
+		runFiltersOr: function(row){ // filter results
+			if (this.filters.indexOf(true) == -1){
+				return true;
+			} else {
+				var returnval = false;
+				for (i = 0; i < this.filters.length; i++){
+					if (row[i] == 'X' && this.filters[i]==true){
+						returnval = true;
+					}
+				}
+				return returnval;
+			}
+		}, // runFiltersOr
 		composerProps: function(row){ // return properties for each composer
 			var propSpan = '';
 			for (i = 1; i < fields.length; i++){
@@ -210,7 +228,7 @@ const vm = new Vue ({
 				}
 			}
 			return propSpan;
-		},
+		}, // composerProps
 		composerGeo: function(row) { // return span for geographical information for each composer
 			var geoSpan = '';
 			var nodata = ['N/A', '']
@@ -226,17 +244,28 @@ const vm = new Vue ({
 				geoSpan = row[25] + ( flag( row[25] ) ? (' ' + flag( row[25] )) : '' );
 			}
 			return geoSpan;
-		} // composerProps
+		} // composerGeo
 	}, // methods
 	mounted: function (){
 		this.getData();
 	}, // mounted
+
 	template: `
 		<div class="wrapper">
 			<h1>{{title}}</h1>
+			<div class="inputs">
+				<input type="text" v-model="search">
+				<template v-for="option in filterOptions">
+					<label>{{vueFields[option].label}}<input type="checkbox" value="X" v-model="filters[option]"></label>
+				</template>
+			</div>
 			<div class="list-wrapper">
 				<ul class="composer-list">
-					<li v-for="composer in list"><span class="name"><a :href="composer[36]" target="_blank">{{composer[0]}}</a></span><span class="composer-props" v-html="composerProps(composer)"></span><span class="composer-geo" v-html="composerGeo(composer)"></span></li>
+					<template v-for="composer in list" v-if="composer[0].match(new RegExp(search, 'i'))">
+						<template v-if="runFiltersOr(composer)">
+							<li><span class="name"><a :href="composer[36]" target="_blank">{{composer[0]}}</a></span><span class="composer-props" v-html="composerProps(composer)"></span><span class="composer-geo" v-html="composerGeo(composer)"></span></li>
+						</template>
+					</template>
 				</ul>
 			</div>
 		</div>
