@@ -5,7 +5,7 @@ body {
 	background-color: transparentize($bg, 0.9);
 	color: $fg;
 	font-family: $bodyFonts;
-	font-size: 24px;
+	font-size: $small-screen-font-size;
 }
 
 .wrapper {
