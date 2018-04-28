@@ -6,6 +6,7 @@ GH pages: https://davemacdo.github.io/wcdb/
 
 todos:
 
-- make live search
-- make live filters
-- add styles
+- fix URLs in data source
+- collapse filters for small screens
+- improve responsive break points for retina displays
+- copy Google Sheet data to static JSON file
