@@ -4,7 +4,7 @@
 body {
 	background-color: transparentize($bg, 0.9);
 	color: $fg;
-	font-family: 'Lato', sans-serif;
+	font-family: $bodyFonts;
 	font-size: 24px;
 }
 
