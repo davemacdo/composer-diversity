@@ -128,8 +128,8 @@ const fields = [
 		'icon': 'sq'
 	},
 	{
-		'label': 'wind quartet',
-		'class': 'wind-quartet',
+		'label': 'wind quintet',
+		'class': 'wind-quintet',
 		'icon': 'WQ'
 	},
 	{
