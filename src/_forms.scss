@@ -1,0 +1,47 @@
+input.search {
+	font-size: 24px;
+	border: 2px solid transparentize($fg, 0.5);
+	font-family: $bodyFonts;
+	color: lighten($fg, 10);
+	max-width: 35em;
+	display: block;
+	margin: auto;
+}
+
+div.filters {
+	display: grid;
+	grid-template-columns: 1fr;
+
+	// start new row with genre and medium
+	label.filter:nth-child(3), label.filter:nth-child(16){
+		grid-column-start: 1;
+	}
+
+	input[type="checkbox"] {
+		transform: scale(1.2);
+		position: relative;
+		top: -0.3em;
+		margin-right: 0.8em;
+	}
+
+
+
+}
+
+@media screen and (min-width: 36em) {
+	div.filters {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width: 54em) {
+	div.filters {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (min-width: 71em) {
+	div.filters {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}

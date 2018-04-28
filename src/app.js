@@ -254,10 +254,12 @@ const vm = new Vue ({
 		<div class="wrapper">
 			<h1>{{title}}</h1>
 			<div class="inputs">
-				<input type="text" v-model="search">
-				<template v-for="option in filterOptions">
-					<label>{{vueFields[option].label}}<input type="checkbox" value="X" v-model="filters[option]"></label>
-				</template>
+				<input type="text" v-model="search" class="search" placeholder="search">
+				<div class="filters">
+					<template v-for="option in filterOptions">
+						<label class="filter"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}}</label>
+					</template>
+				</div>
 			</div>
 			<div class="list-wrapper">
 				<ul class="composer-list">
