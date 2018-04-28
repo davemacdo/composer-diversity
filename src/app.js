@@ -254,7 +254,7 @@ const vm = new Vue ({
 		<div class="wrapper">
 			<h1>{{title}}</h1>
 			<div class="inputs">
-				<input type="text" v-model="search">
+				<input type="text" v-model="search" class="search">
 				<template v-for="option in filterOptions">
 					<label>{{vueFields[option].label}}<input type="checkbox" value="X" v-model="filters[option]"></label>
 				</template>
