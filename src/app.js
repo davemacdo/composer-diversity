@@ -1,5 +1,9 @@
 // currently using my dev copy of the sheet which has the urls in a separate column
-const sheet = 'https://sheets.googleapis.com/v4/spreadsheets/191ExX5H64wdAvxqfdaxj13bHn31hDifH8uhczhzkyLU/values/Women%20Composers%20Database!A3:AK?key=AIzaSyA-h6VkeSPqfe299CwSS88O-qwI2MVQw0A';
+//const sheet = 'https://sheets.googleapis.com/v4/spreadsheets/191ExX5H64wdAvxqfdaxj13bHn31hDifH8uhczhzkyLU/values/Women%20Composers%20Database!A3:AK?key=AIzaSyA-h6VkeSPqfe299CwSS88O-qwI2MVQw0A';
+
+// ofline version
+const sheet = 'assets/wcdb-offline.json';
+
 const {flag, name, code} = require('country-emoji');
 
 const fields = [
@@ -220,6 +224,19 @@ const vm = new Vue ({
 				return returnval;
 			}
 		}, // runFiltersOr
+		runFiltersAnd: function(row){ // filter results
+			if (this.filters.indexOf(true) == -1){
+				return true;
+			} else {
+				var returnval = true;
+				for (i = 0; i < this.filters.length; i++){
+					if (this.filters[i]==true && row[i]!='X'){
+						returnval = false;
+					}
+				}
+				return returnval;
+			}
+		}, // runFiltersAnd
 		composerProps: function(row){ // return properties for each composer
 			var propSpan = '';
 			for (i = 1; i < fields.length; i++){
@@ -264,7 +281,7 @@ const vm = new Vue ({
 			<div class="list-wrapper">
 				<ul class="composer-list">
 					<template v-for="composer in list" v-if="composer[0].match(new RegExp(search, 'i'))">
-						<template v-if="runFiltersOr(composer)">
+						<template v-if="runFiltersAnd(composer)">
 							<li><span class="name"><a :href="composer[36]" target="_blank">{{composer[0]}}</a></span><span class="composer-props" v-html="composerProps(composer)"></span><span class="composer-geo" v-html="composerGeo(composer)"></span></li>
 						</template>
 					</template>
