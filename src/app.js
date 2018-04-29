@@ -300,16 +300,16 @@ const vm = new Vue ({
 		composerGeo: function(row) { // return span for geographical information for each composer
 			var geoSpan = '';
 			var nodata = ['N/A', '']
-			if (!nodata.includes(row[24])){ // if there's a city/state, give that
-				geoSpan = row[24];
+			if (!nodata.includes(row[27])){ // if there's a city/state, give that
+				geoSpan = row[27];
 
-				if (!nodata.includes(row[25])) { // if there's *also* a country, add that
-					geoSpan += ', ' + row[25] + ( flag( row[25] ) ? (' ' + flag( row[25] )) : '' );
+				if (!nodata.includes(row[28])) { // if there's *also* a country, add that
+					geoSpan += ', ' + row[28] + ( flag( row[28] ) ? (' ' + flag( row[28] )) : '' );
 				}
 			}
 
-			if (geoSpan == '' && !nodata.includes(row[25])) { // if there's only a country, give that
-				geoSpan = row[25] + ( flag( row[25] ) ? (' ' + flag( row[25] )) : '' );
+			if (geoSpan == '' && !nodata.includes(row[28])) { // if there's only a country, give that
+				geoSpan = row[28] + ( flag( row[28] ) ? (' ' + flag( row[28] )) : '' );
 			}
 			return geoSpan;
 		} // composerGeo
