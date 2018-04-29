@@ -96,7 +96,7 @@ input.search {
 div.filters {
   display: grid;
   grid-template-columns: 1fr; }
-  div.filters label.filter:nth-child(3), div.filters label.filter:nth-child(16) {
+  div.filters label.filter:nth-child(3), div.filters label.filter:nth-child(5), div.filters label.filter:nth-child(18), div.filters label.filter:nth-child(26) {
     grid-column-start: 1; }
   div.filters input[type="checkbox"] {
     transform: scale(1.2);
