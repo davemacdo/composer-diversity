@@ -1,6 +1,3 @@
-// currently using my dev copy of the sheet which has the urls in a separate column
-//const sheet = 'https://sheets.googleapis.com/v4/spreadsheets/191ExX5H64wdAvxqfdaxj13bHn31hDifH8uhczhzkyLU/values/Women%20Composers%20Database!A3:AK?key=AIzaSyA-h6VkeSPqfe299CwSS88O-qwI2MVQw0A';
-
 // new sheet for Composer Diversity Database
 //const sheet = 'https://sheets.googleapis.com/v4/spreadsheets/1vD-hWsQYvi6j-6NP_HCLRtmLKdPX08IXmCOeAPV7ESY/values/Composer%20Diversity%20Database%20%28IN%20PROGRESS%29!A3:AK?key=AIzaSyA-h6VkeSPqfe299CwSS88O-qwI2MVQw0A';
 
@@ -118,6 +115,49 @@ const fields = [
 	},
 	///////////////////////////
 	{
+		'label': 'string quartet',
+		'class': 'string-quartet',
+		'icon': 'sq',
+		'type': 'medium'
+	},
+	{
+		'label': 'wind quintet',
+		'class': 'wind-quintet',
+		'icon': 'WQ',
+		'type': 'medium'
+	},
+	{
+		'label': 'brass quintet',
+		'class': 'brass-quintet',
+		'icon': 'bq',
+		'type': 'medium'
+	},
+	{
+		'label': 'young band',
+		'class': 'young-band',
+		'icon': 'YB',
+		'type': 'medium'
+	},
+	{
+		'label': 'young orchestra',
+		'class': 'young-orchestra',
+		'icon': 'YO',
+		'type': 'medium'
+	},
+	{
+		'label': 'young choir',
+		'class': 'young-choir',
+		'icon': 'YC',
+		'type': 'medium'
+	},
+	{
+		'label': 'young piano',
+		'class': 'young-piano',
+		'icon': 'YP',
+		'type': 'medium'
+	},
+	///////////////////////////
+	{
 		'label': 'white',
 		'icon': 'Wh',
 		'type': 'demographic'
@@ -175,49 +215,6 @@ const fields = [
 	},
 	///////////////////////////
 	{
-		'label': 'string quartet',
-		'class': 'string-quartet',
-		'icon': 'sq',
-		'type': 'medium'
-	},
-	{
-		'label': 'wind quintet',
-		'class': 'wind-quintet',
-		'icon': 'WQ',
-		'type': 'medium'
-	},
-	{
-		'label': 'brass quintet',
-		'class': 'brass-quintet',
-		'icon': 'bq',
-		'type': 'medium'
-	},
-	{
-		'label': 'young band',
-		'class': 'young-band',
-		'icon': 'YB',
-		'type': 'medium'
-	},
-	{
-		'label': 'young orchestra',
-		'class': 'young-orchestra',
-		'icon': 'YO',
-		'type': 'medium'
-	},
-	{
-		'label': 'young choir',
-		'class': 'young-choir',
-		'icon': 'YC',
-		'type': 'medium'
-	},
-	{
-		'label': 'young piano',
-		'class': 'young-piano',
-		'icon': 'YP',
-		'type': 'medium'
-	},
-	///////////////////////////
-	{
 		'label': 'URL',
 		'icon': '🔗',
 		'type': 'url'
@@ -230,11 +227,11 @@ const fields = [
  * 0:     Name
  * 1-2:   Living-dead
  * 3-5:   M, F, NB
- * 6-18:  Genreœ
- * 19-26: Demographic
- * 27:    City, State
- * 28:    Country
- * 29-35: Medium
+ * 6-18:  Genre
+ * 19-25: Medium
+ * 26-33: Demographic
+ * 34:    City, State
+ * 35:    Country
  * 36:    URL
  * ==================
  */
@@ -248,7 +245,7 @@ const vm = new Vue ({
 		search: '',
 		filters: new Array(36),
 		// these are the fields in fields[] that have associated filter checkboxes
-		filterOptions: [ 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 32, 33, 34, 35 ],
+		filterOptions: [ 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ],
 		vueFields: fields // brings in the fields array as part of the Vue data
 	}, // data
 	methods: {
@@ -300,16 +297,16 @@ const vm = new Vue ({
 		composerGeo: function(row) { // return span for geographical information for each composer
 			var geoSpan = '';
 			var nodata = ['N/A', '']
-			if (!nodata.includes(row[27])){ // if there's a city/state, give that
-				geoSpan = row[27];
+			if (!nodata.includes(row[34])){ // if there's a city/state, give that
+				geoSpan = row[34];
 
-				if (!nodata.includes(row[28])) { // if there's *also* a country, add that
-					geoSpan += ', ' + row[28] + ( flag( row[28] ) ? (' ' + flag( row[28] )) : '' );
+				if (!nodata.includes(row[35])) { // if there's *also* a country, add that
+					geoSpan += ', ' + row[35] + ( flag( row[35] ) ? (' ' + flag( row[35] )) : '' );
 				}
 			}
 
-			if (geoSpan == '' && !nodata.includes(row[28])) { // if there's only a country, give that
-				geoSpan = row[28] + ( flag( row[28] ) ? (' ' + flag( row[28] )) : '' );
+			if (geoSpan == '' && !nodata.includes(row[35])) { // if there's only a country, give that
+				geoSpan = row[35] + ( flag( row[35] ) ? (' ' + flag( row[35] )) : '' );
 			}
 			return geoSpan;
 		} // composerGeo
