@@ -48,31 +48,27 @@ a:hover, a:active, a:target {
 			display: inline-block;
 		}
 
-		// genres
-		.genre {
+
+		.genre, .demographic, .medium, .gender {
 			font-size: 80%;
 			background-color: transparentize($fg, 0.8);
 			border-radius: 2px;
 			margin: 2px;
 			padding: 2px;
+
 		}
 
-		// demographics
-		.demographic {
-			font-size: 80%;
+		.genre.selected, .medium.selected {
+			border: 2px solid transparentize($fg, 0.4);
+		}
+
+		// alternate color for demo and gender
+		.demographic, .gender {
 			background-color: transparentize($em1a, 0.8);
-			border-radius: 2px;
-			margin: 2px;
-			padding: 2px;
 		}
 
-		// mediums
-		.medium {
-			font-size: 80%;
-			background-color: transparentize($fg, 0.8);
-			border-radius: 2px;
-			margin: 2px;
-			padding: 2px;
+		.demographic.selected, .gender.selected {
+			border: 2px solid transparentize($em1a, 0.4);
 		}
 
 		// geography
@@ -80,7 +76,6 @@ a:hover, a:active, a:target {
 			display: block;
 			clear: both;
 		}
-
 
 	}
 

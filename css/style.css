@@ -27,24 +27,18 @@ a:hover, a:active, a:target {
       font-size: 80%; }
     .composer-list li span {
       display: inline-block; }
-    .composer-list li .genre {
+    .composer-list li .genre, .composer-list li .demographic, .composer-list li .medium, .composer-list li .gender {
       font-size: 80%;
       background-color: rgba(76, 62, 76, 0.2);
       border-radius: 2px;
       margin: 2px;
       padding: 2px; }
-    .composer-list li .demographic {
-      font-size: 80%;
-      background-color: rgba(236, 47, 61, 0.2);
-      border-radius: 2px;
-      margin: 2px;
-      padding: 2px; }
-    .composer-list li .medium {
-      font-size: 80%;
-      background-color: rgba(76, 62, 76, 0.2);
-      border-radius: 2px;
-      margin: 2px;
-      padding: 2px; }
+    .composer-list li .genre.selected, .composer-list li .medium.selected {
+      border: 2px solid rgba(76, 62, 76, 0.6); }
+    .composer-list li .demographic, .composer-list li .gender {
+      background-color: rgba(236, 47, 61, 0.2); }
+    .composer-list li .demographic.selected, .composer-list li .gender.selected {
+      border: 2px solid rgba(236, 47, 61, 0.6); }
     .composer-list li .composer-geo {
       display: block;
       clear: both; }
