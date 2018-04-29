@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	margin: 0.5rem;
-	grid-gap: 1rem;
+	grid-gap: 3rem;
 
 	li {
 		display: grid;
@@ -50,11 +50,5 @@
 	}
 	body {
 		font-size: $large-screen-font-size;
-	}
-}
-
-@media screen and (min-width: 100em) {
-	.composer-list {
-		grid-template-columns: repeat(4, 1fr);
 	}
 }
