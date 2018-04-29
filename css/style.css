@@ -118,7 +118,6 @@ input.search {
 div.inputs {
   margin-bottom: 2em;
   display: block;
-  overflow: auto;
   clear: both; }
 
 div.filter-section {
