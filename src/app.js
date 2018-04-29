@@ -196,7 +196,7 @@ const fields = [
 const vm = new Vue ({
 	el: '#app',
 	data: {
-		title: 'Composer Diversity Initiative',
+		title: 'Diversity Initiative Composers Database',
 		headings: null,
 		list: null,
 		search: '',
