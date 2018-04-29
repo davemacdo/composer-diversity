@@ -287,7 +287,7 @@ const vm = new Vue ({
 		composerProps: function(row){ // return properties for each composer
 			var propSpan = '';
 			for (i = 1; i < fields.length; i++){
-				if (row[i] == "X") {
+				if (row[i] == "X" && i > 2) {
 					// propSpan += '<span class="' + (fields[i].hasOwnProperty('class') ? fields[i].class : fields[i].label) + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
 					propSpan += '<span class="' + fields[i].type + ' ' + (fields[i].hasOwnProperty('class') ? fields[i].class : fields[i].label) + (this.filters[i] ? ' selected' : '') + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
 				}
@@ -366,7 +366,7 @@ const vm = new Vue ({
 					</template>
 				</ul>
 			</div>
-			
+
 			<footer>
 				<ul>
 					<li><a href="https://nmbx.newmusicusa.org/a-tool-for-change-the-women-composers-database/" target="_blank">About the Composer Diversity Database</a></li>
