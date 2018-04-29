@@ -14,6 +14,6 @@ todos:
 - [ ] fix URLs in data source
 - [ ] collapse filters for small screens
 - [X] improve responsive break points for retina displays
-- [ ] add usage analytics
+- [X] add usage analytics
 - [X] copy Google Sheet data to static JSON file
 - [X] make filters combine to narrow results
