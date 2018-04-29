@@ -5,7 +5,8 @@
   font-size: 24px; }
 
 .wrapper {
-  width: 100%; }
+  max-width: 70em;
+  margin: auto; }
   .wrapper h1 {
     text-align: center; }
 
@@ -47,7 +48,7 @@ a:hover, a:active, a:target {
   display: grid;
   grid-template-columns: 1fr;
   margin: 0.5rem;
-  grid-gap: 1rem; }
+  grid-gap: 3rem; }
   .composer-list li {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -80,10 +81,6 @@ a:hover, a:active, a:target {
   body {
     font-size: 16px; } }
 
-@media screen and (min-width: 100em) {
-  .composer-list {
-    grid-template-columns: repeat(4, 1fr); } }
-
 input.search {
   font-size: 24px;
   border: 2px solid rgba(76, 62, 76, 0.5);
@@ -95,7 +92,8 @@ input.search {
 
 div.filters {
   display: grid;
-  grid-template-columns: 1fr; }
+  grid-template-columns: 1fr;
+  grid-gap: 4px; }
   div.filters label.filter:nth-child(3), div.filters label.filter:nth-child(5), div.filters label.filter:nth-child(18), div.filters label.filter:nth-child(26) {
     grid-column-start: 1; }
   div.filters input[type="checkbox"] {
@@ -106,12 +104,4 @@ div.filters {
 
 @media screen and (min-width: 36em) {
   div.filters {
-    grid-template-columns: repeat(2, 1fr); } }
-
-@media screen and (min-width: 54em) {
-  div.filters {
-    grid-template-columns: repeat(3, 1fr); } }
-
-@media screen and (min-width: 71em) {
-  div.filters {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr)); } }
