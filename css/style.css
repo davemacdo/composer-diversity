@@ -34,11 +34,11 @@ a:hover, a:active, a:target {
       margin: 2px;
       padding: 2px; }
     .composer-list li .genre.selected, .composer-list li .medium.selected {
-      border: 2px solid rgba(76, 62, 76, 0.6); }
+      box-shadow: inset 0px 0px 0px 2px rgba(76, 62, 76, 0.3); }
     .composer-list li .demographic, .composer-list li .gender {
       background-color: rgba(236, 47, 61, 0.2); }
     .composer-list li .demographic.selected, .composer-list li .gender.selected {
-      border: 2px solid rgba(236, 47, 61, 0.6); }
+      box-shadow: inset 0px 0px 0px 2px rgba(236, 47, 61, 0.3); }
     .composer-list li .composer-geo {
       display: block;
       clear: both; }

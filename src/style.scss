@@ -59,7 +59,8 @@ a:hover, a:active, a:target {
 		}
 
 		.genre.selected, .medium.selected {
-			border: 2px solid transparentize($fg, 0.4);
+			// border: 2px solid transparentize($fg, 0.4);
+			box-shadow:inset 0px 0px 0px 2px transparentize($fg, 0.7);
 		}
 
 		// alternate color for demo and gender
@@ -68,7 +69,8 @@ a:hover, a:active, a:target {
 		}
 
 		.demographic.selected, .gender.selected {
-			border: 2px solid transparentize($em1a, 0.4);
+			// border: 2px solid transparentize($em1a, 0.4);
+			box-shadow:inset 0px 0px 0px 2px transparentize($em1a, 0.7);
 		}
 
 		// geography
