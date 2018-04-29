@@ -13,7 +13,7 @@ div.filters {
 	grid-template-columns: 1fr;
 
 	// start new row with genre and medium
-	label.filter:nth-child(3), label.filter:nth-child(16){
+	label.filter:nth-child(3), label.filter:nth-child(5), label.filter:nth-child(18), label.filter:nth-child(26){
 		grid-column-start: 1;
 	}
 
