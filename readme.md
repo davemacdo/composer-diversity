@@ -2,7 +2,7 @@
 
 A frontend for the [Composer Diversity Database](https://nmbx.newmusicusa.org/a-tool-for-change-the-women-composers-database/) project.
 
-GH pages: https://davemacdo.github.io/wcdb/
+The live page is here: <https://davemacdo.github.io/composer-diversity/>
 
 todos:
 
