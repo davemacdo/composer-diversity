@@ -5,177 +5,222 @@
 //const sheet = 'https://sheets.googleapis.com/v4/spreadsheets/1vD-hWsQYvi6j-6NP_HCLRtmLKdPX08IXmCOeAPV7ESY/values/Composer%20Diversity%20Database%20%28IN%20PROGRESS%29!A3:AK?key=AIzaSyA-h6VkeSPqfe299CwSS88O-qwI2MVQw0A';
 
 // ofline version
-const sheet = 'assets/wcdb-offline.json';
-// const sheet = 'assets/composer-diversity-offline.json';
+// const sheet = 'assets/wcdb-offline.json';
+const sheet = 'assets/composer-diversity-offline.json';
 
 const {flag, name, code} = require('country-emoji');
 
+// This is a representation of the data structure (columns) in the Google Sheet
 const fields = [
 	{
 		'label': 'name',
-		'icon': null
+		'icon': null,
+		'type': 'name'
 	},
+	///////////////////////////
 	{
 		'label': 'living',
-		'icon': '🌞'
+		'icon': '🌞',
+		'type': 'living-dead'
 	},
 	{
 		'label': 'dead',
-		'icon': '🌜'
+		'icon': '🌜',
+		'type': 'living-dead'
+	},
+	///////////////////////////
+	{
+		'label': 'male',
+		'icon': 'M',
+		'type': 'gender'
 	},
 	{
+		'label': 'female',
+		'icon': 'F',
+		'type': 'gender'
+	},
+	{
+		'label': 'non-binary',
+		'icon': 'NB',
+		'type': 'gender'
+	},
+	///////////////////////////
+	{
 		'label': 'orchestra',
-		'icon': 'Or'
+		'icon': 'Or',
+		'type': 'genre'
 	},
 	{
 		'label': 'wind band',
 		'class': 'wind-band',
-		'icon': 'W'
+		'icon': 'W',
+		'type': 'genre'
 	},
 	{
 		'label': 'chorus',
-		'icon': 'Cho'
+		'icon': 'Cho',
+		'type': 'genre'
 	},
 	{
 		'label': 'chamber',
-		'icon': 'Cha'
+		'icon': 'Cha',
+		'type': 'genre'
 	},
 	{
 		'label': 'voice',
-		'icon': 'V'
+		'icon': 'V',
+		'type': 'genre'
 	},
 	{
 		'label': 'opera',
-		'icon': 'Op'
+		'icon': 'Op',
+		'type': 'genre'
 	},
 	{
 		'label': 'jazz/improvisation',
 		'class': 'jazz',
-		'icon': 'J'
+		'icon': 'J',
+		'type': 'genre'
 	},
 	{
 		'label': 'film',
-		'icon': 'F'
+		'icon': 'F',
+		'type': 'genre'
 	},
 	{
 		'label': 'video games',
 		'class': 'video-games',
-		'icon': 'VG'
+		'icon': 'VG',
+		'type': 'genre'
 	},
 	{
 		'label': 'music theatre',
 		'class': 'music-theatre',
-		'icon': 'MT'
+		'icon': 'MT',
+		'type': 'genre'
 	},
 	{
 		'label': 'songwriting',
-		'icon': 'SW'
+		'icon': 'SW',
+		'type': 'genre'
 	},
 	{
 		'label': 'electroacoustic & installation',
 		'class': 'electroacoustic',
-		'icon': 'EA'
+		'icon': 'EA',
+		'type': 'genre'
 	},
 	{
 		'label': 'folk/traditional genres',
 		'class': 'folk',
-		'icon': 'F/Tr'
+		'icon': 'F/Tr',
+		'type': 'genre'
 	},
+	///////////////////////////
 	{
 		'label': 'white',
-		'icon': 'Wh'
+		'icon': 'Wh',
+		'type': 'demographic'
 	},
 	{
 		'label': 'black',
-		'icon': 'Bl'
+		'icon': 'Bl',
+		'type': 'demographic'
 	},
 	{
 		'label': 'Latinx',
 		'class': 'latinx',
-		'icon': 'Lat'
+		'icon': 'Lat',
+		'type': 'demographic'
 	},
 	{
 		'label': 'Asian',
 		'class': 'asian',
-		'icon': 'Asn'
+		'icon': 'Asn',
+		'type': 'demographic'
 	},
 	{
 		'label': 'West Asian/North African',
 		'class': 'wana',
-		'icon': 'WANA'
+		'icon': 'WANA',
+		'type': 'demographic'
 	},
 	{
 		'label': 'South Asian',
 		'class': 'south-asian',
-		'icon': 'SoAs'
+		'icon': 'SoAs',
+		'type': 'demographic'
 	},
 	{
 		'label': 'American Indian',
 		'class': 'american-indian',
-		'icon': 'AmIn'
+		'icon': 'AmIn',
+		'type': 'demographic'
 	},
 	{
 		'label': 'other',
-		'icon': 'Oth'
+		'icon': 'Oth',
+		'type': 'demographic'
 	},
+	///////////////////////////
 	{
 		'label': 'city/state',
-		'icon': null
+		'icon': null,
+		'type': 'geographic'
 	},
 	{
 		'label': 'country',
-		'icon': null
+		'icon': null,
+		'type': 'geographic'
 	},
+	///////////////////////////
 	{
 		'label': 'string quartet',
 		'class': 'string-quartet',
-		'icon': 'sq'
+		'icon': 'sq',
+		'type': 'medium'
 	},
 	{
 		'label': 'wind quintet',
 		'class': 'wind-quintet',
-		'icon': 'WQ'
+		'icon': 'WQ',
+		'type': 'medium'
 	},
 	{
 		'label': 'brass quintet',
 		'class': 'brass-quintet',
-		'icon': 'bq'
+		'icon': 'bq',
+		'type': 'medium'
 	},
 	{
 		'label': 'young band',
 		'class': 'young-band',
-		'icon': 'YB'
+		'icon': 'YB',
+		'type': 'medium'
 	},
 	{
 		'label': 'young orchestra',
 		'class': 'young-orchestra',
-		'icon': 'YO'
+		'icon': 'YO',
+		'type': 'medium'
 	},
 	{
 		'label': 'young choir',
 		'class': 'young-choir',
-		'icon': 'YC'
+		'icon': 'YC',
+		'type': 'medium'
 	},
 	{
 		'label': 'young piano',
 		'class': 'young-piano',
-		'icon': 'YP'
+		'icon': 'YP',
+		'type': 'medium'
 	},
-	{
-		'label': null,
-		'icon': null
-	},
-	{
-		'label': null,
-		'icon': null
-	},
-	{
-		'label': null,
-		'icon': null
-	},
+	///////////////////////////
 	{
 		'label': 'URL',
-		'icon': '🔗'
+		'icon': '🔗',
+		'type': 'url'
 	}
 ];
 
@@ -184,11 +229,12 @@ const fields = [
  * ==================
  * 0:     Name
  * 1-2:   Living-dead
- * 3-15:  Genreœ
- * 16-23: Demographic
- * 24:    City
- * 25:    Country
- * 26-32: Medium
+ * 3-5:   M, F, NB
+ * 6-18:  Genreœ
+ * 19-26: Demographic
+ * 27:    City, State
+ * 28:    Country
+ * 29-35: Medium
  * 36:    URL
  * ==================
  */
@@ -202,7 +248,7 @@ const vm = new Vue ({
 		search: '',
 		filters: new Array(36),
 		// these are the fields in fields[] that have associated filter checkboxes
-		filterOptions: filterOptions = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 26, 27, 28, 29, 30, 31, 32 ],
+		filterOptions: [ 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 32, 33, 34, 35 ],
 		vueFields: fields // brings in the fields array as part of the Vue data
 	}, // data
 	methods: {
@@ -245,7 +291,8 @@ const vm = new Vue ({
 			var propSpan = '';
 			for (i = 1; i < fields.length; i++){
 				if (row[i] == "X") {
-					propSpan += '<span class="' + (fields[i].hasOwnProperty('class') ? fields[i].class : fields[i].label) + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
+					// propSpan += '<span class="' + (fields[i].hasOwnProperty('class') ? fields[i].class : fields[i].label) + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
+					propSpan += '<span class="' + fields[i].type + ' ' + (fields[i].hasOwnProperty('class') ? fields[i].class : fields[i].label) + (this.filters[i] ? ' selected' : '') + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
 				}
 			}
 			return propSpan;
@@ -253,16 +300,16 @@ const vm = new Vue ({
 		composerGeo: function(row) { // return span for geographical information for each composer
 			var geoSpan = '';
 			var nodata = ['N/A', '']
-			if (!nodata.includes(row[24])){ // if there's a city/state, give that
-				geoSpan = row[24];
+			if (!nodata.includes(row[27])){ // if there's a city/state, give that
+				geoSpan = row[27];
 
-				if (!nodata.includes(row[25])) { // if there's *also* a country, add that
-					geoSpan += ', ' + row[25] + ( flag( row[25] ) ? (' ' + flag( row[25] )) : '' );
+				if (!nodata.includes(row[28])) { // if there's *also* a country, add that
+					geoSpan += ', ' + row[28] + ( flag( row[28] ) ? (' ' + flag( row[28] )) : '' );
 				}
 			}
 
-			if (geoSpan == '' && !nodata.includes(row[25])) { // if there's only a country, give that
-				geoSpan = row[25] + ( flag( row[25] ) ? (' ' + flag( row[25] )) : '' );
+			if (geoSpan == '' && !nodata.includes(row[28])) { // if there's only a country, give that
+				geoSpan = row[28] + ( flag( row[28] ) ? (' ' + flag( row[28] )) : '' );
 			}
 			return geoSpan;
 		} // composerGeo
@@ -278,7 +325,7 @@ const vm = new Vue ({
 				<input type="text" v-model="search" class="search" placeholder="search">
 				<div class="filters">
 					<template v-for="option in filterOptions">
-						<label class="filter"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}}</label>
+						<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
 					</template>
 				</div>
 			</div>
