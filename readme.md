@@ -8,7 +8,7 @@ todos:
 
 - [X] transition to new dataset
 - [X] rename project to Composer Diversity Database
-- [ ] reformat largest screen layout
+- [X] reformat largest screen layout
 - [X] add filters for gender identity and demographics
 - [ ] make badges clickable to change filters
 - [ ] fix URLs in data source
