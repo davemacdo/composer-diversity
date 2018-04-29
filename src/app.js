@@ -21,7 +21,7 @@ const fields = [
 		'type': 'living-dead'
 	},
 	{
-		'label': 'dead',
+		'label': 'deceased',
 		'icon': '🌜',
 		'type': 'living-dead'
 	},
@@ -319,28 +319,42 @@ const vm = new Vue ({
 		<div class="wrapper">
 			<h1>{{title}}</h1>
 			<div class="inputs">
-				<input type="text" v-model="search" class="search" placeholder="search">
+				<header>
+					<ul id="nav-menu">
+						<li><a href="#">About the project</a></li>
+					</ul>
+					<input type="text" v-model="search" class="search" placeholder="search">
+				</header>
 				<div class="filters">
-					<template v-for="option in filterOptions.slice(0,2)">
-						<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
-					</template>
-					<hr>
-					<template v-for="option in filterOptions.slice(2,4)">
-						<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
-					</template>
-					<hr>
-					<template v-for="option in filterOptions.slice(4,17)">
-						<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
-					</template>
-					<hr>
-					<template v-for="option in filterOptions.slice(17,24)">
-						<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
-					</template>
-					<hr>
-					<template v-for="option in filterOptions.slice(24)">
-						<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
-					</template>
-					<hr>
+					<div class="filter-section living-dead">
+						<template v-for="option in filterOptions.slice(0,2)">
+							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
+						</template>
+					</div>
+					<div class="filter-section gender">
+						<template v-for="option in filterOptions.slice(2,4)">
+							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
+						</template>
+					</div>
+					<div class="filter-section genre">
+						<h4>genre</h4>
+						<template v-for="option in filterOptions.slice(4,17)">
+							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
+						</template>
+					</div>
+					<div class="filter-section medium">
+						<h4>medium/subgenre</h4>
+						<template v-for="option in filterOptions.slice(17,24)">
+							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
+						</template>
+					</div>
+					<div class="filter-section demographic">
+						<h4>demographic</h4>
+						<template v-for="option in filterOptions.slice(24)">
+							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
+						</template>
+					</div>
+
 				</div>
 			</div>
 			<div class="list-wrapper">

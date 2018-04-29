@@ -10,6 +10,17 @@
   .wrapper h1 {
     text-align: center; }
 
+ul#nav-menu {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px auto; }
+  ul#nav-menu li {
+    padding: 0.3em; }
+
+@media screen and (min-width: 30em) {
+  ul#nav-menu {
+    float: right; } }
+
 a, a:visited {
   color: #8EBEB5; }
 
@@ -43,6 +54,12 @@ a:hover, a:active, a:target {
     .composer-list li .composer-geo {
       display: block;
       clear: both; }
+
+.list-wrapper {
+  display: block;
+  width: 100%;
+  clear: both;
+  margin-top: 2em; }
 
 .composer-list {
   display: grid;
@@ -81,6 +98,13 @@ a:hover, a:active, a:target {
   body {
     font-size: 16px; } }
 
+header {
+  padding-bottom: 1em;
+  display: block;
+  clear: both;
+  overflow: auto;
+  width: 100%; }
+
 input.search {
   font-size: 24px;
   border: 2px solid rgba(76, 62, 76, 0.5);
@@ -88,20 +112,43 @@ input.search {
   color: #685568;
   max-width: 35em;
   display: block;
-  margin: auto; }
+  float: left;
+  padding: 0.3em; }
+
+div.inputs {
+  margin-bottom: 2em;
+  display: block;
+  overflow: auto;
+  clear: both; }
+
+div.filter-section {
+  width: 100%;
+  display: block;
+  overflow: auto;
+  clear: both;
+  padding-left: 1em; }
+  div.filter-section h4 {
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: rgba(76, 62, 76, 0.5);
+    letter-spacing: 0.3em;
+    text-indent: -0.5em; }
+
+div.filter-section:nth-of-type(n+2) {
+  margin-bottom: 1em; }
+
+div.filter-section:nth-of-type(n+3) {
+  border-left: 3px solid rgba(76, 62, 76, 0.5); }
 
 div.filters {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 4px; }
-  div.filters label.filter:nth-child(3), div.filters label.filter:nth-child(5), div.filters label.filter:nth-child(18), div.filters label.filter:nth-child(26) {
-    grid-column-start: 1; }
+  clear: both; }
+  div.filters label.filter {
+    display: block;
+    min-width: 16em;
+    float: left; }
   div.filters input[type="checkbox"] {
     transform: scale(1.2);
     position: relative;
     top: -0.3em;
     margin-right: 0.8em; }
-
-@media screen and (min-width: 36em) {
-  div.filters {
-    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr)); } }

@@ -1,3 +1,11 @@
+header {
+	padding-bottom: 1em;
+    display: block;
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
 input.search {
 	font-size: 24px;
 	border: 2px solid transparentize($fg, 0.5);
@@ -5,17 +13,53 @@ input.search {
 	color: lighten($fg, 10);
 	max-width: 35em;
 	display: block;
-	margin: auto;
+	float: left;
+	padding: 0.3em;
+}
+
+div.inputs {
+	margin-bottom: 2em;
+	display: block;
+	overflow:auto;
+	clear: both;
+}
+
+div.filter-section {
+	width: 100%;
+	display: block;
+	overflow:auto;
+	clear: both;
+	padding-left: 1em;
+
+	h4 {
+		margin: 0px;
+	    text-transform: uppercase;
+	    font-size: 0.8em;
+		color: transparentize($fg, 0.5);
+	    letter-spacing: 0.3em;
+		text-indent: -0.5em;
+	}
+}
+
+div.filter-section:nth-of-type(n+2){
+	margin-bottom: 1em;
+}
+
+div.filter-section:nth-of-type(n+3){
+	border-left: 3px solid transparentize($fg, 0.5);
 }
 
 div.filters {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-gap: 4px;
+	// display: grid;
+	// grid-template-columns: 1fr;
+	// grid-gap: 4px;
 
-	// start new row with genre and medium
-	label.filter:nth-child(3), label.filter:nth-child(5), label.filter:nth-child(18), label.filter:nth-child(26){
-		grid-column-start: 1;
+	clear:both;
+
+	label.filter {
+		display: block;
+		min-width: 16em;
+		float: left;
 	}
 
 	input[type="checkbox"] {
@@ -30,7 +74,7 @@ div.filters {
 @media screen and (min-width: 36em) {
 	div.filters {
 		// grid-template-columns: repeat(2, 1fr);
-		grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
+		// grid-template-columns: repeat( auto-fit, minmax(15em, 1fr) );
 	}
 }
 
