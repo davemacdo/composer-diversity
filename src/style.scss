@@ -49,7 +49,7 @@ a:hover, a:active, a:target {
 		}
 
 		// genres
-		.orchestra, .wind-band, .chorus, .chamber, .voice, .opera, .jazz, .film, .video-games, .music-theatre, .songwriting, .electroacoustic, .folk {
+		.genre {
 			font-size: 80%;
 			background-color: transparentize($fg, 0.8);
 			border-radius: 2px;
@@ -58,7 +58,7 @@ a:hover, a:active, a:target {
 		}
 
 		// demographics
-		.white, .black, .latinx, .asian, .wana, .south-asian, .american-indian, .other {
+		.demographic {
 			font-size: 80%;
 			background-color: transparentize($em1a, 0.8);
 			border-radius: 2px;
@@ -67,7 +67,7 @@ a:hover, a:active, a:target {
 		}
 
 		// mediums
-		.string-quartet, .wind-quartet, .brass-quintet, .young-band, .young-orchestra, .young-choir, .young-piano {
+		.medium {
 			font-size: 80%;
 			background-color: transparentize($fg, 0.8);
 			border-radius: 2px;
