@@ -168,13 +168,13 @@ const fields = [
 		'type': 'demographic'
 	},
 	{
-		'label': 'Latinx',
+		'label': 'Latinx/Latin America',
 		'class': 'latinx',
 		'icon': 'Lat',
 		'type': 'demographic'
 	},
 	{
-		'label': 'Asian',
+		'label': 'East Asian',
 		'class': 'asian',
 		'icon': 'Asn',
 		'type': 'demographic'
@@ -321,9 +321,26 @@ const vm = new Vue ({
 			<div class="inputs">
 				<input type="text" v-model="search" class="search" placeholder="search">
 				<div class="filters">
-					<template v-for="option in filterOptions">
+					<template v-for="option in filterOptions.slice(0,2)">
 						<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
 					</template>
+					<hr>
+					<template v-for="option in filterOptions.slice(2,4)">
+						<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
+					</template>
+					<hr>
+					<template v-for="option in filterOptions.slice(4,17)">
+						<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
+					</template>
+					<hr>
+					<template v-for="option in filterOptions.slice(17,24)">
+						<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
+					</template>
+					<hr>
+					<template v-for="option in filterOptions.slice(24)">
+						<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
+					</template>
+					<hr>
 				</div>
 			</div>
 			<div class="list-wrapper">
