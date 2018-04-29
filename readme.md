@@ -1,4 +1,4 @@
-# WCDB
+# Diversity Initiative Composers Database
 
 A frontend for the [Diversity Initiative Composers Database](https://nmbx.newmusicusa.org/a-tool-for-change-the-women-composers-database/) project.
 
