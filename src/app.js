@@ -23,8 +23,8 @@ const fields = [
 		'type': 'living-dead'
 	},
 	{
-		'label': 'living',
-		'class': 'living',
+		'label': 'deceased',
+		'class': 'dead',
 		'icon': '🌜',
 		'type': 'living-dead'
 	},
