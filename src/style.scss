@@ -11,7 +11,14 @@ body {
 .wrapper {
 	max-width: 70em;
 	margin: auto;
-	h1 {text-align: center}
+
+	h1 {
+		text-align: left;
+		font-size: 330%;
+		font-weight: 300;
+		letter-spacing: 0.1em;
+	    margin-bottom: 0.3em;
+	}
 }
 
 ul#nav-menu {

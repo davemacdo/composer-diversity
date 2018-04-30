@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i);body {
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);body {
   background-color: #fdfdfd;
   color: #225762;
   font-family: "Lato", sans-serif;
@@ -8,7 +8,11 @@
   max-width: 70em;
   margin: auto; }
   .wrapper h1 {
-    text-align: center; }
+    text-align: left;
+    font-size: 330%;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.3em; }
 
 ul#nav-menu {
   list-style: none;
