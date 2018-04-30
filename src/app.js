@@ -11,39 +11,46 @@ const {flag, name, code} = require('country-emoji');
 const fields = [
 	{
 		'label': 'name',
+		'class': 'name',
 		'icon': null,
 		'type': 'name'
 	},
 	///////////////////////////
 	{
 		'label': 'living',
+		'class': 'living',
 		'icon': '🌞',
 		'type': 'living-dead'
 	},
 	{
-		'label': 'deceased',
+		'label': 'living',
+		'class': 'living',
 		'icon': '🌜',
 		'type': 'living-dead'
 	},
 	///////////////////////////
 	{
 		'label': 'male',
+		'class': 'male',
 		'icon': 'M',
 		'type': 'gender'
 	},
 	{
 		'label': 'female',
+		'class': 'female',
 		'icon': 'F',
 		'type': 'gender'
 	},
 	{
 		'label': 'non-binary',
+		'class': 'non-binary',
 		'icon': 'NB',
 		'type': 'gender'
 	},
 	///////////////////////////
 	{
 		'label': 'orchestra',
+		'class': 'orchestra',
 		'icon': 'Or',
 		'type': 'genre'
 	},
@@ -55,21 +62,25 @@ const fields = [
 	},
 	{
 		'label': 'chorus',
+		'class': 'chorus',
 		'icon': 'Cho',
 		'type': 'genre'
 	},
 	{
 		'label': 'chamber',
+		'class': 'chamber',
 		'icon': 'Cha',
 		'type': 'genre'
 	},
 	{
 		'label': 'voice',
+		'class': 'voice',
 		'icon': 'V',
 		'type': 'genre'
 	},
 	{
 		'label': 'opera',
+		'class': 'opera',
 		'icon': 'Op',
 		'type': 'genre'
 	},
@@ -81,6 +92,7 @@ const fields = [
 	},
 	{
 		'label': 'film',
+		'class': 'film',
 		'icon': 'F',
 		'type': 'genre'
 	},
@@ -98,6 +110,7 @@ const fields = [
 	},
 	{
 		'label': 'songwriting',
+		'class': 'songwriting',
 		'icon': 'SW',
 		'type': 'genre'
 	},
@@ -158,12 +171,14 @@ const fields = [
 	},
 	///////////////////////////
 	{
-		'label': 'white',
+		'label': 'White',
+		'class': 'white',
 		'icon': 'Wh',
 		'type': 'demographic'
 	},
 	{
-		'label': 'black',
+		'label': 'Black',
+		'class': 'black',
 		'icon': 'Bl',
 		'type': 'demographic'
 	},
@@ -198,7 +213,8 @@ const fields = [
 		'type': 'demographic'
 	},
 	{
-		'label': 'other',
+		'label': 'Other',
+		'class': 'other',
 		'icon': 'Oth',
 		'type': 'demographic'
 	},
