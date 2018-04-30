@@ -7,7 +7,7 @@ header {
 }
 
 input.search {
-	font-size: 24px;
+	font-size: 120%;
 	border: 2px solid transparentize($fg, 0.5);
 	font-family: $bodyFonts;
 	color: lighten($fg, 10);
@@ -27,7 +27,7 @@ div.inputs {
 div.filter-section {
 	width: 100%;
 	display: block;
-	overflow:auto;
+	overflow: hidden;
 	clear: both;
 	padding-left: 1em;
 

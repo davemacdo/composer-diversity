@@ -13,11 +13,13 @@
 ul#nav-menu {
   list-style: none;
   padding-left: 0px;
-  margin: 0px auto; }
+  margin: 0px auto;
+  padding: 0.3em; }
   ul#nav-menu li {
-    padding: 0.3em; }
+    padding: 0.3em;
+    font-size: 120%; }
 
-@media screen and (min-width: 30em) {
+@media screen and (min-width: 38em) {
   ul#nav-menu {
     float: right; } }
 
@@ -106,7 +108,7 @@ header {
   width: 100%; }
 
 input.search {
-  font-size: 24px;
+  font-size: 120%;
   border: 2px solid rgba(76, 62, 76, 0.5);
   font-family: "Lato", sans-serif;
   color: #685568;
@@ -123,7 +125,7 @@ div.inputs {
 div.filter-section {
   width: 100%;
   display: block;
-  overflow: auto;
+  overflow: hidden;
   clear: both;
   padding-left: 1em; }
   div.filter-section h4 {
