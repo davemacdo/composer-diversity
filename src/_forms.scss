@@ -8,9 +8,9 @@ header {
 
 input.search {
 	font-size: 120%;
-	border: 2px solid transparentize($fg, 0.5);
+	border: 2px solid transparentize($main-fg, 0.5);
 	font-family: $bodyFonts;
-	color: lighten($fg, 10);
+	color: lighten($main-fg, 10);
 	max-width: 35em;
 	display: block;
 	float: left;
@@ -35,7 +35,7 @@ div.filter-section {
 		margin: 0px;
 	    text-transform: uppercase;
 	    font-size: 0.8em;
-		color: transparentize($fg, 0.5);
+		color: transparentize($main-fg, 0.5);
 	    letter-spacing: 0.3em;
 		text-indent: -0.5em;
 	}
@@ -46,13 +46,12 @@ div.filter-section:nth-of-type(n+2){
 }
 
 div.filter-section:nth-of-type(n+3){
-	border-left: 3px solid transparentize($fg, 0.5);
+	border-left: 3px solid transparentize($main-fg, 0.5);
 }
 
 div.filters {
-	// display: grid;
-	// grid-template-columns: 1fr;
-	// grid-gap: 4px;
+	padding: 1em;
+	background-color: $card-bg;
 
 	clear:both;
 

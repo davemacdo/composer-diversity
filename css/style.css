@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i);body {
-  background-color: rgba(230, 215, 196, 0.1);
-  color: #4C3E4C;
+  background-color: #fdfdfd;
+  color: #225762;
   font-family: "Lato", sans-serif;
   font-size: 24px; }
 
@@ -24,10 +24,10 @@ ul#nav-menu {
     float: right; } }
 
 a, a:visited {
-  color: #8EBEB5; }
+  color: #2f8fac; }
 
 a:hover, a:active, a:target {
-  color: #FF664D; }
+  color: #00abf4; }
 
 .composer-list {
   padding: 0; }
@@ -47,19 +47,14 @@ a:hover, a:active, a:target {
 
 .badge.genre, .badge.demographic, .badge.medium, .badge.gender {
   font-size: 80%;
-  background-color: rgba(142, 190, 181, 0.2);
+  background-color: #f2eee9;
+  color: #906c43;
   border-radius: 2px;
   margin: 2px;
   padding: 2px; }
 
-.badge.genre.selected, .badge.medium.selected {
-  box-shadow: inset 0px 0px 0px 2px rgba(142, 190, 181, 0.5); }
-
-.badge.demographic, .badge.gender {
-  background-color: rgba(236, 47, 61, 0.2); }
-
-.badge.demographic.selected, .badge.gender.selected {
-  box-shadow: inset 0px 0px 0px 2px rgba(236, 47, 61, 0.3); }
+.badge.selected {
+  box-shadow: inset 0px 0px 0px 2px #225762; }
 
 .list-wrapper {
   display: block;
@@ -70,15 +65,13 @@ a:hover, a:active, a:target {
 .composer-list {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 0.5rem;
   grid-gap: 3rem; }
   .composer-list li {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 1fr;
-    width: 100%;
     padding: 0.5em;
-    background-color: rgba(230, 215, 196, 0.3); }
+    background-color: #d2e7ef; }
     .composer-list li .name {
       font-size: 120%;
       grid-column: 1/2;
@@ -90,7 +83,7 @@ a:hover, a:active, a:target {
       grid-column: 1/2;
       grid-row: 2/3; }
   .composer-list li:hover {
-    box-shadow: 3px 3px 3px 0px rgba(76, 62, 76, 0.6); }
+    box-shadow: 3px 3px 3px 0px rgba(34, 87, 98, 0.6); }
 
 @media screen and (min-width: 40em) {
   .composer-list {
@@ -104,7 +97,7 @@ a:hover, a:active, a:target {
   body {
     font-size: 16px; }
   div.inputs {
-    padding: 0em 1em; } }
+    padding: 0em; } }
 
 header {
   padding-bottom: 1em;
@@ -115,9 +108,9 @@ header {
 
 input.search {
   font-size: 120%;
-  border: 2px solid rgba(76, 62, 76, 0.5);
+  border: 2px solid rgba(34, 87, 98, 0.5);
   font-family: "Lato", sans-serif;
-  color: #685568;
+  color: #2f7988;
   max-width: 35em;
   display: block;
   float: left;
@@ -138,7 +131,7 @@ div.filter-section {
     margin: 0px;
     text-transform: uppercase;
     font-size: 0.8em;
-    color: rgba(76, 62, 76, 0.5);
+    color: rgba(34, 87, 98, 0.5);
     letter-spacing: 0.3em;
     text-indent: -0.5em; }
 
@@ -146,9 +139,11 @@ div.filter-section:nth-of-type(n+2) {
   margin-bottom: 1em; }
 
 div.filter-section:nth-of-type(n+3) {
-  border-left: 3px solid rgba(76, 62, 76, 0.5); }
+  border-left: 3px solid rgba(34, 87, 98, 0.5); }
 
 div.filters {
+  padding: 1em;
+  background-color: #d2e7ef;
   clear: both; }
   div.filters label.filter {
     display: block;

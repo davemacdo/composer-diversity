@@ -2,8 +2,8 @@
 @import 'vars';
 
 body {
-	background-color: transparentize($bg, 0.9);
-	color: $fg;
+	background-color: $main-bg;
+	color: $main-fg;
 	font-family: $bodyFonts;
 	font-size: $small-screen-font-size;
 }
@@ -37,11 +37,11 @@ ul#nav-menu {
 // }
 
 a, a:visited {
-	color: $em2
+	color: $link;
 }
 
 a:hover, a:active, a:target {
-	color: $em1;
+	color: $active-link;
 }
 
 .composer-list {
@@ -78,26 +78,16 @@ a:hover, a:active, a:target {
 // Badges? We don't need no stinking badges!
 .badge.genre, .badge.demographic, .badge.medium, .badge.gender {
 	font-size: 80%;
-	// background-color: transparentize($fg, 0.8);
-	background-color: transparentize($em2, 0.8);
+	background-color: $badge-bg;
+	color: $badge-fg;
 	border-radius: 2px;
 	margin: 2px;
 	padding: 2px;
 
 }
 
-.badge.genre.selected, .badge.medium.selected {
-	// box-shadow:inset 0px 0px 0px 2px transparentize($fg, 0.7);
-	box-shadow:inset 0px 0px 0px 2px transparentize($em2, 0.5);
-}
-
-// alternate color for demo and gender
-.badge.demographic, .badge.gender {
-	background-color: transparentize($em1a, 0.8);
-}
-
-.badge.demographic.selected, .badge.gender.selected {
-	box-shadow:inset 0px 0px 0px 2px transparentize($em1a, 0.7);
+.badge.selected {
+	box-shadow:inset 0px 0px 0px 2px $main-fg;
 }
 
 
