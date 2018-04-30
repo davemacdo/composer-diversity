@@ -58,15 +58,19 @@ div.filters {
 
 	label.filter {
 		display: block;
-		min-width: 16em;
+		min-width: 19em;
 		float: left;
+
+		.badge {
+			margin-right: 0.4em;
+		}
 	}
 
 	input[type="checkbox"] {
 		transform: scale(1.2);
 		position: relative;
 		top: -0.3em;
-		margin-right: 0.8em;
+		margin-right: 0.4em;
 	}
 
 }

@@ -117,7 +117,7 @@ const fields = [
 	{
 		'label': 'string quartet',
 		'class': 'string-quartet',
-		'icon': 'sq',
+		'icon': 'SQ',
 		'type': 'medium'
 	},
 	{
@@ -129,7 +129,7 @@ const fields = [
 	{
 		'label': 'brass quintet',
 		'class': 'brass-quintet',
-		'icon': 'bq',
+		'icon': 'BQ',
 		'type': 'medium'
 	},
 	{
@@ -290,7 +290,7 @@ const vm = new Vue ({
 			for (i = 1; i < fields.length; i++){
 				if (row[i] == "X" && badgesToShow.indexOf(fields[i].type) > -1) {
 					// propSpan += '<span class="' + (fields[i].hasOwnProperty('class') ? fields[i].class : fields[i].label) + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
-					propSpan += '<span class="' + fields[i].type + ' ' + (fields[i].hasOwnProperty('class') ? fields[i].class : fields[i].label) + (this.filters[i] ? ' selected' : '') + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
+					propSpan += '<span class="badge ' + fields[i].type + ' ' + (fields[i].hasOwnProperty('class') ? fields[i].class : fields[i].label) + (this.filters[i] ? ' selected' : '') + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
 				}
 			}
 			return propSpan;
@@ -352,7 +352,7 @@ const vm = new Vue ({
 					<div class="filter-section demographic">
 						<h4>demographic</h4>
 						<template v-for="option in filterOptions.slice(24)">
-							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]"><span :class="vueFields[option].type + ' badge'">{{vueFields[option].icon}}</span>{{vueFields[option].label}} ({{headings[option]}})</label>
+							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
 						</template>
 					</div>
 

@@ -65,30 +65,6 @@ a:hover, a:active, a:target {
 		}
 
 
-		.genre, .demographic, .medium, .gender {
-			font-size: 80%;
-			// background-color: transparentize($fg, 0.8);
-			background-color: transparentize($em2, 0.8);
-			border-radius: 2px;
-			margin: 2px;
-			padding: 2px;
-
-		}
-
-		.genre.selected, .medium.selected {
-			// box-shadow:inset 0px 0px 0px 2px transparentize($fg, 0.7);
-			box-shadow:inset 0px 0px 0px 2px transparentize($em2, 0.5);
-		}
-
-		// alternate color for demo and gender
-		.demographic, .gender {
-			background-color: transparentize($em1a, 0.8);
-		}
-
-		.demographic.selected, .gender.selected {
-			box-shadow:inset 0px 0px 0px 2px transparentize($em1a, 0.7);
-		}
-
 		// geography
 		.composer-geo {
 			display: block;
@@ -98,6 +74,33 @@ a:hover, a:active, a:target {
 	}
 
 }
+
+// Badges? We don't need no stinking badges!
+.badge.genre, .badge.demographic, .badge.medium, .badge.gender {
+	font-size: 80%;
+	// background-color: transparentize($fg, 0.8);
+	background-color: transparentize($em2, 0.8);
+	border-radius: 2px;
+	margin: 2px;
+	padding: 2px;
+
+}
+
+.badge.genre.selected, .badge.medium.selected {
+	// box-shadow:inset 0px 0px 0px 2px transparentize($fg, 0.7);
+	box-shadow:inset 0px 0px 0px 2px transparentize($em2, 0.5);
+}
+
+// alternate color for demo and gender
+.badge.demographic, .badge.gender {
+	background-color: transparentize($em1a, 0.8);
+}
+
+.badge.demographic.selected, .badge.gender.selected {
+	box-shadow:inset 0px 0px 0px 2px transparentize($em1a, 0.7);
+}
+
+
 
 // GRID STUFF! (Also lots of the responsive logic here.)
 @import 'grid-layout';
