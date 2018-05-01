@@ -4,15 +4,20 @@
   font-family: "Lato", sans-serif;
   font-size: 24px; }
 
+h1#site-title {
+  text-align: left;
+  font-size: 330%;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3em; }
+
+@media screen and (max-width: 40em) {
+  h1#site-title {
+    font-size: 270%; } }
+
 .wrapper {
   max-width: 70em;
   margin: auto; }
-  .wrapper h1 {
-    text-align: left;
-    font-size: 330%;
-    font-weight: 300;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.3em; }
 
 ul#nav-menu {
   list-style: none;
@@ -73,13 +78,14 @@ a:hover, a:active, a:target {
   .composer-list li {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: auto;
     padding: 0.5em;
     background-color: #e8f3f7; }
     .composer-list li .name {
       font-size: 120%;
       grid-column: 1/2;
-      grid-row: 1/2; }
+      grid-row: 1/2;
+      margin-bottom: 0.5em; }
     .composer-list li .composer-props {
       grid-column: 2/3;
       grid-row: 1/3; }
