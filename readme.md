@@ -11,7 +11,7 @@ todos:
 - [X] reformat largest screen layout
 - [X] add filters for gender identity and demographics
 - [ ] make badges clickable to change filters
-- [ ] fix URLs in data source
+- [X] fix URLs in data source
 - [ ] collapse filters for small screens
 - [X] improve responsive break points for retina displays
 - [X] add usage analytics
