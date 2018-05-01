@@ -236,13 +236,13 @@ const fields = [
 		'type': 'url'
 	},
 	{
-		'label': 'USA',
+		'label': 'Based in USA',
 		'class': 'usa',
 		'icon': null,
 		'type': 'geographic'
 	},
 	{
-		'label': 'non-USA',
+		'label': 'Based outside of USA',
 		'class': 'non-usa',
 		'icon': null,
 		'type': 'geographic'
@@ -322,7 +322,7 @@ const vm = new Vue ({
 				}
 
 				// check for non-USA filter
-				if (this.filters[38]==true && row[35].indexOf('USA') > -1){ 
+				if (this.filters[38]==true && row[35].indexOf('USA') > -1){
 					returnval = false;
 				}
 				return returnval;
