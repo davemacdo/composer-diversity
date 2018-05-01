@@ -311,6 +311,20 @@ const vm = new Vue ({
 			}
 			return propSpan;
 		}, // composerProps
+		getFlags: function(country) {
+			var flagmoji = flag( country );
+
+			if (flagmoji == null && country.indexOf('\/') > -1){
+				flagmoji = '';
+				var countries = country.split('\/');
+
+				for (i = 0; i < countries.length; i++){
+					flagmoji += flag( countries[i] );
+				}
+			}
+
+			return flagmoji;
+		},
 		composerGeo: function(row) { // return span for geographical information for each composer
 			var geoSpan = '';
 			var nodata = ['N/A', '']
@@ -318,12 +332,12 @@ const vm = new Vue ({
 				geoSpan = row[34];
 
 				if (!nodata.includes(row[35])) { // if there's *also* a country, add that
-					geoSpan += ', ' + row[35] + ( flag( row[35] ) ? (' ' + flag( row[35] )) : '' );
+					geoSpan += ', ' + row[35] + ( this.getFlags( row[35] ) ? (' ' + this.getFlags( row[35] )) : '' );
 				}
 			}
 
 			if (geoSpan == '' && !nodata.includes(row[35])) { // if there's only a country, give that
-				geoSpan = row[35] + ( flag( row[35] ) ? (' ' + flag( row[35] )) : '' );
+				geoSpan = row[35] + ( this.getFlags( row[35] ) ? (' ' + this.getFlags( row[35] )) : '' );
 			}
 			return geoSpan;
 		} // composerGeo
