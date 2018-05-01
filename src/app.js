@@ -381,7 +381,7 @@ const vm = new Vue ({
 					<ul id="nav-menu">
 						<li><a href="about.html">About the project</a></li>
 					</ul>
-					<input type="text" v-model="search" class="search" placeholder="search">
+					<input type="text" v-model="search" class="search" placeholder="search" autofocus>
 				</header>
 				<div class="filters">
 					<div class="filter-section living-dead">
