@@ -51,7 +51,7 @@ a:hover, a:active, a:target {
 
 .badge.genre, .badge.demographic, .badge.medium, .badge.gender {
   font-size: 80%;
-  background-color: #f2eee9;
+  background-color: #E3DACF;
   color: #906c43;
   border-radius: 2px;
   margin: 2px;
@@ -75,7 +75,7 @@ a:hover, a:active, a:target {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 1fr;
     padding: 0.5em;
-    background-color: #d2e7ef; }
+    background-color: #e8f3f7; }
     .composer-list li .name {
       font-size: 120%;
       grid-column: 1/2;
