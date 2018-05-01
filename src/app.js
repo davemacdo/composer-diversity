@@ -347,8 +347,7 @@ const vm = new Vue ({
 	}, // mounted
 
 	template: `
-		<div class="wrapper">
-			<h1>{{title}}</h1>
+		<div class="app-wrapper">
 			<div class="inputs">
 				<header>
 					<ul id="nav-menu">
