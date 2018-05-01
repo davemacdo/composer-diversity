@@ -234,6 +234,18 @@ const fields = [
 		'label': 'URL',
 		'icon': '🔗',
 		'type': 'url'
+	},
+	{
+		'label': 'USA',
+		'class': 'usa',
+		'icon': null,
+		'type': 'geographic'
+	},
+	{
+		'label': 'non-USA',
+		'class': 'non-usa',
+		'icon': null,
+		'type': 'geographic'
 	}
 ];
 
@@ -259,9 +271,14 @@ const vm = new Vue ({
 		headings: null,
 		list: null,
 		search: '',
-		filters: new Array(36),
+		filters: new Array(39),
 		// these are the fields in fields[] that have associated filter checkboxes
-		filterOptions: [ 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33 ],
+		filterOptions: [ 1, 2, 4, 5, // living, dead, female, non-binary
+			6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, // genre
+			19, 20, 21, 22, 23, 24, 25, // medium
+			26, 27, 28, 29, 30, 31, 32, 33, // demographic
+			37, 38 ], // USA/non-USA
+		locationFilters: [ 'USA', 'non-USA' ],
 		vueFields: fields // brings in the fields array as part of the Vue data
 	}, // data
 	methods: {
@@ -292,10 +309,21 @@ const vm = new Vue ({
 				return true;
 			} else {
 				var returnval = true;
-				for (i = 0; i < this.filters.length; i++){
+				for (i = 0; i < 37; i++){ // only going up to 36 b/c filters[37] and filters[38] are special
 					if (this.filters[i]==true && row[i]!='X'){
 						returnval = false;
 					}
+				}
+
+				// check for USA filter
+				// filters[37] is USA; filters[38] is non-USA // row[35] is country
+				if (this.filters[37]==true && row[35].indexOf('USA') == -1){
+					returnval = false;
+				}
+
+				// check for non-USA filter
+				if (this.filters[38]==true && row[35].indexOf('USA') > -1){ 
+					returnval = false;
 				}
 				return returnval;
 			}
@@ -380,8 +408,14 @@ const vm = new Vue ({
 					</div>
 					<div class="filter-section demographic">
 						<h4>demographic</h4>
-						<template v-for="option in filterOptions.slice(24)">
+						<template v-for="option in filterOptions.slice(24, 32)">
 							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
+						</template>
+					</div>
+					<div class="filter-section location">
+						<h4>location</h4>
+						<template v-for="option in filterOptions.slice(32, 34)">
+							<label class="filter" :class="option"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}}</label>
 						</template>
 					</div>
 
