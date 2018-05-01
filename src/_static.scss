@@ -1,0 +1,20 @@
+// special styles for team page
+
+section.team {
+	h4 {
+		margin: 0em auto 0.1em;
+	}
+
+	ul {
+		list-style-type: none;
+		padding-left: 0px;
+		margin-top: 0px;
+	}
+
+	h3:first-child {
+		margin-top: 0px;
+	}
+	background-color: $card-bg;
+	padding: 1em;
+
+}
