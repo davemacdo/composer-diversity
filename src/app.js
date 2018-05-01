@@ -431,14 +431,6 @@ const vm = new Vue ({
 				</ul>
 			</div>
 
-			<footer>
-				<ul>
-					<li><a href="https://nmbx.newmusicusa.org/a-tool-for-change-the-women-composers-database/" target="_blank">About the Composer Diversity Database</a></li>
-					<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdqfwwLofsdY9seniIKYLzyK22ycEOURJK2iqNLc951Ojhm8g/viewform" target="_blank">submit an update</a></li>
-					<li><a href="https://github.com/davemacdo/wcdb">view the source for this page</a></li>
-				</ul>
-			</footer>
-
 		</div>
 	`
 }); // vm
