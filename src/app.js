@@ -183,7 +183,7 @@ const fields = [
 		'type': 'demographic'
 	},
 	{
-		'label': 'Latinx/Latin America',
+		'label': 'Latinx/Latin American',
 		'class': 'latinx',
 		'icon': 'Lat',
 		'type': 'demographic'
