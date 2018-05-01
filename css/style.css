@@ -161,14 +161,20 @@ div.filters {
     top: -0.3em;
     margin-right: 0.4em; }
 
-section.team {
+div.columns {
   background-color: #e8f3f7;
   padding: 1em; }
-  section.team h4 {
+  div.columns h4 {
     margin: 0em auto 0.1em; }
-  section.team ul {
+  div.columns .team ul {
     list-style-type: none;
     padding-left: 0px;
     margin-top: 0px; }
-  section.team h3:first-child {
+  div.columns h3:first-child {
     margin-top: 0px; }
+
+@media screen and (min-width: 48em) {
+  div.columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 4em; } }

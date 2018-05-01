@@ -1,11 +1,20 @@
 ## About the project
 
-The Composer Diversity Database was created to allow conductors, performers, presenters, educators, and researchers a tool with which to expand and broaden their scope of composers and repertoire.
+The [Composer Diversity Database](/) was created to allow conductors, performers, presenters, educators, and researchers a tool with which to expand and broaden their scope of composers and repertoire.
 
-In order to use the database, simply click one or multiple checkboxes at the top of the page. Each checkbox will filter only the names that fall under that category. Multiple categories may be selected—in fact, it is suggested that a search with several different filters (i.e. living-female-chorus-South Asian) will be the most efficient way to use the database.
+In order to use the database, simply click one or multiple checkboxes at the top of the page. Each checkbox will filter only the names that fall under that category. Multiple categories may be selected—in fact, a search with several different filters (i.e. living-female-chorus-South Asian) may be the most efficient way to use the database.
 
-<section class="team">
+<div class="columns">
+<div class="resources">
 
+### Resources
+
+- [Submission form](https://goo.gl/forms/4gl2UEWAl33MWpol1) to help us improve this database and keep it up-to-date
+- [Related Resources by Alex Shapiro](https://www.alexshapiro.org/ProgrammingResources.html) for presenting diverse concert programs
+- [A Tool for Change](https://nmbx.newmusicusa.org/a-tool-for-change-the-women-composers-database/), Rob's explanation of an earlier version of this database
+- [GitHub repository](https://github.com/davemacdo/wcdb) for technically-inclined folks who would like to help improve the search tools here
+</div>
+<div class="team">
 ### The Composer Diversity Database Team
 
 #### Founder and Project Director
@@ -27,4 +36,5 @@ In order to use the database, simply click one or multiple checkboxes at the top
 - Sierra Wojtczack
 - Mikayla Wadsworth
 
-</section>
+</div>
+</div>
