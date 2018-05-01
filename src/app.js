@@ -351,7 +351,7 @@ const vm = new Vue ({
 			<div class="inputs">
 				<header>
 					<ul id="nav-menu">
-						<li><a href="#">About the project</a></li>
+						<li><a href="about.html">About the project</a></li>
 					</ul>
 					<input type="text" v-model="search" class="search" placeholder="search">
 				</header>
