@@ -10,7 +10,7 @@ In order to use the database, simply click one or multiple checkboxes at the top
 
 #### Founder and Project Director
 
-- [Rob Deemer](http://robdeemer.com/)
+- [Rob Deemer](http://home.fredonia.edu/music/faculty-bio-deemer)
 
 #### Developer and Designer
 
