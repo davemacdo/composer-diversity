@@ -4,15 +4,20 @@
   font-family: "Lato", sans-serif;
   font-size: 24px; }
 
+h1#site-title {
+  text-align: left;
+  font-size: 330%;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3em; }
+
+@media screen and (max-width: 40em) {
+  h1#site-title {
+    font-size: 270%; } }
+
 .wrapper {
   max-width: 70em;
   margin: auto; }
-  .wrapper h1 {
-    text-align: left;
-    font-size: 330%;
-    font-weight: 300;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.3em; }
 
 ul#nav-menu {
   list-style: none;
@@ -73,13 +78,14 @@ a:hover, a:active, a:target {
   .composer-list li {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: auto;
     padding: 0.5em;
     background-color: #e8f3f7; }
     .composer-list li .name {
       font-size: 120%;
       grid-column: 1/2;
-      grid-row: 1/2; }
+      grid-row: 1/2;
+      margin-bottom: 0.5em; }
     .composer-list li .composer-props {
       grid-column: 2/3;
       grid-row: 1/3; }
@@ -127,10 +133,12 @@ div.inputs {
 
 div.filter-section {
   width: 100%;
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.2em;
   overflow: hidden;
   clear: both;
-  padding-left: 1em; }
+  padding: 0em 0.5em 0em 1em; }
   div.filter-section h4 {
     margin: 0px;
     text-transform: uppercase;
@@ -151,8 +159,8 @@ div.filters {
   clear: both; }
   div.filters label.filter {
     display: block;
-    min-width: 19em;
-    float: left; }
+    padding-left: 1em;
+    text-indent: -1em; }
     div.filters label.filter .badge {
       margin-right: 0.4em; }
   div.filters input[type="checkbox"] {
@@ -160,6 +168,18 @@ div.filters {
     position: relative;
     top: -0.3em;
     margin-right: 0.4em; }
+
+@media screen and (min-width: 40em) {
+  div.filter-section {
+    grid-template-columns: repeat(2, 1fr); }
+    div.filter-section h4 {
+      grid-column-end: span 2; } }
+
+@media screen and (min-width: 55em) {
+  div.filter-section {
+    grid-template-columns: repeat(3, 1fr); }
+    div.filter-section h4 {
+      grid-column-end: span 3; } }
 
 div.columns {
   background-color: #e8f3f7;

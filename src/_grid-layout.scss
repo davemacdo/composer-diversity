@@ -14,7 +14,8 @@
 	li {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
-		grid-template-rows: 2fr 1fr;
+		// grid-template-rows: 2fr 1fr;
+		grid-template-rows: auto;
 		// width: 100%;
 		padding: 0.5em;
 		background-color: $card-bg;
@@ -23,6 +24,7 @@
 			font-size: 120%;
 			grid-column: 1/2;
 			grid-row: 1/2;
+			margin-bottom: 0.5em;
 		}
 
 		.composer-props {

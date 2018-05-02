@@ -7,23 +7,27 @@ In order to use the database, simply click one or multiple checkboxes at the top
 <div class="columns">
 <div class="resources">
 
+### Submission form
+
+<a href="https://goo.gl/forms/4gl2UEWAl33MWpol1" target="_blank">Corrections and additions are welcome using this form.</a> We appreciate your help improving this database and keeping it up-to-date.
+
+
 ### Resources
 
-- [Submission form](https://goo.gl/forms/4gl2UEWAl33MWpol1) to help us improve this database and keep it up-to-date
-- [Related Resources by Alex Shapiro](https://www.alexshapiro.org/ProgrammingResources.html) for presenting diverse concert programs
-- [A Tool for Change](https://nmbx.newmusicusa.org/a-tool-for-change-the-women-composers-database/), Rob's explanation of an earlier version of this database
-- [GitHub repository](https://github.com/davemacdo/wcdb) for technically-inclined folks who would like to help improve the search tools here
+- <a href="https://www.alexshapiro.org/ProgrammingResources.html" target="_blank">Related Resources by Alex Shapiro</a> for presenting diverse concert programs
+- <a href="https://nmbx.newmusicusa.org/a-tool-for-change-the-women-composers-database/" target="_blank">A Tool for Change</a>, Rob's explanation of an earlier version of this database
+- <a href="https://github.com/davemacdo/wcdb" target="_blank">GitHub repository</a> for technically-inclined folks who would like to help improve the search tools here
 </div>
 <div class="team">
 ### The Composer Diversity Database Team
 
 #### Founder and Project Director
 
-- [Rob Deemer](http://home.fredonia.edu/music/faculty-bio-deemer)
+- <a href="http://home.fredonia.edu/music/faculty-bio-deemer" target="_blank">Rob Deemer</a>
 
 #### Developer and Designer
 
-- [David MacDonald](https://davidmacdonaldmusic.com)
+- <a href="https://davidmacdonaldmusic.com" target="_blank">David MacDonald</a>
 
 #### Database Builders
 
