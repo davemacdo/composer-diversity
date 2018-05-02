@@ -160,6 +160,7 @@ div.filters {
   div.filters label.filter {
     display: block;
     padding-left: 1em;
+    padding-right: 0.5em;
     text-indent: -1em; }
     div.filters label.filter .badge {
       margin-right: 0.4em; }
