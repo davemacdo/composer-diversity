@@ -338,7 +338,7 @@ const vm = new Vue ({
 				this.filters.shift();
 				// console.log('filter off');
 			} else {
-				this.$set(this.filters[filterIndex], false);
+				this.filters[filterIndex] = false;
 				this.filters.unshift(0);
 				this.filters.shift();
 				// console.log('filter on');
