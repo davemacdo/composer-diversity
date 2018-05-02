@@ -267,6 +267,7 @@ const fields = [
 const vm = new Vue ({
 	el: '#app',
 	data: {
+		loading: true,
 		title: 'Composer Diversity Database',
 		headings: null,
 		list: null,
@@ -399,11 +400,16 @@ const vm = new Vue ({
 		for (i = 0; i < this.filters.length; i++){
 			this.filters[i] = false;
 		}
+
+		this.loading = false;
 	}, // mounted
 
 	template: `
 		<div class="app-wrapper">
-			<div class="inputs">
+			<div v-if="loading">
+				<div class="loader">Loading...</div>
+			</div>
+			<div class="inputs" v-if="!loading">
 				<header>
 					<ul id="nav-menu">
 						<li><a href="about.html">About the project</a></li>
@@ -449,7 +455,7 @@ const vm = new Vue ({
 
 				</div>
 			</div>
-			<div class="list-wrapper">
+			<div class="list-wrapper" v-if="!loading">
 				<ul class="composer-list">
 					<template v-for="composer in list" v-if="composer[0].match(new RegExp(search, 'i'))">
 						<template v-if="runFiltersAnd(composer)">
