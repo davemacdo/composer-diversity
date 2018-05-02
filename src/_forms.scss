@@ -79,6 +79,42 @@ div.filters {
 
 }
 
+#filters-heading{
+
+	h3 {
+		font-weight:normal;
+		margin-top:0px;
+		color: $active-link;
+
+		.icon {
+			margin-right: 1em;
+			display: inline-block;
+		}
+	}
+}
+
+.filters.collapsed span.icon {
+	transform: rotate(-90deg);
+	transition: all 0.5s;
+}
+
+.filters span.icon {
+	transform: rotate(0deg);
+	transition: all 0.5s;
+}
+
+#filters {
+	overflow: hidden;
+	max-height: 70em;
+	transition: all 0.5s;
+}
+
+#filters.collapsed {
+	max-height:1.4em;
+
+	transition: all 0.5s;
+}
+
 @media screen and (min-width: 40em) {
 	div.filter-section{
 		grid-template-columns: repeat(2, 1fr);

@@ -279,7 +279,8 @@ const vm = new Vue ({
 			26, 27, 28, 29, 30, 31, 32, 33, // demographic
 			37, 38 ], // USA/non-USA
 		locationFilters: [ 'USA', 'non-USA' ],
-		vueFields: fields // brings in the fields array as part of the Vue data
+		vueFields: fields, // brings in the fields array as part of the Vue data
+		filtersCollapsed: false
 	}, // data
 	methods: {
 		getData: function(){
@@ -368,10 +369,17 @@ const vm = new Vue ({
 				geoSpan = row[35] + ( this.getFlags( row[35] ) ? (' ' + this.getFlags( row[35] )) : '' );
 			}
 			return geoSpan;
-		} // composerGeo
+		}, // composerGeo
+		toggleFilters: function() {
+			this.filtersCollapsed = !this.filtersCollapsed;
+		}
 	}, // methods
 	mounted: function (){
 		this.getData();
+
+		var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		this.filtersCollapsed = (screenWidth < 800 ? true : false);
+		// console.log(screenWidth);
 	}, // mounted
 
 	template: `
@@ -383,7 +391,8 @@ const vm = new Vue ({
 					</ul>
 					<input type="text" v-model="search" class="search" placeholder="search" autofocus>
 				</header>
-				<div class="filters">
+				<div class="filters" id="filters" v-bind:class="{ collapsed: filtersCollapsed }">
+					<div id="filters-heading"><a href="#" @click="toggleFilters()"><h3><span class="icon">&#9660;</span>Search filter options</h3></a></div>
 					<div class="filter-section living-dead">
 						<template v-for="option in filterOptions.slice(0,2)">
 							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
