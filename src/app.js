@@ -280,7 +280,8 @@ const vm = new Vue ({
 			37, 38 ], // USA/non-USA
 		locationFilters: [ 'USA', 'non-USA' ],
 		vueFields: fields, // brings in the fields array as part of the Vue data
-		filtersCollapsed: false
+		filtersCollapsed: false,
+		cardBadges: ['gender', 'genre', 'medium']
 	}, // data
 	methods: {
 		getData: function(){
@@ -329,6 +330,20 @@ const vm = new Vue ({
 				return returnval;
 			}
 		}, // runFiltersAnd
+		toggleFilter: function(filterIndex){
+			// console.log(filterIndex);
+			if (this.filters[filterIndex] == false || typeof this.filters[filterIndex] == 'undefined'){
+				this.filters[filterIndex] = true;
+				this.filters.unshift(0);
+				this.filters.shift();
+				// console.log('filter off');
+			} else {
+				this.$set(this.filters[filterIndex], false);
+				this.filters.unshift(0);
+				this.filters.shift();
+				// console.log('filter on');
+			}
+		}, // toggleFilter
 		composerProps: function(row){ // return properties for each composer
 			var propSpan = '';
 			var badgesToShow = ['gender', 'genre', 'medium'];
@@ -353,7 +368,7 @@ const vm = new Vue ({
 			}
 
 			return flagmoji;
-		},
+		}, // getFlags
 		composerGeo: function(row) { // return span for geographical information for each composer
 			var geoSpan = '';
 			var nodata = ['N/A', '']
@@ -380,6 +395,10 @@ const vm = new Vue ({
 		var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 		this.filtersCollapsed = (screenWidth < 800 ? true : false);
 		// console.log(screenWidth);
+
+		for (i = 0; i < this.filters.length; i++){
+			this.filters[i] = false;
+		}
 	}, // mounted
 
 	template: `
@@ -434,7 +453,15 @@ const vm = new Vue ({
 				<ul class="composer-list">
 					<template v-for="composer in list" v-if="composer[0].match(new RegExp(search, 'i'))">
 						<template v-if="runFiltersAnd(composer)">
-							<li><span class="name"><a :href="composer[36]" target="_blank">{{composer[0]}}</a></span><span class="composer-props" v-html="composerProps(composer)"></span><span class="composer-geo" v-html="composerGeo(composer)"></span></li>
+							<li>
+								<span class="name"><a :href="composer[36]" target="_blank">{{composer[0]}}</a></span>
+								<span class="composer-props">
+									<template v-for="(field, i) in composer" v-if="(field=='X' && cardBadges.indexOf(vueFields[i].type) > -1)">
+										<span class="badge" :class="[vueFields[i].type, vueFields[i].class, { selected : filters[i] }]"@click="toggleFilter(i)">{{vueFields[i].icon}}</span>
+									</template>
+								</span>
+								<span class="composer-geo" v-html="composerGeo(composer)"></span>
+							</li>
 						</template>
 					</template>
 				</ul>
