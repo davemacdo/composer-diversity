@@ -134,15 +134,45 @@ const fields = [
 		'type': 'medium'
 	},
 	{
+		'label': 'piano trio',
+		'class': 'piano-trio',
+		'icon': 'PT',
+		'type': 'medium'
+	},
+	{
 		'label': 'wind quintet',
 		'class': 'wind-quintet',
 		'icon': 'WQ',
 		'type': 'medium'
 	},
 	{
+		'label': 'reed quintet',
+		'class': 'reed-quintet',
+		'icon': 'RQ',
+		'type': 'medium'
+	},
+	{
+		'label': 'saxophone quintet',
+		'class': 'sax-quartet',
+		'icon': 'SxQ',
+		'type': 'medium'
+	},
+	{
 		'label': 'brass quintet',
 		'class': 'brass-quintet',
 		'icon': 'BQ',
+		'type': 'medium'
+	},
+	{
+		'label': 'Pierrot ensemble',
+		'class': 'pierrot-ensemble',
+		'icon': 'PE',
+		'type': 'medium'
+	},
+	{
+		'label': 'percussion ensemble',
+		'class': 'percussion',
+		'icon': 'Per',
 		'type': 'medium'
 	},
 	{
@@ -332,7 +362,7 @@ const vm = new Vue ({
 		headings: null,
 		list: null,
 		search: '',
-		filters: new Array(40),
+		filters: new Array(45),
 		// these are the fields in fields[] that have associated filter checkboxes
 		filterOptions: getFilterOptions(),
 		locationFilters: [ 'USA', 'non-USA' ],
