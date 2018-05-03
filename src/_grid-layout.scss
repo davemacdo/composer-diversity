@@ -1,20 +1,30 @@
+.list-wrapper {
+	display: block;
+	width: 100%;
+	clear: both;
+	margin-top: 2em;
+}
+
 .composer-list {
 	display: grid;
 	grid-template-columns: 1fr;
-	margin: 0.5rem;
-	grid-gap: 1rem;
+	// margin: 0.5rem;
+	grid-gap: 3rem;
 
 	li {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
-		grid-template-rows: 2fr 1fr;
-		width: 100%;
+		// grid-template-rows: 2fr 1fr;
+		grid-template-rows: auto;
+		// width: 100%;
 		padding: 0.5em;
+		background-color: $card-bg;
 
 		.name {
-			font-size: 150%;
+			font-size: 120%;
 			grid-column: 1/2;
 			grid-row: 1/2;
+			margin-bottom: 0.5em;
 		}
 
 		.composer-props {
@@ -29,13 +39,12 @@
 	}
 
 	li:hover {
-		box-shadow: 3px 3px 3px 0px transparentize($fg, 0.4);
-		background-color: transparentize($bg, 0.8);
+		box-shadow: 3px 3px 3px 0px transparentize($main-fg, 0.4);
 	}
 
 }
 
-@media screen and (min-width: 35em) {
+@media screen and (min-width: 40em) {
 	.composer-list{
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -44,17 +53,14 @@
 	}
 }
 
-@media screen and (min-width: 75em) {
+@media screen and (min-width: 70em) {
 	.composer-list {
 		grid-template-columns: repeat(3, 1fr);
 	}
 	body {
 		font-size: $large-screen-font-size;
 	}
-}
-
-@media screen and (min-width: 100em) {
-	.composer-list {
-		grid-template-columns: repeat(4, 1fr);
+	div.inputs {
+		padding: 0em;
 	}
 }

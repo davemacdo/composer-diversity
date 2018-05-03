@@ -2,16 +2,46 @@
 @import 'vars';
 
 body {
-	background-color: transparentize($bg, 0.9);
-	color: $fg;
+	background-color: $main-bg;
+	color: $main-fg;
 	font-family: $bodyFonts;
 	font-size: $small-screen-font-size;
 }
 
-.wrapper {
-	width: 100%;
+h1#site-title {
+	text-align: left;
+	font-size: 330%;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+	margin-bottom: 0.3em;
+}
 
-	h1 {text-align: center}
+@media screen and (max-width: 40em) {
+	h1#site-title {
+		font-size: 270%;
+		// color: red !important;
+	}
+}
+
+.wrapper {
+	max-width: 70em;
+	margin: auto;
+}
+
+ul#nav-menu {
+	list-style:none;
+	padding-left: 0px;
+    margin: 0px auto;
+	padding: 0.3em;
+
+	li {
+		padding: 0.3em;
+		font-size: 120%;
+	}
+}
+
+@media screen and (min-width: 38em) {
+	ul#nav-menu { float: right; }
 }
 
 // .list-wrapper {
@@ -21,11 +51,11 @@ body {
 // }
 
 a, a:visited {
-	color: $em2
+	color: $link;
 }
 
 a:hover, a:active, a:target {
-	color: $em1;
+	color: $active-link;
 }
 
 .composer-list {
@@ -49,28 +79,6 @@ a:hover, a:active, a:target {
 		}
 
 
-		.genre, .demographic, .medium, .gender {
-			font-size: 80%;
-			background-color: transparentize($fg, 0.8);
-			border-radius: 2px;
-			margin: 2px;
-			padding: 2px;
-
-		}
-
-		.genre.selected, .medium.selected {
-			border: 2px solid transparentize($fg, 0.4);
-		}
-
-		// alternate color for demo and gender
-		.demographic, .gender {
-			background-color: transparentize($em1a, 0.8);
-		}
-
-		.demographic.selected, .gender.selected {
-			border: 2px solid transparentize($em1a, 0.4);
-		}
-
 		// geography
 		.composer-geo {
 			display: block;
@@ -81,8 +89,28 @@ a:hover, a:active, a:target {
 
 }
 
+// Badges? We don't need no stinking badges!
+.badge.genre, .badge.demographic, .badge.medium, .badge.gender {
+	font-size: 80%;
+	background-color: $badge-bg;
+	color: $badge-fg;
+	border-radius: 2px;
+	margin: 2px;
+	padding: 2px;
+
+}
+
+.badge.selected {
+	box-shadow:inset 0px 0px 0px 2px $badge-fg;
+}
+
+
+
 // GRID STUFF! (Also lots of the responsive logic here.)
 @import 'grid-layout';
 
 // FORM STUFF (Raw HTML forms are ugly af.)
 @import 'forms';
+
+// Styles for static pages
+@import 'static';

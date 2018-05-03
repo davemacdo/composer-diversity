@@ -1,15 +1,17 @@
-// colors
+// NEW colors
 
-$bg: #E6D7C4;
-$fg: #4C3E4C;
-$em1: #FF664D;
-$em1a: #EC2F3D;
-$em2: #8EBEB5;
-
+$badge-fg: #906c43;
+$card-bg: #e8f3f7;
+$filters-bg: #d2e7ef;
+$active-link: #00abf4;
+$link: #2f8fac;
+$main-fg: #225762;
+$badge-bg: #E3DACF;
+$main-bg: #fdfdfd;
 
 // typography
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 $bodyFonts: 'Lato', sans-serif;
 
 $small-screen-font-size: 24px;

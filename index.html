@@ -2,24 +2,49 @@
 <html lang="en" dir="ltr">
 	<head>
 		<meta charset="utf-8">
-		<title>Diversity Initiative Composers Database</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Open Graph metadata -->
+		<meta name="og:title" content="Composer Diversity Database">
+		<meta name="og:type" content="website">
+		<meta name="og:url" content="http://composerdiversity.com">
+		<meta name="og:site_name" content="Composer Diversity Database">
+		<meta name="og:description" content="The Composer Diversity Database is a free online resource for conductors, performers, presenters, educators, and researchers.">
+		<meta name="og:image" content="http://composerdiversity.com/assets/composer-diversity.png">
+
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:title" content="Composer Diversity Database">
+		<meta name="twitter:description" content="The Composer Diversity Database is a free online resource for conductors, performers, presenters, educators, and researchers.">
+		<meta name="twitter:image" content="http://composerdiversity.com/assets/composer-diversity.png">
+		<meta name="twitter:image:alt" content="Composer Diversity Database">
+
+
+		<title>Composer Diversity Database</title>
 		<script src="https://unpkg.com/vue" charset="utf-8"></script>
 		<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.0"></script>
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.css?v=1">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12273072-28"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-12273072-28');
+		</script>
 	</head>
-	<body>
-		<div id="app">
+	<body class="index">
+		<div class="wrapper">
+			<h1 id="site-title">Composer Diversity Database</h1>
+
+			<noscript>
+				This page requires JavaScript to use. Please enable JavaScript or change to a different browser.
+			</noscript>
+
+			<div id="app">
+			</div>
 
 		</div>
-
-		<footer>
-			<ul>
-				<li><a href="https://nmbx.newmusicusa.org/a-tool-for-change-the-women-composers-database/" target="_blank">About the Diversity Initiative Composers Database</a></li>
-				<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdqfwwLofsdY9seniIKYLzyK22ycEOURJK2iqNLc951Ojhm8g/viewform" target="_blank">submit an update</a></li>
-				<li><a href="https://github.com/davemacdo/wcdb">view the source for this page</a></li>
-			</ul>
-		</footer>
-
 		<script src="js/bundle.js" charset="utf-8"></script>
 	</body>
 </html>
