@@ -249,6 +249,65 @@ const fields = [
 	}
 ];
 
+function startOfSection(section) {
+    for(i = 0; i < fields.length; i++) {
+        if(fields[i].type === section) {
+            return i;
+        }
+    }
+    return -1;
+};
+
+function numberOfType(section) {
+	var count = 0;
+	for(i = 0; i < fields.length; i++){
+		if (fields[i].type === section) {
+			count++;
+		}
+	}
+	return count;
+};
+
+function fieldsForSection(section) {
+	var start = startOfSection(section);
+	var numToAdd = numberOfType(section);
+	var fieldsToAdd = [];
+
+	for(i = start; i < (start + numToAdd); i++) {
+		fieldsToAdd.push(i);
+	}
+
+	return fieldsToAdd;
+}
+
+function getFilterOptions() {
+	// var explicitOptions = [ 1, 2, 4, 5, // living, dead, female, non-binary
+	// 	6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, // genre
+	// 	19, 20, 21, 22, 23, 24, 25, // medium
+	// 	26, 27, 28, 29, 30, 31, 32, 33, // demographic
+	// 	37, 38 ]; // USA/non-USA
+
+	var options = [ 1, 2, 4, 5 ]; // living, dead, gender
+	var sections = ['genre', 'medium', 'demographic'];
+	var geoFilters = [ 37, 38 ];
+
+	// I have no idea why this doesn't work, but I'm giving up for now.
+	// for (i = 0; i < sections.length; i++){
+	// 	options = options.concat(fieldsForSection(sections[i]));
+	// }
+
+	// I really hate the way this looks, but it works!
+	options = options.concat(fieldsForSection(sections[0]));
+	options = options.concat(fieldsForSection(sections[1]));
+	options = options.concat(fieldsForSection(sections[2]));
+
+	options = options.concat(geoFilters);
+	// console.log('options: ' + options);
+
+	// console.log(fieldsToAdd('genre'));
+	return options;
+}
+
 /*
  * Fields
  * ==================
@@ -274,11 +333,7 @@ const vm = new Vue ({
 		search: '',
 		filters: new Array(39),
 		// these are the fields in fields[] that have associated filter checkboxes
-		filterOptions: [ 1, 2, 4, 5, // living, dead, female, non-binary
-			6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, // genre
-			19, 20, 21, 22, 23, 24, 25, // medium
-			26, 27, 28, 29, 30, 31, 32, 33, // demographic
-			37, 38 ], // USA/non-USA
+		filterOptions: getFilterOptions(),
 		locationFilters: [ 'USA', 'non-USA' ],
 		vueFields: fields, // brings in the fields array as part of the Vue data
 		filtersCollapsed: false,
@@ -371,18 +426,20 @@ const vm = new Vue ({
 			return flagmoji;
 		}, // getFlags
 		composerGeo: function(row) { // return span for geographical information for each composer
+			var cityField = startOfSection('geographic');
+			var countryField = cityField + 1;
 			var geoSpan = '';
 			var nodata = ['N/A', '']
-			if (!nodata.includes(row[34])){ // if there's a city/state, give that
-				geoSpan = row[34];
+			if (!nodata.includes(row[cityField])){ // if there's a city/state, give that
+				geoSpan = row[cityField];
 
-				if (!nodata.includes(row[35])) { // if there's *also* a country, add that
-					geoSpan += ', ' + row[35] + ( this.getFlags( row[35] ) ? (' ' + this.getFlags( row[35] )) : '' );
+				if (!nodata.includes(row[countryField])) { // if there's *also* a country, add that
+					geoSpan += ', ' + row[countryField] + ( this.getFlags( row[countryField] ) ? (' ' + this.getFlags( row[countryField] )) : '' );
 				}
 			}
 
-			if (geoSpan == '' && !nodata.includes(row[35])) { // if there's only a country, give that
-				geoSpan = row[35] + ( this.getFlags( row[35] ) ? (' ' + this.getFlags( row[35] )) : '' );
+			if (geoSpan == '' && !nodata.includes(row[countryField])) { // if there's only a country, give that
+				geoSpan = row[countryField] + ( this.getFlags( row[countryField] ) ? (' ' + this.getFlags( row[countryField] )) : '' );
 			}
 			return geoSpan;
 		}, // composerGeo
