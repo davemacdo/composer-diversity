@@ -249,6 +249,15 @@ const fields = [
 	}
 ];
 
+function startOfSection(section) {
+    for(var i = 0; i < fields.length; i += 1) {
+        if(fields[i].type === section) {
+            return i;
+        }
+    }
+    return -1;
+};
+
 /*
  * Fields
  * ==================
