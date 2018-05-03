@@ -2,8 +2,8 @@
 //const sheet = 'https://sheets.googleapis.com/v4/spreadsheets/1vD-hWsQYvi6j-6NP_HCLRtmLKdPX08IXmCOeAPV7ESY/values/Composer%20Diversity%20Database%20%28IN%20PROGRESS%29!A3:AK?key=AIzaSyA-h6VkeSPqfe299CwSS88O-qwI2MVQw0A';
 
 // ofline version
-// const sheet = 'assets/composer-diversity-test.json';
-const sheet = 'assets/composer-diversity-offline.json';
+const sheet = 'assets/composer-diversity-test.json';
+// const sheet = 'assets/composer-diversity-offline.json';
 
 const {flag, name, code} = require('country-emoji');
 
@@ -207,6 +207,12 @@ const fields = [
 		'type': 'demographic'
 	},
 	{
+		'label': 'Southeast Asian',
+		'class': 'southeast-asian',
+		'icon': 'SEA',
+		'type': 'demographic'
+	},
+	{
 		'label': 'American Indian',
 		'class': 'american-indian',
 		'icon': 'AmIn',
@@ -284,7 +290,7 @@ function getFilterOptions() {
 
 	var options = [ 1, 2, 4, 5 ]; // living, dead, gender
 	var sections = ['genre', 'medium', 'demographic'];
-	var geoFilters = [ 37, 38 ];
+	var geoFilters = [ fields.length-2, fields.length-1 ];
 
 	// I have no idea why this doesn't work, but I'm giving up for now.
 	// for (i = 0; i < sections.length; i++){
@@ -326,7 +332,7 @@ const vm = new Vue ({
 		headings: null,
 		list: null,
 		search: '',
-		filters: new Array(39),
+		filters: new Array(40),
 		// these are the fields in fields[] that have associated filter checkboxes
 		filterOptions: getFilterOptions(),
 		locationFilters: [ 'USA', 'non-USA' ],
@@ -363,19 +369,19 @@ const vm = new Vue ({
 			}
 			return count;
 		}, //numberOfType
-		runFiltersOr: function(row){ // filter results
-			if (this.filters.indexOf(true) == -1){
-				return true;
-			} else {
-				var returnval = false;
-				for (i = 0; i < this.filters.length; i++){
-					if (row[i] == 'X' && this.filters[i]==true){
-						returnval = true;
-					}
-				}
-				return returnval;
-			}
-		}, // runFiltersOr
+		// runFiltersOr: function(row){ // filter results
+		// 	if (this.filters.indexOf(true) == -1){
+		// 		return true;
+		// 	} else {
+		// 		var returnval = false;
+		// 		for (i = 0; i < this.filters.length; i++){
+		// 			if (row[i] == 'X' && this.filters[i]==true){
+		// 				returnval = true;
+		// 			}
+		// 		}
+		// 		return returnval;
+		// 	}
+		// }, // runFiltersOr
 		runFiltersAnd: function(row){ // filter results
 			if (this.filters.indexOf(true) == -1){
 				return true;
@@ -421,7 +427,7 @@ const vm = new Vue ({
 			var propSpan = '';
 			var badgesToShow = ['gender', 'genre', 'medium'];
 			for (i = 1; i < fields.length; i++){
-				if (row[i] == "X" && badgesToShow.indexOf(fields[i].type) > -1) {
+				if (row[i] == "X" && badgesToShow.indexOf(this.vueFields[i].type) > -1) {
 					// propSpan += '<span class="' + (fields[i].hasOwnProperty('class') ? fields[i].class : fields[i].label) + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
 					propSpan += '<span class="badge ' + fields[i].type + ' ' + (fields[i].hasOwnProperty('class') ? fields[i].class : fields[i].label) + (this.filters[i] ? ' selected' : '') + '" title="' + fields[i].label + '">' + fields[i].icon + '</span>';
 				}
@@ -535,7 +541,7 @@ const vm = new Vue ({
 					<template v-for="composer in list" v-if="composer[0].match(new RegExp(search, 'i'))">
 						<template v-if="runFiltersAnd(composer)">
 							<li>
-								<span class="name"><a :href="composer[36]" target="_blank">{{composer[0]}}</a></span>
+								<span class="name"><a :href="composer[composer.length-1]" target="_blank">{{composer[0]}}</a></span>
 								<span class="composer-props">
 									<template v-for="(field, i) in composer" v-if="(field=='X' && cardBadges.indexOf(vueFields[i].type) > -1)">
 										<span class="badge" :class="[vueFields[i].type, vueFields[i].class, { selected : filters[i] }]"@click="toggleFilter(i)">{{vueFields[i].icon}}</span>
