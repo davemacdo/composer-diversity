@@ -1,45 +1,45 @@
 {
-  "range": "'Composer Diversity Database (IN PROGRESS)'!A3:AK3984",
+  "range": "'Composer Diversity Database (IN PROGRESS)'!A3:AK3924",
   "majorDimension": "ROWS",
   "values": [
     [
-      "TOTAL COMPOSERS: 3726",
-      "3026",
-      "679",
-      "486",
-      "3238",
-      "2",
-      "1866",
-      "515",
-      "1541",
-      "2768",
-      "2262",
-      "784",
-      "638",
-      "787",
-      "125",
-      "561",
-      "756",
-      "1317",
-      "425",
+      "TOTAL COMPOSERS: 3667",
+      "2980",
+      "667",
+      "477",
+      "3187",
+      "3",
+      "1835",
+      "507",
+      "1518",
+      "2727",
+      "2220",
+      "768",
+      "626",
+      "776",
+      "124",
+      "547",
+      "746",
+      "1300",
+      "419",
       "231",
-      "62",
-      "46",
+      "63",
+      "47",
       "33",
-      "18",
+      "19",
       "50",
-      "21",
-      "2676",
-      "354",
-      "315",
-      "313",
-      "44",
+      "22",
+      "2645",
+      "346",
+      "305",
+      "303",
+      "42",
       "46",
       "30",
-      "81",
+      "79",
       "",
       "",
-      "URLs to fix: 501"
+      "URLs to fix: 0"
     ],
     [
       "Abbasi, Anahita",
@@ -5268,45 +5268,6 @@
       "https://en.wikipedia.org/wiki/Mar%C3%ADa_de_las_Mercedes_Adam_de_Ar%C3%B3stegui"
     ],
     [
-      "Arrieu, Claude (d. 1990)",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "France",
-      "https://en.wikipedia.org/wiki/Claude_Arrieu"
-    ],
-    [
       "Arslan, Esra",
       "X",
       "",
@@ -6124,45 +6085,6 @@
       "Bucharest",
       "Romania",
       "https://web.archive.org/web/20080611190524/http://www.cimec.ro:80/Muzica/Pers/AnaMariaAvramEN.htm"
-    ],
-    [
-      "Ayala Pérez, Daniel (d. 1975)",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "Mexico",
-      "https://en.wikipedia.org/wiki/Daniel_Ayala_P%C3%A9rez"
     ],
     [
       "Ayers, Lydia",
@@ -9243,7 +9165,7 @@
       "",
       "Seattle, WA",
       "USA",
-      "www.sarahbassingthwaighte.com"
+      "http://www.sarahbassingthwaighte.com/"
     ],
     [
       "Bates, Leon",
@@ -9321,7 +9243,7 @@
       "",
       "Freiburg",
       "Germany",
-      "www.carolabauckholt.de"
+      "https://www.carolabauckholt.de/"
     ],
     [
       "Bauer, Marion (d. 1955)",
@@ -9477,7 +9399,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.kristenbaum.com"
+      "http://www.kristenbaum.com/"
     ],
     [
       "Baumann, Franziska",
@@ -10023,7 +9945,7 @@
       "",
       "Toronto",
       "Canada",
-      "www.marcandomusic.com"
+      "http://www.marcandomusic.com/"
     ],
     [
       "Beck, Jenny",
@@ -10218,7 +10140,7 @@
       "",
       "Lexington, MA",
       "USA",
-      "www.deborahyardleybeers.com"
+      "http://www.deborahyardleybeers.com/"
     ],
     [
       "Beets, Sonja",
@@ -10257,7 +10179,7 @@
       "",
       "Antwerp",
       "Netherlands",
-      "sonjabeets.eu"
+      "http://sonjabeets.eu/"
     ],
     [
       "Beglarian, Eve",
@@ -10452,7 +10374,7 @@
       "",
       "Bonita, CA",
       "USA",
-      "www.loribellflute.com"
+      "http://www.loribellflute.com/"
     ],
     [
       "Bellamy, Mary",
@@ -11388,7 +11310,7 @@
       "",
       "Bloomington, IN",
       "USA",
-      "www.laurenbernofsky.com"
+      "http://www.laurenbernofsky.com/"
     ],
     [
       "Bernon, Amy",
@@ -11856,7 +11778,7 @@
       "",
       "St. Paul, MN",
       "USA",
-      "www.abbiebetinis.com"
+      "http://www.abbiebetinis.com/"
     ],
     [
       "Bévort, Pernille",
@@ -12012,7 +11934,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.marianthebezzerides.com"
+      "https://www.marianthebezzerides.com/"
     ],
     [
       "Bhagavatar, Muthiah (d. 1945)",
@@ -12129,7 +12051,7 @@
       "",
       "Belleville, MI",
       "USA",
-      "www.dinahbianchi.com"
+      "http://www.dinahbianchi.com/"
     ],
     [
       "Bichner, Mary",
@@ -12441,7 +12363,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.amparoedo.com"
+      "http://www.amparoedo.com/"
     ],
     [
       "Bird, Dinah",
@@ -12519,7 +12441,7 @@
       "X",
       "Toronto",
       "Canada",
-      "www.arlenebishop.com"
+      "http://www.arlenebishop.com/"
     ],
     [
       "Bitgood, Roberta (d. 2007)",
@@ -14004,45 +13926,6 @@
       "https://en.wikipedia.org/wiki/Anna_Bon"
     ],
     [
-      "Bon, Anna (d. 18th cent.)",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "N/A",
-      "https://en.wikipedia.org/wiki/Anna_Bon"
-    ],
-    [
       "Bonacich, June",
       "X",
       "",
@@ -14118,7 +14001,7 @@
       "",
       "São Paulo",
       "Brazil",
-      "www.valeriabonafe.com"
+      "https://www.valeriabonafe.com/"
     ],
     [
       "Bond, Carrie (d. 1946)",
@@ -14313,7 +14196,7 @@
       "",
       "Sydney",
       "Australia",
-      "www.bonmusic.com.au"
+      "http://bonmusic.com.au/"
     ],
     [
       "Bontemps, David",
@@ -14508,7 +14391,7 @@
       "",
       "Denver, CO",
       "USA",
-      "www.annieboothmusic.com"
+      "http://www.annieboothmusic.com/"
     ],
     [
       "Bordreuil, Leila",
@@ -14625,7 +14508,7 @@
       "",
       "Washington D.C.",
       "USA",
-      "www.amykbormet.com"
+      "http://amykbormet.com/"
     ],
     [
       "Borroff, Edith",
@@ -14781,7 +14664,7 @@
       "",
       "Munich",
       "Germany",
-      "www.dijana-boskovic.com"
+      "http://www.dijana-boskovic.com/"
     ],
     [
       "Bosmans, Henriëtte Hilda (d. 1952)",
@@ -14898,7 +14781,7 @@
       "",
       "Sydney",
       "Australia",
-      "www.hanlibotha.com"
+      "http://www.hanlibotha.com/"
     ],
     [
       "Botti, Susan",
@@ -15483,7 +15366,7 @@
       "",
       "New York, NY",
       "USA",
-      "stephanieannboyd.com"
+      "http://www.stephanieannboyd.com/"
     ],
     [
       "Boykin, B.E.",
@@ -15951,7 +15834,7 @@
       "",
       "Victoria",
       "Australia",
-      "www.margaretbrandman.com"
+      "http://www.margaretbrandman.com/"
     ],
     [
       "Brandon, Amy",
@@ -16029,7 +15912,7 @@
       "",
       "Long Beach, CA",
       "USA",
-      "www.jennibrandon.com"
+      "http://jennibrandon.com/"
     ],
     [
       "Branscombe, Gena (d. 1977)",
@@ -16341,7 +16224,7 @@
       "",
       "Long Beach, CA",
       "USA",
-      "carolynbremer.com"
+      "http://carolynbremer.com/"
     ],
     [
       "Brenet, Thérèse ",
@@ -16653,7 +16536,7 @@
       "",
       "Ashland, OR",
       "USA",
-      "www.tessabrinckman.com"
+      "http://www.tessabrinckman.com/"
     ],
     [
       "Brittin Chambers, Carol ",
@@ -16965,7 +16848,7 @@
       "X",
       "Victoria, BC",
       "Canada",
-      "www.annettebrosin.com"
+      "http://www.annettebrosin.com/"
     ],
     [
       "Brouk, Johanna",
@@ -17082,7 +16965,7 @@
       "",
       "Cleveland, OH",
       "USA",
-      "www.margaretbrouwer.com"
+      "http://www.margaretbrouwer.com/"
     ],
     [
       "Brown, Becky",
@@ -17121,7 +17004,7 @@
       "",
       "Charlottesville, VA",
       "USA",
-      "becky-brown.org"
+      "http://becky-brown.org/"
     ],
     [
       "Brown, Courtney",
@@ -17199,7 +17082,7 @@
       "",
       "Greencastle, IN",
       "USA",
-      "www.elizabrown.net"
+      "https://www.elizabrown.net/"
     ],
     [
       "Brown, Elizabeth",
@@ -17277,7 +17160,7 @@
       "",
       "Thornton, CO",
       "USA",
-      "www.noteableimpressions.com"
+      "http://www.noteableimpressions.com/"
     ],
     [
       "Brown, Matilda ",
@@ -17394,7 +17277,7 @@
       "",
       "Montréal",
       "Canada",
-      "www.staceybrown.ca"
+      "http://www.staceybrown.ca/HOME.html"
     ],
     [
       "Bruce, Margaret C. (d. 2010)",
@@ -17901,7 +17784,7 @@
       "",
       "Berkeley, CA",
       "USA",
-      "www.molliebudiansky.com"
+      "https://www.molliebudiansky.com/"
     ],
     [
       "Bukvich, Svjetlana",
@@ -18369,7 +18252,7 @@
       "",
       "Grand Rapids, MI",
       "USA",
-      "ashleebusch.com"
+      "http://ashleebusch.com/"
     ],
     [
       "Busch, Erin",
@@ -18408,7 +18291,7 @@
       "",
       "Philadelphia, PA",
       "USA",
-      "www.erinbusch.com"
+      "http://www.erinbusch.com/"
     ],
     [
       "Busch, Tara",
@@ -18486,7 +18369,7 @@
       "",
       "Devon",
       "UK",
-      "https://soundcloud.com/santa-buss"
+      "http://www.katebush.com/"
     ],
     [
       "Bushnaq, Suad",
@@ -18525,7 +18408,7 @@
       "X",
       "Toronto",
       "Canada",
-      "www.suadbushnaq.com"
+      "http://www.suadbushnaq.com/"
     ],
     [
       "Busler (Busler-Blais), Lydia Lowery",
@@ -18564,7 +18447,7 @@
       "",
       "Montpelier, VT",
       "USA",
-      "www.lydialowerybusler.com"
+      "http://www.lydialowerybusler.com/"
     ],
     [
       "Bušs, Santa",
@@ -18837,7 +18720,7 @@
       "X",
       "Los Angeles, CA",
       "USA",
-      "www.aliciabyer.com"
+      "https://aliciabyer.com/"
     ],
     [
       "Byrchmore, Ruth ",
@@ -19188,7 +19071,7 @@
       "",
       "Vienna",
       "Austria",
-      "www.tinyalligator.com"
+      "http://tinyalligator.com/"
     ],
     [
       "Cal, Wilma Alba",
@@ -19266,7 +19149,7 @@
       "",
       "Narrandera",
       "Australia",
-      "www.fionacaldamusic.com"
+      "https://www.fionacaldamusic.com/"
     ],
     [
       "Calix, Mira",
@@ -19461,7 +19344,7 @@
       "",
       "London",
       "UK",
-      "Www.hilarycampbell.com"
+      "https://www.hilarycampbell.com/"
     ],
     [
       "Campbell, Raylene",
@@ -19890,7 +19773,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.danielacandillari.com"
+      "http://www.danielacandillari.com/"
     ],
     [
       "Canedo, Remmy ",
@@ -20358,7 +20241,7 @@
       "",
       "Los Angeles",
       "USA",
-      "www.christycarew.com"
+      "http://www.christycarew.com/"
     ],
     [
       "Carey, Julia Scott",
@@ -20592,7 +20475,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.megancarnesmusic.com"
+      "https://www.megancarnesmusic.com/"
     ],
     [
       "Carnibucci, Laura",
@@ -20670,7 +20553,7 @@
       "",
       "Carmel, IN",
       "USA",
-      "www.carolineahncomposer.com"
+      "http://www.carolineahncomposer.com/"
     ],
     [
       "Caron-Legris, Albertine (d. 1972)",
@@ -21060,7 +20943,7 @@
       "",
       "Brisbane/Providence, RI",
       "Australia/USA",
-      "www.nicolecarrollmusic.com"
+      "http://nicolecarrollmusic.com/about"
     ],
     [
       "Carter, Derek",
@@ -21100,45 +20983,6 @@
       "Normal, IL",
       "USA",
       "https://soundcloud.com/derekcarter"
-    ],
-    [
-      "Carter, Regina",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "New York, NY",
-      "USA",
-      "http://reginacarter.com/"
     ],
     [
       "Carter, Regina",
@@ -21450,7 +21294,7 @@
       "",
       "Bronx, NY",
       "USA",
-      "www.tamaracashour.com"
+      "http://www.tamaracashour.com/"
     ],
     [
       "Caskie, Helen ",
@@ -21605,7 +21449,7 @@
       "",
       "",
       "N/A",
-      "",
+      "France",
       "https://en.wikipedia.org/wiki/Almucs_de_Castelnau"
     ],
     [
@@ -21683,7 +21527,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Italy",
       "https://en.wikipedia.org/wiki/Maddalena_Casulana"
     ],
     [
@@ -21722,7 +21566,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Italy",
       "https://en.wikipedia.org/wiki/Angelica_Catalani"
     ],
     [
@@ -21840,7 +21684,7 @@
       "",
       "Petersburgh, NY ",
       "USA",
-      "deb-cavanaugh.com"
+      "https://www.deb-cavanaugh.com/"
     ],
     [
       "Caviani, Laura",
@@ -21996,7 +21840,7 @@
       "",
       "Indianapolis, IN",
       "USA",
-      "www.gabriellecerberville.com"
+      "https://gabriellecerberville.com/"
     ],
     [
       "Cerniglia Ornella",
@@ -22350,45 +22194,6 @@
       "http://www.wendymae.com/music.html"
     ],
     [
-      "Chaminade, Cécile",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Paris",
-      "France",
-      "https://en.wikipedia.org/wiki/C%C3%A9cile_Chaminade"
-    ],
-    [
       "Chaminade, Cécile (d. 1944)",
       "",
       "X",
@@ -22424,7 +22229,7 @@
       "",
       "",
       "N/A",
-      "",
+      "France",
       "https://en.wikipedia.org/wiki/C%C3%A9cile_Chaminade"
     ],
     [
@@ -22503,7 +22308,7 @@
       "",
       "Sydney",
       "Australia",
-      "alicechance.com"
+      "http://alicechance.com/"
     ],
     [
       "Chandavarkar, Bhaskar (d. 2009)",
@@ -22580,7 +22385,7 @@
       "",
       "",
       "N/A",
-      "",
+      "UK",
       "http://www.prestoclassical.co.uk/sm/composer%7C2704-b/1"
     ],
     [
@@ -22698,7 +22503,7 @@
       "",
       "Davis, CA/Taipei",
       "USA/Taiwan",
-      "yuhsinchang.com"
+      "https://yuhsinchang.com/"
     ],
     [
       "Chang, Yu-Hui",
@@ -22738,45 +22543,6 @@
       "Boston, MA",
       "USA",
       "http://yuhuichang.com"
-    ],
-    [
-      "Chao, Ching-Wen",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Taiwan",
-      "https://nl.wikipedia.org/wiki/Ching-Wen_Chao"
     ],
     [
       "Chargueron, Carole",
@@ -23130,45 +22896,6 @@
       "https://shortblackopera.org.au/about-2/deborah-cheetham-ao/"
     ],
     [
-      "Chelsea Williamson",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Norman, OK",
-      "USA",
-      "www.chelseawilliamsoncomposer.com"
-    ],
-    [
       "Chen Yi",
       "X",
       "",
@@ -23322,7 +23049,7 @@
       "",
       "New York, NY",
       "USA",
-      "christineelisechen.com"
+      "https://christineelisechen.com/listen/"
     ],
     [
       "Chen, Justine",
@@ -23400,7 +23127,7 @@
       "",
       "Berkeley, CA",
       "USA/Taiwan",
-      "chenlily.com"
+      "https://chenlily.com/"
     ],
     [
       "Chen, Tania",
@@ -23478,7 +23205,7 @@
       "",
       "Queensland",
       "Australia",
-      "lisacheney.com.au"
+      "http://www.lisacheney.com.au/"
     ],
     [
       "Chester, Illay",
@@ -23517,7 +23244,7 @@
       "",
       "Berlin",
       "Germany",
-      "www.illaymusic.com"
+      "https://www.illaymusic.com/"
     ],
     [
       "Cheung, Anthony",
@@ -23595,7 +23322,7 @@
       "",
       "Hong Kong",
       "Hong Kong",
-      "www.cheungpuishan.com"
+      "http://www.cheungpuishan.com/page/HOME"
     ],
     [
       "Chiao, Faye",
@@ -23634,7 +23361,7 @@
       "X",
       "New York, NY",
       "USA",
-      "www.fayechiao.com"
+      "https://www.fayechiao.com/"
     ],
     [
       "Chiayu Hsu",
@@ -23715,45 +23442,6 @@
       "http://billychilds.com/"
     ],
     [
-      "Childs, Kirsten ",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "New York, NY",
-      "USA",
-      "mailto:kirchilds@aol.com"
-    ],
-    [
       "Childs, Mary Ellen",
       "X",
       "",
@@ -23790,7 +23478,7 @@
       "",
       "Minneapolis, MN",
       "USA",
-      "www.maryellenchilds.com"
+      "http://www.maryellenchilds.com/works-list/"
     ],
     [
       "Chin-Chin Chen",
@@ -23830,84 +23518,6 @@
       "Michigan",
       "USA",
       "http://prabook.com/web/person-view.html?profileId=381685"
-    ],
-    [
-      "Chin-Chin Chen",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "Michigan",
-      "USA",
-      "http://prabook.com/web/person-view.html?profileId=381685"
-    ],
-    [
-      "Chin, Unsuk",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "Berlin",
-      "Germany",
-      "http://www.boosey.com/pages/cr/composer/composer_main?composerid=2754"
     ],
     [
       "Chinary Ung",
@@ -24066,45 +23676,6 @@
       "http://www.fluxquartet.com/bio.html"
     ],
     [
-      "Chizy, Edith Canat de",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Paris",
-      "France",
-      "http://www.edithcanatdechizy.com/"
-    ],
-    [
       "Chou, Sarana",
       "X",
       "",
@@ -24218,7 +23789,7 @@
       "",
       "",
       "N/A",
-      "",
+      "France",
       "https://en.wikipedia.org/wiki/Hedwige_Chr%C3%A9tien"
     ],
     [
@@ -24336,7 +23907,7 @@
       "",
       "Zürich/Chicago",
       "Switzerland/USA",
-      "www.melodychua.com"
+      "http://www.melodychua.com/"
     ],
     [
       "Chung Shih Hoh",
@@ -24414,7 +23985,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.sherrichung.com"
+      "https://www.sherrichung.com/"
     ],
     [
       "Cianchettini, Veronika (d. 1833)",
@@ -24531,7 +24102,7 @@
       "",
       "Nashville, TN",
       "USA",
-      "timbremusic.com"
+      "https://timbre.bandcamp.com/"
     ],
     [
       "Cimini, Amy",
@@ -24725,7 +24296,7 @@
       "",
       "",
       "N/A",
-      "",
+      "UK",
       "http://www.rebeccaclarke.org/"
     ],
     [
@@ -24960,7 +24531,7 @@
       "",
       "Philadelphia, PA",
       "USA",
-      "Www.andreaclearfield.com"
+      "http://www.andreaclearfield.com/"
     ],
     [
       "Cleary, Siobhán",
@@ -25077,7 +24648,7 @@
       "",
       "New York, NY",
       "USA",
-      "Www.shereeclement.com"
+      "http://shereeclement.com/"
     ],
     [
       "Clevely, Sarah",
@@ -25116,7 +24687,7 @@
       "",
       "London",
       "UK",
-      "www.sarahclevely.com"
+      "http://www.broadjam.com/sarahclevely"
     ],
     [
       "Clingan, Judith",
@@ -25155,7 +24726,7 @@
       "",
       "Canberra",
       "Australia",
-      "judithclingan.net.au"
+      "http://judithclingan.net.au/"
     ],
     [
       "Clorey, Monica (see Pearce, Monica)",
@@ -25661,7 +25232,7 @@
       "",
       "",
       "N/A",
-      "",
+      "USA",
       "https://en.wikipedia.org/wiki/Ulric_Cole"
     ],
     [
@@ -25856,7 +25427,7 @@
       "",
       "",
       "N/A",
-      "",
+      "UK",
       "https://en.wikipedia.org/wiki/Ellen_Coleman"
     ],
     [
@@ -25896,7 +25467,7 @@
       "",
       "Des Moines, IA",
       "USA",
-      "www.lindarobbinscoleman.com"
+      "http://www.lindarobbinscoleman.com/Linda_Robbins_Coleman/Home.html"
     ],
     [
       "Coleman, Lisa",
@@ -26481,7 +26052,7 @@
       "",
       "Easton, PA",
       "USA",
-      "carolcomune.com"
+      "http://carolcomune.com/"
     ],
     [
       "Conant, Abbie",
@@ -26559,7 +26130,7 @@
       "",
       "Lincoln NE",
       "USA",
-      "www.kristaconnelly.com"
+      "http://www.kristaconnelly.com/"
     ],
     [
       "Conner, Stef",
@@ -26598,7 +26169,7 @@
       "",
       "Cambridge",
       "UK",
-      "stefconner.com"
+      "http://stefconner.com"
     ],
     [
       "Constantinidis, Sylvia  ",
@@ -26832,7 +26403,7 @@
       "",
       "Philadelphia, PA",
       "USA",
-      "www.emilycooley.com"
+      "http://www.emilycooley.com"
     ],
     [
       "Cooney, Cheryl L.",
@@ -26910,7 +26481,7 @@
       "",
       "Albuquerque, NM",
       "USA",
-      "laurenvcoons.com"
+      "http://laurenvcoons.com"
     ],
     [
       "Coons, Lisa Renée ",
@@ -26987,7 +26558,7 @@
       "",
       "",
       "N/A",
-      "",
+      "UK",
       "https://www.lindsaycoopermusic.com/"
     ],
     [
@@ -27144,7 +26715,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "drewcorey.com"
+      "http://drewcorey.com"
     ],
     [
       "Corey, Eleanor",
@@ -27342,45 +26913,6 @@
       "http://www.vivcorringham.org/"
     ],
     [
-      "Corringham, Vivienne ",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "New York, NY",
-      "USA",
-      "http://www.vivcorringham.org/home"
-    ],
-    [
       "Corris, Penny",
       "X",
       "",
@@ -27417,7 +26949,7 @@
       "",
       "Milwaukee, Wisconsin",
       "USA",
-      "pennycorris.com"
+      "http://pennycorris.com"
     ],
     [
       "Corry, Sara",
@@ -27456,7 +26988,7 @@
       "",
       "Washington D.C.",
       "USA",
-      "Www.saracorry.com"
+      "http://Www.saracorry.com"
     ],
     [
       "Cory, Eleanor",
@@ -27573,7 +27105,7 @@
       "",
       "New York, NY",
       "USA",
-      "Roxycoss.com"
+      "http://Roxycoss.com"
     ],
     [
       "Cosseron, Guylaine",
@@ -27650,7 +27182,7 @@
       "",
       "",
       "N/A",
-      "",
+      "USA",
       "https://en.wikipedia.org/wiki/Elizabeth_Cotten"
     ],
     [
@@ -27767,7 +27299,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Canada",
       "https://en.wikipedia.org/wiki/Jean_Coulthard"
     ],
     [
@@ -27806,7 +27338,7 @@
       "",
       "",
       "N/A",
-      "",
+      "USA",
       "http://wingedsun.com/couper-m/"
     ],
     [
@@ -27963,7 +27495,7 @@
       "",
       "Boston, MA",
       "USA",
-      "www.jmcmusicinc.com"
+      "http://www.jmcmusicinc.com"
     ],
     [
       "Cox, Cindy ",
@@ -28079,7 +27611,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Italy",
       "https://en.wikipedia.org/wiki/Chiara_Margarita_Cozzolani"
     ],
     [
@@ -28118,7 +27650,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Netherlands",
       "http://www.nederlandsmuziekinstituut.nl/en/collections/304"
     ],
     [
@@ -28158,7 +27690,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.musicstandfoundation.org"
+      "http://www.musicstandfoundation.org"
     ],
     [
       "Crescenz, Valerie Showers",
@@ -28197,7 +27729,7 @@
       "",
       "East Fallowfield, PA",
       "USA",
-      "valeriecrescenz.com"
+      "http://valeriecrescenz.com"
     ],
     [
       "Crispell, Marilyn",
@@ -28391,7 +27923,7 @@
       "",
       "",
       "N/A",
-      "",
+      "USA",
       "http://www.conniecrothers.net/index.html"
     ],
     [
@@ -28703,7 +28235,7 @@
       "",
       "",
       "N/A",
-      "",
+      "USA",
       "http://adp.library.ucsb.edu/index.php/talent/detail/65372/Curran_Pearl_G._composer"
     ],
     [
@@ -28743,7 +28275,7 @@
       "",
       "Miami, FL",
       "USA",
-      "Www.rachelcurrea.com"
+      "http://www.rachelcurrea.com/"
     ],
     [
       "Curry, Jessica",
@@ -28821,7 +28353,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.leahcurtis.com"
+      "http://www.leahcurtis.com"
     ],
     [
       "Curtis, Marvin V.",
@@ -29058,45 +28590,6 @@
       "http://www.AnnaDagmar.com"
     ],
     [
-      "Daijing, Pan",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "Berlin",
-      "Germany",
-      "https://soundcloud.com/pan-daijing"
-    ],
-    [
       "Daiken, Melanie (d. 2016)",
       "",
       "X",
@@ -29132,7 +28625,7 @@
       "",
       "",
       "N/A",
-      "",
+      "UK",
       "http://britishmusiccollection.org.uk/composer/melanie-daiken"
     ],
     [
@@ -29210,7 +28703,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Denmark",
       "http://www.edition-s.dk/composer/nancy-dalberg"
     ],
     [
@@ -29522,7 +29015,7 @@
       "",
       "",
       "N/A",
-      "",
+      "USA",
       "https://www.loc.gov/item/ihas.200153249/"
     ],
     [
@@ -29640,7 +29133,7 @@
       "",
       "London",
       "UK",
-      "www.ninadanon.com"
+      "https://www.ninadanon.com/"
     ],
     [
       "Danzi, Maria Margarethe (d. 1800)",
@@ -29717,7 +29210,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Germany",
       "https://en.wikipedia.org/wiki/Hanne_Darboven#Work"
     ],
     [
@@ -29795,7 +29288,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Scotland",
       "http://www.saltiresociety.org.uk/discuss-and-debate/saltire-women/outstanding-women-of-scotland-community/2015-celebration/marie-dare/"
     ],
     [
@@ -29964,45 +29457,6 @@
       "",
       "",
       "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Calgary",
-      "Canada",
-      "http://www.sarahdavachi.com"
-    ],
-    [
-      "Davachi, Sarah",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
       "",
       "",
       "",
@@ -30031,6 +29485,45 @@
       "Los Angeles, CA",
       "USA",
       "http://sarahdavachi.com/index.html"
+    ],
+    [
+      "Davachi, Sarah",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Calgary",
+      "Canada",
+      "http://www.sarahdavachi.com"
     ],
     [
       "Davids, Brent Michael",
@@ -30264,7 +29757,7 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "www.carolinedavis.org"
+      "http://www.carolinedavis.org/"
     ],
     [
       "Davis, Elizabeth Skola",
@@ -30381,7 +29874,7 @@
       "",
       "Corpus Christi, TX",
       "USA",
-      "Www.diablamusica.com"
+      "http://www.diablamusica.com/"
     ],
     [
       "Davis, Katherine (d. 1980)",
@@ -30419,7 +29912,7 @@
       "",
       "",
       "N/A",
-      "",
+      "USA",
       "http://www.allmusic.com/artist/katherine-k-davis-mn0002190348/biography"
     ],
     [
@@ -30810,7 +30303,7 @@
       "",
       "Washington, DC",
       "USA",
-      "www.ashi-day.com"
+      "http://www.ashi-day.com/"
     ],
     [
       "Day, Kevin",
@@ -30888,7 +30381,7 @@
       "",
       "Littleton, CO",
       "USA",
-      "Smhdmusic.com"
+      "http://smhdmusic.com/"
     ],
     [
       "De Alvear, Maria",
@@ -31043,7 +30536,7 @@
       "",
       "",
       "N/A",
-      "",
+      "France",
       "https://upclosed.com/people/dame-maroie/"
     ],
     [
@@ -31199,7 +30692,7 @@
       "",
       "",
       "N/A",
-      "",
+      "France",
       "https://www.britannica.com/biography/Elisabeth-Claude-Jacquet-de-la-Guerre"
     ],
     [
@@ -31239,7 +30732,7 @@
       "",
       "London",
       "UK",
-      "www.loladelamata.com"
+      "https://www.loladelamata.com/"
     ],
     [
       "De Lanoy, Catherine",
@@ -31472,47 +30965,8 @@
       "",
       "",
       "N/A",
-      "",
+      "Australia",
       "https://dictionaryofsydney.org/entry/de_cairos_rego_iris"
-    ],
-    [
-      "de Rossi, Romana Camilla (d. 18th cent.)",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "",
-      "https://en.wikipedia.org/wiki/Camilla_de_Rossi"
     ],
     [
       "de Wys, Margaret",
@@ -31552,84 +31006,6 @@
       "Hundson Valley region, NY",
       "USA",
       "http://bombmagazine.org/article/3404/margaret-de-wys"
-    ],
-    [
-      "de Zéspedes, Juan García (d. 1678)",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "Mexico",
-      "https://en.wikipedia.org/wiki/Juan_Garc%C3%ADa_de_Z%C3%A9spedes"
-    ],
-    [
-      "de Zumaya, Manuel (d. 1755)",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "Mexico",
-      "https://en.wikipedia.org/wiki/Manuel_de_Zumaya"
     ],
     [
       "Deacon, Helen ",
@@ -31707,7 +31083,7 @@
       "",
       "New York, NY",
       "USA",
-      "soundcloud.com/rachelmdean"
+      "https://soundcloud.com/rachelmdean"
     ],
     [
       "Dearden, Alice",
@@ -32100,84 +31476,6 @@
       "http://www.brileemusic.com/composer/dekaney-elisa-m-3/"
     ],
     [
-      "Dekaney, Elisa",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Syracuse, NY",
-      "USA",
-      "http://www.brileemusic.com/composer/dekaney-elisa-m-3/"
-    ],
-    [
-      "deKenessey, Stefania",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "New York, NY",
-      "USA",
-      "http://www.stefaniadekenessey.com/"
-    ],
-    [
       "del Riego, Teresa (d. 1968)",
       "",
       "X",
@@ -32213,7 +31511,7 @@
       "",
       "",
       "N/A",
-      "",
+      "UK",
       "https://en.wikipedia.org/wiki/Teresa_del_Riego"
     ],
     [
@@ -32291,46 +31589,7 @@
       "",
       "",
       "N/A",
-      "",
-      "https://en.wikipedia.org/wiki/Eva_Dell%27Acqua"
-    ],
-    [
-      "Dell'Acqua, Eva (d.1930)",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "",
+      "Belgium",
       "https://en.wikipedia.org/wiki/Eva_Dell%27Acqua"
     ],
     [
@@ -32369,7 +31628,7 @@
       "",
       "",
       "N/A",
-      "",
+      "France",
       "http://data.bnf.fr/13965845/theresia_demar/"
     ],
     [
@@ -32447,7 +31706,7 @@
       "",
       "",
       "N/A",
-      "",
+      "France",
       "https://en.wikipedia.org/wiki/Jeanne_Demessieux"
     ],
     [
@@ -32526,7 +31785,7 @@
       "",
       "",
       "USA",
-      "Lydiadempsey.com"
+      "http://www.lydiadempsey.com/"
     ],
     [
       "Denio, Amy",
@@ -32643,7 +31902,7 @@
       "",
       "Miami, FL",
       "USA",
-      "www.morgandenney.com"
+      "http://www.morgandenney.com/"
     ],
     [
       "Dent, Jayne",
@@ -32837,7 +32096,7 @@
       "",
       "",
       "N/A",
-      "",
+      "UK",
       "http://www.delia-derbyshire.org/"
     ],
     [
@@ -32876,7 +32135,7 @@
       "",
       "",
       "N/A",
-      "",
+      "UK",
       "http://imslp.org/wiki/Category:Dering%2C_Mary"
     ],
     [
@@ -32916,7 +32175,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "annedern-filmcomposer.com"
+      "http://www.annedern-filmcomposer.com/"
     ],
     [
       "deRosa, Brooke",
@@ -32955,7 +32214,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "Brookederosa.com"
+      "http://www.brookederosa.com/"
     ],
     [
       "des Marais, Lauri",
@@ -33033,7 +32292,7 @@
       "",
       "London",
       "UK",
-      "www.nainitadesai.com"
+      "http://nainitadesai.com/"
     ],
     [
       "Descy, Arhynn",
@@ -33072,7 +32331,7 @@
       "",
       "London/Los Angeles",
       "UK/USA",
-      "www.arhynndescy.com"
+      "http://www.arhynndescy.com/"
     ],
     [
       "DeSpain, Lisa",
@@ -33111,7 +32370,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.lisadespain.com"
+      "http://www.lisadespain.com/"
     ],
     [
       "Desportes, Yvonne (d. 1993)",
@@ -33149,7 +32408,7 @@
       "",
       "",
       "N/A",
-      "",
+      "France",
       "https://en.wikipedia.org/wiki/Yvonne_Desportes#Works"
     ],
     [
@@ -33228,7 +32487,7 @@
       "",
       "Fort Lauderdale, FL",
       "USA",
-      "anastasiadevana.com"
+      "https://soundcloud.com/anastasiadevana"
     ],
     [
       "Devaney, Kirsty",
@@ -33423,7 +32682,7 @@
       "",
       "Green Bay, WI",
       "USA",
-      "www.michellemcquadedewhirst.com"
+      "http://www.michellemcquadedewhirst.com/"
     ],
     [
       "Di Castri, Zosha",
@@ -33696,7 +32955,7 @@
       "",
       "Praia a Mare, Cosenza",
       "Italy",
-      "www.thevillastudios.com"
+      "https://www.thevillastudios.com/"
     ],
     [
       "DiBucci, Michelle",
@@ -33735,7 +32994,7 @@
       "",
       "New York, NY",
       "USA",
-      "michelledibucci.com"
+      "http://michelledibucci.com/"
     ],
     [
       "Dickenson-Auner, Mary (d. 1965)",
@@ -33773,7 +33032,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Ireland",
       "http://www.sophie-drinker-institut.de/cms/index.php/dickenson-auner-mary"
     ],
     [
@@ -33891,7 +33150,7 @@
       "",
       "Chicago, IL",
       "USA",
-      "KimDiehnelt.com"
+      "http://kimdiehnelt.instantencore.com/web/home.aspx"
     ],
     [
       "Diels, Natacha",
@@ -33969,7 +33228,7 @@
       "",
       "Santa Barbara, CA",
       "USA",
-      "emmaloudiemermusic.com"
+      "http://www.emmaloudiemermusic.com/page/page/6385943.htm"
     ],
     [
       "Diesendruck, Tamar ",
@@ -34047,7 +33306,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.nataliedietterich.com"
+      "https://www.nataliedietterich.com/"
     ],
     [
       "DiMari, Jessica ",
@@ -34125,7 +33384,7 @@
       "X",
       "Oldenburg",
       "Germany",
-      "www.staff.uni-oldenburg.de/violeta.dinescu/"
+      "https://www.uni-oldenburg.de/musik/violeta-dinescu/"
     ],
     [
       "DiPaolo, Nicole",
@@ -34164,7 +33423,7 @@
       "",
       "Bloomington, IN",
       "USA",
-      "http://ndipaolo.musicaneo.com"
+      "https://ndipaolo.musicaneo.com/"
     ],
     [
       "Ditmanson, Elizabeth",
@@ -34203,7 +33462,7 @@
       "",
       "Manchester",
       "UK",
-      "https://t.co/3BQx5GzOPp"
+      "https://elizabethditmanson.weebly.com/"
     ],
     [
       "Dixon, Akua ",
@@ -34242,7 +33501,7 @@
       "",
       "Rhinebeck, NY",
       "USA",
-      "www.akuadixon.com"
+      "http://akuadixon.com/"
     ],
     [
       "Dixon, Sakari",
@@ -34281,7 +33540,7 @@
       "",
       "Redlands, CA",
       "USA",
-      "www.sakaridixon.com"
+      "http://www.sakaridixon.com/"
     ],
     [
       "Djordjevic, Milica",
@@ -34358,7 +33617,7 @@
       "",
       "",
       "N/A",
-      "",
+      "USA",
       "https://en.wikipedia.org/wiki/Lucia_Dlugoszewski"
     ],
     [
@@ -34554,7 +33813,7 @@
       "",
       "Amsterdam",
       "Netherlands",
-      "melihadoguduyal.com"
+      "http://melihadoguduyal.com/"
     ],
     [
       "Dohi, Erika",
@@ -34632,7 +33891,7 @@
       "",
       "Erie, PA",
       "USA",
-      "www.cbricedolanccomposer.com"
+      "http://www.cbricedolanccomposer.com/"
     ],
     [
       "Dolgorouky, Princess Varvara N. (d. 1849)",
@@ -34670,7 +33929,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Russia",
       "http://www.prestoclassical.co.uk/c/Dolgorouky/all/1"
     ],
     [
@@ -34788,7 +34047,7 @@
       "",
       "",
       "Netherlands/Colombia",
-      "www.nataliadominguezrangel.com"
+      "http://www.nataliadominguezrangel.com/"
     ],
     [
       "Dominique, Monica",
@@ -34904,7 +34163,7 @@
       "",
       "",
       "N/A",
-      "",
+      "USA",
       "https://en.wikipedia.org/wiki/Barbara_Donald"
     ],
     [
@@ -34983,7 +34242,7 @@
       "",
       "Breda",
       "Netherlands",
-      "www.dyanedonck.com"
+      "https://www.dyanedonck.com/"
     ],
     [
       "Dong, Kui",
@@ -35178,7 +34437,7 @@
       "",
       "Glasgow",
       "Scotland",
-      "emilydoolittle.com"
+      "http://emilydoolittle.com/"
     ],
     [
       "Dora, Delphine",
@@ -35412,7 +34671,7 @@
       "",
       "Baltimore, MD",
       "USA",
-      "www.nataliedraper.net"
+      "http://www.nataliedraper.net/"
     ],
     [
       "Drattell, Deborah",
@@ -35568,7 +34827,7 @@
       "",
       "New York, NY",
       "USA",
-      "lauradreyer.com"
+      "http://lauradreyer.com/"
     ],
     [
       "Dreyer, Paula",
@@ -35607,7 +34866,7 @@
       "",
       "Oakland, CA",
       "USA",
-      "www.pauladreyer.com"
+      "http://www.pauladreyer.com/"
     ],
     [
       "Driessen, Miranda",
@@ -35646,7 +34905,7 @@
       "",
       "Almere",
       "Netherlands",
-      "Www.mirandadriessen.com"
+      "http://Www.mirandadriessen.com"
     ],
     [
       "Dring, Madeleine (d. 1977)",
@@ -35684,7 +34943,7 @@
       "",
       "",
       "N/A",
-      "",
+      "UK",
       "https://en.wikipedia.org/wiki/Madeleine_Dring"
     ],
     [
@@ -35724,7 +34983,7 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "www.rebekahdriscoll.com"
+      "http://www.rebekahdriscoll.com/"
     ],
     [
       "Driver, Ann  (d. 1989)",
@@ -35762,7 +35021,7 @@
       "",
       "",
       "N/A",
-      "",
+      "UK",
       "http://www.anndrivertrust.co.uk/about-ann-driver.html"
     ],
     [
@@ -35801,7 +35060,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Canada",
       "https://www.musiccentre.ca/node/139620/showcase"
     ],
     [
@@ -35879,7 +35138,7 @@
       "",
       "",
       "N/A",
-      "N/A",
+      "UK",
       "http://www.worldcat.org/title/papers-ca-1900-1951/oclc/122394300"
     ],
     [
@@ -35919,7 +35178,7 @@
       "",
       "New York, NY/Shanghai",
       "USA/China",
-      "www.channelduyun.com"
+      "http://www.channelduyun.com"
     ],
     [
       "Duchambge, Pauline (Charlotte-Antoine) (d. 1858)",
@@ -35957,7 +35216,7 @@
       "",
       "",
       "N/A",
-      "N/A",
+      "France",
       "https://en.wikipedia.org/wiki/Pauline_Duchambge"
     ],
     [
@@ -36426,7 +35685,7 @@
       "",
       "Dubuque, IA",
       "USA",
-      "www.amydunker.com"
+      "http://www.amydunker.com"
     ],
     [
       "Dunlop, Isobel (d. 1975)",
@@ -36464,7 +35723,7 @@
       "",
       "",
       "N/A",
-      "",
+      "UK",
       "http://www.prestoclassical.co.uk/sm/composer%7C43178-b"
     ],
     [
@@ -36543,7 +35802,7 @@
       "",
       "Philadelphia, PA",
       "USA",
-      "www.melissadunphy.com"
+      "http://www.melissadunphy.com"
     ],
     [
       "Dunston, Nick",
@@ -36737,7 +35996,7 @@
       "",
       "",
       "N/A",
-      "",
+      "USA",
       "https://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss14_bioghist.html"
     ],
     [
@@ -36815,7 +36074,7 @@
       "",
       "",
       "N/A",
-      "",
+      "Scotland",
       "https://en.wikipedia.org/wiki/Sophia_Dussek"
     ],
     [
@@ -36933,7 +36192,7 @@
       "",
       "Leicester ",
       "UK",
-      "Www.rosemaryduxbury.com"
+      "http://Www.rosemaryduxbury.com"
     ],
     [
       "Dvořáková, Marketa",
@@ -37791,7 +37050,7 @@
       "",
       "Glendale, CA",
       "USA",
-      "maryekler.com"
+      "http://maryekler.com"
     ],
     [
       "El Bahr, Rula",
@@ -37831,45 +37090,6 @@
       "Paris",
       "France",
       "https://soundcloud.com/kamekazberlin"
-    ],
-    [
-      "El Hawary, Youssra",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "Cairo",
-      "Egypt",
-      "http://www.youssraelhawary.com"
     ],
     [
       "El Mahboob, Ibrahim",
@@ -37947,7 +37167,46 @@
       "",
       "Cairo",
       "Egypt",
-      "https://facebook.com/Nadah-El-Shazly-ندى-الشاذلي-197773983596588/"
+      "https://nadahelshazly.bandcamp.com/album/ahwar"
+    ],
+    [
+      "El-Hawary, Youssra",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "Cairo",
+      "Egypt",
+      "http://www.youssraelhawary.com"
     ],
     [
       "El-Turk, Bushra",
@@ -38025,46 +37284,7 @@
       "X",
       "San Francisco, CA",
       "USA",
-      "www.sivaneldar.com"
-    ],
-    [
-      "Elhawary, Youssra",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "Cairo",
-      "Egypt",
-      "www.youssraelhawary.com"
+      "http://www.sivaneldar.com"
     ],
     [
       "Elías, Manuel de ",
@@ -38415,7 +37635,7 @@
       "",
       "New York, NY",
       "USA",
-      "staylorellis.com"
+      "http://staylorellis.com"
     ],
     [
       "Ellison, Barbara",
@@ -38493,7 +37713,7 @@
       "",
       "Nashville, TN",
       "USA",
-      "Ellisormusic.com"
+      "http://Ellisormusic.com"
     ],
     [
       "Emidy, Joseph Antonio (d. 1835)",
@@ -38610,7 +37830,7 @@
       "",
       "Los Angeles, CA/New York, NY",
       "USA",
-      "www.amyengelhardt.com"
+      "http://www.amyengelhardt.com"
     ],
     [
       "Enriquez, Manuel (d.1994)",
@@ -38688,7 +37908,7 @@
       "",
       "Bloomington, IN",
       "USA",
-      "www.melodyeotvos.com"
+      "http://www.melodyeotvos.com"
     ],
     [
       "Epstein Garcia, Susan",
@@ -38766,7 +37986,7 @@
       "",
       "Cambridge, MA",
       "USA",
-      "www.martiepstein.com"
+      "http://www.martiepstein.com"
     ],
     [
       "Epstein, Nomi",
@@ -38805,7 +38025,7 @@
       "",
       "Chicago, IL",
       "USA",
-      "www.nomiepstein.com"
+      "http://www.nomiepstein.com"
     ],
     [
       "Erdely-Sayo, Sandrine",
@@ -39546,7 +38766,7 @@
       "",
       "Stony Brook, NY",
       "USA",
-      "www.robertafabiano.com"
+      "http://www.robertafabiano.com"
     ],
     [
       "Fábregas, Elisénda",
@@ -39859,45 +39079,6 @@
       "Tokyo",
       "Japan",
       "http://kalvos.org/falcone.html"
-    ],
-    [
-      "Fang Chi Chen",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "Taoyuan",
-      "Taiwan",
-      "https://soundcloud.com/chen-fang-chi"
     ],
     [
       "Fang Chi Chen",
@@ -40521,7 +39702,7 @@
       "",
       "Morristown, NJ",
       "USA",
-      "jamieklenetsky.com"
+      "http://jamieklenetsky.com"
     ],
     [
       "Faylor, Melinda",
@@ -40677,7 +39858,7 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "lainiefefferman.com"
+      "http://lainiefefferman.com"
     ],
     [
       "Fei, Wu",
@@ -40989,7 +40170,7 @@
       "",
       "Vienna",
       "Austria",
-      "www.margaretaferekpetric.com"
+      "http://www.margaretaferekpetric.com"
     ],
     [
       "Ferenz, Amber",
@@ -41184,7 +40365,7 @@
       "",
       "Castelnuovo Magra",
       "Italy",
-      "carlottaferrari.altervista.org"
+      "http://carlottaferrari.altervista.org"
     ],
     [
       "Ferrari, Carlotta (d. 1907)",
@@ -41340,7 +40521,7 @@
       "",
       "Paris",
       "France",
-      "nadege.feyrit.com"
+      "http://nadege.feyrit.com"
     ],
     [
       "Ficarra, Evelyn ",
@@ -41419,45 +40600,6 @@
       "Buenos Aires",
       "Argentina",
       "http://ciweb.com.ar/figueiras/"
-    ],
-    [
-      "Figuroa Mañas, Adriana Isabel",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Mendoza",
-      "Argentina",
-      "http://ciweb.com.ar/figueroa/Figuroa Mañas, Adriana Isabel"
     ],
     [
       "Fil-Xter, Klairzaki",
@@ -41772,45 +40914,6 @@
       "https://en.wikipedia.org/wiki/Elena_Firsova"
     ],
     [
-      "Fischer, Stephanie",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Stanford, CA",
-      "USA",
-      "mailto:stephanie.fischer29@aol.com"
-    ],
-    [
       "Fisher, Helen",
       "X",
       "",
@@ -41925,7 +41028,7 @@
       "",
       "Philadelphia, PA",
       "USA",
-      "www.efjcomposer.com"
+      "http://www.efjcomposer.com"
     ],
     [
       "Fitzgerald, Jennifer (d. 2007)",
@@ -42003,7 +41106,7 @@
       "X",
       "Somerville, MA",
       "USA",
-      "www.melikamfitzhugh.com"
+      "http://www.melikamfitzhugh.com"
     ],
     [
       "Flagello, Gala",
@@ -42042,7 +41145,7 @@
       "",
       "Ann Arbor, MI",
       "USA",
-      "www.galaflagello.com"
+      "http://www.galaflagello.com"
     ],
     [
       "Flanigan, Lesley",
@@ -42237,7 +41340,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.dyanflors.com"
+      "http://www.dyanflors.com"
     ],
     [
       "Flores, Kristen ",
@@ -42393,7 +41496,7 @@
       "",
       "Long Island City, NY",
       "USA",
-      "www.racheldevorefogarty.com"
+      "http://www.racheldevorefogarty.com"
     ],
     [
       "Fol, Alexandra",
@@ -42978,7 +42081,7 @@
       "",
       "London",
       "UK",
-      "www.cherylfranceshoad.co.uk"
+      "http://www.cherylfranceshoad.co.uk"
     ],
     [
       "Franchi, Dorothea A. (d. 2003)",
@@ -43018,45 +42121,6 @@
       "N/A",
       "",
       "https://en.wikipedia.org/wiki/Dorothea_Anne_Franchi"
-    ],
-    [
-      "Francisco Braga, Antônio (d.1945)",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "Brazil",
-      "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Francisco_Braga"
     ],
     [
       "Frank, Gabriela",
@@ -43329,7 +42393,7 @@
       "",
       "Denver, CO",
       "USA",
-      "janefrasier.com"
+      "http://janefrasier.com"
     ],
     [
       "Freckmann, Yvonne",
@@ -43563,7 +42627,7 @@
       "",
       "Seattle, WA",
       "USA",
-      "jessicafrench.net"
+      "http://jessicafrench.net"
     ],
     [
       "French, Tania Gabrielle",
@@ -43956,45 +43020,6 @@
       "https://wikivisually.com/lang-es/wiki/Luis_Herrera_de_la_Fuente"
     ],
     [
-      "Fuentes Matons, Laureano (d. 1898)",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "",
-      "https://musicalics.com/en/node/90059"
-    ],
-    [
       "Fujii, Satoko",
       "X",
       "",
@@ -44265,7 +43290,7 @@
       "",
       "Shipping News, VA",
       "USA",
-      "www.tretfure.com"
+      "http://www.tretfure.com"
     ],
     [
       "Gabriel, Mary Ann Virginia (d. 1877)",
@@ -44577,7 +43602,7 @@
       "",
       "Montréal",
       "Canada",
-      "marikagalea.com"
+      "http://marikagalea.com"
     ],
     [
       "Galindo, Blas (d.1993)",
@@ -44694,7 +43719,7 @@
       "",
       "Vancouver",
       "Canada",
-      "www.jeanettegallant.com"
+      "http://www.jeanettegallant.com"
     ],
     [
       "Gallina, Jill",
@@ -44850,7 +43875,7 @@
       "",
       "Melbourne",
       "Australia",
-      "biancagannon.com"
+      "http://biancagannon.com"
     ],
     [
       "García Caturla, Alejandro (d.1940)",
@@ -45006,7 +44031,7 @@
       "",
       "Pamplona",
       "Spain",
-      "vanessagarde.com"
+      "http://vanessagarde.com"
     ],
     [
       "Gardiner, Mary (d. 2010)",
@@ -45669,7 +44694,7 @@
       "",
       "Warwick, NY",
       "USA",
-      "Dorothygates.com"
+      "http://Dorothygates.com"
     ],
     [
       "Gavlasova, Petra",
@@ -46020,7 +45045,7 @@
       "",
       "Nicosia",
       "Cyprus",
-      "Www.blunatic.com"
+      "http://Www.blunatic.com"
     ],
     [
       "Gerasimenok, Tatiana",
@@ -46215,7 +45240,7 @@
       "",
       "",
       "France",
-      "www.machagharibian.com"
+      "http://www.machagharibian.com"
     ],
     [
       "Ghayem, Nina",
@@ -46332,7 +45357,7 @@
       "",
       "N/A",
       "",
-      "https://en.wikipedia.org/wiki/Luis_Gianneo]"
+      "https://en.wikipedia.org/wiki/Luis_Gianneo"
     ],
     [
       "Gibson, Mara",
@@ -46371,7 +45396,7 @@
       "",
       "Kansas City, MO",
       "USA",
-      "maragibson.com"
+      "http://maragibson.com"
     ],
     [
       "Gibson, Sarah",
@@ -47073,7 +46098,7 @@
       "",
       "Keene, NH ",
       "USA",
-      "www.heathergilligan.com"
+      "http://www.heathergilligan.com"
     ],
     [
       "Gillis, Manon Anne",
@@ -47151,7 +46176,7 @@
       "",
       "Vancouver",
       "Canada",
-      "www.katerinagimon.com"
+      "http://www.katerinagimon.com"
     ],
     [
       "Gines, Teodora (d. 16th cent.)",
@@ -47268,7 +46293,7 @@
       "",
       "Saint-Leu-la-Forêt",
       "France",
-      "alcome.fr"
+      "http://alcome.fr"
     ],
     [
       "Gipps, Ruth (d. 1999)",
@@ -47424,7 +46449,7 @@
       "",
       "Boston, MA/Den Haag",
       "USA/Netherlands",
-      "www.cindygiron.com"
+      "http://www.cindygiron.com"
     ],
     [
       "Giroux, Julie",
@@ -47658,7 +46683,7 @@
       "",
       "Santa Fe, NM",
       "USA",
-      "clareglackin.com"
+      "http://clareglackin.com"
     ],
     [
       "Glanville-Hicks, Peggy (d. 1990)",
@@ -48204,7 +47229,7 @@
       "",
       "New York, NY",
       "USA",
-      "Goldrichandheisler.com"
+      "http://Goldrichandheisler.com"
     ],
     [
       "Goldston, Lori",
@@ -48282,7 +47307,7 @@
       "",
       "Victor, NY",
       "USA",
-      "www.beatagolec.com"
+      "http://www.beatagolec.com"
     ],
     [
       "Golson, Benny",
@@ -48480,45 +47505,6 @@
       "https://en.wikipedia.org/wiki/Chiquinha_Gonzaga"
     ],
     [
-      "Goolkasian Rahbee, Dianne",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Belmont, MA",
-      "USA",
-      "http://dgoolkasianrahbee.com/"
-    ],
-    [
       "Gordon,  Amy",
       "X",
       "",
@@ -48555,7 +47541,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.amygordonmusic.com"
+      "http://www.amygordonmusic.com"
     ],
     [
       "Gordon, Dexter (d. 1990)",
@@ -48634,45 +47620,6 @@
       "Minsk",
       "Belarus",
       "http://www.composers21.com/compdocs/gorelovag.htm"
-    ],
-    [
-      "Gorne, Annette Vande",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Ohain",
-      "Belgium",
-      "https://en.wikipedia.org/wiki/Annette_Vande_Gorne"
     ],
     [
       "Gosfield, Annie",
@@ -49491,7 +48438,7 @@
       "",
       "Houston, TX",
       "USA",
-      "www.sarahgracegraves.com"
+      "http://www.sarahgracegraves.com"
     ],
     [
       "Gray, Ruth Morris",
@@ -49569,7 +48516,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.catherinegrealish.com"
+      "http://www.catherinegrealish.com"
     ],
     [
       "Green, Anthony",
@@ -49725,7 +48672,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.kellygreenpiano.com"
+      "http://www.kellygreenpiano.com"
     ],
     [
       "Greenberg, Laura",
@@ -49765,45 +48712,6 @@
       "New York, NY",
       "USA",
       "https://composers.com/laura-greenberg"
-    ],
-    [
-      "Greene, Joni",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Austin, TX",
-      "USA",
-      "http://www.jonigreene.net/"
     ],
     [
       "Greene, Lindsay",
@@ -50193,7 +49101,7 @@
       "",
       "Hobart, Tasmania",
       "Australia",
-      "www.soundcloud.com/maria-grenfell"
+      "http://www.soundcloud.com/maria-grenfell"
     ],
     [
       "Gressman, Erica",
@@ -51519,7 +50427,7 @@
       "X",
       "Buffalo, NY",
       "USA",
-      "www.esingunduz.com"
+      "http://www.esingunduz.com"
     ],
     [
       "Gunnlaugsdóttir, Elín",
@@ -51792,7 +50700,7 @@
       "",
       "Laramie, WY",
       "USA",
-      "anneguzzo.com"
+      "http://anneguzzo.com"
     ],
     [
       "Gwyer, Karen",
@@ -51948,7 +50856,7 @@
       "X",
       "Los Angeles, CA",
       "USA",
-      "www.christinhablewitz.com"
+      "http://www.christinhablewitz.com"
     ],
     [
       "Haco",
@@ -52026,7 +50934,7 @@
       "",
       "Limerick",
       "Ireland",
-      "www.kerrylhagan.net"
+      "http://www.kerrylhagan.net"
     ],
     [
       "Hagen, Jocelyn",
@@ -52065,7 +50973,7 @@
       "",
       "Minneapolis, MN",
       "USA",
-      "www.jocelynhagen.com"
+      "http://www.jocelynhagen.com"
     ],
     [
       "Hagenberg, Elaine",
@@ -52104,7 +51012,7 @@
       "",
       "Des Moines, IA",
       "USA",
-      "www.elainehagenberg.com"
+      "http://www.elainehagenberg.com"
     ],
     [
       "Hahn, Reynaldo (d. 1947)",
@@ -52455,7 +51363,7 @@
       "",
       "Simsbury, CT",
       "USA",
-      "www.julianahall.com"
+      "http://www.julianahall.com"
     ],
     [
       "Hall, Magz",
@@ -52650,7 +51558,7 @@
       "",
       "York",
       "UK",
-      "www.rosemirandahall.co.uk"
+      "http://www.rosemirandahall.co.uk"
     ],
     [
       "Hallett, Sylvia",
@@ -52767,7 +51675,7 @@
       "",
       "Austin, TX",
       "USA",
-      "www.marjoriehalloran.com"
+      "http://www.marjoriehalloran.com"
     ],
     [
       "Halo, Laurel",
@@ -53118,7 +52026,7 @@
       "X",
       "Tampa, FL, USA ",
       "USA",
-      "susannahancockmusic.com"
+      "http://susannahancockmusic.com"
     ],
     [
       "Handy, W. C. (d. 1958)",
@@ -53313,7 +52221,7 @@
       "",
       "Reykjavík",
       "Iceland",
-      "Soundcloud.com/stinaharaldsdottir"
+      "http://Soundcloud.com/stinaharaldsdottir"
     ],
     [
       "Harbach, Barbara",
@@ -53352,7 +52260,7 @@
       "",
       "St. Louis, MO",
       "USA",
-      "www.barbaraharbach.com"
+      "http://www.barbaraharbach.com"
     ],
     [
       "Harberg, Amanda",
@@ -53781,7 +52689,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.joanneharriscomposer.com"
+      "http://www.joanneharriscomposer.com"
     ],
     [
       "Harris, Lillie",
@@ -53820,7 +52728,7 @@
       "",
       "London",
       "UK",
-      "www.lillieharris.com"
+      "http://www.lillieharris.com"
     ],
     [
       "Harris, Olga",
@@ -53859,7 +52767,7 @@
       "",
       "Nashville, TN",
       "USA",
-      "www.olgaharrismusic.com"
+      "http://www.olgaharrismusic.com"
     ],
     [
       "Harris, Pauline Kim",
@@ -54093,7 +53001,7 @@
       "",
       "Sydney",
       "Australia",
-      "www.hollyharrison.net"
+      "http://www.hollyharrison.net"
     ],
     [
       "Harrison, Laura",
@@ -54132,7 +53040,7 @@
       "",
       "Cincinnati, OH",
       "USA",
-      "lauraharrisoncomposer.com"
+      "http://lauraharrisoncomposer.com"
     ],
     [
       "Harrison, Leigh ",
@@ -54366,7 +53274,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.sydneyharrisonmusic.com"
+      "http://www.sydneyharrisonmusic.com"
     ],
     [
       "Hart, Henry (d. 1915)",
@@ -54483,7 +53391,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.julieharting.com"
+      "http://www.julieharting.com"
     ],
     [
       "Hartman, Hanna",
@@ -54679,45 +53587,6 @@
       "Bristol",
       "UK",
       "http://www.visible-music.com/"
-    ],
-    [
-      "Haugen, Linda Tutas",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Minneapolis-St. Paul, MN",
-      "USA",
-      "http://lindatutashaugen.com/"
     ],
     [
       "Haugen, Linda Tutas",
@@ -55224,7 +54093,7 @@
       "",
       "Berlin",
       "Germany",
-      "www.heatherfrasch.net"
+      "http://www.heatherfrasch.net"
     ],
     [
       "Hébert-Tremblay, Suzanne ",
@@ -55458,7 +54327,7 @@
       "",
       "Croydon",
       "UK",
-      "Www.helengoldwyn.com"
+      "http://Www.helengoldwyn.com"
     ],
     [
       "Hellam, Abigail",
@@ -55497,7 +54366,7 @@
       "",
       "Manchester",
       "UK",
-      "abigailhellammusic.wordpress.com"
+      "http://abigailhellammusic.wordpress.com"
     ],
     [
       "Heller, Barbara",
@@ -55653,7 +54522,7 @@
       "",
       "N/A",
       "N/A (France)",
-      "dx.doi.org/10.1017/S0961137102002012"
+      "http://dx.doi.org/10.1017/S0961137102002012"
     ],
     [
       "Hemphill, Julius (d. 1995)",
@@ -55887,7 +54756,7 @@
       "",
       "",
       "Germany",
-      "www.franziska-henke.com"
+      "http://www.franziska-henke.com"
     ],
     [
       "Henneman, Ig",
@@ -56316,7 +55185,7 @@
       "",
       "Oakland, CA",
       "USA",
-      "Www.julieherndonmusic.com"
+      "http://Www.julieherndonmusic.com"
     ],
     [
       "Herrad of Landsberg (d. 1195)",
@@ -56745,7 +55614,7 @@
       "",
       "Philadelphia, PA",
       "USA",
-      "www.jenniferhigdon.com"
+      "http://www.jenniferhigdon.com"
     ],
     [
       "Hikage, Shoko",
@@ -57057,7 +55926,7 @@
       "",
       "Edmonton",
       "Canada",
-      "www.heatherhindman.com"
+      "http://www.heatherhindman.com"
     ],
     [
       "Hinger, Lesley",
@@ -57096,7 +55965,7 @@
       "",
       "Calgary",
       "Canada",
-      "lesleyhinger.com"
+      "http://lesleyhinger.com"
     ],
     [
       "Hinkle-Turner, Elisabeth",
@@ -57252,7 +56121,7 @@
       "",
       "Berlin",
       "Germany",
-      "www.sylviahinz.com"
+      "http://www.sylviahinz.com"
     ],
     [
       "Hirabayashi, Asako",
@@ -57330,7 +56199,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.kristenhirlinger.com"
+      "http://www.kristenhirlinger.com"
     ],
     [
       "Hirs, Rozalie",
@@ -57837,7 +56706,7 @@
       "",
       "Columbia, MO",
       "USA",
-      "www.erinhoerchler.com"
+      "http://www.erinhoerchler.com"
     ],
     [
       "Hoffman, Elizabeth",
@@ -57851,45 +56720,6 @@
       "",
       "X",
       "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "New York, NY",
-      "USA",
-      "https://wp.nyu.edu/elizabeth_hoffman/"
-    ],
-    [
-      "Hoffman, Elizabeth D.",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
       "X",
       "",
       "",
@@ -58932,45 +57762,6 @@
       "https://en.wikipedia.org/wiki/Yuka_Honda"
     ],
     [
-      "Hong, Sungji",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "Denton, TX",
-      "USA",
-      "https://www.sungjihong.com/"
-    ],
-    [
       "Hoover, Katherine",
       "X",
       "",
@@ -59163,7 +57954,7 @@
       "",
       "Buckinghamshire",
       "UK",
-      "estherhopkins.com"
+      "http://estherhopkins.com"
     ],
     [
       "Hopkins, Sarah",
@@ -59241,7 +58032,7 @@
       "",
       "Washington D.C.",
       "USA",
-      "www.sarahhorick.com"
+      "http://www.sarahhorick.com"
     ],
     [
       "Horn, Maria",
@@ -59553,7 +58344,7 @@
       "",
       "Kansas City, MO",
       "USA",
-      "www.composerhougland.com"
+      "http://www.composerhougland.com"
     ],
     [
       "Houle, Viviane",
@@ -59943,7 +58734,7 @@
       "",
       "Cardiff",
       "UK",
-      "juliaehowell.com"
+      "http://juliaehowell.com"
     ],
     [
       "Howell, Rae",
@@ -60177,7 +58968,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "jessicaraehuber.com"
+      "http://jessicaraehuber.com"
     ],
     [
       "Huber, Ruth",
@@ -60489,7 +59280,7 @@
       "",
       "Bellevue, WA",
       "USA",
-      "www.LaurieBettsHughes.com"
+      "http://www.LaurieBettsHughes.com"
     ],
     [
       "Hughes, Sarah",
@@ -60684,7 +59475,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "drumandlacemusic.com"
+      "http://drumandlacemusic.com"
     ],
     [
       "Hunt, Jessica",
@@ -60723,7 +59514,7 @@
       "",
       "Ann Arbor, MI",
       "USA",
-      "www.jessicahuntmusic.com"
+      "http://www.jessicahuntmusic.com"
     ],
     [
       "Hunter, Ashlin",
@@ -60762,7 +59553,7 @@
       "",
       "Stillwater, OK",
       "USA",
-      "www.ashlinhunter.com/"
+      "http://www.ashlinhunter.com/"
     ],
     [
       "Hurh, Bang-Ja",
@@ -60957,7 +59748,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.sarahhutchingscomposer.com"
+      "http://www.sarahhutchingscomposer.com"
     ],
     [
       "Hutchinson, Brenda",
@@ -61308,7 +60099,7 @@
       "",
       "Helsinki",
       "Finland",
-      "www.composers.fi/composers/624/"
+      "http://www.composers.fi/composers/624/"
     ],
     [
       "Iannotta, Clara",
@@ -61503,7 +60294,7 @@
       "X",
       "Brooklyn, NY",
       "USA",
-      "ecomusicbigband.com"
+      "http://ecomusicbigband.com"
     ],
     [
       "Inglese,  Anna (d. 1499)",
@@ -61620,7 +60411,7 @@
       "",
       "Boston, MA",
       "USA",
-      "lauraintravia.com"
+      "http://lauraintravia.com"
     ],
     [
       "Ionatos, Angélique",
@@ -61660,45 +60451,6 @@
       "Paris",
       "France",
       "https://angelique-ionatos.com/"
-    ],
-    [
-      "Irarrázabal, Amanda",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Buenos Aires",
-      "Argentina",
-      "https://soundcloud.com/amandugen"
     ],
     [
       "Irarrázabal, Amanda",
@@ -61932,7 +60684,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.elishebaittoop.com"
+      "http://www.elishebaittoop.com"
     ],
     [
       "Ivanova, Advotia (d. 18th cent.)",
@@ -62790,7 +61542,7 @@
       "",
       "Redmond, WA",
       "USA",
-      "shaunyjangaudio.com"
+      "http://shaunyjangaudio.com"
     ],
     [
       "Janjgava, Nino",
@@ -64584,7 +63336,7 @@
       "",
       "Columbus, OH",
       "USA",
-      "www.jenniferjolley.com"
+      "http://www.jenniferjolley.com"
     ],
     [
       "Jones, Bonnie",
@@ -64974,7 +63726,7 @@
       "",
       "Chicago, IL",
       "USA",
-      "www.heidijoosten.com"
+      "http://www.heidijoosten.com"
     ],
     [
       "Joplin, Scott (d. 1917)",
@@ -65208,7 +63960,7 @@
       "",
       "Airmont, NY",
       "USA",
-      "maryannjoyce.com"
+      "http://maryannjoyce.com"
     ],
     [
       "Joyce, Molly",
@@ -65559,7 +64311,7 @@
       "",
       "Chicago, IL",
       "USA",
-      "www.cassandrakaczormusic.com"
+      "http://www.cassandrakaczormusic.com"
     ],
     [
       "Kadisa, Anastasija",
@@ -65637,7 +64389,7 @@
       "X",
       "New York",
       "USA",
-      "Www.sanahkadoura.com"
+      "http://Www.sanahkadoura.com"
     ],
     [
       "Kahler, Elyse",
@@ -65676,7 +64428,7 @@
       "",
       "Lubbock, TX",
       "USA",
-      "www.paintingonsilence.webs.com"
+      "http://www.paintingonsilence.webs.com"
     ],
     [
       "Kakabadse, Lydia",
@@ -65715,7 +64467,7 @@
       "",
       "Suffolk",
       "UK",
-      "www.lydiakakabadse.com"
+      "http://www.lydiakakabadse.com"
     ],
     [
       "Kakitani, Asuka",
@@ -66066,7 +64818,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.susankander.net"
+      "http://www.susankander.net"
     ],
     [
       "Kang, Ji Youn",
@@ -66221,45 +64973,6 @@
       "",
       "",
       "Midwest",
-      "USA",
-      "http://www.societyofcomposers.org/members/AmeliaS.Kaplan/"
-    ],
-    [
-      "Kaplan, Amelia S.",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Muncie, IN",
       "USA",
       "http://www.societyofcomposers.org/members/AmeliaS.Kaplan/"
     ],
@@ -66495,7 +65208,7 @@
       "X",
       "Toronto",
       "Canada",
-      "tovakardonne.com"
+      "http://tovakardonne.com"
     ],
     [
       "Kardos, Leah",
@@ -66534,7 +65247,7 @@
       "",
       "London",
       "UK",
-      "leahkardos.com"
+      "http://leahkardos.com"
     ],
     [
       "Karp, Beth",
@@ -66612,7 +65325,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.LauraKarpman.com"
+      "http://www.LauraKarpman.com"
     ],
     [
       "Karrer, Lisa",
@@ -66885,7 +65598,7 @@
       "",
       "Miami, FL",
       "USA",
-      "danakaufmanmusic.com"
+      "http://danakaufmanmusic.com"
     ],
     [
       "Kaufman, Dana",
@@ -67159,45 +65872,6 @@
       "Shanghai",
       "China",
       "https://www.kexumusic.com/home/biography/"
-    ],
-    [
-      "Ke-Chia Chen",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "Philadelphia, PA",
-      "USA",
-      "http://www.kechiachen.com/KeChiaChen/chen_home.html"
     ],
     [
       "Ke-Chia Chen",
@@ -67587,7 +66261,7 @@
       "",
       "Massachusetts",
       "USA",
-      "Www.evakendrick.com"
+      "http://Www.evakendrick.com"
     ],
     [
       "Kennedy, Kathy",
@@ -67704,7 +66378,7 @@
       "",
       "Coventry",
       "UK",
-      "sayankent.com"
+      "http://sayankent.com"
     ],
     [
       "Ker, Dorothy",
@@ -67782,7 +66456,7 @@
       "",
       "Jerusalem",
       "Israel",
-      "kikikeren-huss.com"
+      "http://kikikeren-huss.com"
     ],
     [
       "Kermani, Elise",
@@ -67860,7 +66534,7 @@
       "",
       "Columbus,OH",
       "USA",
-      "missmusicnerd.com"
+      "http://missmusicnerd.com"
     ],
     [
       "Kerr, Louise Lincoln (d. 1977)",
@@ -67977,7 +66651,7 @@
       "",
       "NJ",
       "USA",
-      "princetongirlchoir.org"
+      "http://princetongirlchoir.org"
     ],
     [
       "Khan, Allauddin (d. 1972)",
@@ -68484,7 +67158,7 @@
       "X",
       "Phoenix, AZ",
       "USA",
-      "www.kilstofte.com"
+      "http://www.kilstofte.com"
     ],
     [
       "Kim, Binna",
@@ -69000,45 +67674,6 @@
       "",
       "X",
       "",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "New York, NY",
-      "USA",
-      "http://www.marikimura.com"
-    ],
-    [
-      "Kimura, Mari",
-      "X",
-      "",
-      "",
-      "X",
-      "",
       "",
       "",
       "",
@@ -69225,7 +67860,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.emerkinsella.com"
+      "http://www.emerkinsella.com"
     ],
     [
       "Kinsey, Avril",
@@ -69264,7 +67899,7 @@
       "",
       "Cape Town",
       "South Africa",
-      "www.avrilkinsey.net"
+      "http://www.avrilkinsey.net"
     ],
     [
       "Kirby, Jenn",
@@ -69888,7 +68523,7 @@
       "",
       "Chicago, IL",
       "USA",
-      "dianemariekloba.com"
+      "http://dianemariekloba.com"
     ],
     [
       "Klusmeyer, Petra",
@@ -69966,7 +68601,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.sofijazz.com"
+      "http://www.sofijazz.com"
     ],
     [
       "Knibbs, Chloe ",
@@ -70161,7 +68796,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.amyknoles.org"
+      "http://www.amyknoles.org"
     ],
     [
       "Knotts, Shelly",
@@ -70278,7 +68913,7 @@
       "",
       "Baton Rouge, LA ",
       "USA",
-      "www.elizabethaknox.com"
+      "http://www.elizabethaknox.com"
     ],
     [
       "Knudson, Elizabeth",
@@ -70512,7 +69147,7 @@
       "",
       "Athens, GA",
       "USA",
-      "emilykoh.net"
+      "http://emilykoh.net"
     ],
     [
       "Koh, Joyce Beetuan",
@@ -70746,7 +69381,7 @@
       "",
       "Philadelphia, PA",
       "USA",
-      "komschlies.com"
+      "http://komschlies.com"
     ],
     [
       "Konstantinidou, Fani",
@@ -70785,7 +69420,7 @@
       "",
       "",
       "Greece/Netherlands",
-      "www.fanikonstantinidou.com"
+      "http://www.fanikonstantinidou.com"
     ],
     [
       "Kontz, Catherine",
@@ -70824,7 +69459,7 @@
       "",
       "London",
       "UK",
-      "www.catherinekontz.com"
+      "http://www.catherinekontz.com"
     ],
     [
       "Koontz, Justine",
@@ -70863,7 +69498,7 @@
       "",
       "Baltimore, MD",
       "USA",
-      "www.justinekoontz.com"
+      "http://www.justinekoontz.com"
     ],
     [
       "Kopelman, Aviya",
@@ -70980,7 +69615,7 @@
       "",
       "Boston, MA",
       "USA",
-      "www.marymontgomerykoppel.com"
+      "http://www.marymontgomerykoppel.com"
     ],
     [
       "Kosack, Liz",
@@ -71058,7 +69693,7 @@
       "",
       "Krakow/Tehran",
       "Poland/Iran",
-      "www.martynakosecka.com"
+      "http://www.martynakosecka.com"
     ],
     [
       "Kosinova, Daniela Valtová",
@@ -71253,7 +69888,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "penkakouneva.com"
+      "http://penkakouneva.com"
     ],
     [
       "Kourakina, (Princess) Natalia Ivanovna (d. 1831)",
@@ -71370,7 +70005,7 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "www.marykouyoumdjian.com"
+      "http://www.marykouyoumdjian.com"
     ],
     [
       "Kowalski, Elizabeth",
@@ -71409,7 +70044,7 @@
       "",
       "Charlotte, NC",
       "USA",
-      "www.themusicqueen.com"
+      "http://www.themusicqueen.com"
     ],
     [
       "Kozakura, Hideki ",
@@ -71487,7 +70122,7 @@
       "",
       "Seattle, WA",
       "USA",
-      "http://www.jackstraw.org/programs/cspot/C-Spot_October2009.shtml"
+      "http://sonmarchive.es/index.php/en/component/muscol/S/4929-susie-kozawa"
     ],
     [
       "Kozik, Lona",
@@ -71760,7 +70395,7 @@
       "",
       "Chicago, IL",
       "USA",
-      "www.morgankrauss.com"
+      "http://www.morgankrauss.com"
     ],
     [
       "Kravinsky, Liza Figueroa",
@@ -71799,7 +70434,7 @@
       "X",
       "Arlington, VA",
       "USA",
-      "gogosymphony.com"
+      "http://gogosymphony.com"
     ],
     [
       "Krebs, Annette",
@@ -71877,7 +70512,7 @@
       "X",
       "New York, NY",
       "USA",
-      "www.gailkriegel.com"
+      "http://www.gailkriegel.com"
     ],
     [
       "Krishnamacharyulu, Nallan Chakravartula (d. 2006)",
@@ -72072,7 +70707,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.norakroll-rosenbaum.com"
+      "http://www.norakroll-rosenbaum.com"
     ],
     [
       "Kruisbrink, Annette",
@@ -72189,7 +70824,7 @@
       "",
       "Amsterdam",
       "Netherlands",
-      "moniquekrus.nl"
+      "http://moniquekrus.nl"
     ],
     [
       "Kubisch, Christina",
@@ -72423,7 +71058,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.elektrakurtis.com"
+      "http://www.elektrakurtis.com"
     ],
     [
       "Kuss, Margarita Ivanovna (d. 2009)",
@@ -72696,7 +71331,7 @@
       "",
       "Chicago, IL",
       "USA",
-      "www.kyongmeechoi.com"
+      "http://www.kyongmeechoi.com"
     ],
     [
       "Kyrylina, Iryna",
@@ -72852,7 +71487,7 @@
       "",
       "Amsterdam",
       "Netherlands",
-      "www.annelaberge.com"
+      "http://www.annelaberge.com"
     ],
     [
       "La Guerre, Elisabeth Jacquet de (d. 1729)",
@@ -73281,7 +71916,7 @@
       "",
       "Seattle, WA",
       "USA",
-      "elizabethlain.com"
+      "http://elizabethlain.com"
     ],
     [
       "Laitman, Lori",
@@ -73320,7 +71955,7 @@
       "",
       "Potomac, MD",
       "USA",
-      "www.artsongs.com"
+      "http://www.artsongs.com"
     ],
     [
       "Lake, Oliver",
@@ -73515,7 +72150,7 @@
       "",
       "DeKalb, IL",
       "USA",
-      "www.alexislamb.com"
+      "http://www.alexislamb.com"
     ],
     [
       "Lamb, Catherine",
@@ -74256,7 +72891,7 @@
       "",
       "Rotterdam",
       "Netherlands",
-      "www.vanessalann.com"
+      "http://www.vanessalann.com"
     ],
     [
       "Lanning, Juniana",
@@ -74568,7 +73203,7 @@
       "",
       "Oregon",
       "USA",
-      "rebecca-larkin.com"
+      "http://rebecca-larkin.com"
     ],
     [
       "Larnach Hare, Vicki",
@@ -74607,7 +73242,7 @@
       "",
       "Sydney ",
       "Australia",
-      "Goodomensthemusical.com"
+      "http://Goodomensthemusical.com"
     ],
     [
       "LaRose, Andrea",
@@ -75465,7 +74100,7 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "Www.janellelawrence.wix.com/janelle"
+      "http://Www.janellelawrence.wix.com/janelle"
     ],
     [
       "Layman Quist, Pamela",
@@ -75699,7 +74334,7 @@
       "",
       "Valley Falls, NY",
       "USA",
-      "mjleach.com"
+      "http://mjleach.com"
     ],
     [
       "Léandre, Joëlle",
@@ -76089,7 +74724,7 @@
       "",
       "Seoul",
       "South Korea/USA",
-      "chihchunlee.com"
+      "http://chihchunlee.com"
     ],
     [
       "Lee, Christine",
@@ -76596,7 +75231,7 @@
       "",
       "Boston, MA/Ave Maria, FL",
       "USA",
-      "www.seungheeleemusic.com"
+      "http://www.seungheeleemusic.com"
     ],
     [
       "Lee, Seunghee Chrissy",
@@ -77337,7 +75972,7 @@
       "",
       "Austin, TX",
       "USA",
-      "www.barracudasteeldrums.com"
+      "http://www.barracudasteeldrums.com"
     ],
     [
       "Leon, Mario Diaz de",
@@ -77610,7 +76245,7 @@
       "",
       "Seattle, WA",
       "USA",
-      "www.mashalepire.com"
+      "http://www.mashalepire.com"
     ],
     [
       "Leppin, Janel",
@@ -77844,7 +76479,7 @@
       "",
       "",
       "UK/France",
-      "www.emilielf.com"
+      "http://www.emilielf.com"
     ],
     [
       "Levina, Zara (d. 1976)",
@@ -77922,7 +76557,7 @@
       "",
       "Leeds",
       "UK",
-      "mailto:emily@emilylevy.co.uk"
+      "http://emilylevy.co.uk/about"
     ],
     [
       "Lewandowski, Annie",
@@ -78059,45 +76694,6 @@
       "",
       "X",
       "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "USA",
-      "https://en.wikipedia.org/wiki/John_Lewis_(pianist)"
-    ],
-    [
-      "Lewis, John (d. 2001)",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
       "",
       "",
       "",
@@ -78702,7 +77298,7 @@
       "",
       "Brisbane",
       "Australia",
-      "www.catherinelikhuta.com"
+      "http://www.catherinelikhuta.com"
     ],
     [
       "Lillios, Elainie",
@@ -78819,7 +77415,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.hannalim.com"
+      "http://www.hannalim.com"
     ],
     [
       "Lim, June-Hee ",
@@ -79092,7 +77688,7 @@
       "",
       "Littleton, CO",
       "USA",
-      "diannalink.com"
+      "http://diannalink.com"
     ],
     [
       "Liston, Melba (d. 1999)",
@@ -79248,7 +77844,7 @@
       "",
       "Toronto/London",
       "Canada/UK",
-      "www.cecilialivingston.com"
+      "http://www.cecilialivingston.com"
     ],
     [
       "Lizée, Nicole",
@@ -79365,7 +77961,7 @@
       "",
       "Montreal",
       "Canada",
-      "www.soundmakers.ca/composers/analia-llugdar"
+      "http://www.soundmakers.ca/composers/analia-llugdar"
     ],
     [
       "Lobato, Diego (d. late 1500s)",
@@ -79482,7 +78078,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.annealockwood.com/"
+      "http://www.annealockwood.com/"
     ],
     [
       "Logan, Jennifer",
@@ -79560,7 +78156,7 @@
       "",
       "Montclair, NJ",
       "USA",
-      "www.allisonloggins.com"
+      "http://www.allisonloggins.com"
     ],
     [
       "Loiacono, Loren",
@@ -79599,46 +78195,7 @@
       "",
       "New York, NY",
       "USA",
-      "lorenloiacono.com"
-    ],
-    [
-      "Lokumbe, Hannibal",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Bastrop, TX",
-      "USA",
-      "https://en.wikipedia.org/wiki/Hannibal_Lokumbe"
+      "http://lorenloiacono.com"
     ],
     [
       "Lolavar, Soosan",
@@ -80223,7 +78780,7 @@
       "",
       "Vancouver",
       "Canada",
-      "www.alexinalouie.ca"
+      "http://www.alexinalouie.ca"
     ],
     [
       "Louvel, Olivia",
@@ -80418,7 +78975,7 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "www.janicelowe.com"
+      "http://www.janicelowe.com"
     ],
     [
       "Lozac'h, Gaëll",
@@ -80691,7 +79248,7 @@
       "",
       "Austin, TX",
       "USA",
-      "www.jennhartmannluck.com"
+      "http://www.jennhartmannluck.com"
     ],
     [
       "Luengen, Ramona",
@@ -81159,7 +79716,7 @@
       "X",
       "Cape Town/London",
       "South Africa/UK",
-      "amyluyendijk.com"
+      "http://amyluyendijk.com"
     ],
     [
       "Lyden, Teo",
@@ -81315,7 +79872,7 @@
       "",
       "Montreal",
       "Canada",
-      "Www.libertebigband.com"
+      "http://Www.libertebigband.com"
     ],
     [
       "Lyn, Dana",
@@ -81432,7 +79989,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.gildalyons.com"
+      "http://www.gildalyons.com"
     ],
     [
       "M, Sachiko",
@@ -81744,7 +80301,7 @@
       "",
       "Glasgow",
       "Scotland",
-      "www.pianopiano.uk"
+      "http://www.pianopiano.uk"
     ],
     [
       "Mackay, Shona",
@@ -81783,7 +80340,7 @@
       "",
       "Glasgow",
       "Scotland",
-      "www.shonamackay.com"
+      "http://www.shonamackay.com"
     ],
     [
       "Macklay, Sky",
@@ -81822,7 +80379,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.skymacklay.com"
+      "http://www.skymacklay.com"
     ],
     [
       "Maclean, Clare",
@@ -81900,7 +80457,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.mavismacneilmusic.wordpress.com"
+      "http://www.mavismacneilmusic.wordpress.com"
     ],
     [
       "Maconchy, Elizabeth (d. 1994)",
@@ -82056,7 +80613,7 @@
       "",
       "St. Augustine, FL",
       "USA",
-      "www.refoundsound.com"
+      "http://www.refoundsound.com"
     ],
     [
       "Magalhaes, Michelle Agnes",
@@ -82289,45 +80846,6 @@
       "",
       "X",
       "Hamilton",
-      "Canada",
-      "https://www.musiccentre.ca/node/137539/biography"
-    ],
-    [
-      "Magowan, Catherine ",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Sudbury, Ontario",
       "Canada",
       "https://www.musiccentre.ca/node/137539/biography"
     ],
@@ -83811,7 +82329,7 @@
       "",
       "Birmingham ",
       "UK",
-      "Www.emmamargetson.co.uk"
+      "http://Www.emmamargetson.co.uk"
     ],
     [
       "Mari, Pierrette",
@@ -84435,7 +82953,7 @@
       "",
       "London",
       "UK",
-      "www.laurenmarshallmusic.com"
+      "http://www.laurenmarshallmusic.com"
     ],
     [
       "Marshall, Pamela J.",
@@ -84474,7 +82992,7 @@
       "",
       "Lexington, MA",
       "USA",
-      "www.spindrift.com"
+      "http://www.spindrift.com"
     ],
     [
       "Martin Rebecca",
@@ -84631,45 +83149,6 @@
       "Vermont/ NY",
       "USA",
       "http://www.jorgemartin.com/"
-    ],
-    [
-      "Martin, Laurie San",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Davis, CA",
-      "USA",
-      "http://lauriesanmartin.com/wordpress/"
     ],
     [
       "Martin, Stephanie ",
@@ -85059,7 +83538,7 @@
       "X",
       "New York, NY",
       "USA",
-      "www.soundcloud.com/adriannamateo"
+      "http://www.soundcloud.com/adriannamateo"
     ],
     [
       "Matons, Laureano Fuentes (d. 1898)",
@@ -85254,7 +83733,7 @@
       "",
       "Frankfurt",
       "Germany",
-      "Www.heikematthiesen.com"
+      "http://Www.heikematthiesen.com"
     ],
     [
       "Matthusen, Paula",
@@ -85371,7 +83850,7 @@
       "",
       "Seattle, WA",
       "USA",
-      "www.sarahmattox.com"
+      "http://www.sarahmattox.com"
     ],
     [
       "Mauer, Peri",
@@ -85449,7 +83928,7 @@
       "",
       "Seattle, WA",
       "USA",
-      "www.punchbeam.com"
+      "http://www.punchbeam.com"
     ],
     [
       "Maurée, Mattia",
@@ -85683,7 +84162,7 @@
       "",
       "Olympia, WA",
       "USA",
-      "sbethmay.net"
+      "http://sbethmay.net"
     ],
     [
       "Mayas, Magda",
@@ -85917,7 +84396,7 @@
       "",
       "Alexandria, Va,",
       "USA",
-      "nebalmaysaud.com"
+      "http://nebalmaysaud.com"
     ],
     [
       "Mazur-Park, Felicity",
@@ -86034,7 +84513,7 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "www.missymazzoli.com"
+      "http://www.missymazzoli.com"
     ],
     [
       "McAlvin, Bonnie",
@@ -86073,7 +84552,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.bonniemcalvin.net"
+      "http://www.bonniemcalvin.net"
     ],
     [
       "McBride, Christian",
@@ -86229,7 +84708,7 @@
       "",
       "Dallas, TX",
       "USA",
-      "Www.imcomposed.com"
+      "http://Www.imcomposed.com"
     ],
     [
       "McCue, Claire",
@@ -86307,7 +84786,7 @@
       "",
       "Ithaca, NY",
       "USA",
-      "sallylambmccune.com"
+      "http://sallylambmccune.com"
     ],
     [
       "McDaniel, William Foster",
@@ -86424,7 +84903,7 @@
       "",
       "Radford, VA",
       "USA",
-      "www.pds4me.com"
+      "http://www.pds4me.com"
     ],
     [
       "McDowall, Cecilia",
@@ -86619,7 +85098,7 @@
       "",
       "Kyle, TX",
       "USA",
-      "songinvention.com"
+      "http://songinvention.com"
     ],
     [
       "McGill, Josephine (d. 1919)",
@@ -86739,45 +85218,6 @@
       "http://www.gemmamcgregor.com/"
     ],
     [
-      "McGregor, Gemma ",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Aberdeen",
-      "Scotland",
-      "http://www.gemmamcgregor.com/"
-    ],
-    [
       "McGuffie, Kat",
       "X",
       "",
@@ -86853,7 +85293,7 @@
       "",
       "Boston, MA",
       "USA",
-      "allisonmcintoshmusic.com"
+      "http://allisonmcintoshmusic.com"
     ],
     [
       "McIntosh, Diana",
@@ -87009,7 +85449,7 @@
       "",
       "Portland, OR",
       "USA",
-      "www.dosiamckay.com"
+      "http://www.dosiamckay.com"
     ],
     [
       "McKay, Frances",
@@ -87282,7 +85722,7 @@
       "",
       "Saginaw, MI",
       "USA",
-      "www.catherinemcmichael.com"
+      "http://www.catherinemcmichael.com"
     ],
     [
       "McMillan, Charlotte",
@@ -87321,7 +85761,7 @@
       "",
       "Pasadena, CA",
       "USA",
-      "Www.charlottemcmillan.com"
+      "http://Www.charlottemcmillan.com"
     ],
     [
       "McQuattie, Sheila ",
@@ -87399,7 +85839,7 @@
       "",
       "Detroit, MI",
       "USA",
-      "cindymctee.com"
+      "http://cindymctee.com"
     ],
     [
       "Me-Lee Hay",
@@ -87633,7 +86073,7 @@
       "",
       "Seattle, WA",
       "USA",
-      "www.karimedinamusic.com"
+      "http://www.karimedinamusic.com"
     ],
     [
       "Megias, Sonia",
@@ -87672,7 +86112,7 @@
       "",
       "Madrid",
       "Spain",
-      "www.soniamegias.es"
+      "http://www.soniamegias.es"
     ],
     [
       "Mei-Fang Lin",
@@ -88530,7 +86970,7 @@
       "",
       "",
       "Canada",
-      "Juliamermelstein.com"
+      "http://Juliamermelstein.com"
     ],
     [
       "Merryman, Marjorie",
@@ -88686,7 +87126,7 @@
       "",
       "N/A",
       "Brazil",
-      "https://en.wikipedia.org/wiki/Raz_Mesinai"
+      "https://en.wikipedia.org/wiki/Emerico_Lobo_de_Mesquita"
     ],
     [
       "Metcalf, Joanne",
@@ -88920,7 +87360,7 @@
       "",
       "London",
       "UK",
-      "www.liamice.com"
+      "http://www.liamice.com"
     ],
     [
       "Michel, Shoshana",
@@ -89037,7 +87477,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.marisamichelson.com"
+      "http://www.marisamichelson.com"
     ],
     [
       "Mier, Shirley",
@@ -89193,7 +87633,7 @@
       "X",
       "Rotterdam",
       "Netherlands",
-      "www.annamikhailova.be"
+      "http://www.annamikhailova.be"
     ],
     [
       "Mikova, Tatiana",
@@ -89739,7 +88179,7 @@
       "",
       "Ruther Glen, VA",
       "USA",
-      "www.amymillsmusic.com"
+      "http://www.amymillsmusic.com"
     ],
     [
       "Milne, Elissa",
@@ -89778,7 +88218,7 @@
       "",
       "Sydney",
       "Australia",
-      "elissamilne.wordpress.com"
+      "http://elissamilne.wordpress.com"
     ],
     [
       "Milosavljevic, Ana",
@@ -89817,46 +88257,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.anamilo.com"
-    ],
-    [
-      "Milosavljevic, Ana",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "New York, NY",
-      "USA",
-      "www.anamilo.com"
+      "http://www.anamilo.com"
     ],
     [
       "Milstein, Silvina ",
@@ -90051,7 +88452,7 @@
       "",
       "Cork",
       "Ireland.",
-      "Www.mariaminguella.com"
+      "http://Www.mariaminguella.com"
     ],
     [
       "Mingus, Charles (d. 1979)",
@@ -90561,45 +88962,6 @@
       "https://en.wikipedia.org/wiki/Roscoe_Mitchell"
     ],
     [
-      "Mitchell, Roscoe",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Oakland, CA",
-      "USA",
-      "https://en.wikipedia.org/wiki/Roscoe_Mitchell"
-    ],
-    [
       "Miyachi, Fumiko ",
       "X",
       "",
@@ -90987,7 +89349,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "nataliemollermusic.com"
+      "http://nataliemollermusic.com"
     ],
     [
       "Moller, Polly",
@@ -91221,7 +89583,7 @@
       "",
       "Faenza",
       "Italy",
-      "www.giuliamonducci.it"
+      "http://www.giuliamonducci.it"
     ],
     [
       "Monis, Sharon",
@@ -91260,7 +89622,7 @@
       "",
       "Barcelona",
       "Spain",
-      "www.sharonmonis.jimdo.com"
+      "http://www.sharonmonis.jimdo.com"
     ],
     [
       "Monk, Meredith",
@@ -91416,7 +89778,7 @@
       "",
       "Santa Fe, NM",
       "USA",
-      "melaniemonsour.com"
+      "http://melaniemonsour.com"
     ],
     [
       "Monteith, Celeste",
@@ -91455,7 +89817,7 @@
       "",
       "",
       "South Africa",
-      "www.celestemonteith.com"
+      "http://www.celestemonteith.com"
     ],
     [
       "Montero, Claudia",
@@ -91689,7 +90051,7 @@
       "X",
       "Austin, TX",
       "USA",
-      "www.danielmontoyajr.com"
+      "http://www.danielmontoyajr.com"
     ],
     [
       "Mooke, Martha",
@@ -91728,7 +90090,7 @@
       "",
       "Nyack, NY",
       "USA",
-      "www.MarthaMooke.com"
+      "http://www.MarthaMooke.com"
     ],
     [
       "Moon, Beata",
@@ -92235,7 +90597,7 @@
       "",
       "Dwight, Ontario",
       "Canada",
-      "www.patriciamorehead.com"
+      "http://www.patriciamorehead.com"
     ],
     [
       "Moreira, Daniel ",
@@ -92547,7 +90909,7 @@
       "",
       "Montreal/Manchester",
       "Canada/UK",
-      "www.solomiyamoroz.com"
+      "http://www.solomiyamoroz.com"
     ],
     [
       "Morris, Alyssa",
@@ -93093,7 +91455,7 @@
       "",
       "Minneapolis, MN",
       "USA",
-      "www.reinaldomoya.com"
+      "http://www.reinaldomoya.com"
     ],
     [
       "Mudge, Edith",
@@ -93327,7 +91689,7 @@
       "",
       "Leighlinbridge",
       "Ireland",
-      "www.grainnemulvey.com"
+      "http://www.grainnemulvey.com"
     ],
     [
       "Mumford, Jeffrey",
@@ -93522,7 +91884,7 @@
       "",
       "Santiago de Chile",
       "Chile",
-      "www.labsonoro.cl"
+      "http://www.labsonoro.cl"
     ],
     [
       "Muñoz, Amor",
@@ -93562,45 +91924,6 @@
       "New Orleans, LA",
       "USA",
       "http://amormunoz.net/about/"
-    ],
-    [
-      "Muñoz, Graciela",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Santiago",
-      "Chile",
-      "www.labsonoro.cl"
     ],
     [
       "Munro, Suzanne ",
@@ -93873,7 +92196,7 @@
       "",
       "Brisbane",
       "Australia",
-      "www.nicolemurphy.com.au"
+      "http://www.nicolemurphy.com.au"
     ],
     [
       "Murphy, Pippa",
@@ -94068,7 +92391,7 @@
       "",
       "New York, NY",
       "USA",
-      "tamarmuskal.com"
+      "http://tamarmuskal.com"
     ],
     [
       "Musson, Rachel ",
@@ -94108,45 +92431,6 @@
       "London",
       "UK",
       "http://rachelmusson.com/"
-    ],
-    [
-      "Mustafa Zadeh, Aziza",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "Frankfurt",
-      "Germany",
-      "http://www.azizamustafazadeh.de/"
     ],
     [
       "Muttenthaler, Adriane",
@@ -94770,7 +93054,7 @@
       "",
       "Netherlands",
       "Netherlands",
-      "www.maykenas.nl"
+      "http://www.maykenas.nl"
     ],
     [
       "Nash, Gary Powell",
@@ -95238,7 +93522,7 @@
       "",
       "Cape Town",
       "South Africa",
-      "www.ndodanabreen.com/"
+      "http://www.ndodanabreen.com/"
     ],
     [
       "Neal, Kate",
@@ -95433,7 +93717,7 @@
       "",
       "Vancouver, WA",
       "USA",
-      "nedelamusic.com"
+      "http://nedelamusic.com"
     ],
     [
       "Nederberg, Annelie",
@@ -95865,45 +94149,6 @@
       "https://en.wikipedia.org/wiki/Oliver_Nelson"
     ],
     [
-      "Nelson, Oliver (d. 1975)",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "USA",
-      "https://en.wikipedia.org/wiki/Oliver_Nelson"
-    ],
-    [
       "Nelson, Sheila ",
       "X",
       "",
@@ -95979,7 +94224,7 @@
       "X",
       "Berlin",
       "Germany",
-      "www.sarah-nemtsov.de"
+      "http://www.sarah-nemtsov.de"
     ],
     [
       "Nepomuceno, Alberto (d.1920)",
@@ -96135,7 +94380,7 @@
       "",
       "Cambridge, MA",
       "USA",
-      "osnatnetzer.com"
+      "http://osnatnetzer.com"
     ],
     [
       "Neuburg, Amy X",
@@ -96174,7 +94419,7 @@
       "",
       "Oakland, CA",
       "USA",
-      "www.amyxneuburg.com"
+      "http://www.amyxneuburg.com"
     ],
     [
       "Neufeld, Sara",
@@ -96486,7 +94731,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.greenangelmusic.com"
+      "http://www.greenangelmusic.com"
     ],
     [
       "Newsom, Joanna",
@@ -96645,45 +94890,6 @@
       "http://people.bu.edu/knez/"
     ],
     [
-      "Nez, Patricia",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Boston, MA",
-      "USA",
-      "http://people.bu.edu/knez/"
-    ],
-    [
       "Ngiaw, Joy",
       "X",
       "",
@@ -96720,7 +94926,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.joyngiaw.com"
+      "http://www.joyngiaw.com"
     ],
     [
       "Nguyễn Thanh Thủy",
@@ -96837,7 +95043,7 @@
       "",
       "",
       "Ireland",
-      "www.rachelnichuinn.com"
+      "http://www.rachelnichuinn.com"
     ],
     [
       "Nicholas, Rachel",
@@ -97266,7 +95472,7 @@
       "",
       "Chicago, IL",
       "USA",
-      "www.nishmusic.com"
+      "http://www.nishmusic.com"
     ],
     [
       "Nishimura, Yukiko",
@@ -97344,7 +95550,7 @@
       "X",
       "Bronx, NY / Tel Aviv",
       "USA / Israel",
-      "www.tamuzmusic.com"
+      "http://www.tamuzmusic.com"
     ],
     [
       "Nitibhon, Anothai",
@@ -97734,7 +95940,7 @@
       "",
       "Manchester, NH",
       "USA",
-      "www.brennanoonan.com"
+      "http://www.brennanoonan.com"
     ],
     [
       "Noone, Eímear",
@@ -98163,7 +96369,7 @@
       "",
       "Denver, CO",
       "USA",
-      "www.lorettanotareschi.com"
+      "http://www.lorettanotareschi.com"
     ],
     [
       "Nourbakhsh, Niloufar",
@@ -98358,7 +96564,7 @@
       "",
       "Chicago, IL",
       "USA",
-      "Daynalynn.com"
+      "http://Daynalynn.com"
     ],
     [
       "Nuñez Hierro, Nuria",
@@ -98397,7 +96603,7 @@
       "",
       "Berlin",
       "Germany",
-      "nurianunezhierro.com"
+      "http://nurianunezhierro.com"
     ],
     [
       "Nunez, Francisco ",
@@ -98592,7 +96798,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.cindyoconnor.com"
+      "http://www.cindyoconnor.com"
     ],
     [
       "O'Dwyer, Aine",
@@ -98904,7 +97110,7 @@
       "X",
       "New York, NY",
       "USA",
-      "graceoberhofer.com"
+      "http://graceoberhofer.com"
     ],
     [
       "Obermueller, Karola",
@@ -99099,7 +97305,7 @@
       "X",
       "Brooklyn, NY",
       "USA",
-      "www.YahZarah.com"
+      "http://www.YahZarah.com"
     ],
     [
       "Offenheim, Sandy ",
@@ -100464,7 +98670,7 @@
       "",
       "Oberlin, OH",
       "USA",
-      "natsumiosborn.com"
+      "http://natsumiosborn.com"
     ],
     [
       "Oshima, Michiru",
@@ -100737,7 +98943,7 @@
       "",
       "Indianapolis, IN",
       "USA",
-      "Toriovel.com"
+      "http://Toriovel.com"
     ],
     [
       "Owen, Carmel",
@@ -100776,7 +98982,7 @@
       "",
       "New York, NY",
       "USA",
-      "Www.carmelowen.com"
+      "http://Www.carmelowen.com"
     ],
     [
       "Owens, Terry Winter (d. 2007)",
@@ -100971,7 +99177,7 @@
       "",
       "Montréal",
       "Canada",
-      "www.musinou.net"
+      "http://www.musinou.net"
     ],
     [
       "Pade, Else Marie",
@@ -101244,7 +99450,7 @@
       "",
       "Lansing, MI",
       "USA",
-      "www.sarahpalermo.com"
+      "http://www.sarahpalermo.com"
     ],
     [
       "Palme, Pia",
@@ -101754,45 +99960,6 @@
       "http://www.marianthi.net/"
     ],
     [
-      "Paradis, Maria Theresia von (d. 1824)",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "",
-      "https://en.wikipedia.org/wiki/Maria_Theresia_von_Paradis"
-    ],
-    [
       "Paranosic, Milica",
       "X",
       "",
@@ -101907,7 +100074,7 @@
       "",
       "Surrey",
       "Canada",
-      "www.nataliapardalis.com"
+      "http://www.nataliapardalis.com"
     ],
     [
       "Paredes, Hilda",
@@ -101985,7 +100152,7 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "www.ivonneparedes.com"
+      "http://www.ivonneparedes.com"
     ],
     [
       "Parenti, Susan",
@@ -102297,7 +100464,7 @@
       "",
       "Massachusetts",
       "USA",
-      "melodiousaccord.org"
+      "http://melodiousaccord.org"
     ],
     [
       "Parker, Charlie (d. 1955)",
@@ -102609,7 +100776,7 @@
       "",
       "Oakland, CA",
       "USA",
-      "www.crystalpascucci.com"
+      "http://www.crystalpascucci.com"
     ],
     [
       "Paulinyi, Zoltan ",
@@ -102804,7 +100971,7 @@
       "",
       "Eugene, OR",
       "USA",
-      "susannacomposes.com"
+      "http://susannacomposes.com"
     ],
     [
       "Payne, Maggi",
@@ -102843,7 +101010,7 @@
       "",
       "Berkeley, CA",
       "USA",
-      "maggipayne.com"
+      "http://maggipayne.com"
     ],
     [
       "Paz, Juan Carlos (d. 1972)",
@@ -102999,7 +101166,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.gemmapeacocke.com"
+      "http://www.gemmapeacocke.com"
     ],
     [
       "Pearce, Monica ",
@@ -103077,7 +101244,7 @@
       "X",
       "Melbourne",
       "Australia",
-      "natashapearson.com.au"
+      "http://natashapearson.com.au"
     ],
     [
       "Pearson, Tina M",
@@ -103353,45 +101520,6 @@
       "https://alinepenitot.com/"
     ],
     [
-      "Pennyman, Dorothy (d. 1982)",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "",
-      "https://en.wikipedia.org/wiki/Dorothy_Howell"
-    ],
-    [
       "Pensado, Andrea",
       "X",
       "",
@@ -103545,7 +101673,7 @@
       "",
       "Paris",
       "France",
-      "camillepepin.wixsite.com"
+      "http://camillepepin.wixsite.com"
     ],
     [
       "Pepper, Jim (d. 1992)",
@@ -103623,7 +101751,7 @@
       "",
       "Berlin",
       "Germany",
-      "www.tina-pepper.com"
+      "http://www.tina-pepper.com"
     ],
     [
       "Peralta, Catalina",
@@ -103663,45 +101791,6 @@
       "Bogotá",
       "Columbia",
       "http://www.sydneycontemporaryorchestra.org.au/index.php/composers/191-catalina-peralta-colombia"
-    ],
-    [
-      "Peredes, Hilda",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "London",
-      "UK",
-      "http://www.hildaparedes.com/"
     ],
     [
       "Pérez-Velásquez, Ileana",
@@ -104013,7 +102102,7 @@
       "",
       "Sydney ",
       "Australia",
-      "www.helenperrismusic.com"
+      "http://www.helenperrismusic.com"
     ],
     [
       "Perry, Anita D.",
@@ -104131,45 +102220,6 @@
       "N/A",
       "USA",
       "https://en.wikipedia.org/wiki/Julia_Perry"
-    ],
-    [
-      "Perry, Nina ",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Poole",
-      "England",
-      "https://www.ninaperry.co.uk/"
     ],
     [
       "Perry, Zenobia Powell (d. 2004)",
@@ -104364,10 +102414,10 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "www.racheljpeters.com"
+      "http://www.racheljpeters.com"
     ],
     [
-      "Peterson, Marvin (Hannibal)",
+      "Peterson, Marvin (Hannibal Lokumbe)",
       "X",
       "",
       "X",
@@ -104598,7 +102648,7 @@
       "",
       "Portland, OR",
       "USA",
-      "www.staceyphilipps.com"
+      "http://www.staceyphilipps.com"
     ],
     [
       "Philipsz, Susan",
@@ -104679,45 +102729,6 @@
       "http://www.australianmusiccentre.com.au/artist/phillips-linda"
     ],
     [
-      "Phillips, Liz",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Queens, NY",
-      "USA",
-      "http://lizphillips.net/w/"
-    ],
-    [
       "Phillips, Sheena",
       "X",
       "",
@@ -104754,7 +102765,7 @@
       "",
       "London",
       "UK",
-      "www.sheenaphillips.com"
+      "http://www.sheenaphillips.com"
     ],
     [
       "Phillips, Winifred",
@@ -104871,7 +102882,7 @@
       "",
       "Vancouver",
       "Canada",
-      "www.annapidgorna.com"
+      "http://www.annapidgorna.com"
     ],
     [
       "Pierce, Alexandra",
@@ -104988,7 +102999,7 @@
       "",
       "Philadelphia, PA",
       "USA",
-      "kalapierson.com"
+      "http://kalapierson.com"
     ],
     [
       "Pillai, K. C. Kesava (d. 1914)",
@@ -105066,7 +103077,7 @@
       "X",
       "Surrey, British Columbia",
       "Canada",
-      "www.pineproductions.ca"
+      "http://www.pineproductions.ca"
     ],
     [
       "Pineda, Cathleen",
@@ -105339,7 +103350,7 @@
       "",
       "Toronto",
       "Canada",
-      "www.danielapinto.com"
+      "http://www.danielapinto.com"
     ],
     [
       "Piper, Deirdre",
@@ -105456,7 +103467,7 @@
       "",
       "Ottawa",
       "Canada",
-      "www.nicolepiunno.com"
+      "http://www.nicolepiunno.com"
     ],
     [
       "Pizer, Elizabeth",
@@ -105690,7 +103701,7 @@
       "X",
       "London",
       "UK",
-      "larapoe.com"
+      "http://larapoe.com"
     ],
     [
       "Poldowski (Lady Dean Paul, Irène Régine Wieniawski) (d. 1932)",
@@ -105885,7 +103896,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.susanpoliniak.com"
+      "http://www.susanpoliniak.com"
     ],
     [
       "Politzer, Kerry",
@@ -106353,7 +104364,7 @@
       "",
       "Den Haag,Netherlands",
       "Europe",
-      "www.aleksandrapopovska.com"
+      "http://www.aleksandrapopovska.com"
     ],
     [
       "Poppyfield, Jade",
@@ -107172,7 +105183,7 @@
       "",
       "California",
       "USA",
-      "www.culvercrest.com"
+      "http://www.culvercrest.com"
     ],
     [
       "Price, Florence Beatrice (d. 1953)",
@@ -107484,7 +105495,7 @@
       "",
       "New York, NY",
       "USA",
-      "Www.lehman.cuny.edu"
+      "http://Www.lehman.cuny.edu"
     ],
     [
       "Pritchard, Alwynne ",
@@ -107757,7 +105768,7 @@
       "",
       "Guernsey, Channel Islands",
       "UK",
-      "www.lydiajanepugh.com"
+      "http://www.lydiajanepugh.com"
     ],
     [
       "Pukinskis, Kate",
@@ -107952,7 +105963,7 @@
       "",
       "Blountville, TN",
       "USA",
-      "EPursleyKopitzke.com"
+      "http://EPursleyKopitzke.com"
     ],
     [
       "Pyle, Cheryl",
@@ -108693,7 +106704,7 @@
       "",
       "Minneapolis, MN",
       "USA",
-      "lisaragsdale.com"
+      "http://lisaragsdale.com"
     ],
     [
       "Ragunathan, Sudha ",
@@ -109356,7 +107367,7 @@
       "",
       "Denver, CO",
       "USA",
-      "www.mirandaravin.com"
+      "http://www.mirandaravin.com"
     ],
     [
       "Rawcliffe, Susan",
@@ -109473,7 +107484,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.vickiray.net"
+      "http://www.vickiray.net"
     ],
     [
       "Raza, Saira (Sister Sai)",
@@ -109902,7 +107913,7 @@
       "",
       "London",
       "UK",
-      "www.carlarees.co.uk"
+      "http://www.carlarees.co.uk"
     ],
     [
       "Reese, Kirsten",
@@ -109980,46 +107991,7 @@
       "",
       "San Jose, CA",
       "USA",
-      "www.monareese.com"
-    ],
-    [
-      "Regaki, Evangelia",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Dublin",
-      "Ireland",
-      "https://www.cmc.ie/composers/evangelia-rigaki"
+      "http://www.monareese.com"
     ],
     [
       "Rehnqvist, Karin",
@@ -110253,7 +108225,7 @@
       "",
       "Cornwall, NY",
       "USA",
-      "heitzmanreid.com"
+      "http://heitzmanreid.com"
     ],
     [
       "Reid, Laura ",
@@ -110331,7 +108303,7 @@
       "",
       "Boston, MA",
       "USA",
-      "www.leahreidmusic.com"
+      "http://www.leahreidmusic.com"
     ],
     [
       "Reid, Tomeka",
@@ -110799,7 +108771,7 @@
       "",
       "Tel Aviv",
       "Israel",
-      "www.ronniereshef.com"
+      "http://www.ronniereshef.com"
     ],
     [
       "Revueltas, Silvestre (d.1940)",
@@ -110877,7 +108849,7 @@
       "",
       "San Francisco, CA",
       "USA",
-      "Www.belindareynolds.com"
+      "http://Www.belindareynolds.com"
     ],
     [
       "Rezende, Marisa",
@@ -111150,7 +109122,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.SamaraRice.com"
+      "http://www.SamaraRice.com"
     ],
     [
       "Richards, Emma-Ruth",
@@ -111316,6 +109288,45 @@
       "X",
       "",
       "X",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Los Angeles, CA",
+      "USA",
+      "http://katyarichardson.com"
+    ],
+    [
+      "Richardson, Katya",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
       "",
       "",
       "X",
@@ -111346,45 +109357,6 @@
       "Los Angeles, CA",
       "USA",
       "https://www.katyarichardson.com/"
-    ],
-    [
-      "Richardson, Katya",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Los Angeles, CA",
-      "USA",
-      "katyarichardson.com"
     ],
     [
       "Richter, Marga",
@@ -111618,7 +109590,7 @@
       "",
       "Aberdeen, Scotland",
       "UK",
-      "www.sarahrimkus.com"
+      "http://www.sarahrimkus.com"
     ],
     [
       "Rimmer, Joan (d. 2015)",
@@ -111707,6 +109679,45 @@
       "",
       "X",
       "",
+      "X",
+      "X",
+      "X",
+      "",
+      "X",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Dublin",
+      "Ireland",
+      "http://www.judithring.com"
+    ],
+    [
+      "Ring, Judith",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
       "",
       "X",
       "X",
@@ -111736,45 +109747,6 @@
       "Dublin",
       "Ireland",
       "http://www.judithring.com/"
-    ],
-    [
-      "Ring, Judith",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "X",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Dublin",
-      "Ireland",
-      "www.judithring.com"
     ],
     [
       "Rini, Peni Candra",
@@ -111813,7 +109785,7 @@
       "",
       "Surakarta ",
       "Indonesia",
-      "www.penicandrarini.com"
+      "http://www.penicandrarini.com"
     ],
     [
       "Rinn, Alexa",
@@ -112008,7 +109980,7 @@
       "X",
       "Chicago, IL",
       "USA",
-      "Sarahjritch.com"
+      "http://Sarahjritch.com"
     ],
     [
       "Ritmanis, Lolita",
@@ -112593,7 +110565,7 @@
       "",
       "York",
       "UK",
-      "www.catherinerobsoncomposer.co.uk"
+      "http://www.catherinerobsoncomposer.co.uk"
     ],
     [
       "Roddick, Janet",
@@ -113274,45 +111246,6 @@
       "",
       "",
       "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "New York, NY",
-      "USA",
-      "http://www.erinmrogers.com/"
-    ],
-    [
-      "Rogers, Erin",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
       "",
       "",
       "",
@@ -113529,7 +111462,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.elaineromanelli.com"
+      "http://www.elaineromanelli.com"
     ],
     [
       "Romano, Ana Maria",
@@ -113997,7 +111930,7 @@
       "",
       "Monkey Island, OK",
       "USA",
-      "Www.composerose.com"
+      "http://Www.composerose.com"
     ],
     [
       "Rose, Jodi",
@@ -114270,7 +112203,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.missing-gemini.com"
+      "http://www.missing-gemini.com"
     ],
     [
       "Rosenblum, Diana",
@@ -114660,7 +112593,7 @@
       "",
       "Leicester",
       "UK",
-      "Www.louiserossiter.com"
+      "http://Www.louiserossiter.com"
     ],
     [
       "Rotaru, Diana",
@@ -114894,85 +112827,7 @@
       "",
       "East Hampton, NY",
       "USA",
-      "www.adarovatti.com"
-    ],
-    [
-      "Rowe, Rebecca",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Edinburgh",
-      "Scotland",
-      "http://www.rebecca-rowe.co.uk/"
-    ],
-    [
-      "Rowe, Rebecca",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Edinburgh",
-      "Scotland",
-      "www.rebecca-rowe.co.uk"
+      "http://www.adarovatti.com"
     ],
     [
       "Rowe, Rebecca",
@@ -115050,7 +112905,7 @@
       "",
       "London",
       "UK",
-      "caitlinrowley.com"
+      "http://caitlinrowley.com"
     ],
     [
       "Roy, Lucie ",
@@ -115170,45 +113025,6 @@
       "http://www.annarubinmusic.com/"
     ],
     [
-      "Rudd Moore, Dorothy",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "New York, NY",
-      "USA",
-      "https://composers.com/dorothy-rudd-moore"
-    ],
-    [
       "Rudman, Jessica",
       "X",
       "",
@@ -115245,7 +113061,7 @@
       "",
       "Hartford, CT",
       "USA",
-      "www.jessicarudman.com"
+      "http://www.jessicarudman.com"
     ],
     [
       "Rudow, Vivian Adelberg  ",
@@ -115284,7 +113100,7 @@
       "",
       "Baltimore, MD",
       "USA",
-      "www.vivianadelbergrudow.com"
+      "http://www.vivianadelbergrudow.com"
     ],
     [
       "Rueff, Jeanine (d. 1999)",
@@ -115362,7 +113178,7 @@
       "",
       "Boston, MA",
       "USA",
-      "elenaruehr.org"
+      "http://elenaruehr.org"
     ],
     [
       "Rugani, Jessica",
@@ -115401,7 +113217,7 @@
       "",
       "Calfornia",
       "USA",
-      "jessicarugani.weebly.com"
+      "http://jessicarugani.weebly.com"
     ],
     [
       "Rugen, Kira",
@@ -115635,7 +113451,7 @@
       "",
       "South Bend, IN",
       "USA",
-      "www.marjorierusche.com"
+      "http://www.marjorierusche.com"
     ],
     [
       "Rusconi, Michele",
@@ -116649,7 +114465,7 @@
       "",
       "Boston, MA",
       "USA",
-      "www.kathrynsalfelder.com"
+      "http://www.kathrynsalfelder.com"
     ],
     [
       "Salgado, Luis H. (d. 1977)",
@@ -116727,7 +114543,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.dianasalier.com"
+      "http://www.dianasalier.com"
     ],
     [
       "Salter, Mary Turner (d. 1938)",
@@ -117156,7 +114972,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.martasanchezmusic.com"
+      "http://www.martasanchezmusic.com"
     ],
     [
       "Sanders, Larkin",
@@ -117195,7 +115011,7 @@
       "",
       "Kansas City, MO",
       "USA",
-      "www.larkinesanders.com"
+      "http://www.larkinesanders.com"
     ],
     [
       "Sandi, Luis (d. 1996)",
@@ -117312,7 +115128,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.esandresky.com"
+      "http://www.esandresky.com"
     ],
     [
       "Sanford, David",
@@ -117546,7 +115362,7 @@
       "",
       "Topanga, CA",
       "USA",
-      "saparoffmusic.com"
+      "http://saparoffmusic.com"
     ],
     [
       "Sappho [ca. 600 BC]",
@@ -118989,7 +116805,7 @@
       "",
       "San Francisco, CA",
       "USA",
-      "Www.musicaltheatreworks.org"
+      "http://Www.musicaltheatreworks.org"
     ],
     [
       "Schwartz, Laura",
@@ -119067,7 +116883,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.nanschwartz.com"
+      "http://www.nanschwartz.com"
     ],
     [
       "Schweizer, Irene",
@@ -119145,7 +116961,7 @@
       "X",
       "Madison, WI",
       "USA",
-      "www.lauraschwendinger.com"
+      "http://www.lauraschwendinger.com"
     ],
     [
       "Schwob, Danielle Eva",
@@ -119184,7 +117000,7 @@
       "",
       "New York, NY",
       "USA",
-      "Www.danielleevaschwob.com"
+      "http://Www.danielleevaschwob.com"
     ],
     [
       "Sciandrone, Enrica",
@@ -119379,7 +117195,7 @@
       "",
       "",
       "UK",
-      "www.virginiaaurorascott.co.uk"
+      "http://www.virginiaaurorascott.co.uk"
     ],
     [
       "Scroggins, Debra",
@@ -119574,7 +117390,7 @@
       "",
       "Warsaw",
       "Poland",
-      "www.juliaseeholzer.com"
+      "http://www.juliaseeholzer.com"
     ],
     [
       "Segalen, Gaël",
@@ -119691,7 +117507,7 @@
       "",
       "Wilmington, NC",
       "USA",
-      "eliseseifert.com"
+      "http://eliseseifert.com"
     ],
     [
       "Seiter, Susie Benchasil",
@@ -119730,7 +117546,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.susieseiter.com"
+      "http://www.susieseiter.com"
     ],
     [
       "Seither, Charlotte",
@@ -120392,7 +118208,8 @@
       "",
       "",
       "N/A",
-      "USA"
+      "USA",
+      "http://www.wjpublications.com/wj/composer-bio.jsp?key=seward_nancy"
     ],
     [
       "Sexton, Erin",
@@ -120668,45 +118485,6 @@
       "http://lizsharmamusic.co.uk/"
     ],
     [
-      "Sharon Monis",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "Spain",
-      "www.sharonmonis.jimdo.com"
-    ],
-    [
       "Shatin, Judith",
       "X",
       "",
@@ -120743,7 +118521,7 @@
       "",
       "Charlottesville, VA",
       "USA",
-      "www.judithshatin.com"
+      "http://www.judithshatin.com"
     ],
     [
       "Shaw, Caroline",
@@ -120938,7 +118716,7 @@
       "",
       "Ann Arbor, MI",
       "USA",
-      "www.ninashekhar.com"
+      "http://www.ninashekhar.com"
     ],
     [
       "Shenandoah, Joanne ",
@@ -121133,7 +118911,7 @@
       "",
       "New York, NY",
       "USA",
-      "kdsherman.com"
+      "http://kdsherman.com"
     ],
     [
       "Shields, Alice",
@@ -121211,7 +118989,7 @@
       "",
       "Houston, TX",
       "USA",
-      "www.shihhuichen.com"
+      "http://www.shihhuichen.com"
     ],
     [
       "Shimomura, Yoko",
@@ -121718,7 +119496,7 @@
       "",
       "Missoula, MT",
       "USA",
-      "naomisiegel.com"
+      "http://naomisiegel.com"
     ],
     [
       "Siegel, Sabrina",
@@ -121874,7 +119652,7 @@
       "",
       "Toronto",
       "Canada",
-      "www.chagallsierra.com"
+      "http://www.chagallsierra.com"
     ],
     [
       "Sierra, Roberto ",
@@ -122264,7 +120042,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.fayeellensilverman.com"
+      "http://www.fayeellensilverman.com"
     ],
     [
       "Simms, Bekah",
@@ -122303,7 +120081,7 @@
       "",
       "Toronto",
       "Canada",
-      "www.bekahsimms.com"
+      "http://www.bekahsimms.com"
     ],
     [
       "Simon, Carlos",
@@ -122345,7 +120123,7 @@
       "http://www.coliversimon.com/"
     ],
     [
-      "Simon, Louise Marie (d. 1990)",
+      "Simon, Louise Marie (d. 1990) (aka Claude Arrieu)",
       "",
       "X",
       "",
@@ -122732,7 +120510,7 @@
       "",
       "Greenwood Lake, NY",
       "USA",
-      "www.suesinclair.com"
+      "http://www.suesinclair.com"
     ],
     [
       "Sindberg, Laura",
@@ -123083,7 +120861,7 @@
       "",
       "Edinburgh",
       "UK",
-      "Www.ambleskuse.net"
+      "http://Www.ambleskuse.net"
     ],
     [
       "Slade, Caroline",
@@ -123278,7 +121056,7 @@
       "",
       "N/A",
       "",
-      "http://www.newyorkwomencomposers.org/profiles.php4?zdm_id=SIN01"
+      "https://en.wikipedia.org/wiki/Anita_Sleeman"
     ],
     [
       "Smiley, Pril",
@@ -123941,7 +121719,7 @@
       "",
       "Princeton, NJ",
       "USA",
-      "www.aksocolofsky.com"
+      "http://www.aksocolofsky.com"
     ],
     [
       "Soddell, Thembi",
@@ -124058,7 +121836,7 @@
       "",
       "Tilburg",
       "Netherlands",
-      "www.nicolinesoeter.nl"
+      "http://www.nicolinesoeter.nl"
     ],
     [
       "Soh-Hudry, Diana",
@@ -124682,7 +122460,7 @@
       "",
       "Philadelphia, PA",
       "USA",
-      "www.suzannesorkin.com"
+      "http://www.suzannesorkin.com"
     ],
     [
       "Sousa, Berta Alves de (d. 1997)",
@@ -125072,7 +122850,7 @@
       "",
       "Columbus, OH",
       "USA",
-      "www.laurenspavelko.com"
+      "http://www.laurenspavelko.com"
     ],
     [
       "Speach, Bernadette",
@@ -125423,7 +123201,7 @@
       "",
       "New York, NY",
       "USA",
-      "lauriespiegel.net"
+      "http://lauriespiegel.net"
     ],
     [
       "Spinei, Cristina",
@@ -125735,7 +123513,7 @@
       "",
       "Rhode Island",
       "USA",
-      "www.musicated.com/syh"
+      "http://www.musicated.com/syh"
     ],
     [
       "St. John, Kathleen",
@@ -125894,45 +123672,6 @@
       "https://janestanley.blog/"
     ],
     [
-      "Stanley, Jane ",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Scotland",
-      "https://janestanley.blog/"
-    ],
-    [
       "Start, Elizabeth",
       "X",
       "",
@@ -126008,7 +123747,7 @@
       "",
       "Boston, MA",
       "USA",
-      "Www.heatherstebbins.com"
+      "http://Www.heatherstebbins.com"
     ],
     [
       "Steenberge, Laura",
@@ -126086,7 +123825,7 @@
       "X",
       "Newtown, PA",
       "USA",
-      "Www.pamelastein.net"
+      "http://Www.pamelastein.net"
     ],
     [
       "Steinberg, Maia",
@@ -126398,7 +124137,7 @@
       "",
       "London ",
       "UK",
-      "heatherstephensonmusic.com"
+      "http://heatherstephensonmusic.com"
     ],
     [
       "Stephenson, Josephine ",
@@ -126554,7 +124293,7 @@
       "",
       "London",
       "UK",
-      "www.laurastevensmusic.co.uk"
+      "http://www.laurastevensmusic.co.uk"
     ],
     [
       "Stevenson, Savourna",
@@ -126710,7 +124449,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.georgiastitt.com"
+      "http://www.georgiastitt.com"
     ],
     [
       "Stock, Jennifer",
@@ -126827,7 +124566,7 @@
       "",
       "Lawrence, KS",
       "USA",
-      "www.ingridstolzel.com"
+      "http://www.ingridstolzel.com"
     ],
     [
       "Stott, Rachel ",
@@ -127532,45 +125271,6 @@
       "http://marthasullivanmusic.com/"
     ],
     [
-      "Sumaya, Manuel de (d.1755)",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "N/A",
-      "",
-      "https://en.wikipedia.org/wiki/Manuel_de_Zumaya"
-    ],
-    [
       "Sun Ra (d. 1993)",
       "",
       "X",
@@ -127646,7 +125346,7 @@
       "X",
       "Winnipeg",
       "Canada",
-      "www.sunabacka.com"
+      "http://www.sunabacka.com"
     ],
     [
       "Sung, Stella",
@@ -127763,7 +125463,7 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "www.supove.com"
+      "http://www.supove.com"
     ],
     [
       "Surel Lange, Tine",
@@ -127802,7 +125502,7 @@
       "",
       "Henningsvær",
       "Norway",
-      "www.tinesurel.com"
+      "http://www.tinesurel.com"
     ],
     [
       "Sussman, D. Jasper",
@@ -128153,7 +125853,7 @@
       "",
       "Hartford, CT",
       "USA",
-      "www.kathrynswanson.com"
+      "http://www.kathrynswanson.com"
     ],
     [
       "Swift, Kay (d. 1993)",
@@ -129011,7 +126711,7 @@
       "",
       "New York, NY",
       "USA",
-      "tandun.com"
+      "http://tandun.com"
     ],
     [
       "Tan, Chrysanthe Song",
@@ -129167,7 +126867,7 @@
       "",
       "Hong Kong",
       "Hong Kong",
-      "www.joycewctang.com"
+      "http://www.joycewctang.com"
     ],
     [
       "Tann, Hilary",
@@ -130298,7 +127998,7 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "www.racheltherrien.com"
+      "http://www.racheltherrien.com"
     ],
     [
       "Thomas-Bosovoskaya, Olga",
@@ -130766,7 +128466,7 @@
       "",
       "Brooklyn, NY",
       "USA",
-      "mollythompsonmusic.com"
+      "http://mollythompsonmusic.com"
     ],
     [
       "Thompson, Sarah Elise",
@@ -130805,7 +128505,7 @@
       "",
       "Sydney",
       "Australia",
-      "soundcloud.com/sarahelisethompson"
+      "http://soundcloud.com/sarahelisethompson"
     ],
     [
       "Thompson, Shirley J",
@@ -130922,7 +128622,7 @@
       "",
       "Tasmania",
       "Australia",
-      "qvocal.com"
+      "http://qvocal.com"
     ],
     [
       "Thorberg (Þorbergs), Ingibjörg",
@@ -131117,7 +128817,7 @@
       "",
       "",
       "Norway",
-      "benteleiknesthorsen.no"
+      "http://benteleiknesthorsen.no"
     ],
     [
       "Thorvaldsdóttir, Anna",
@@ -131624,7 +129324,7 @@
       "",
       "Tokyo",
       "Japan",
-      "www.nobukotoda.com"
+      "http://www.nobukotoda.com"
     ],
     [
       "Togander, Barbara",
@@ -132482,7 +130182,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "daletrumbore.com"
+      "http://daletrumbore.com"
     ],
     [
       "Tsepkolenko, Karmella",
@@ -132950,7 +130650,7 @@
       "",
       "Oregon",
       "USA",
-      "reneetylermusic.com"
+      "http://reneetylermusic.com"
     ],
     [
       "Tyson, Mildred Lund (d. 1989)",
@@ -133962,9 +131662,9 @@
       "",
       "",
       "",
-      "Reykjavík",
-      "Iceland",
-      "https://www.veroniquevaka.com/"
+      "Listaháskóli Íslands/Montreal",
+      "Iceland/Canada",
+      "https://www.veroniquevaka.com"
     ],
     [
       "Vaka, Veronique",
@@ -134001,9 +131701,9 @@
       "",
       "",
       "",
-      "Listaháskóli Íslands/Montreal",
-      "Iceland/Canada",
-      "https://www.veroniquevaka.com"
+      "Reykjavík",
+      "Iceland",
+      "https://www.veroniquevaka.com/"
     ],
     [
       "Valcárcel, Teodoro (d. 1942)",
@@ -134237,7 +131937,7 @@
       "",
       "Fort Worth, TX",
       "USA",
-      "www.MariValverde.com"
+      "http://www.MariValverde.com"
     ],
     [
       "van Appledorn, Mary Jeanne (d. 2014)",
@@ -134354,7 +132054,7 @@
       "X",
       "Amsterdam",
       "Netherlands",
-      "www.evelienvandenbroek.com"
+      "http://www.evelienvandenbroek.com"
     ],
     [
       "van der Linden, Sabina Maria",
@@ -134471,7 +132171,7 @@
       "",
       "Zurich",
       "Switzerland",
-      "www.cathyvaneck.net"
+      "http://www.cathyvaneck.net"
     ],
     [
       "van Eijden, Cynthie",
@@ -134588,7 +132288,7 @@
       "",
       "Saco, ME",
       "USA",
-      "patriciavanness.com"
+      "http://patriciavanness.com"
     ],
     [
       "Van Parys, Anneliese",
@@ -134783,7 +132483,7 @@
       "",
       "Vienna/Budapest",
       "Austria",
-      "www.juditvarga.com"
+      "http://www.juditvarga.com"
     ],
     [
       "Vargas Melissa",
@@ -135407,7 +133107,7 @@
       "",
       "Birmingham",
       "UK",
-      "www.maya.ricercata.org"
+      "http://www.maya.ricercata.org"
     ],
     [
       "Vesić, Marina",
@@ -136109,7 +133809,7 @@
       "X",
       "London & Bedfordshire",
       "UK",
-      "Sophiesnotes.com"
+      "http://Sophiesnotes.com"
     ],
     [
       "Virgile, Perrine",
@@ -136148,7 +133848,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.perrinevirgile.com"
+      "http://www.perrinevirgile.com"
     ],
     [
       "Vítková, Lucie",
@@ -136538,7 +134238,7 @@
       "",
       "Providence, RI",
       "USA",
-      "www.kirstenvolness.com"
+      "http://www.kirstenvolness.com"
     ],
     [
       "von Paradis, Maria Theresia (d. 1824)",
@@ -137045,7 +134745,7 @@
       "",
       "Beijing",
       "China",
-      "rachelcwalker.com"
+      "http://rachelcwalker.com"
     ],
     [
       "Walker, Shirley (d. 2006)",
@@ -137240,7 +134940,7 @@
       "",
       "Upland, CA",
       "USA",
-      "sarahwallinhuff.com"
+      "http://sarahwallinhuff.com"
     ],
     [
       "Wallin, Maize",
@@ -137318,7 +135018,7 @@
       "",
       "San Francisco, CA",
       "USA",
-      "patriciawallinga.com"
+      "http://patriciawallinga.com"
     ],
     [
       "Walpurgis, Maria Antonia (d. 1780)",
@@ -137474,7 +135174,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.wangjiemusic.com"
+      "http://www.wangjiemusic.com"
     ],
     [
       "Wang Lu",
@@ -137669,7 +135369,7 @@
       "",
       "Greensboro, GA",
       "USA",
-      "www.alexisreneeward.com"
+      "http://www.alexisreneeward.com"
     ],
     [
       "Ward, Joanna ",
@@ -137903,7 +135603,7 @@
       "",
       "New York, NY",
       "USA",
-      "AnnWarren.net"
+      "http://AnnWarren.net"
     ],
     [
       "Warren, Elinor Remick (d. 1991)",
@@ -138059,7 +135759,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.dalitwarshaw.com"
+      "http://www.dalitwarshaw.com"
     ],
     [
       "Washington, Shelley",
@@ -138098,7 +135798,7 @@
       "",
       "New York, NY",
       "USA",
-      "shelleywashington.com"
+      "http://shelleywashington.com"
     ],
     [
       "Watfeh, Layal",
@@ -138371,7 +136071,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.sarahweaver.org"
+      "http://www.sarahweaver.org"
     ],
     [
       "Webb, Evelyn ",
@@ -138527,7 +136227,7 @@
       "",
       "New York",
       "USA",
-      "www.barbarajweber.com"
+      "http://www.barbarajweber.com"
     ],
     [
       "Weber, Ilse (d. 1944)",
@@ -138761,7 +136461,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.sunnawehrmeijer.com"
+      "http://www.sunnawehrmeijer.com"
     ],
     [
       "Wehrspann, Deanna",
@@ -138800,7 +136500,7 @@
       "",
       "Sioux Falls, SD",
       "USA",
-      "Deannawehrspannmusic.com"
+      "http://Deannawehrspannmusic.com"
     ],
     [
       "Weigl, Vally (d. 1982)",
@@ -138956,7 +136656,7 @@
       "",
       "Los Angeles, CA",
       "USA",
-      "www.carolweissmusic.com"
+      "http://www.carolweissmusic.com"
     ],
     [
       "Weller, Ellen",
@@ -138995,7 +136695,7 @@
       "",
       "Escondido, CA",
       "USA",
-      "www.wellermusic.com"
+      "http://www.wellermusic.com"
     ],
     [
       "Wellmer, Anne",
@@ -139112,7 +136812,7 @@
       "",
       "Sydney",
       "Australia",
-      "Jessicawellscomposer.com.au"
+      "http://Jessicawellscomposer.com.au"
     ],
     [
       "Wen Liu",
@@ -139151,7 +136851,7 @@
       "",
       "Los Angeles, CA/Vienna",
       "USA/Austria",
-      "www.wenliu-music.com"
+      "http://www.wenliu-music.com"
     ],
     [
       "Wennäkoski, Lotta",
@@ -140087,7 +137787,7 @@
       "",
       "Seattle, WA",
       "USA",
-      "www.bonniewhitingpercussion.com"
+      "http://www.bonniewhitingpercussion.com"
     ],
     [
       "Whitley, Kate",
@@ -140243,7 +137943,7 @@
       "",
       "Champaign, IL",
       "USA",
-      "cassiewieland.weebly.com"
+      "http://cassiewieland.weebly.com"
     ],
     [
       "Wiemann, Beth",
@@ -140282,7 +137982,7 @@
       "",
       "Maine/Massachusetts",
       "USA",
-      "www.bethwiemann.com"
+      "http://www.bethwiemann.com"
     ],
     [
       "Wiening, Mareike",
@@ -140321,7 +138021,7 @@
       "",
       "New York, NY",
       "Germany",
-      "www.mareikewiening.com"
+      "http://www.mareikewiening.com"
     ],
     [
       "Wiesenfeld, Ruth",
@@ -140360,7 +138060,7 @@
       "",
       "Berlin",
       "Germany",
-      "www.ruthwiesenfeld.com"
+      "http://www.ruthwiesenfeld.com"
     ],
     [
       "Wiggins, Thomas (d. 1908)",
@@ -140477,7 +138177,7 @@
       "",
       "",
       "USA",
-      "www.felicitywilcox.com"
+      "http://www.felicitywilcox.com"
     ],
     [
       "Wilde, Emma ",
@@ -140633,7 +138333,7 @@
       "",
       "Pittsburgh, PA",
       "USA",
-      "www.amywilliamsmusic.com"
+      "http://www.amywilliamsmusic.com"
     ],
     [
       "Williams, Andrea",
@@ -141179,7 +138879,7 @@
       "",
       "Huddersfield, West Yorkshire",
       "UK",
-      "www.bodycoder.com"
+      "http://www.bodycoder.com"
     ],
     [
       "Wilson, Chandler Leroy",
@@ -141452,7 +139152,7 @@
       "",
       "Erwin, NC",
       "USA",
-      "www.bettywishart.com"
+      "http://www.bettywishart.com"
     ],
     [
       "Wishart, Stevie",
@@ -141764,7 +139464,7 @@
       "",
       "New York",
       "USA/UK",
-      "Kristinawolfemusic.com"
+      "http://Kristinawolfemusic.com"
     ],
     [
       "Woll, Erna (d. 2005)",
@@ -142193,7 +139893,7 @@
       "",
       "Montréal",
       "Canada",
-      "lunapearlwoolf.com"
+      "http://lunapearlwoolf.com"
     ],
     [
       "Worthington, Rain",
@@ -142349,7 +140049,7 @@
       "",
       "Carlsbad, CA",
       "USA",
-      "www.wumanpipa.org"
+      "http://www.wumanpipa.org"
     ],
     [
       "Wu, Sam",
@@ -142661,7 +140361,7 @@
       "",
       "Melbourne",
       "Australia",
-      "www.kittyxiaomusic.com"
+      "http://www.kittyxiaomusic.com"
     ],
     [
       "Xinyan Li",
@@ -142781,84 +140481,6 @@
       "http://www.sounddesign.unimelb.edu.au/web/biogs/P000511b.htm"
     ],
     [
-      "Yang, Ji Sun",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "Seoul",
-      "South Korea",
-      "http://www.jisunyang.com/"
-    ],
-    [
-      "Yang, Lin",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "Freiburg",
-      "Germany",
-      "https://www.sikorski.de/8333/en/yang_lin.html"
-    ],
-    [
       "Yannatou, Savina",
       "X",
       "",
@@ -142973,7 +140595,7 @@
       "",
       "Huntington Beach, CA",
       "USA",
-      "CarolynYarnell.com"
+      "http://CarolynYarnell.com"
     ],
     [
       "Yeagley, David (d. 2014)",
@@ -143324,7 +140946,7 @@
       "",
       "New York, NY",
       "USA",
-      "violayip.com"
+      "http://violayip.com"
     ],
     [
       "Yoder, Teresa Cobarrubia",
@@ -144650,7 +142272,7 @@
       "",
       "Vienna",
       "Austria",
-      "www.verenazeiner.at"
+      "http://www.verenazeiner.at"
     ],
     [
       "Zéspedes, Juan García de  (d. 1678)",
@@ -145079,7 +142701,7 @@
       "",
       "New York, NY",
       "USA",
-      "www.thezolaband.com"
+      "http://www.thezolaband.com"
     ],
     [
       "Zorzi, Juan Carlos (d. 1999)",
@@ -145197,6 +142819,45 @@
       "Sacramento, CA",
       "USA",
       "http://www.laurelzucker.com/index.php"
+    ],
+    [
+      "Zumaya, Manuel de (d.1755)",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "N/A",
+      "",
+      "https://en.wikipedia.org/wiki/Manuel_de_Zumaya"
     ],
     [
       "Zumsteeg, Emilie (d. 1857)",
@@ -145353,6 +143014,45 @@
       "New York, NY",
       "USA",
       "http://www.zwilich.com"
+    ],
+    [
+      "Testy McTestalot",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "X",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Orlando, FL",
+      "Switzerland",
+      "https://wikipedia.org"
     ]
   ]
 }

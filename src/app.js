@@ -2,7 +2,7 @@
 //const sheet = 'https://sheets.googleapis.com/v4/spreadsheets/1vD-hWsQYvi6j-6NP_HCLRtmLKdPX08IXmCOeAPV7ESY/values/Composer%20Diversity%20Database%20%28IN%20PROGRESS%29!A3:AK?key=AIzaSyA-h6VkeSPqfe299CwSS88O-qwI2MVQw0A';
 
 // ofline version
-// const sheet = 'assets/wcdb-offline.json';
+// const sheet = 'assets/composer-diversity-test.json';
 const sheet = 'assets/composer-diversity-offline.json';
 
 const {flag, name, code} = require('country-emoji');
@@ -281,11 +281,6 @@ function fieldsForSection(section) {
 }
 
 function getFilterOptions() {
-	// var explicitOptions = [ 1, 2, 4, 5, // living, dead, female, non-binary
-	// 	6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, // genre
-	// 	19, 20, 21, 22, 23, 24, 25, // medium
-	// 	26, 27, 28, 29, 30, 31, 32, 33, // demographic
-	// 	37, 38 ]; // USA/non-USA
 
 	var options = [ 1, 2, 4, 5 ]; // living, dead, gender
 	var sections = ['genre', 'medium', 'demographic'];
@@ -349,6 +344,25 @@ const vm = new Vue ({
 				console.log(error.statusText);
 			});
 		}, // getData
+		startOfSection: function (section) {
+			var fields = this.vueFields;
+		    for(i = 0; i < fields.length; i++) {
+		        if(fields[i].type === section) {
+		            return i;
+		        }
+		    }
+		    return -1;
+		}, // startOfSection
+		numberOfType: function(section) {
+			var fields = this.vueFields;
+			var count = 0;
+			for(i = 0; i < fields.length; i++){
+				if (fields[i].type === section) {
+					count++;
+				}
+			}
+			return count;
+		}, //numberOfType
 		runFiltersOr: function(row){ // filter results
 			if (this.filters.indexOf(true) == -1){
 				return true;
@@ -367,20 +381,23 @@ const vm = new Vue ({
 				return true;
 			} else {
 				var returnval = true;
-				for (i = 0; i < 37; i++){ // only going up to 36 b/c filters[37] and filters[38] are special
+				for (i = 0; i < this.filters.length-2; i++){ // the last two filters are special
 					if (this.filters[i]==true && row[i]!='X'){
 						returnval = false;
 					}
 				}
 
 				// check for USA filter
-				// filters[37] is USA; filters[38] is non-USA // row[35] is country
-				if (this.filters[37]==true && row[35].indexOf('USA') == -1){
+				// filters[filters.length-1] is non-USA // row[startOfSection('geographic')+2] is country
+				var usaFilter = this.filters.length - 2;
+				var nonUsaFilter = usaFilter + 1;
+				var countryField = startOfSection('geographic') + 1;
+				if (this.filters[usaFilter]==true && row[countryField].indexOf('USA') == -1){
 					returnval = false;
 				}
 
 				// check for non-USA filter
-				if (this.filters[38]==true && row[35].indexOf('USA') > -1){
+				if (this.filters[nonUsaFilter]==true && row[countryField].indexOf('USA') > -1){
 					returnval = false;
 				}
 				return returnval;
@@ -426,7 +443,8 @@ const vm = new Vue ({
 			return flagmoji;
 		}, // getFlags
 		composerGeo: function(row) { // return span for geographical information for each composer
-			var cityField = startOfSection('geographic');
+			var cityField = this.startOfSection('geographic');
+			// var cityField = 34;
 			var countryField = cityField + 1;
 			var geoSpan = '';
 			var nodata = ['N/A', '']
@@ -487,25 +505,25 @@ const vm = new Vue ({
 					</div>
 					<div class="filter-section genre">
 						<h4>genre</h4>
-						<template v-for="option in filterOptions.slice(4,17)">
+						<template v-for="option in filterOptions.slice(startOfSection('genre')-2,startOfSection('genre') + numberOfType('genre')-2)">
 							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]"><span :class="vueFields[option].type + ' badge'">{{vueFields[option].icon}}</span>{{vueFields[option].label}} ({{headings[option]}})</label>
 						</template>
 					</div>
 					<div class="filter-section medium">
 						<h4>medium/subgenre</h4>
-						<template v-for="option in filterOptions.slice(17,24)">
+						<template v-for="option in filterOptions.slice(startOfSection('medium')-2,startOfSection('medium') + numberOfType('medium')-2)">
 							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]"><span :class="vueFields[option].type + ' badge'">{{vueFields[option].icon}}</span>{{vueFields[option].label}} ({{headings[option]}})</label>
 						</template>
 					</div>
 					<div class="filter-section demographic">
 						<h4>demographic</h4>
-						<template v-for="option in filterOptions.slice(24, 32)">
+						<template v-for="option in filterOptions.slice(startOfSection('demographic')-2,startOfSection('demographic') + numberOfType('demographic')-2)">
 							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
 						</template>
 					</div>
 					<div class="filter-section location">
 						<h4>location</h4>
-						<template v-for="option in filterOptions.slice(32, 34)">
+						<template v-for="option in filterOptions.slice(filterOptions.length-2)">
 							<label class="filter" :class="option"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}}</label>
 						</template>
 					</div>
