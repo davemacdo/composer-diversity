@@ -1,9 +1,9 @@
 // new sheet for Composer Diversity Database
-//const sheet = 'https://sheets.googleapis.com/v4/spreadsheets/1vD-hWsQYvi6j-6NP_HCLRtmLKdPX08IXmCOeAPV7ESY/values/Composer%20Diversity%20Database%20%28IN%20PROGRESS%29!A3:AK?key=AIzaSyA-h6VkeSPqfe299CwSS88O-qwI2MVQw0A';
+//const sheet = 'https://sheets.googleapis.com/v4/spreadsheets/1vD-hWsQYvi6j-6NP_HCLRtmLKdPX08IXmCOeAPV7ESY/values/Composer%20Diversity%20Database%20%28IN%20PROGRESS%29!A3:AQ?key=AIzaSyA-h6VkeSPqfe299CwSS88O-qwI2MVQw0A';
 
 // ofline version
-const sheet = 'assets/composer-diversity-test.json';
-// const sheet = 'assets/composer-diversity-offline.json';
+// const sheet = 'assets/composer-diversity-test.json';
+const sheet = 'assets/composer-diversity-offline.json';
 
 const {flag, name, code} = require('country-emoji');
 
@@ -152,7 +152,7 @@ const fields = [
 		'type': 'medium'
 	},
 	{
-		'label': 'saxophone quintet',
+		'label': 'saxophone quartet',
 		'class': 'sax-quartet',
 		'icon': 'SxQ',
 		'type': 'medium'
