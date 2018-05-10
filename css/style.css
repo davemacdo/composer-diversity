@@ -201,6 +201,19 @@ div.filters {
   max-height: 1.4em;
   transition: all 0.5s; }
 
+div#global-controls {
+  border-left: none; }
+
+button {
+  width: 95%;
+  font-size: 100%;
+  font-family: "Lato", sans-serif;
+  color: #fdfdfd;
+  background-color: #225762; }
+
+button:active {
+  background-color: #15353c; }
+
 @media screen and (min-width: 40em) {
   div.filter-section {
     grid-template-columns: repeat(2, 1fr); }

@@ -572,7 +572,9 @@ const vm = new Vue ({
 						<template v-for="option in filterOptions.slice(filterOptions.length-2)">
 							<label class="filter" :class="option"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}}</label>
 						</template>
-						<button @click="clearFilters()">clear all filters</button>
+					</div>
+					<div class="filter-section clear-button" id="global-controls">
+						<button @click="clearFilters()" class="clear-button">clear all filters</button>
 					</div>
 
 				</div>

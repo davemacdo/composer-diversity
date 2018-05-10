@@ -122,8 +122,28 @@ div.filters {
 	transition: all 0.5s;
 }
 
+// Buttons
+
+div#global-controls {
+	border-left: none;
+}
+
+button {
+	width: 95%;
+	font-size: 100%;
+	font-family: $bodyFonts;
+	color: $main-bg;
+	background-color: $main-fg;
+}
+
+button:active {
+	background-color: darken($main-fg, 10%);
+}
+
+// Responsive
+
 @media screen and (min-width: 40em) {
-	div.filter-section{
+	div.filter-section {
 		grid-template-columns: repeat(2, 1fr);
 
 		h4 {grid-column-end: span 2;}
