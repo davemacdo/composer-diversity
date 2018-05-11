@@ -368,7 +368,8 @@ const vm = new Vue ({
 		locationFilters: [ 'USA', 'non-USA' ],
 		vueFields: fields, // brings in the fields array as part of the Vue data
 		filtersCollapsed: false,
-		cardBadges: ['gender', 'genre', 'medium']
+		cardBadges: ['gender', 'genre', 'medium'],
+		rerender: 0 // increment this to force a rerender
 	}, // data
 	methods: {
 		getData: function(){
@@ -443,15 +444,16 @@ const vm = new Vue ({
 			// console.log(filterIndex);
 			if (this.filters[filterIndex] == false || typeof this.filters[filterIndex] == 'undefined'){
 				this.filters[filterIndex] = true;
-				this.filters.unshift(0);
-				this.filters.shift();
+				// this.filters.unshift(0);
+				// this.filters.shift();
 				// console.log('filter off');
 			} else {
 				this.filters[filterIndex] = false;
-				this.filters.unshift(0);
-				this.filters.shift();
+				// this.filters.unshift(0);
+				// this.filters.shift();
 				// console.log('filter on');
 			}
+			this.rerender++;
 		}, // toggleFilter
 		composerProps: function(row){ // return properties for each composer
 			var propSpan = '';
@@ -499,7 +501,13 @@ const vm = new Vue ({
 		}, // composerGeo
 		toggleFilters: function() {
 			this.filtersCollapsed = !this.filtersCollapsed;
-		}
+		}, // toggleFilters
+		clearFilters: function() {
+			for (i = 0; i < this.filters.length; i++) {
+				this.filters[i] = false;
+			}
+			this.rerender++;
+		} // clearFilters
 	}, // methods
 	mounted: function (){
 		this.getData();
@@ -516,7 +524,7 @@ const vm = new Vue ({
 	}, // mounted
 
 	template: `
-		<div class="app-wrapper">
+		<div class="app-wrapper" :key="rerender">
 			<div v-if="loading">
 				<div class="loader">Loading...</div>
 			</div>
@@ -528,7 +536,9 @@ const vm = new Vue ({
 					<input type="text" v-model="search" class="search" placeholder="search" autofocus>
 				</header>
 				<div class="filters" id="filters" v-bind:class="{ collapsed: filtersCollapsed }">
-					<div id="filters-heading"><a href="#" @click="toggleFilters()"><h3><span class="icon">&#9660;</span>Search filter options</h3></a></div>
+					<div id="filters-heading">
+						<a href="#" @click="toggleFilters()"><h3><span class="icon">&#9660;</span>Search filter options</h3></a>
+					</div>
 					<div class="filter-section living-dead">
 						<template v-for="option in filterOptions.slice(0,2)">
 							<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}} ({{headings[option]}})</label>
@@ -562,6 +572,9 @@ const vm = new Vue ({
 						<template v-for="option in filterOptions.slice(filterOptions.length-2)">
 							<label class="filter" :class="option"><input type="checkbox" value="X" v-model="filters[option]">{{vueFields[option].label}}</label>
 						</template>
+					</div>
+					<div class="filter-section clear-button" id="global-controls">
+						<button @click="clearFilters()" class="clear-button">clear all filters</button>
 					</div>
 
 				</div>

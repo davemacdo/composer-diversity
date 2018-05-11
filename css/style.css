@@ -17,7 +17,8 @@ h1#site-title {
 
 .wrapper {
   max-width: 70em;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 5em; }
 
 ul#nav-menu {
   list-style: none;
@@ -200,6 +201,19 @@ div.filters {
 #filters.collapsed {
   max-height: 1.4em;
   transition: all 0.5s; }
+
+div#global-controls {
+  border-left: none; }
+
+button {
+  width: 95%;
+  font-size: 100%;
+  font-family: "Lato", sans-serif;
+  color: #fdfdfd;
+  background-color: #225762; }
+
+button:active {
+  background-color: #15353c; }
 
 @media screen and (min-width: 40em) {
   div.filter-section {
