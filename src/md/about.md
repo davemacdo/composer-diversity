@@ -29,6 +29,10 @@ In order to use the database, simply click one or multiple checkboxes at the top
 
 - <a href="https://davidmacdonaldmusic.com" target="_blank">David MacDonald</a>
 
+#### Marketing Consultant
+
+- <a href="https://www.adjectivenewmusic.com/sampson.html" target="_blank">Jamie Leigh Sampson</a>
+
 #### Database Builders
 
 - Jane Frasier
