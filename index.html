@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,11 +18,7 @@
 		<meta name="twitter:image" content="http://composerdiversity.com/assets/composer-diversity.png">
 		<meta name="twitter:image:alt" content="Composer Diversity Database">
 
-
 		<title>Composer Diversity Database</title>
-		<script src="https://unpkg.com/vue" charset="utf-8"></script>
-		<script src="https://cdn.jsdelivr.net/npm/vue-resource@1.5.0"></script>
-		<link rel="stylesheet" href="css/style.css?v=1">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12273072-28"></script>
 		<script>
@@ -33,18 +29,17 @@
 			gtag('config', 'UA-12273072-28');
 		</script>
 	</head>
-	<body class="index">
+	<body>
 		<div class="wrapper">
-			<h1 id="site-title">Composer Diversity Database</h1>
+    		<h1 id="site-title">Composer Diversity Database</h1>
 
-			<noscript>
-				This page requires JavaScript to use. Please enable JavaScript or change to a different browser.
-			</noscript>
+            <noscript>
+                This page requires JavaScript to use. Please enable JavaScript or change to a different browser.
+            </noscript>
 
-			<div id="app">
-			</div>
+    		<div id="app"></div>
 
-		</div>
-		<script src="js/bundle.js" charset="utf-8"></script>
+        </div>
+		<script src="/dist/build.js"></script>
 	</body>
 </html>
