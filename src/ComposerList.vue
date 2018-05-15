@@ -1,12 +1,12 @@
 <template lang="html">
     <div class="list-wrapper">
         <ul class="composer-list">
-            <template v-for="composer in list" v-if="composer[0].match(new RegExp(search, 'i'))">
+            <template v-for="composer in filteredList" v-if="composer[0].match(new RegExp(search, 'i'))">
                     <li>
                         <span class="name"><a :href="composer[composer.length-1]" target="_blank">{{composer[0]}}</a></span>
                         <span class="composer-props">
                             <template v-for="(field, i) in composer" v-if="(field=='X' && cardBadges.indexOf(vueFields[i].type) > -1)">
-                                <span class="badge" :class="[vueFields[i].type, vueFields[i].class, { selected : filters[i] }]"@click="toggleFilter(i)">{{vueFields[i].icon}}</span>
+                                <span class="badge" :class="[vueFields[i].type, vueFields[i].class, { selected : filters[i] }]" @click="toggleFilter(i)">{{vueFields[i].icon}}</span>
                             </template>
                         </span>
                         <span class="composer-geo" v-html="composerGeo(composer)"></span>
@@ -22,12 +22,17 @@ const {flag, name, code} = require('country-emoji');
 export default {
     name: 'ComposerList',
     props: [
-        'list',
+        'filteredList',
         'search',
         'vueFields',
         'cardBadges',
         'filters'
     ],
+    data () {
+        return {
+            filteredTotal: this.filteredList.length
+        }
+    },
     methods: {
         getFlags: function(country) {
 			var flagmoji = flag( country );
@@ -62,7 +67,16 @@ export default {
 			}
 			return geoSpan;
 		}, // composerGeo
-    }
+        toggleFilter: function(filter) {
+            this.$emit('toggleFilter', {filter})
+        }, // toggleFilter
+        updateTotal: function() {
+            this.filteredTotal = this.filteredList.length;
+        }
+    }, // methods
+    // beforeUpdate: {
+    //
+    // }
 
 }
 </script>
