@@ -28,11 +28,6 @@ export default {
         'cardBadges',
         'filters'
     ],
-    data () {
-        return {
-            filteredTotal: this.filteredList.length
-        }
-    },
     methods: {
         getFlags: function(country) {
 			var flagmoji = flag( country );

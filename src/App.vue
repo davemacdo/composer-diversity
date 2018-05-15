@@ -3,26 +3,21 @@
         <div v-if="loading">
 			<div class="loader">Loading...</div>
 		</div>
-        <div class="inputs" v-if="!loading">
-            <header>
-                <ul id="nav-menu">
-                    <li><a href="about.html">About the project</a></li>
-                </ul>
-                <input type="text" v-model="search" class="search" placeholder="search" autofocus>
-            </header>
-        </div>
-        <ComposerList :filteredList="filteredList" :search="search" :vueFields="vueFields" :cardBadges="cardBadges" :filters="filters" @toggleFilter="toggleFilter" />
+        <FormInputs v-bind="{filtersCollapsed, filterOptions, vueFields, filters, headings, search, startOfSection, numberOfType, toggleFilterView, filteredTotal}" />
+        <ComposerList v-bind="{filteredList, search, vueFields, cardBadges, filters}" @toggleFilter="toggleFilter" />
     </div>
 </template>
 
 <script>
 import ComposerList from './ComposerList';
+import FormInputs from './FormInputs';
 
 const fields = require('./fields.json').list;
 
 export default {
 	name: 'app',
     components: {
+        FormInputs,
         ComposerList
     }, // components
 	data () {
@@ -41,6 +36,7 @@ export default {
             filtersCollapsed: false,
             cardBadges: ['gender', 'genre', 'medium'],
             rerender: 0,
+            filteredTotal: null
 		}
 	}, // data
     methods: {
@@ -133,9 +129,9 @@ export default {
 				if (this.filters[nonUsaFilter]==true && row[countryField].indexOf('USA') > -1){
 					returnval = false;
 				}
-
                 return returnval;
             })
+            this.filteredTotal = this.filteredList.length
 		}, // runFiltersAnd
         toggleFilterView: function() {
             this.filtersCollapsed = !this.filtersCollapsed;
@@ -149,6 +145,12 @@ export default {
         this.headings = response[0];
         this.list = response.slice(1);
         this.filteredList = this.list;
+        this.filteredTotal = this.filteredList.length;
+
+        // initialize filters array as all false
+        for (var i = 0; i < this.filters.length; i++){
+            this.filters[i] = false;
+        }
     }, // created
     mounted: function() {
         this.loading = false;
@@ -156,11 +158,6 @@ export default {
         // hide or show filters based on screen width
         var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 		this.filtersCollapsed = (screenWidth < 800 ? true : false);
-
-        // initialize filters array as all false
-        for (var i = 0; i < this.filters.length; i++){
-            this.filters[i] = false;
-        }
 
         // establish which fields get filter toggles
         this.filterOptions = this.getFilterOptions();
