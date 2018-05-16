@@ -576,9 +576,13 @@ const fields = __webpack_require__(28).list;
             this.rerender++;
         }, // toggleFilter
         updateFilters: function (payload) {
-            console.log(payload);
+            // console.log(payload);
             this.runFiltersAnd();
         }, // updateFilters
+        updateSearch: function (payload) {
+            this.search = payload.query;
+            this.runFiltersAnd();
+        }, // updateSearch
         clearFilters: function () {
             for (var i = 0; i < this.filters.length; i++) {
                 this.filters[i] = false;
@@ -639,6 +643,10 @@ const fields = __webpack_require__(28).list;
 
             this.filteredList = this.list.filter(row => {
                 var returnval = true;
+
+                if (row[0].match(new RegExp(this.search, 'i')) == null) {
+                    return false;
+                }
 
                 for (var i = 0; i < this.filters.length - 2; i++) {
                     if (this.filters[i] == true && row[i] != 'X') {
@@ -836,9 +844,18 @@ const { flag, name, code } = __webpack_require__(20);
 //
 
 /* harmony default export */ __webpack_exports__["a"] = ({
-    name: 'ComposerList',
+    name: 'FormInputs',
     props: ['search', 'filtersCollapsed', 'filterOptions', 'vueFields', 'filters', 'headings', 'startOfSection', 'numberOfType', 'toggleFilterView', 'filteredTotal'], // props
+    data() {
+        return {
+            query: ''
+        };
+    },
     methods: {
+        updateSearch: function (query) {
+            this.$emit('updateSearch', { query });
+            // console.log(query);
+        }, // updateSearch
         updateFilters: function (option) {
             this.$emit('updateFilters', { option });
         }, // updateFilters
@@ -12272,7 +12289,7 @@ process.umask = function() { return 0; };
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(4);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_30f58518_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2e516dab_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(30);
 function injectStyle (ssrContext) {
   __webpack_require__(14)
 }
@@ -12292,7 +12309,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_30f58518_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2e516dab_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -12313,7 +12330,7 @@ var content = __webpack_require__(15);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("249d33ef", content, true, {});
+var update = __webpack_require__(2)("5779873e", content, true, {});
 
 /***/ }),
 /* 15 */
@@ -12369,7 +12386,7 @@ module.exports = function listToStyles (parentId, list) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ComposerList_vue__ = __webpack_require__(5);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1c1708ec_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ComposerList_vue__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3ebbe176_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ComposerList_vue__ = __webpack_require__(23);
 function injectStyle (ssrContext) {
   __webpack_require__(18)
 }
@@ -12389,7 +12406,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ComposerList_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1c1708ec_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ComposerList_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3ebbe176_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ComposerList_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -12410,7 +12427,7 @@ var content = __webpack_require__(19);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("28a30f48", content, true, {});
+var update = __webpack_require__(2)("abece006", content, true, {});
 
 /***/ }),
 /* 19 */
@@ -12624,7 +12641,7 @@ module.exports = {"AD":"Andorra","AE":["United Arab Emirates","UAE"],"AF":"Afgha
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"list-wrapper"},[_c('ul',{staticClass:"composer-list"},[_vm._l((_vm.filteredList),function(composer){return (composer[0].match(new RegExp(_vm.search, 'i')))?[_c('li',[_c('span',{staticClass:"name"},[_c('a',{attrs:{"href":composer[composer.length-1],"target":"_blank"}},[_vm._v(_vm._s(composer[0]))])]),_vm._v(" "),_c('span',{staticClass:"composer-props"},[_vm._l((composer),function(field,i){return ((field=='X' && _vm.cardBadges.indexOf(_vm.vueFields[i].type) > -1))?[_c('span',{staticClass:"badge",class:[_vm.vueFields[i].type, _vm.vueFields[i].class, { selected : _vm.filters[i] }],on:{"click":function($event){_vm.toggleFilter(i)}}},[_vm._v(_vm._s(_vm.vueFields[i].icon))])]:_vm._e()})],2),_vm._v(" "),_c('span',{staticClass:"composer-geo",domProps:{"innerHTML":_vm._s(_vm.composerGeo(composer))}})])]:_vm._e()})],2)])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"list-wrapper"},[_c('ul',{staticClass:"composer-list"},[_vm._l((_vm.filteredList),function(composer){return [_c('li',[_c('span',{staticClass:"name"},[_c('a',{attrs:{"href":composer[composer.length-1],"target":"_blank"}},[_vm._v(_vm._s(composer[0]))])]),_vm._v(" "),_c('span',{staticClass:"composer-props"},[_vm._l((composer),function(field,i){return ((field=='X' && _vm.cardBadges.indexOf(_vm.vueFields[i].type) > -1))?[_c('span',{staticClass:"badge",class:[_vm.vueFields[i].type, _vm.vueFields[i].class, { selected : _vm.filters[i] }],on:{"click":function($event){_vm.toggleFilter(i)}}},[_vm._v(_vm._s(_vm.vueFields[i].icon))])]:_vm._e()})],2),_vm._v(" "),_c('span',{staticClass:"composer-geo",domProps:{"innerHTML":_vm._s(_vm.composerGeo(composer))}})])]})],2)])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -12636,7 +12653,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_FormInputs_vue__ = __webpack_require__(6);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2da6f9d7_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_FormInputs_vue__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bf7f8254_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_FormInputs_vue__ = __webpack_require__(27);
 function injectStyle (ssrContext) {
   __webpack_require__(25)
 }
@@ -12656,7 +12673,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_FormInputs_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_2da6f9d7_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_FormInputs_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bf7f8254_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_FormInputs_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -12677,7 +12694,7 @@ var content = __webpack_require__(26);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("89c5cca6", content, true, {});
+var update = __webpack_require__(2)("82608d24", content, true, {});
 
 /***/ }),
 /* 26 */
@@ -12698,7 +12715,7 @@ exports.push([module.i, "", ""]);
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"inputs"},[_c('header',[_vm._m(0),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.search),expression:"search"}],staticClass:"search",attrs:{"type":"text","placeholder":"search","autofocus":""},domProps:{"value":(_vm.search)},on:{"input":function($event){if($event.target.composing){ return; }_vm.search=$event.target.value}}})]),_vm._v(" "),_c('div',{staticClass:"filters",class:{ collapsed: _vm.filtersCollapsed },attrs:{"id":"filters"}},[_c('div',{attrs:{"id":"filters-heading"}},[_c('a',{attrs:{"href":"#"},on:{"click":function($event){_vm.toggleFilterView()}}},[_vm._m(1)])]),_vm._v(" "),_c('div',{staticClass:"filter-section living-dead"},[_vm._l((_vm.filterOptions.slice(0,2)),function(option){return [_c('label',{staticClass:"filter",class:_vm.vueFields[option].type},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_vm._v(_vm._s(_vm.vueFields[option].label)+" ("+_vm._s(_vm.headings[option])+")")])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section gender"},[_vm._l((_vm.filterOptions.slice(2,4)),function(option){return [_c('label',{staticClass:"filter",class:_vm.vueFields[option].type},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_c('span',{class:_vm.vueFields[option].type + ' badge',on:{"change":function($event){_vm.updateFilters(option)}}},[_vm._v(_vm._s(_vm.vueFields[option].icon))]),_vm._v(_vm._s(_vm.vueFields[option].label)+" ("+_vm._s(_vm.headings[option])+")")])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section genre"},[_c('h4',[_vm._v("genre")]),_vm._v(" "),_vm._l((_vm.filterOptions.slice(_vm.startOfSection('genre')-2,_vm.startOfSection('genre') + _vm.numberOfType('genre')-2)),function(option){return [_c('label',{staticClass:"filter",class:_vm.vueFields[option].type},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_c('span',{class:_vm.vueFields[option].type + ' badge',on:{"change":function($event){_vm.updateFilters(option)}}},[_vm._v(_vm._s(_vm.vueFields[option].icon))]),_vm._v(_vm._s(_vm.vueFields[option].label)+" ("+_vm._s(_vm.headings[option])+")")])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section medium"},[_c('h4',[_vm._v("medium/subgenre")]),_vm._v(" "),_vm._l((_vm.filterOptions.slice(_vm.startOfSection('medium')-2,_vm.startOfSection('medium') + _vm.numberOfType('medium')-2)),function(option){return [_c('label',{staticClass:"filter",class:_vm.vueFields[option].type},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_c('span',{class:_vm.vueFields[option].type + ' badge',on:{"change":function($event){_vm.updateFilters(option)}}},[_vm._v(_vm._s(_vm.vueFields[option].icon))]),_vm._v(_vm._s(_vm.vueFields[option].label)+" ("+_vm._s(_vm.headings[option])+")")])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section demographic"},[_c('h4',[_vm._v("demographic")]),_vm._v(" "),_vm._l((_vm.filterOptions.slice(_vm.startOfSection('demographic')-2,_vm.startOfSection('demographic') + _vm.numberOfType('demographic')-2)),function(option){return [_c('label',{staticClass:"filter",class:_vm.vueFields[option].type},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_vm._v(_vm._s(_vm.vueFields[option].label)+" ("+_vm._s(_vm.headings[option])+")")])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section location"},[_c('h4',[_vm._v("location")]),_vm._v(" "),_vm._l((_vm.filterOptions.slice(_vm.filterOptions.length-2)),function(option){return [_c('label',{staticClass:"filter",class:option},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_vm._v(_vm._s(_vm.vueFields[option].label))])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section clear-button",attrs:{"id":"global-controls"}},[_c('button',{staticClass:"clear-button",on:{"click":function($event){_vm.clearFilters()}}},[_vm._v("clear all filters")])]),_vm._v(" "),_c('div',{staticClass:"total"},[_vm._v("\n                Composers matching current filters: "+_vm._s(_vm.filteredTotal)+"\n            ")])])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"inputs"},[_c('header',[_vm._m(0),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.query),expression:"query"}],staticClass:"search",attrs:{"type":"text","placeholder":"search","autofocus":""},domProps:{"value":(_vm.query)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.query=$event.target.value},function($event){_vm.updateSearch(_vm.query)}]}})]),_vm._v(" "),_c('div',{staticClass:"filters",class:{ collapsed: _vm.filtersCollapsed },attrs:{"id":"filters"}},[_c('div',{attrs:{"id":"filters-heading"}},[_c('a',{attrs:{"href":"#"},on:{"click":function($event){_vm.toggleFilterView()}}},[_vm._m(1)])]),_vm._v(" "),_c('div',{staticClass:"filter-section living-dead"},[_vm._l((_vm.filterOptions.slice(0,2)),function(option){return [_c('label',{staticClass:"filter",class:_vm.vueFields[option].type},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_vm._v(_vm._s(_vm.vueFields[option].label)+" ("+_vm._s(_vm.headings[option])+")")])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section gender"},[_vm._l((_vm.filterOptions.slice(2,4)),function(option){return [_c('label',{staticClass:"filter",class:_vm.vueFields[option].type},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_c('span',{class:_vm.vueFields[option].type + ' badge',on:{"change":function($event){_vm.updateFilters(option)}}},[_vm._v(_vm._s(_vm.vueFields[option].icon))]),_vm._v(_vm._s(_vm.vueFields[option].label)+" ("+_vm._s(_vm.headings[option])+")")])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section genre"},[_c('h4',[_vm._v("genre")]),_vm._v(" "),_vm._l((_vm.filterOptions.slice(_vm.startOfSection('genre')-2,_vm.startOfSection('genre') + _vm.numberOfType('genre')-2)),function(option){return [_c('label',{staticClass:"filter",class:_vm.vueFields[option].type},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_c('span',{class:_vm.vueFields[option].type + ' badge',on:{"change":function($event){_vm.updateFilters(option)}}},[_vm._v(_vm._s(_vm.vueFields[option].icon))]),_vm._v(_vm._s(_vm.vueFields[option].label)+" ("+_vm._s(_vm.headings[option])+")")])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section medium"},[_c('h4',[_vm._v("medium/subgenre")]),_vm._v(" "),_vm._l((_vm.filterOptions.slice(_vm.startOfSection('medium')-2,_vm.startOfSection('medium') + _vm.numberOfType('medium')-2)),function(option){return [_c('label',{staticClass:"filter",class:_vm.vueFields[option].type},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_c('span',{class:_vm.vueFields[option].type + ' badge',on:{"change":function($event){_vm.updateFilters(option)}}},[_vm._v(_vm._s(_vm.vueFields[option].icon))]),_vm._v(_vm._s(_vm.vueFields[option].label)+" ("+_vm._s(_vm.headings[option])+")")])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section demographic"},[_c('h4',[_vm._v("demographic")]),_vm._v(" "),_vm._l((_vm.filterOptions.slice(_vm.startOfSection('demographic')-2,_vm.startOfSection('demographic') + _vm.numberOfType('demographic')-2)),function(option){return [_c('label',{staticClass:"filter",class:_vm.vueFields[option].type},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_vm._v(_vm._s(_vm.vueFields[option].label)+" ("+_vm._s(_vm.headings[option])+")")])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section location"},[_c('h4',[_vm._v("location")]),_vm._v(" "),_vm._l((_vm.filterOptions.slice(_vm.filterOptions.length-2)),function(option){return [_c('label',{staticClass:"filter",class:option},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.filters[option]),expression:"filters[option]"}],attrs:{"type":"checkbox","value":"X"},domProps:{"checked":Array.isArray(_vm.filters[option])?_vm._i(_vm.filters[option],"X")>-1:(_vm.filters[option])},on:{"change":[function($event){var $$a=_vm.filters[option],$$el=$event.target,$$c=$$el.checked?(true):(false);if(Array.isArray($$a)){var $$v="X",$$i=_vm._i($$a,$$v);if($$el.checked){$$i<0&&(_vm.$set(_vm.filters, option, $$a.concat([$$v])))}else{$$i>-1&&(_vm.$set(_vm.filters, option, $$a.slice(0,$$i).concat($$a.slice($$i+1))))}}else{_vm.$set(_vm.filters, option, $$c)}},function($event){_vm.updateFilters(option)}]}}),_vm._v(_vm._s(_vm.vueFields[option].label))])]})],2),_vm._v(" "),_c('div',{staticClass:"filter-section clear-button",attrs:{"id":"global-controls"}},[_c('button',{staticClass:"clear-button",on:{"click":function($event){_vm.clearFilters()}}},[_vm._v("clear all filters")])]),_vm._v(" "),_c('div',{staticClass:"total"},[_vm._v("\n                Composers matching current filters: "+_vm._s(_vm.filteredTotal)+"\n            ")])])])}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ul',{attrs:{"id":"nav-menu"}},[_c('li',[_c('a',{attrs:{"href":"about.html"}},[_vm._v("About the project")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('h3',[_c('span',{staticClass:"icon"},[_vm._v("▼")]),_vm._v("Search filter options")])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -12720,7 +12737,7 @@ module.exports = {"range":"'Composer Diversity Database (IN PROGRESS)'!A3:AQ3927
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{key:_vm.rerender,staticClass:"app-wrapper",attrs:{"id":"app"}},[(_vm.loading)?_c('div',[_c('div',{staticClass:"loader"},[_vm._v("Loading...")])]):_vm._e(),_vm._v(" "),_c('FormInputs',_vm._b({on:{"updateFilters":_vm.updateFilters,"clearFilters":_vm.clearFilters}},'FormInputs',{filtersCollapsed: _vm.filtersCollapsed, filters: _vm.filters, filterOptions: _vm.filterOptions, vueFields: _vm.vueFields, headings: _vm.headings, search: _vm.search, startOfSection: _vm.startOfSection, numberOfType: _vm.numberOfType, toggleFilterView: _vm.toggleFilterView, filteredTotal: _vm.filteredTotal},false)),_vm._v(" "),_c('ComposerList',_vm._b({on:{"toggleFilter":_vm.toggleFilter}},'ComposerList',{filteredList: _vm.filteredList, search: _vm.search, vueFields: _vm.vueFields, cardBadges: _vm.cardBadges, filters: _vm.filters},false))],1)}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{key:_vm.rerender,staticClass:"app-wrapper",attrs:{"id":"app"}},[(_vm.loading)?_c('div',[_c('div',{staticClass:"loader"},[_vm._v("Loading...")])]):_vm._e(),_vm._v(" "),_c('FormInputs',_vm._b({on:{"updateFilters":_vm.updateFilters,"clearFilters":_vm.clearFilters,"updateSearch":_vm.updateSearch}},'FormInputs',{filtersCollapsed: _vm.filtersCollapsed, filters: _vm.filters, filterOptions: _vm.filterOptions, vueFields: _vm.vueFields, headings: _vm.headings, search: _vm.search, startOfSection: _vm.startOfSection, numberOfType: _vm.numberOfType, toggleFilterView: _vm.toggleFilterView, filteredTotal: _vm.filteredTotal},false)),_vm._v(" "),_c('ComposerList',_vm._b({on:{"toggleFilter":_vm.toggleFilter}},'ComposerList',{filteredList: _vm.filteredList, search: _vm.search, vueFields: _vm.vueFields, cardBadges: _vm.cardBadges, filters: _vm.filters},false))],1)}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
