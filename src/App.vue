@@ -13,6 +13,7 @@ import ComposerList from './ComposerList';
 import FormInputs from './FormInputs';
 
 const fields = require('./fields.json').list;
+const deburr = require('lodash/deburr');
 
 export default {
 	name: 'app',
@@ -126,9 +127,25 @@ export default {
             this.filteredList = this.list.filter((row) => {
                 var returnval = true;
 
-                if (row[0].match(new RegExp(this.search, 'i')) == null){
+                // SEARCH FIRST
+                // regexp match version
+                // if (row[0].match(new RegExp(this.search, 'i')) == null){
+                //     return false;
+                // }
+
+                // deburred regexp (compromise)
+                var deburredName = deburr(row[0]);
+                var deburredQuery = deburr(this.search);
+                if (deburredName.match(new RegExp(deburredQuery, 'i')) == null){
                     return false;
                 }
+
+                // fuzzy search
+                // var fuzzballOptions = {useCollator: true};
+                // var fuzzballScore = fuzzball.partial_ratio(this.search, row[0]);
+                // if (fuzzballScore < 70){
+                //     return false;
+                // }
 
                 for (var i = 0; i < this.filters.length-2; i++) {
                     if (this.filters[i]==true && row[i]!='X') {
