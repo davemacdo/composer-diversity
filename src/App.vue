@@ -3,7 +3,7 @@
         <div v-if="loading">
 			<div class="loader">Loading...</div>
 		</div>
-        <FormInputs v-bind="{filtersCollapsed, filterOptions, vueFields, filters, headings, search, startOfSection, numberOfType, toggleFilterView, filteredTotal}" />
+        <FormInputs v-bind="{filtersCollapsed, filters, filterOptions, vueFields, headings, search, startOfSection, numberOfType, toggleFilterView, filteredTotal}" @updateFilters="updateFilters" @clearFilters="clearFilters" />
         <ComposerList v-bind="{filteredList, search, vueFields, cardBadges, filters}" @toggleFilter="toggleFilter" />
     </div>
 </template>
@@ -57,6 +57,16 @@ export default {
             this.runFiltersAnd();
 			this.rerender++;
 		}, // toggleFilter
+        updateFilters: function(payload) {
+            console.log(payload);
+            this.runFiltersAnd();
+        }, // updateFilters
+        clearFilters: function() {
+            for (var i = 0; i < this.filters.length; i++) {
+				this.filters[i] = false;
+			}
+			this.runFiltersAnd();
+        }, // clearFilters
         startOfSection: function(section) {
             for(var i = 0; i < this.vueFields.length; i++) {
                 if(this.vueFields[i].type === section) {
@@ -107,7 +117,7 @@ export default {
         	return options;
 
         }, // getFilterOptions
-        runFiltersAnd: function(row){ // filter results
+        runFiltersAnd: function(){ // filter results
 
             this.filteredList = this.list.filter((row) => {
                 var returnval = true;
