@@ -1,37 +1,42 @@
 {
-  "name": "wcdb-frontend",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "live-server",
-    "watch": "webpack --w",
-    "dev": "concurrently \"npm run watch\" \"npm run start\"",
-    "build": "webpack",
-    "test": "echo \"Error: No test specified\" && exit 1"
-  },
-  "keywords": [],
+  "name": "composer-diversity",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
   "author": "David MacDonald <davidjohnmacdonald@gmail.com>",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^8.3.0",
-    "babel-core": "^6.26.2",
-    "babel-loader": "^7.1.4",
-    "concurrently": "^3.5.1",
-    "css-flip": "^0.5.0",
-    "css-loader": "^0.28.11",
-    "extract-loader": "^2.0.1",
-    "extract-text-webpack-plugin": "^3.0.2",
-    "file-loader": "^1.1.11",
-    "node-sass": "^4.9.0",
-    "postcss-cli": "^5.0.0",
-    "postcss-loader": "^2.1.4",
-    "sass-loader": "^7.0.1",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.15"
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "vue": "^2.5.11",
     "country-emoji": "^1.2.0"
+ },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^8.3.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "extract-loader": "^2.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.5.3",
+    "postcss-cli": "^5.0.0",
+    "postcss-loader": "^2.1.4",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
   }
 }

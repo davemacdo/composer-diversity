@@ -10,9 +10,9 @@ todos:
 - [X] rename project to Composer Diversity Database
 - [X] reformat largest screen layout
 - [X] add filters for gender identity and demographics
-- [ ] make badges clickable to change filters
+- [X] make badges clickable to change filters
 - [X] fix URLs in data source
-- [ ] collapse filters for small screens
+- [X] collapse filters for small screens
 - [X] improve responsive break points for retina displays
 - [X] add usage analytics
 - [X] copy Google Sheet data to static JSON file
