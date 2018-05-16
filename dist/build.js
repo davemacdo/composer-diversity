@@ -727,56 +727,60 @@ const fields = __webpack_require__(28).list;
 const { flag, name, code } = __webpack_require__(20);
 
 /* harmony default export */ __webpack_exports__["a"] = ({
-	name: 'ComposerList',
-	props: ['filteredList', 'search', 'vueFields', 'cardBadges', 'filters'],
-	methods: {
-		getFlags: function (country) {
-			var flagmoji = flag(country);
+				name: 'ComposerList',
+				props: ['filteredList', 'search', 'vueFields', 'cardBadges', 'filters'],
+				methods: {
+								getFlags: function (country) {
+												if (country == null) {
+																return '';
+												}
 
-			if (flagmoji == null && country.indexOf('\/') > -1) {
-				flagmoji = '';
-				var countries = country.split('\/');
+												var flagmoji = flag(country);
 
-				for (var i = 0; i < countries.length; i++) {
-					flagmoji += flag(countries[i]);
-				}
-			}
+												if (flagmoji == null && country.indexOf('\/') > -1) {
+																flagmoji = '';
+																var countries = country.split('\/');
 
-			return flagmoji;
-		}, // getFlags
-		composerGeo: function (row) {
-			// return span for geographical information for each composer
-			// var cityField = this.startOfSection('geographic');
-			var cityField = 40;
-			var countryField = cityField + 1;
-			var geoSpan = '';
-			var nodata = ['N/A', ''];
-			if (!nodata.includes(row[cityField])) {
-				// if there's a city/state, give that
-				geoSpan = row[cityField];
+																for (var i = 0; i < countries.length; i++) {
+																				flagmoji += flag(countries[i]);
+																}
+												}
 
-				if (!nodata.includes(row[countryField])) {
-					// if there's *also* a country, add that
-					geoSpan += ', ' + row[countryField] + (this.getFlags(row[countryField]) ? ' ' + this.getFlags(row[countryField]) : '');
-				}
-			}
+												return flagmoji;
+								}, // getFlags
+								composerGeo: function (row) {
+												// return span for geographical information for each composer
+												// var cityField = this.startOfSection('geographic');
+												var cityField = 40;
+												var countryField = cityField + 1;
+												var geoSpan = '';
+												var nodata = ['N/A', ''];
+												if (!nodata.includes(row[cityField])) {
+																// if there's a city/state, give that
+																geoSpan = row[cityField];
 
-			if (geoSpan == '' && !nodata.includes(row[countryField])) {
-				// if there's only a country, give that
-				geoSpan = row[countryField] + (this.getFlags(row[countryField]) ? ' ' + this.getFlags(row[countryField]) : '');
-			}
-			return geoSpan;
-		}, // composerGeo
-		toggleFilter: function (filter) {
-			this.$emit('toggleFilter', { filter });
-		}, // toggleFilter
-		updateTotal: function () {
-			this.filteredTotal = this.filteredList.length;
-		}
-	} // methods
-	// beforeUpdate: {
-	//
-	// }
+																if (!nodata.includes(row[countryField])) {
+																				// if there's *also* a country, add that
+																				geoSpan += ', ' + row[countryField] + (this.getFlags(row[countryField]) ? ' ' + this.getFlags(row[countryField]) : '');
+																}
+												}
+
+												if (geoSpan == '' && !nodata.includes(row[countryField])) {
+																// if there's only a country, give that
+																geoSpan = row[countryField] + (this.getFlags(row[countryField]) ? ' ' + this.getFlags(row[countryField]) : '');
+												}
+												return geoSpan;
+								}, // composerGeo
+								toggleFilter: function (filter) {
+												this.$emit('toggleFilter', { filter });
+								}, // toggleFilter
+								updateTotal: function () {
+												this.filteredTotal = this.filteredList.length;
+								}
+				} // methods
+				// beforeUpdate: {
+				//
+				// }
 
 });
 
@@ -12386,7 +12390,7 @@ module.exports = function listToStyles (parentId, list) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ComposerList_vue__ = __webpack_require__(5);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3ebbe176_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ComposerList_vue__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_29f22ff4_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ComposerList_vue__ = __webpack_require__(23);
 function injectStyle (ssrContext) {
   __webpack_require__(18)
 }
@@ -12406,7 +12410,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_ComposerList_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3ebbe176_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ComposerList_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_29f22ff4_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_ComposerList_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -12427,7 +12431,7 @@ var content = __webpack_require__(19);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(2)("abece006", content, true, {});
+var update = __webpack_require__(2)("3c43cdf6", content, true, {});
 
 /***/ }),
 /* 19 */

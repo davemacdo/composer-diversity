@@ -30,6 +30,10 @@ export default {
     ],
     methods: {
         getFlags: function(country) {
+            if (country == null){
+                return '';
+            }
+            
 			var flagmoji = flag( country );
 
 			if (flagmoji == null && country.indexOf('\/') > -1){
