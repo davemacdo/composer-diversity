@@ -3,7 +3,7 @@
         <div v-if="loading">
 			<div class="loader">Loading...</div>
 		</div>
-        <FormInputs v-bind="{filtersCollapsed, filters, filterOptions, vueFields, headings, search, startOfSection, numberOfType, toggleFilterView, filteredTotal}" @updateFilters="updateFilters" @clearFilters="clearFilters" />
+        <FormInputs v-bind="{filtersCollapsed, filters, filterOptions, vueFields, headings, search, startOfSection, numberOfType, toggleFilterView, filteredTotal}" @updateFilters="updateFilters" @clearFilters="clearFilters" @updateSearch="updateSearch"/>
         <ComposerList v-bind="{filteredList, search, vueFields, cardBadges, filters}" @toggleFilter="toggleFilter" />
     </div>
 </template>
@@ -58,9 +58,13 @@ export default {
 			this.rerender++;
 		}, // toggleFilter
         updateFilters: function(payload) {
-            console.log(payload);
+            // console.log(payload);
             this.runFiltersAnd();
         }, // updateFilters
+        updateSearch: function(payload) {
+            this.search = payload.query;
+            this.runFiltersAnd();
+        }, // updateSearch
         clearFilters: function() {
             for (var i = 0; i < this.filters.length; i++) {
 				this.filters[i] = false;
@@ -122,6 +126,10 @@ export default {
             this.filteredList = this.list.filter((row) => {
                 var returnval = true;
 
+                if (row[0].match(new RegExp(this.search, 'i')) == null){
+                    return false;
+                }
+
                 for (var i = 0; i < this.filters.length-2; i++) {
                     if (this.filters[i]==true && row[i]!='X') {
                         returnval = false;
@@ -149,7 +157,7 @@ export default {
 
     }, // methods
     created: function() {
-        var json = require('./assets/composer-diversity-offline.json');
+        var json = require('../assets/composer-diversity-offline.json');
         var response = json.values;
 
         this.headings = response[0];

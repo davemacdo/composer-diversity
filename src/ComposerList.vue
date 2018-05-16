@@ -1,7 +1,7 @@
 <template lang="html">
     <div class="list-wrapper">
         <ul class="composer-list">
-            <template v-for="composer in filteredList" v-if="composer[0].match(new RegExp(search, 'i'))">
+            <template v-for="composer in filteredList">
                     <li>
                         <span class="name"><a :href="composer[composer.length-1]" target="_blank">{{composer[0]}}</a></span>
                         <span class="composer-props">

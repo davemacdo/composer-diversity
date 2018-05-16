@@ -4,7 +4,7 @@
 			<ul id="nav-menu">
 				<li><a href="about.html">About the project</a></li>
 			</ul>
-			<input type="text" v-model="search" class="search" placeholder="search" autofocus>
+			<input type="text" v-model="query" class="search" placeholder="search" autofocus @input="updateSearch(query)" >
 		</header>
         <div class="filters" id="filters" v-bind:class="{ collapsed: filtersCollapsed }">
     		<div id="filters-heading">
@@ -57,7 +57,7 @@
 
 <script>
 export default {
-    name: 'ComposerList',
+    name: 'FormInputs',
     props: [
         'search',
         'filtersCollapsed',
@@ -70,9 +70,18 @@ export default {
         'toggleFilterView',
         'filteredTotal'
     ], // props
+    data () {
+        return {
+            query: ''
+        }
+    },
     methods: {
+        updateSearch: function(query) {
+            this.$emit('updateSearch', {query})
+            // console.log(query);
+        }, // updateSearch
         updateFilters: function(option) {
-            this.$emit('updateFilters', {option})
+            this.$emit('updateFilters', {option});
         }, // updateFilters
         clearFilters: function() {
             this.$emit('clearFilters')
