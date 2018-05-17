@@ -26,7 +26,7 @@ export default {
             vueFields: fields,
             loading: true,
             title: 'Composer Diversity Database',
-            headings: null,
+            headings: new Array(43),
             list: null,
             filteredList: null,
             search: '',
@@ -177,8 +177,19 @@ export default {
         var json = require('../assets/composer-diversity-offline.json');
         var response = json.values;
 
-        this.headings = response[0];
+        // this.headings = response[0];
         this.list = response.slice(1);
+
+        // count up numbers for all the headings
+        for (var i = 0; i < this.headings.length; i++) {
+            this.headings[i] = 0;
+        }
+        for (var row = 0; row < this.list.length; row++) {
+            for (var i = 0; i < this.list[row].length; i++) {
+                if (this.list[row][i] != ''){ this.headings[i]++;}
+            }
+        }
+
         this.filteredList = this.list;
         this.filteredTotal = this.filteredList.length;
 
