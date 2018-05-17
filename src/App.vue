@@ -178,7 +178,7 @@ export default {
         var response = json.values;
 
         // this.headings = response[0];
-        this.list = response.slice(1);
+        this.list = response;
 
         // count up numbers for all the headings
         for (var i = 0; i < this.headings.length; i++) {
