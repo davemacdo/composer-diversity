@@ -134,9 +134,9 @@ export default {
                 // }
 
                 // deburred regexp (compromise)
-                var deburredName = deburr(row[0]);
+                var deburredSearchables = deburr(row[0] + ' : ' + row[40] + ' : ' + row[41]);
                 var deburredQuery = deburr(this.search);
-                if (deburredName.match(new RegExp(deburredQuery, 'i')) == null){
+                if (deburredSearchables.match(new RegExp(deburredQuery, 'i')) == null){
                     return false;
                 }
 
