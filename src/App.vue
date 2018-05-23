@@ -155,7 +155,7 @@ export default {
 
                 var usaFilter = this.filters.length - 2;
 				var nonUsaFilter = usaFilter + 1;
-				var countryField = this.startOfSection('geographic') + 1;
+				var countryField = this.startOfSection('geographic') + 2;
 				if (this.filters[usaFilter]==true && row[countryField].indexOf('USA') == -1){
 					returnval = false;
 				}
