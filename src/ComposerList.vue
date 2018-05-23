@@ -33,7 +33,7 @@ export default {
             if (country == null){
                 return '';
             }
-            
+
 			var flagmoji = flag( country );
 
 			if (flagmoji == null && country.indexOf('\/') > -1){
@@ -50,7 +50,7 @@ export default {
         composerGeo: function(row) { // return span for geographical information for each composer
 			// var cityField = this.startOfSection('geographic');
 			var cityField = 40;
-			var countryField = cityField + 1;
+			var countryField = cityField + 2;
 			var geoSpan = '';
 			var nodata = ['N/A', '']
 			if (!nodata.includes(row[cityField])){ // if there's a city/state, give that
