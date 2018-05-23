@@ -49,9 +49,13 @@ div.filter-section:nth-of-type(n+3){
 	padding-top: 0.5em;
 }
 
-div.filter-section:nth-of-type(4), div.filter-section:nth-of-type(6){
-	// background-color: $card-bg;
+div.filter-section.gender {
+	padding-top: 0em;
 }
+
+// div.filter-section:nth-of-type(4), div.filter-section:nth-of-type(6){
+// 	background-color: $card-bg;
+// }
 
 div.filter-section:nth-of-type(n+1){
 	margin-left: 3px;
