@@ -35,7 +35,7 @@
     		<div class="filter-section demographic">
     			<h4>demographic</h4>
     			<template v-for="option in filterOptions.slice(startOfSection('demographic')-2,startOfSection('demographic') + numberOfType('demographic')-2)">
-    				<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >{{vueFields[option].label}} ({{headings[option]}})</label>
+    				<label v-if="vueFields[option].class != 'white'" class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >{{vueFields[option].label}} ({{headings[option]}})</label>
     			</template>
     		</div>
     		<div class="filter-section location">
