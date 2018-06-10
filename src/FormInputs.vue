@@ -34,7 +34,7 @@
           </template>
     		</div>
     		<div class="filter-section genre">
-    			<h4>genre</h4>
+    			<h4>{{ $t("i18nKeys.genre") }}</h4>
     			<template v-if="filterOptions != null">
             <template v-for="option in filterOptions.slice(startOfSection('genre')-2,startOfSection('genre') + numberOfType('genre')-2)">
     				  <label class="filter" :class="vueFields[option].type">
@@ -49,7 +49,7 @@
           </template>
     		</div>
     		<div class="filter-section medium">
-    			<h4>medium/subgenre</h4>
+    			<h4>{{ $t("i18nKeys.mediumsubgenre") }}</h4>
     			<template v-if="filterOptions != null">
             <template v-for="option in filterOptions.slice(startOfSection('medium')-2,startOfSection('medium') + numberOfType('medium')-2)">
     				  <label class="filter" :class="vueFields[option].type">
@@ -64,7 +64,7 @@
           </template>
     		</div>
     		<div class="filter-section demographic">
-    			<h4>demographic</h4>
+    			<h4>{{ $t("i18nKeys.demographic") }}</h4>
     			<template v-if="filterOptions != null">
             <template v-for="option in filterOptions.slice(startOfSection('demographic')-2,startOfSection('demographic') + numberOfType('demographic')-2)">
     				  <label v-if="vueFields[option].class != 'white'" class="filter" :class="vueFields[option].type">
@@ -76,7 +76,7 @@
           </template>
     		</div>
     		<div class="filter-section location">
-    			<h4>location</h4>
+    			<h4>{{ $t("i18nKeys.location") }}</h4>
     			<template v-if="filterOptions != null">
             <template v-for="option in filterOptions.slice(filterOptions.length-2)">
     				  <label class="filter" :class="option">
