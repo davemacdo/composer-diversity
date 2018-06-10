@@ -1,7 +1,131 @@
 import Vue from 'vue'
+import VueI18n from 'vue-i18n'
 import App from './App.vue'
 
+const messages = {
+	en: {
+		i18nKeys: {
+			genre: 'genre',
+			living: 'living',
+			deceased: 'deceased',
+			female: 'female',
+			nonbinary: 'non-binary',
+			orchestra: 'orchestra',
+			windband: 'wind band',
+			chorus: 'chorus',
+			chamber: 'chamber',
+			voice: 'voice',
+			opera: 'opera',
+			jazzimprov: 'jazz/improvization',
+			videogames: 'video games',
+			film: 'film',
+			musictheatre: 'music theatre',
+			songwriting: 'song writing',
+			electroacousticinstallation: 'electroacoustic / installation',
+			folktraditionalgenres: 'folk / traditional genres',
+			stringquartet: 'string quartet',
+			pianotrio: 'piano trio',
+			windquintet: 'wind quintet',
+			reedquintet: 'reed quintet',
+			saxophonequartet: 'saxophone quartet',
+			brassquintet: 'brass quintet',
+			pierrotensemble: 'Pierrot ensemble',
+			percussionensemble: 'percussion ensemble',
+			youngband: 'young band',
+			youngorchestra: 'young orchestra',
+			youngchoir: 'young choir',
+			youngpiano: 'young piano',
+			white: 'White',
+			black: 'Black',
+			latinxlatinamerican: 'Latinx / Latin American',
+			eastasian: 'East Asian',
+			westasiannorthafrican: 'West Asian/North African',
+			southasian: 'South Asian',
+			southeastasian: 'Southeast Asian',
+			americanindian: 'American Indian',
+			other: 'Other',
+			citystate: 'city/state',
+			country: 'country',
+			url: 'URL',
+			basedinusa: 'Based In USA',
+			basedoutsideusa: 'Based Outside of USA',
+			mediumsubgenre: 'medium / subgenre',
+			demographic: 'demographic',
+			location: 'location',
+			searchfilteroptions: 'Search filter options',
+			clearallfilters: 'Clear All Filters',
+			composersmatchingfilters: 'Composers matching current filters:',
+			search: 'Search',
+			abouttheproject: 'About The Project'
+		}
+	},
+	xx: {
+		i18nKeys: {
+			genre: '---x-x-x---',
+			living: '---x-x-x---',
+			deceased: '---x-x-x---',
+			female: '---x-x-x---',
+			nonbinary: '---x-x-x---',
+			orchestra: '---x-x-x---',
+			windband: '---x-x-x---',
+			chorus: '---x-x-x---',
+			chamber: '---x-x-x---',
+			voice: '---x-x-x---',
+			opera: '---x-x-x---',
+			jazzimprov: '---x-x-x---',
+			videogames: '---x-x-x---',
+			film: '---x-x-x---',
+			musictheatre: '---x-x-x---',
+			songwriting: '---x-x-x---',
+			electroacousticinstallation: '---x-x-x---',
+			folktraditionalgenres: '---x-x-x---',
+			stringquartet: '---x-x-x---',
+			pianotrio: '---x-x-x---',
+			windquintet: '---x-x-x---',
+			reedquintet: '---x-x-x---',
+			saxophonequartet: '---x-x-x---',
+			brassquintet: '---x-x-x---',
+			pierrotensemble: '---x-x-x---',
+			percussionensemble: '---x-x-x---',
+			youngband: '---x-x-x---',
+			youngorchestra: '---x-x-x---',
+			youngchoir: '---x-x-x---',
+			youngpiano: '---x-x-x---',
+			white: '---x-x-x---',
+			black: '---x-x-x---',
+			latinxlatinamerican: '---x-x-x---',
+			eastasian: '---x-x-x---',
+			westasiannorthafrican: '---x-x-x---',
+			southasian: '---x-x-x---',
+			southeastasian: '---x-x-x---',
+			americanindian: '---x-x-x---',
+			other: '---x-x-x---',
+			citystate: '---x-x-x---',
+			country: '---x-x-x---',
+			url: '---x-x-x---',
+			basedinusa: '---x-x-x---',
+			basedoutsideusa: '---x-x-x---',
+			mediumsubgenre: '--x-x-x--',
+			demographic: '---x-x-x---',
+			location: '---x-x-x---',
+			searchfilteroptions: '---x-x-x---',
+			clearallfilters: '---x-x-x---',
+			composersmatchingfilters: '---x-x-x---',
+			search: '--x-x--',
+			abouttheproject: '--x-x--'
+		}
+	}
+};
+
+Vue.use(VueI18n);
+
+const i18n = new VueI18n({
+	locale: 'en', // to test this, set it to the "xx" locale, and see all the strings turn into --x-x-x--
+	messages,
+});
+
 new Vue({
-  el: '#app',
-  render: h => h(App)
-})
+	el: '#app',
+	i18n: i18n,
+	render: h => h(App)
+});
