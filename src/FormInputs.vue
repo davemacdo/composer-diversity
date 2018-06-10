@@ -2,25 +2,34 @@
     <div class="inputs">
 		<header>
 			<ul id="nav-menu">
-				<li><a href="about.html">About the project</a></li>
+				<li><a href="about.html">{{ $t("i18nKeys.abouttheproject")}}</a></li>
 			</ul>
-			<input type="text" v-model="query" class="search" placeholder="search" autofocus @input="updateSearch(query)" >
+			<input type="text" v-model="query" class="search" :placeholder="$t('i18nKeys.search')" autofocus @input="updateSearch(query)" >
 		</header>
         <div class="filters" id="filters" v-bind:class="{ collapsed: filtersCollapsed }">
     		<div id="filters-heading">
-    			<a href="#" @click="toggleFilterView()"><h3><span class="icon">&#9660;</span>Search filter options</h3></a>
+    			<a href="#" @click="toggleFilterView()"><h3><span class="icon">&#9660;</span>{{$t('i18nKeys.searchfilteroptions')}}</h3></a>
     		</div>
     		<div class="filter-section living-dead">
           <template v-if="filterOptions != null">
             <template v-for="option in filterOptions.slice(0,2)">
-      				<label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >{{vueFields[option].label}} ({{headings[option]}})</label>
+      				<label class="filter" :class="vueFields[option].type">
+                <input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >
+                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+                ({{headings[option]}})
+              </label>
       			</template>
           </template>
     		</div>
     		<div class="filter-section gender">
     			<template v-if="filterOptions != null">
             <template v-for="option in filterOptions.slice(2,4)">
-    				  <label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" ><span :class="vueFields[option].type + ' badge'" @change="updateFilters(option)" >{{vueFields[option].icon}}</span>{{vueFields[option].label}} ({{headings[option]}})</label>
+    				  <label class="filter" :class="vueFields[option].type">
+                <input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >
+                <span :class="vueFields[option].type + ' badge'" @change="updateFilters(option)" >{{vueFields[option].icon}}</span>
+                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+                ({{headings[option]}})
+              </label>
     			  </template>
           </template>
     		</div>
@@ -28,7 +37,14 @@
     			<h4>genre</h4>
     			<template v-if="filterOptions != null">
             <template v-for="option in filterOptions.slice(startOfSection('genre')-2,startOfSection('genre') + numberOfType('genre')-2)">
-    				  <label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" ><span :class="vueFields[option].type + ' badge'" @change="updateFilters(option)" >{{vueFields[option].icon}}</span>{{vueFields[option].label}} ({{headings[option]}})</label>
+    				  <label class="filter" :class="vueFields[option].type">
+                <input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >
+                <span :class="vueFields[option].type + ' badge'" @change="updateFilters(option)" >
+                  {{vueFields[option].icon}}
+                </span>
+                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+                ({{headings[option]}})
+              </label>
     			  </template>
           </template>
     		</div>
@@ -36,7 +52,14 @@
     			<h4>medium/subgenre</h4>
     			<template v-if="filterOptions != null">
             <template v-for="option in filterOptions.slice(startOfSection('medium')-2,startOfSection('medium') + numberOfType('medium')-2)">
-    				  <label class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" ><span :class="vueFields[option].type + ' badge'" @change="updateFilters(option)" >{{vueFields[option].icon}}</span>{{vueFields[option].label}} ({{headings[option]}})</label>
+    				  <label class="filter" :class="vueFields[option].type">
+                <input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >
+                <span :class="vueFields[option].type + ' badge'" @change="updateFilters(option)" >
+                  {{vueFields[option].icon}}
+                </span>
+                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+                ({{headings[option]}})
+              </label>
     			  </template>
           </template>
     		</div>
@@ -44,7 +67,11 @@
     			<h4>demographic</h4>
     			<template v-if="filterOptions != null">
             <template v-for="option in filterOptions.slice(startOfSection('demographic')-2,startOfSection('demographic') + numberOfType('demographic')-2)">
-    				  <label v-if="vueFields[option].class != 'white'" class="filter" :class="vueFields[option].type"><input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >{{vueFields[option].label}} ({{headings[option]}})</label>
+    				  <label v-if="vueFields[option].class != 'white'" class="filter" :class="vueFields[option].type">
+                <input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >
+                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+                ({{headings[option]}})
+              </label>
     			  </template>
           </template>
     		</div>
@@ -52,15 +79,20 @@
     			<h4>location</h4>
     			<template v-if="filterOptions != null">
             <template v-for="option in filterOptions.slice(filterOptions.length-2)">
-    				  <label class="filter" :class="option"><input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >{{vueFields[option].label}}</label>
+    				  <label class="filter" :class="option">
+                <input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >
+                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+              </label>
     			  </template>
           </template>
     		</div>
     		<div class="filter-section clear-button" id="global-controls">
-    			<button @click="clearFilters()" class="clear-button">clear all filters</button>
+    			<button @click="clearFilters()" class="clear-button">
+            {{ $t('i18nKeys.clearallfilters') }}
+          </button>
     		</div>
             <div class="total">
-                Composers matching current filters: {{filteredTotal}}
+                {{ $t('i18nKeys.composersmatchingfilters') }}: {{filteredTotal}}
             </div>
 
     	</div>
