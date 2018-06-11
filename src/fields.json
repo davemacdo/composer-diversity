@@ -1,278 +1,278 @@
 {
-	"list" : [
-		{
-			"labelI18nKey": "name",
-			"class": "name",
-			"icon": null,
-			"type": "name"
-		},
+  "list" : [
+    {
+      "labelI18nKey": "name",
+      "class": "name",
+      "icon": null,
+      "type": "name"
+    },
 
-		{
-			"labelI18nKey": "living",
-			"class": "living",
-			"icon": "🌞",
-			"type": "living-dead"
-		},
-		{
-			"labelI18nKey": "deceased",
-			"class": "dead",
-			"icon": "🌜",
-			"type": "living-dead"
-		},
+    {
+      "labelI18nKey": "living",
+      "class": "living",
+      "icon": "🌞",
+      "type": "living-dead"
+    },
+    {
+      "labelI18nKey": "deceased",
+      "class": "dead",
+      "icon": "🌜",
+      "type": "living-dead"
+    },
 
-		{
-			"labelI18nKey": "male",
-			"class": "male",
-			"icon": "M",
-			"type": "gender"
-		},
-		{
-			"labelI18nKey": "female",
-			"class": "female",
-			"icon": "F",
-			"type": "gender"
-		},
-		{
-			"labelI18nKey": "nonbinary",
-			"class": "non-binary",
-			"icon": "NB",
-			"type": "gender"
-		},
+    {
+      "labelI18nKey": "male",
+      "class": "male",
+      "icon": "M",
+      "type": "gender"
+    },
+    {
+      "labelI18nKey": "female",
+      "class": "female",
+      "icon": "F",
+      "type": "gender"
+    },
+    {
+      "labelI18nKey": "nonbinary",
+      "class": "non-binary",
+      "icon": "NB",
+      "type": "gender"
+    },
 
-		{
-			"labelI18nKey": "orchestra",
-			"class": "orchestra",
-			"icon": "Or",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "windband",
-			"class": "wind-band",
-			"icon": "W",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "chorus",
-			"class": "chorus",
-			"icon": "Cho",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "chamber",
-			"class": "chamber",
-			"icon": "Cha",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "voice",
-			"class": "voice",
-			"icon": "V",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "opera",
-			"class": "opera",
-			"icon": "Op",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "jazzimprov",
-			"class": "jazz",
-			"icon": "J",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "film",
-			"class": "film",
-			"icon": "F",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "videogames",
-			"class": "video-games",
-			"icon": "VG",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "musictheatre",
-			"class": "music-theatre",
-			"icon": "MT",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "songwriting",
-			"class": "songwriting",
-			"icon": "SW",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "electroacousticinstallation",
-			"class": "electroacoustic",
-			"icon": "EA",
-			"type": "genre"
-		},
-		{
-			"labelI18nKey": "folktraditionalgenres",
-			"class": "folk",
-			"icon": "F/Tr",
-			"type": "genre"
-		},
+    {
+      "labelI18nKey": "orchestra",
+      "class": "orchestra",
+      "icon": "Or",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "windband",
+      "class": "wind-band",
+      "icon": "W",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "chorus",
+      "class": "chorus",
+      "icon": "Cho",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "chamber",
+      "class": "chamber",
+      "icon": "Cha",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "voice",
+      "class": "voice",
+      "icon": "V",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "opera",
+      "class": "opera",
+      "icon": "Op",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "jazzimprov",
+      "class": "jazz",
+      "icon": "J",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "film",
+      "class": "film",
+      "icon": "F",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "videogames",
+      "class": "video-games",
+      "icon": "VG",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "musictheatre",
+      "class": "music-theatre",
+      "icon": "MT",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "songwriting",
+      "class": "songwriting",
+      "icon": "SW",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "electroacousticinstallation",
+      "class": "electroacoustic",
+      "icon": "EA",
+      "type": "genre"
+    },
+    {
+      "labelI18nKey": "folktraditionalgenres",
+      "class": "folk",
+      "icon": "F/Tr",
+      "type": "genre"
+    },
 
-		{
-			"labelI18nKey": "stringquartet",
-			"class": "string-quartet",
-			"icon": "SQ",
-			"type": "medium"
-		},
-		{
-			"labelI18nKey": "pianotrio",
-			"class": "piano-trio",
-			"icon": "PT",
-			"type": "medium"
-		},
-		{
-			"labelI18nKey": "windquintet",
-			"class": "wind-quintet",
-			"icon": "WQ",
-			"type": "medium"
-		},
-		{
-			"labelI18nKey": "reedquintet",
-			"class": "reed-quintet",
-			"icon": "RQ",
-			"type": "medium"
-		},
-		{
-			"labelI18nKey": "saxophonequartet",
-			"class": "sax-quartet",
-			"icon": "SxQ",
-			"type": "medium"
-		},
-		{
-			"labelI18nKey": "brassquintet",
-			"class": "brass-quintet",
-			"icon": "BQ",
-			"type": "medium"
-		},
-		{
-			"labelI18nKey": "pierrotensemble",
-			"class": "pierrot-ensemble",
-			"icon": "PE",
-			"type": "medium"
-		},
-		{
-			"labelI18nKey": "percussionensemble",
-			"class": "percussion",
-			"icon": "Per",
-			"type": "medium"
-		},
-		{
-			"labelI18nKey": "youngband",
-			"class": "young-band",
-			"icon": "YB",
-			"type": "medium"
-		},
-		{
-			"labelI18nKey": "youngorchestra",
-			"class": "young-orchestra",
-			"icon": "YO",
-			"type": "medium"
-		},
-		{
-			"labelI18nKey": "youngchoir",
-			"class": "young-choir",
-			"icon": "YC",
-			"type": "medium"
-		},
-		{
-			"labelI18nKey": "youngpiano",
-			"class": "young-piano",
-			"icon": "YP",
-			"type": "medium"
-		},
+    {
+      "labelI18nKey": "stringquartet",
+      "class": "string-quartet",
+      "icon": "SQ",
+      "type": "medium"
+    },
+    {
+      "labelI18nKey": "pianotrio",
+      "class": "piano-trio",
+      "icon": "PT",
+      "type": "medium"
+    },
+    {
+      "labelI18nKey": "windquintet",
+      "class": "wind-quintet",
+      "icon": "WQ",
+      "type": "medium"
+    },
+    {
+      "labelI18nKey": "reedquintet",
+      "class": "reed-quintet",
+      "icon": "RQ",
+      "type": "medium"
+    },
+    {
+      "labelI18nKey": "saxophonequartet",
+      "class": "sax-quartet",
+      "icon": "SxQ",
+      "type": "medium"
+    },
+    {
+      "labelI18nKey": "brassquintet",
+      "class": "brass-quintet",
+      "icon": "BQ",
+      "type": "medium"
+    },
+    {
+      "labelI18nKey": "pierrotensemble",
+      "class": "pierrot-ensemble",
+      "icon": "PE",
+      "type": "medium"
+    },
+    {
+      "labelI18nKey": "percussionensemble",
+      "class": "percussion",
+      "icon": "Per",
+      "type": "medium"
+    },
+    {
+      "labelI18nKey": "youngband",
+      "class": "young-band",
+      "icon": "YB",
+      "type": "medium"
+    },
+    {
+      "labelI18nKey": "youngorchestra",
+      "class": "young-orchestra",
+      "icon": "YO",
+      "type": "medium"
+    },
+    {
+      "labelI18nKey": "youngchoir",
+      "class": "young-choir",
+      "icon": "YC",
+      "type": "medium"
+    },
+    {
+      "labelI18nKey": "youngpiano",
+      "class": "young-piano",
+      "icon": "YP",
+      "type": "medium"
+    },
 
-		{
-			"labelI18nKey": "white",
-			"class": "white",
-			"icon": "Wh",
-			"type": "demographic"
-		},
-		{
-			"labelI18nKey": "black",
-			"class": "black",
-			"icon": "Bl",
-			"type": "demographic"
-		},
-		{
-			"labelI18nKey": "latinxlatinamerican",
-			"class": "latinx",
-			"icon": "Lat",
-			"type": "demographic"
-		},
-		{
-			"labelI18nKey": "eastasian",
-			"class": "asian",
-			"icon": "Asn",
-			"type": "demographic"
-		},
-		{
-			"labelI18nKey": "westasiannorthafrican",
-			"class": "wana",
-			"icon": "WANA",
-			"type": "demographic"
-		},
-		{
-			"labelI18nKey": "southasian",
-			"class": "south-asian",
-			"icon": "SoAs",
-			"type": "demographic"
-		},
-		{
-			"labelI18nKey": "southeastasian",
-			"class": "southeast-asian",
-			"icon": "SEA",
-			"type": "demographic"
-		},
-		{
-			"labelI18nKey": "americanindian",
-			"class": "american-indian",
-			"icon": "AmIn",
-			"type": "demographic"
-		},
-		{
-			"labelI18nKey": "other",
-			"class": "other",
-			"icon": "Oth",
-			"type": "demographic"
-		},
+    {
+      "labelI18nKey": "white",
+      "class": "white",
+      "icon": "Wh",
+      "type": "demographic"
+    },
+    {
+      "labelI18nKey": "black",
+      "class": "black",
+      "icon": "Bl",
+      "type": "demographic"
+    },
+    {
+      "labelI18nKey": "latinxlatinamerican",
+      "class": "latinx",
+      "icon": "Lat",
+      "type": "demographic"
+    },
+    {
+      "labelI18nKey": "eastasian",
+      "class": "asian",
+      "icon": "Asn",
+      "type": "demographic"
+    },
+    {
+      "labelI18nKey": "westasiannorthafrican",
+      "class": "wana",
+      "icon": "WANA",
+      "type": "demographic"
+    },
+    {
+      "labelI18nKey": "southasian",
+      "class": "south-asian",
+      "icon": "SoAs",
+      "type": "demographic"
+    },
+    {
+      "labelI18nKey": "southeastasian",
+      "class": "southeast-asian",
+      "icon": "SEA",
+      "type": "demographic"
+    },
+    {
+      "labelI18nKey": "americanindian",
+      "class": "american-indian",
+      "icon": "AmIn",
+      "type": "demographic"
+    },
+    {
+      "labelI18nKey": "other",
+      "class": "other",
+      "icon": "Oth",
+      "type": "demographic"
+    },
 
-		{
-			"labelI18nKey": "citystate",
-			"icon": null,
-			"type": "geographic"
-		},
-		{
-			"labelI18nKey": "country",
-			"icon": null,
-			"type": "geographic"
-		},
+    {
+      "labelI18nKey": "citystate",
+      "icon": null,
+      "type": "geographic"
+    },
+    {
+      "labelI18nKey": "country",
+      "icon": null,
+      "type": "geographic"
+    },
 
-		{
-			"labelI18nKey": "url",
-			"icon": "🔗",
-			"type": "url"
-		},
-		{
-			"labelI18nKey": "basedinusa",
-			"class": "usa",
-			"icon": null,
-			"type": "geographic"
-		},
-		{
-			"labelI18nKey": "basedoutsideusa",
-			"class": "non-usa",
-			"icon": null,
-			"type": "geographic"
-		}
-	]
+    {
+      "labelI18nKey": "url",
+      "icon": "🔗",
+      "type": "url"
+    },
+    {
+      "labelI18nKey": "basedinusa",
+      "class": "usa",
+      "icon": null,
+      "type": "geographic"
+    },
+    {
+      "labelI18nKey": "basedoutsideusa",
+      "class": "non-usa",
+      "icon": null,
+      "type": "geographic"
+    }
+  ]
 }

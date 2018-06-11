@@ -21,26 +21,26 @@ module.exports = {
         ],
       },
       {
-				test: /\.scss$/,
-				use: [
-					{
-						loader: 'file-loader',
-						options: {
-							name: '[name].css',
-							outputPath: '../dist/'
-						}
-					},
-					{
-						loader: 'extract-loader'
-					},
-					{
-						loader: 'css-loader'
-					},
-					{
-						loader: 'sass-loader'
-					}
-				]
-		},
+        test: /\.scss$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].css',
+              outputPath: '../dist/'
+            }
+          },
+          {
+            loader: 'extract-loader'
+          },
+          {
+            loader: 'css-loader'
+          },
+          {
+            loader: 'sass-loader'
+          }
+        ]
+    },
       {
         test: /\.sass$/,
         use: [

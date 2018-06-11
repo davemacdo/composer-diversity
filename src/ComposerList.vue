@@ -34,38 +34,38 @@ export default {
                 return '';
             }
 
-    			var flagmoji = flag( country );
+          var flagmoji = flag( country );
 
-    			if (flagmoji == null && country.indexOf('\/') > -1){
-    				flagmoji = '';
-    				var countries = country.split('\/');
+          if (flagmoji == null && country.indexOf('\/') > -1){
+            flagmoji = '';
+            var countries = country.split('\/');
 
-    				for (var i = 0; i < countries.length; i++){
-    					flagmoji += flag( countries[i] );
-    				}
-    			}
+            for (var i = 0; i < countries.length; i++){
+              flagmoji += flag( countries[i] );
+            }
+          }
 
-			       return flagmoji;
-		      }, // getFlags
+             return flagmoji;
+          }, // getFlags
         composerGeo: function(row) { // return span for geographical information for each composer
-      			// var cityField = this.startOfSection('geographic');
-      			var cityField = 40;
-      			var countryField = cityField + 2;
-      			var geoSpan = '';
-      			var nodata = ['N/A', '']
-      			if (!nodata.includes(row[cityField])){ // if there's a city/state, give that
-      				geoSpan = row[cityField];
+            // var cityField = this.startOfSection('geographic');
+            var cityField = 40;
+            var countryField = cityField + 2;
+            var geoSpan = '';
+            var nodata = ['N/A', '']
+            if (!nodata.includes(row[cityField])){ // if there's a city/state, give that
+              geoSpan = row[cityField];
 
-      				if (!nodata.includes(row[countryField])) { // if there's *also* a country, add that
-      					geoSpan += ', ' + row[countryField] + ( this.getFlags( row[countryField] ) ? (' ' + this.getFlags( row[countryField] )) : '' );
-      				}
-      			}
+              if (!nodata.includes(row[countryField])) { // if there's *also* a country, add that
+                geoSpan += ', ' + row[countryField] + ( this.getFlags( row[countryField] ) ? (' ' + this.getFlags( row[countryField] )) : '' );
+              }
+            }
 
-      			if (geoSpan == '' && !nodata.includes(row[countryField])) { // if there's only a country, give that
-      				geoSpan = row[countryField] + ( this.getFlags( row[countryField] ) ? (' ' + this.getFlags( row[countryField] )) : '' );
-      			}
-      			return geoSpan;
-      		}, // composerGeo
+            if (geoSpan == '' && !nodata.includes(row[countryField])) { // if there's only a country, give that
+              geoSpan = row[countryField] + ( this.getFlags( row[countryField] ) ? (' ' + this.getFlags( row[countryField] )) : '' );
+            }
+            return geoSpan;
+          }, // composerGeo
         toggleFilter: function(filter) {
             this.$emit('toggleFilter', {filter})
         }, // toggleFilter
