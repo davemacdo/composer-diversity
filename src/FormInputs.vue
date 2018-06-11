@@ -15,7 +15,7 @@
             <template v-for="option in filterOptions.slice(0,2)">
       				<label class="filter" :class="vueFields[option].type">
                 <input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >
-                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+                {{ $t( 'i18nKeys.' + vueFields[option].labelI18nKey ) }}
                 ({{headings[option]}})
               </label>
       			</template>
@@ -27,7 +27,7 @@
     				  <label class="filter" :class="vueFields[option].type">
                 <input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >
                 <span :class="vueFields[option].type + ' badge'" @change="updateFilters(option)" >{{vueFields[option].icon}}</span>
-                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+                {{ $t( 'i18nKeys.' + vueFields[option].labelI18nKey ) }}
                 ({{headings[option]}})
               </label>
     			  </template>
@@ -42,7 +42,7 @@
                 <span :class="vueFields[option].type + ' badge'" @change="updateFilters(option)" >
                   {{vueFields[option].icon}}
                 </span>
-                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+                {{ $t( 'i18nKeys.' + vueFields[option].labelI18nKey ) }}
                 ({{headings[option]}})
               </label>
     			  </template>
@@ -57,7 +57,7 @@
                 <span :class="vueFields[option].type + ' badge'" @change="updateFilters(option)" >
                   {{vueFields[option].icon}}
                 </span>
-                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+                {{ $t( 'i18nKeys.' + vueFields[option].labelI18nKey ) }}
                 ({{headings[option]}})
               </label>
     			  </template>
@@ -69,7 +69,7 @@
             <template v-for="option in filterOptions.slice(startOfSection('demographic')-2,startOfSection('demographic') + numberOfType('demographic')-2)">
     				  <label v-if="vueFields[option].class != 'white'" class="filter" :class="vueFields[option].type">
                 <input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >
-                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+                {{ $t( 'i18nKeys.' + vueFields[option].labelI18nKey ) }}
                 ({{headings[option]}})
               </label>
     			  </template>
@@ -81,7 +81,7 @@
             <template v-for="option in filterOptions.slice(filterOptions.length-2)">
     				  <label class="filter" :class="option">
                 <input type="checkbox" value="X" v-model="filters[option]" @change="updateFilters(option)" >
-                {{ $t( 'i18nKeys.' + vueFields[option].class ) }}
+                {{ $t( 'i18nKeys.' + vueFields[option].labelI18nKey ) }}
               </label>
     			  </template>
           </template>
