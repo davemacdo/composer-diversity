@@ -2,47 +2,47 @@
 @import 'vars';
 
 body {
-	background-color: $main-bg;
-	color: $main-fg;
-	font-family: $bodyFonts;
-	font-size: $small-screen-font-size;
+  background-color: $main-bg;
+  color: $main-fg;
+  font-family: $bodyFonts;
+  font-size: $small-screen-font-size;
 }
 
 h1#site-title {
-	text-align: left;
-	font-size: 330%;
-	font-weight: 300;
-	letter-spacing: 0.1em;
-	margin-bottom: 0.3em;
+  text-align: left;
+  font-size: 330%;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3em;
 }
 
 @media screen and (max-width: 40em) {
-	h1#site-title {
-		font-size: 270%;
-		// color: red !important;
-	}
+  h1#site-title {
+    font-size: 270%;
+    // color: red !important;
+  }
 }
 
 .wrapper {
-	max-width: 70em;
-	margin: auto;
-	padding-bottom: 5em;
+  max-width: 70em;
+  margin: auto;
+  padding-bottom: 5em;
 }
 
 ul#nav-menu {
-	list-style:none;
-	padding-left: 0px;
+  list-style:none;
+  padding-left: 0px;
     margin: 0px auto;
-	padding: 0.3em;
+  padding: 0.3em;
 
-	li {
-		padding: 0.3em;
-		font-size: 120%;
-	}
+  li {
+    padding: 0.3em;
+    font-size: 120%;
+  }
 }
 
 @media screen and (min-width: 38em) {
-	ul#nav-menu { float: right; }
+  ul#nav-menu { float: right; }
 }
 
 // .list-wrapper {
@@ -52,57 +52,57 @@ ul#nav-menu {
 // }
 
 a, a:visited {
-	color: $link;
+  color: $link;
 }
 
 a:hover, a:active, a:target {
-	color: $active-link;
+  color: $active-link;
 }
 
 .composer-list {
-	padding: 0;
+  padding: 0;
 
-	li {
-		list-style-type: none;
-		padding: 0.5rem;
+  li {
+    list-style-type: none;
+    padding: 0.5rem;
 
-		.name {
-			display: block;
-			clear: both;
-		}
+    .name {
+      display: block;
+      clear: both;
+    }
 
-		.living, .dead {
-			font-size: 80%;
-		}
+    .living, .dead {
+      font-size: 80%;
+    }
 
-		span {
-			display: inline-block;
-		}
+    span {
+      display: inline-block;
+    }
 
 
-		// geography
-		.composer-geo {
-			display: block;
-			clear: both;
-		}
+    // geography
+    .composer-geo {
+      display: block;
+      clear: both;
+    }
 
-	}
+  }
 
 }
 
 // Badges? We don't need no stinking badges!
 .badge.genre, .badge.demographic, .badge.medium, .badge.gender {
-	font-size: 80%;
-	background-color: $badge-bg;
-	color: $badge-fg;
-	border-radius: 2px;
-	margin: 2px;
-	padding: 2px;
+  font-size: 80%;
+  background-color: $badge-bg;
+  color: $badge-fg;
+  border-radius: 2px;
+  margin: 2px;
+  padding: 2px;
 
 }
 
 .badge.selected {
-	box-shadow:inset 0px 0px 0px 2px $badge-fg;
+  box-shadow:inset 0px 0px 0px 2px $badge-fg;
 }
 
 

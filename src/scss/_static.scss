@@ -1,48 +1,48 @@
 // special styles for team page
 
 div.columns {
-	clear: both;
+  clear: both;
 
-	h4 {
-		margin: 0em auto 0.1em;
-	}
+  h4 {
+    margin: 0em auto 0.1em;
+  }
 
-	.team ul {
-		list-style-type: none;
-		padding-left: 0px;
-		margin-top: 0px;
-	}
+  .team ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 0px;
+  }
 
-	h3:first-child {
-		margin-top: 0px;
-	}
-	background-color: $card-bg;
-	padding: 1em;
+  h3:first-child {
+    margin-top: 0px;
+  }
+  background-color: $card-bg;
+  padding: 1em;
 
 }
 
 @media screen and (min-width: 48em) {
-	div.columns {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-column-gap: 4em;
-	}
+  div.columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 4em;
+  }
 }
 
 // About video
 .about-vid {
-	position: relative;
-	overflow: hidden;
-	padding-top: 56.26%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.26%;
 
-	iframe {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		border: 0;
-	}
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
 }
 
 // @media screen and (min-width: 48em) {
