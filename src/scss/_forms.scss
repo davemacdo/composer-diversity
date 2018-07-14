@@ -1,5 +1,5 @@
 header {
-	padding-bottom: 1em;
+  padding-bottom: 1em;
     display: block;
     clear: both;
     overflow: auto;
@@ -7,50 +7,50 @@ header {
 }
 
 input.search {
-	font-size: 120%;
-	border: 2px solid transparentize($main-fg, 0.5);
-	font-family: $bodyFonts;
-	color: lighten($main-fg, 10);
-	max-width: 35em;
-	display: block;
-	float: left;
-	padding: 0.3em;
+  font-size: 120%;
+  border: 2px solid transparentize($main-fg, 0.5);
+  font-family: $bodyFonts;
+  color: lighten($main-fg, 10);
+  max-width: 35em;
+  display: block;
+  float: left;
+  padding: 0.3em;
 }
 
 div.inputs {
-	margin-bottom: 2em;
-	display: block;
-	// overflow:auto;
-	clear: both;
+  margin-bottom: 2em;
+  display: block;
+  // overflow:auto;
+  clear: both;
 }
 
 div.filter-section {
-	width: auto;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-gap: 0.2em;
-	overflow: hidden;
-	clear: both;
-	padding: 0em 0.5em 0em 1em;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.2em;
+  overflow: hidden;
+  clear: both;
+  padding: 0em 0.5em 0em 1em;
 
-	h4 {
-		margin: 0px;
-	    text-transform: uppercase;
-	    font-size: 0.8em;
-		color: transparentize($main-fg, 0.5);
-	    letter-spacing: 0.3em;
-		text-indent: -0.5em;
-	}
+  h4 {
+    margin: 0px;
+      text-transform: uppercase;
+      font-size: 0.8em;
+    color: transparentize($main-fg, 0.5);
+      letter-spacing: 0.3em;
+    text-indent: -0.5em;
+  }
 }
 
 div.filter-section:nth-of-type(n+3){
-	margin-bottom: 1em;
-	padding-bottom: 0.5em;
-	padding-top: 0.5em;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
 }
 
 div.filter-section.gender {
-	padding-top: 0em;
+  padding-top: 0em;
 }
 
 // div.filter-section:nth-of-type(4), div.filter-section:nth-of-type(6){
@@ -58,113 +58,113 @@ div.filter-section.gender {
 // }
 
 div.filter-section:nth-of-type(n+1){
-	margin-left: 3px;
+  margin-left: 3px;
 }
 
 div.filter-section:nth-of-type(n+4){
-	border-left: 3px solid transparentize($main-fg, 0.5);
-	margin-left: 0px;
+  border-left: 3px solid transparentize($main-fg, 0.5);
+  margin-left: 0px;
 }
 
 div.filters {
-	padding: 1em;
-	background-color: $filters-bg;
+  padding: 1em;
+  background-color: $filters-bg;
 
-	clear:both;
+  clear:both;
 
-	label.filter {
-		display: block;
-		// min-width: 19em;
-		// float: left;
-		padding-left: 1em;
-		padding-right: 0.5em;
-	    text-indent: -1em;
+  label.filter {
+    display: block;
+    // min-width: 19em;
+    // float: left;
+    padding-left: 1em;
+    padding-right: 0.5em;
+      text-indent: -1em;
 
-		.badge {
-			margin-right: 0.4em;
-		}
-	}
+    .badge {
+      margin-right: 0.4em;
+    }
+  }
 
-	input[type="checkbox"] {
-		transform: scale(1.2);
-		position: relative;
-		top: -0.3em;
-		margin-right: 0.4em;
-	}
+  input[type="checkbox"] {
+    transform: scale(1.2);
+    position: relative;
+    top: -0.3em;
+    margin-right: 0.4em;
+  }
 
 }
 
 #filters-heading{
-	a {
-		text-decoration: none;
-	}
+  a {
+    text-decoration: none;
+  }
 
-	h3 {
-		font-weight:normal;
-		margin-top:0px;
+  h3 {
+    font-weight:normal;
+    margin-top:0px;
 
-		.icon {
-			margin-right: 1em;
-			display: inline-block;
-		}
-	}
+    .icon {
+      margin-right: 1em;
+      display: inline-block;
+    }
+  }
 }
 
 .filters.collapsed span.icon {
-	transform: rotate(-90deg);
-	transition: all 0.5s;
+  transform: rotate(-90deg);
+  transition: all 0.5s;
 }
 
 .filters span.icon {
-	transform: rotate(0deg);
-	transition: all 0.5s;
+  transform: rotate(0deg);
+  transition: all 0.5s;
 }
 
 #filters {
-	overflow: hidden;
-	max-height: 100em;
-	transition: all 0.5s;
+  overflow: hidden;
+  max-height: 100em;
+  transition: all 0.5s;
 }
 
 #filters.collapsed {
-	max-height:1.4em;
+  max-height:1.4em;
 
-	transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 // Buttons
 
 div#global-controls {
-	border-left: none;
+  border-left: none;
 }
 
 button {
-	width: 95%;
-	font-size: 100%;
-	font-family: $bodyFonts;
-	color: $main-bg;
-	background-color: $main-fg;
+  width: 95%;
+  font-size: 100%;
+  font-family: $bodyFonts;
+  color: $main-bg;
+  background-color: $main-fg;
 }
 
 button:active {
-	background-color: darken($main-fg, 10%);
+  background-color: darken($main-fg, 10%);
 }
 
 // Responsive
 
 @media screen and (min-width: 40em) {
-	div.filter-section {
-		grid-template-columns: repeat(2, 1fr);
+  div.filter-section {
+    grid-template-columns: repeat(2, 1fr);
 
-		h4 {grid-column-end: span 2;}
-	}
+    h4 {grid-column-end: span 2;}
+  }
 }
 
 @media screen and (min-width: 55em) {
-	div.filter-section {
-		grid-template-columns: repeat(3, 1fr);
-		h4 {grid-column-end: span 3;}
-	}
+  div.filter-section {
+    grid-template-columns: repeat(3, 1fr);
+    h4 {grid-column-end: span 3;}
+  }
 }
 
 // Someday, I will get back to four columns. Flexbox, anyone?

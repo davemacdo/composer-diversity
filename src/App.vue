@@ -1,8 +1,8 @@
 <template>
     <div id="app" class="app-wrapper" :key="rerender">
         <div v-if="loading">
-			<div class="loader">Loading...</div>
-		</div>
+      <div class="loader">Loading...</div>
+    </div>
         <FormInputs v-bind="{filtersCollapsed, filters, filterOptions, vueFields, headings, search, startOfSection, numberOfType, toggleFilterView, filteredTotal}" @updateFilters="updateFilters" @clearFilters="clearFilters" @updateSearch="updateSearch"/>
         <ComposerList v-bind="{filteredList, search, vueFields, cardBadges, filters}" @toggleFilter="toggleFilter" />
     </div>
@@ -16,13 +16,13 @@ const fields = require('./fields.json').list;
 const deburr = require('lodash/deburr');
 
 export default {
-	name: 'app',
+  name: 'app',
     components: {
         FormInputs,
         ComposerList
     }, // components
-	data () {
-		return {
+  data () {
+    return {
             vueFields: fields,
             loading: true,
             title: 'Composer Diversity Database',
@@ -38,26 +38,26 @@ export default {
             cardBadges: ['gender', 'genre', 'medium'],
             rerender: 0,
             filteredTotal: null
-		}
-	}, // data
+    }
+  }, // data
     methods: {
         toggleFilter: function(payload){
-			var filterIndex = payload.filter;
+      var filterIndex = payload.filter;
             // console.log(filterIndex);
-			if (this.filters[filterIndex] == false || typeof this.filters[filterIndex] == 'undefined'){
-				this.filters[filterIndex] = true;
-				// this.filters.unshift(0);
-				// this.filters.shift();
-				// console.log('filter off');
-			} else {
-				this.filters[filterIndex] = false;
-				// this.filters.unshift(0);
-				// this.filters.shift();
-				// console.log('filter on');
-			}
+      if (this.filters[filterIndex] == false || typeof this.filters[filterIndex] == 'undefined'){
+        this.filters[filterIndex] = true;
+        // this.filters.unshift(0);
+        // this.filters.shift();
+        // console.log('filter off');
+      } else {
+        this.filters[filterIndex] = false;
+        // this.filters.unshift(0);
+        // this.filters.shift();
+        // console.log('filter on');
+      }
             this.runFiltersAnd();
-			this.rerender++;
-		}, // toggleFilter
+      this.rerender++;
+    }, // toggleFilter
         updateFilters: function(payload) {
             // console.log(payload);
             this.runFiltersAnd();
@@ -68,9 +68,9 @@ export default {
         }, // updateSearch
         clearFilters: function() {
             for (var i = 0; i < this.filters.length; i++) {
-				this.filters[i] = false;
-			}
-			this.runFiltersAnd();
+        this.filters[i] = false;
+      }
+      this.runFiltersAnd();
         }, // clearFilters
         startOfSection: function(section) {
             for(var i = 0; i < this.vueFields.length; i++) {
@@ -82,44 +82,44 @@ export default {
         }, // startOfSection
         numberOfType: function(section) {
             var count = 0;
-        	for(var i = 0; i < this.vueFields.length; i++){
-        		if (this.vueFields[i].type === section) {
-        			count++;
-        		}
-        	}
-        	return count;
+          for(var i = 0; i < this.vueFields.length; i++){
+            if (this.vueFields[i].type === section) {
+              count++;
+            }
+          }
+          return count;
         }, // numberOfType
         fieldsForSection: function(section) {
             var start = this.startOfSection(section);
-        	var numToAdd = this.numberOfType(section);
-        	var fieldsToAdd = [];
+          var numToAdd = this.numberOfType(section);
+          var fieldsToAdd = [];
 
-        	for (var i = start; i < (start + numToAdd); i++) {
-        		fieldsToAdd.push(i);
-        	}
+          for (var i = start; i < (start + numToAdd); i++) {
+            fieldsToAdd.push(i);
+          }
 
-        	return fieldsToAdd;
+          return fieldsToAdd;
         }, // fieldsForSection
         getFilterOptions: function() {
             var options = [ 1, 2, 4, 5 ]; // living, dead, gender
-        	var sections = ['genre', 'medium', 'demographic'];
-        	var geoFilters = [ this.vueFields.length-2, this.vueFields.length-1 ];
+          var sections = ['genre', 'medium', 'demographic'];
+          var geoFilters = [ this.vueFields.length-2, this.vueFields.length-1 ];
 
-        	// I have no idea why this doesn't work, but I'm giving up for now.
-        	// for (i = 0; i < sections.length; i++){
-        	// 	options = options.concat(fieldsForSection(sections[i]));
-        	// }
+          // I have no idea why this doesn't work, but I'm giving up for now.
+          // for (i = 0; i < sections.length; i++){
+          // 	options = options.concat(fieldsForSection(sections[i]));
+          // }
 
-        	// I really hate the way this looks, but it works!
-        	options = options.concat(this.fieldsForSection(sections[0]));
-        	options = options.concat(this.fieldsForSection(sections[1]));
-        	options = options.concat(this.fieldsForSection(sections[2]));
+          // I really hate the way this looks, but it works!
+          options = options.concat(this.fieldsForSection(sections[0]));
+          options = options.concat(this.fieldsForSection(sections[1]));
+          options = options.concat(this.fieldsForSection(sections[2]));
 
-        	options = options.concat(geoFilters);
-        	// console.log('options: ' + options);
+          options = options.concat(geoFilters);
+          // console.log('options: ' + options);
 
-        	// console.log(fieldsToAdd('genre'));
-        	return options;
+          // console.log(fieldsToAdd('genre'));
+          return options;
 
         }, // getFilterOptions
         runFiltersAnd: function(){ // filter results
@@ -154,20 +154,20 @@ export default {
                 }
 
                 var usaFilter = this.filters.length - 2;
-				var nonUsaFilter = usaFilter + 1;
-				var countryField = this.startOfSection('geographic') + 2;
-				if (this.filters[usaFilter]==true && row[countryField].indexOf('USA') == -1){
-					returnval = false;
-				}
+        var nonUsaFilter = usaFilter + 1;
+        var countryField = this.startOfSection('geographic') + 2;
+        if (this.filters[usaFilter]==true && row[countryField].indexOf('USA') == -1){
+          returnval = false;
+        }
 
-				// check for non-USA filter
-				if (this.filters[nonUsaFilter]==true && row[countryField].indexOf('USA') > -1){
-					returnval = false;
-				}
+        // check for non-USA filter
+        if (this.filters[nonUsaFilter]==true && row[countryField].indexOf('USA') > -1){
+          returnval = false;
+        }
                 return returnval;
             })
             this.filteredTotal = this.filteredList.length
-		}, // runFiltersAnd
+    }, // runFiltersAnd
         toggleFilterView: function() {
             this.filtersCollapsed = !this.filtersCollapsed;
         }
@@ -203,7 +203,7 @@ export default {
 
         // hide or show filters based on screen width
         var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-		this.filtersCollapsed = (screenWidth < 800 ? true : false);
+    this.filtersCollapsed = (screenWidth < 800 ? true : false);
 
         // establish which fields get filter toggles
         this.filterOptions = this.getFilterOptions();
@@ -213,5 +213,5 @@ export default {
 </script>
 
 <style lang="scss">
-		@import './scss/style.scss'
+    @import './scss/style.scss'
 </style>
