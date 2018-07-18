@@ -41,23 +41,23 @@ export default {
     }
   }, // data
     methods: {
-        toggleFilter: function(payload){
-      var filterIndex = payload.filter;
-            // console.log(filterIndex);
-      if (this.filters[filterIndex] == false || typeof this.filters[filterIndex] == 'undefined'){
-        this.filters[filterIndex] = true;
-        // this.filters.unshift(0);
-        // this.filters.shift();
-        // console.log('filter off');
-      } else {
-        this.filters[filterIndex] = false;
-        // this.filters.unshift(0);
-        // this.filters.shift();
-        // console.log('filter on');
-      }
-            this.runFiltersAnd();
-      this.rerender++;
-    }, // toggleFilter
+      toggleFilter: function(payload){
+        var filterIndex = payload.filter;
+              // console.log(filterIndex);
+          if (this.filters[filterIndex] == false || typeof this.filters[filterIndex] == 'undefined'){
+            this.filters[filterIndex] = true;
+            // this.filters.unshift(0);
+            // this.filters.shift();
+            // console.log('filter off');
+          } else {
+            this.filters[filterIndex] = false;
+            // this.filters.unshift(0);
+            // this.filters.shift();
+            // console.log('filter on');
+          }
+                this.runFiltersAnd();
+          this.rerender++;
+      }, // toggleFilter
         updateFilters: function(payload) {
             // console.log(payload);
             this.runFiltersAnd();
@@ -154,20 +154,20 @@ export default {
                 }
 
                 var usaFilter = this.filters.length - 2;
-        var nonUsaFilter = usaFilter + 1;
-        var countryField = this.startOfSection('geographic') + 2;
-        if (this.filters[usaFilter]==true && row[countryField].indexOf('USA') == -1){
-          returnval = false;
-        }
+                var nonUsaFilter = usaFilter + 1;
+                var countryField = this.startOfSection('geographic') + 2;
+                if (this.filters[usaFilter]==true && row[countryField].indexOf('USA') == -1){
+                  returnval = false;
+                }
 
-        // check for non-USA filter
-        if (this.filters[nonUsaFilter]==true && row[countryField].indexOf('USA') > -1){
-          returnval = false;
-        }
-                return returnval;
-            })
-            this.filteredTotal = this.filteredList.length
-    }, // runFiltersAnd
+                // check for non-USA filter
+                if (this.filters[nonUsaFilter]==true && row[countryField].indexOf('USA') > -1){
+                  returnval = false;
+                }
+                        return returnval;
+                    })
+                    this.filteredTotal = this.filteredList.length
+            }, // runFiltersAnd
         toggleFilterView: function() {
             this.filtersCollapsed = !this.filtersCollapsed;
         }
