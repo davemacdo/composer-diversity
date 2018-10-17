@@ -5,12 +5,15 @@ const fs = require ('fs');
 
 var input = JSON.parse(fs.readFileSync('./composer-diversity-offline.json', 'UTF-8'));
 var values = input.values;
+var output = [];
 
 // values = JSON.parse(fs.readFileSync('./test.json', 'UTF-8'));
 
 function parseName(combined){
   console.log(combined)
 };
+
+//// 
 
 var multicomma = values.filter(function(row){  
   // take a big array of data and select just the name, which is at index 0
@@ -26,8 +29,6 @@ var multicomma = values.filter(function(row){
   }
   
 });
-
-var output;
 
 output = multicomma;
 
