@@ -1,5 +1,5 @@
 {
-  "range": "'Composer Diversity Database (IN PROGRESS)'!A2:AR3857",
+  "range": "'Composer Diversity Database (IN PROGRESS)'!A2:AR3854",
   "majorDimension": "ROWS",
   "values": [
     [
@@ -139,6 +139,52 @@
       "Lucerne",
       "Switzerland",
       "http://www.susanneabbuehl.com/"
+    ],
+    [
+      "Abdel-Rahim, Gamal (d. 1988)",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "N/A",
+      "N/A",
+      "N/A",
+      "http://www.gamal-abdelrahim.com/"
     ],
     [
       "Abdelfattah, Mohamed Abdelwahab",
@@ -505,7 +551,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.loraaborn.com/"
     ],
     [
@@ -595,9 +641,9 @@
       "",
       "",
       "",
-      "NYC, NY",
-      "NYC, New York",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://www.muhalrichardabrams.com/"
     ],
     [
@@ -781,7 +827,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://imslp.org/wiki/Category:Adair%2C_Mildred"
     ],
     [
@@ -873,7 +919,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://www.montreat.edu/mymontreat/library/crosby-adams-collection/"
     ],
     [
@@ -965,7 +1011,7 @@
       "",
       "N/A",
       "N/A",
-      "Russia",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ella_Adayevskaya"
     ],
     [
@@ -1471,7 +1517,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "http://eng.kvast.org/agudelo-murguia-graciela/"
     ],
     [
@@ -1633,13 +1679,13 @@
       "",
       "X",
       "X",
-      "",
       "X",
       "",
       "",
       "",
       "",
       "",
+      "X",
       "",
       "",
       "",
@@ -2299,7 +2345,7 @@
       "",
       "N/A",
       "N/A",
-      "Dominican Republic",
+      "N/A",
       "https://en.wikipedia.org/wiki/Luis_Alberti#Discography"
     ],
     [
@@ -2437,7 +2483,7 @@
       "",
       "N/A",
       "N/A",
-      "Austria",
+      "N/A",
       "https://www.editionhh.co.uk/ab_la.htm"
     ],
     [
@@ -2483,7 +2529,7 @@
       "",
       "N/A",
       "N/A",
-      "Peru",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jos%C3%A9_Bernardo_Alcedo"
     ],
     [
@@ -2621,7 +2667,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Amanda_Christina_Elizabeth_Aldridge"
     ],
     [
@@ -2665,9 +2711,9 @@
       "",
       "",
       "",
-      "Ferrara",
-      "Ferrara",
-      "Italy",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Vittoria_Aleotti"
     ],
     [
@@ -2851,7 +2897,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://mugi.hfmt-hamburg.de/Artikel/Leni_Alexander"
     ],
     [
@@ -2989,7 +3035,7 @@
       "",
       "N/A",
       "N/A",
-      "Romania",
+      "N/A",
       "http://www.voxnovus.com/composer/Liana_Alexandra.htm"
     ],
     [
@@ -3217,9 +3263,9 @@
       "",
       "",
       "",
-      "Philadelphia, PA",
-      "Philadelphia, Pennsylvania",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://geriallen.com/"
     ],
     [
@@ -3403,7 +3449,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Frances_Allitsen"
     ],
     [
@@ -3495,7 +3541,7 @@
       "",
       "N/A",
       "N/A",
-      "Peru",
+      "N/A",
       "https://en.wikipedia.org/wiki/Daniel_Alom%C3%ADa_Robles"
     ],
     [
@@ -3587,7 +3633,7 @@
       "",
       "N/A",
       "N/A",
-      "Israel",
+      "N/A",
       "https://en.wikipedia.org/wiki/Yardena_Alotin"
     ],
     [
@@ -3725,7 +3771,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.darryltaylor.com/alliance/composers/lettie-beckon-alston"
     ],
     [
@@ -3863,7 +3909,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.newmusicbox.org/articles/Maryanne-Amacher-19432009/"
     ],
     [
@@ -3909,7 +3955,7 @@
       "",
       "N/A",
       "N/A",
-      "Germany",
+      "N/A",
       "https://en.wikipedia.org/wiki/Duchess_Anna_Amalia_of_Brunswick-Wolfenb%C3%BCttel"
     ],
     [
@@ -4599,7 +4645,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://www.australianmusiccentre.com.au/artist/anderson-olive"
     ],
     [
@@ -4783,7 +4829,7 @@
       "",
       "N/A",
       "N/A",
-      "Sweden",
+      "N/A",
       "http://www.swedishmusicalheritage.com/composers/andree-elfrida/"
     ],
     [
@@ -5105,7 +5151,7 @@
       "",
       "N/A",
       "N/A",
-      "Argentina",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mar%C3%ADa_Luisa_Anido"
     ],
     [
@@ -5747,9 +5793,9 @@
       "",
       "",
       "",
-      "Salvador",
-      "Salvador",
-      "Brazil",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://musicabrasilis.com/composers/damiao-barbosa-de-araujo"
     ],
     [
@@ -5887,7 +5933,7 @@
       "",
       "N/A",
       "N/A",
-      "Canada",
+      "N/A",
       "https://www.musiccentre.ca/node/37184/biography"
     ],
     [
@@ -6025,8 +6071,54 @@
       "",
       "N/A",
       "N/A",
-      "Venezuela",
+      "N/A",
       "https://en.wikipedia.org/wiki/Isabel_Aretz"
+    ],
+    [
+      "Arkushyna, Anna",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Graz",
+      "Graz",
+      "Austria",
+      "https://soundcloud.com/annaarkushyna"
     ],
     [
       "Arleta (Tsapra, Argyro-Nicoleta) (d. 2017)",
@@ -6069,9 +6161,9 @@
       "",
       "",
       "",
-      "Athens",
-      "Athens",
-      "Greece",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Arleta_(musician)"
     ],
     [
@@ -6301,7 +6393,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Lil_Hardin_Armstrong"
     ],
     [
@@ -6347,7 +6439,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Louis_Armstrong"
     ],
     [
@@ -6485,7 +6577,7 @@
       "",
       "N/A",
       "N/A",
-      "Spain/France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mar%C3%ADa_de_las_Mercedes_Adam_de_Ar%C3%B3stegui"
     ],
     [
@@ -6761,7 +6853,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Caterina_Assandra"
     ],
     [
@@ -7083,7 +7175,7 @@
       "",
       "N/A",
       "N/A",
-      "Austria",
+      "N/A",
       "https://en.wikipedia.org/wiki/Marianna_Auenbrugger"
     ],
     [
@@ -7221,7 +7313,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/May_Aufderheide"
     ],
     [
@@ -7267,7 +7359,7 @@
       "",
       "N/A",
       "N/A",
-      "Sweden",
+      "N/A",
       "https://en.wikipedia.org/wiki/Valborg_Aulin"
     ],
     [
@@ -7313,7 +7405,7 @@
       "",
       "N/A",
       "N/A",
-      "Austria",
+      "N/A",
       "https://en.wikipedia.org/wiki/Josepha_Barbara_Auernhammer"
     ],
     [
@@ -7359,7 +7451,7 @@
       "",
       "N/A",
       "N/A",
-      "Estonia",
+      "N/A",
       "http://www.emic.ee/lydia-auster-est"
     ],
     [
@@ -7681,7 +7773,7 @@
       "",
       "N/A",
       "N/A",
-      "England",
+      "N/A",
       "https://en.wikipedia.org/wiki/Florence_Aylward"
     ],
     [
@@ -7911,7 +8003,7 @@
       "",
       "N/A",
       "N/A",
-      "Poland",
+      "N/A",
       "https://en.wikipedia.org/wiki/Gra%C5%BCyna_Bacewicz"
     ],
     [
@@ -7957,7 +8049,7 @@
       "",
       "N/A",
       "N/A",
-      "Austria",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maria_Bach"
     ],
     [
@@ -8095,7 +8187,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Rosa_Giacinta_Badalla"
     ],
     [
@@ -8141,7 +8233,7 @@
       "",
       "N/A",
       "N/A",
-      "Poland",
+      "N/A",
       "https://en.wikipedia.org/wiki/Tekla_B%C4%85darzewska-Baranowska"
     ],
     [
@@ -8555,7 +8647,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/David_Baker_(composer)"
     ],
     [
@@ -9015,7 +9107,7 @@
       "",
       "N/A",
       "N/A",
-      "USA (Quapaw/Cherokee)",
+      "N/A",
       "https://en.wikipedia.org/wiki/Louis_W._Ballard"
     ],
     [
@@ -9153,7 +9245,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Esther_Ballou"
     ],
     [
@@ -9521,7 +9613,7 @@
       "",
       "N/A",
       "N/A",
-      "Spain",
+      "N/A",
       "https://en.wikipedia.org/wiki/Gracia_Baptista"
     ],
     [
@@ -9705,7 +9797,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Cacilda_Borges_Barbosa"
     ],
     [
@@ -10395,7 +10487,7 @@
       "",
       "N/A",
       "N/A",
-      "USA (Navajo)",
+      "N/A",
       "https://www.allmusic.com/artist/geraldine-barney-mn0001737136"
     ],
     [
@@ -10487,7 +10579,7 @@
       "",
       "N/A",
       "N/A",
-      "Uruguay",
+      "N/A",
       "https://en.wikipedia.org/wiki/Carmen_Barradas"
     ],
     [
@@ -10533,7 +10625,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "http://www.musicologie.org/Biographies/b/barraine.html"
     ],
     [
@@ -10625,7 +10717,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Joyce_Howard_Barrell"
     ],
     [
@@ -10763,7 +10855,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Bebe_and_Louis_Barron"
     ],
     [
@@ -10901,7 +10993,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Cecilia_Maria_Barth%C3%A9lemon"
     ],
     [
@@ -10947,7 +11039,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Polly_Young"
     ],
     [
@@ -10993,7 +11085,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://composers-classical-music.com/b/BarthelsonJoyceHolloway.htm"
     ],
     [
@@ -11361,7 +11453,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Count_Basie"
     ],
     [
@@ -11545,7 +11637,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Marion_Bauer"
     ],
     [
@@ -11867,7 +11959,7 @@
       "",
       "N/A",
       "N/A",
-      "Germany",
+      "N/A",
       "https://en.wikipedia.org/wiki/Wilhelmine_of_Prussia,_Margravine_of_Brandenburg-Bayreuth"
     ],
     [
@@ -11913,7 +12005,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Amy_Beach"
     ],
     [
@@ -12189,7 +12281,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Bieiris_de_Romans"
     ],
     [
@@ -12235,7 +12327,7 @@
       "",
       "N/A",
       "N/A",
-      "Germany",
+      "N/A",
       "https://en.wikipedia.org/wiki/Luise_Adolpha_Le_Beau"
     ],
     [
@@ -12419,7 +12511,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Marguerite_B%C3%A9clard_d'Harcourt"
     ],
     [
@@ -12511,7 +12603,7 @@
       "",
       "N/A",
       "N/A",
-      "Netherlands",
+      "N/A",
       "https://webshop.donemus.com/action/front/composer/Beekhuis%2C+Hanna"
     ],
     [
@@ -12787,7 +12879,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Elizabeth_Bell_(composer)"
     ],
     [
@@ -13109,7 +13201,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Antonia_Bembo"
     ],
     [
@@ -13293,7 +13385,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://musicbrainz.org/artist/c1e9cd0b-0726-4797-a3d0-23376e901667/works"
     ],
     [
@@ -13477,7 +13569,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://cathyberberian.com/"
     ],
     [
@@ -13569,7 +13661,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.hildegard.com/composer_detail.php?id=26"
     ],
     [
@@ -13615,7 +13707,7 @@
       "",
       "N/A",
       "N/A",
-      "Netherlands",
+      "N/A",
       "http://www.hildegard.com/composer_detail.php?id=27"
     ],
     [
@@ -14213,7 +14305,7 @@
       "",
       "N/A",
       "N/A",
-      "Cuba",
+      "N/A",
       "https://en.wikipedia.org/wiki/Catalina_Berroa"
     ],
     [
@@ -14259,7 +14351,7 @@
       "",
       "N/A",
       "N/A",
-      "Cuba",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jos%C3%A9_Manuel_Jim%C3%A9nez_Berroa"
     ],
     [
@@ -14397,7 +14489,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Louise_Bertin"
     ],
     [
@@ -14535,7 +14627,7 @@
       "",
       "N/A",
       "N/A",
-      "Argentina",
+      "N/A",
       "https://en.wikipedia.org/wiki/Arturo_Berutti"
     ],
     [
@@ -14719,7 +14811,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.frogpeak.org/fpartists/fpbeyer.html"
     ],
     [
@@ -14857,7 +14949,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Muthiah_Bhagavatar#Compositions"
     ],
     [
@@ -14903,7 +14995,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jotin_Bhattacharya"
     ],
     [
@@ -15041,7 +15133,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Lycia_de_Biase_Bidart"
     ],
     [
@@ -15179,7 +15271,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Marie_Bigot"
     ],
     [
@@ -15225,7 +15317,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://www.hildegard.com/composer_detail.php?id=28"
     ],
     [
@@ -15501,7 +15593,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Roberta_Bitgood"
     ],
     [
@@ -15729,9 +15821,9 @@
       "",
       "",
       "",
-      "N/A (Austria)",
-      "N/A (Austria)",
-      "Austria",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Leopoldine_Blahetka"
     ],
     [
@@ -15823,7 +15915,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Charlotte_Blake"
     ],
     [
@@ -15869,7 +15961,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Eubie_Blake#Music"
     ],
     [
@@ -16007,7 +16099,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.edblandmusic.com/index.htm"
     ],
     [
@@ -16053,7 +16145,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://www.allmusic.com/artist/james-a-bland-mn0000135647"
     ],
     [
@@ -16789,7 +16881,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Edward_Boatner"
     ],
     [
@@ -16927,7 +17019,7 @@
       "",
       "N/A",
       "N/A",
-      "Netherlands",
+      "N/A",
       "http://www.hildegard.com/composer_detail.php?id=205"
     ],
     [
@@ -16973,7 +17065,7 @@
       "",
       "N/A",
       "N/A",
-      "Switzerland",
+      "N/A",
       "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwj0jJa2puHSAhUM1oMKHSFYDFsQFggaMAA&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCaroline_Boissier-Butini&usg=AFQjCNFYojw7AE0UZ6RiZCsK55DlQsbhdg&sig2=7QSChzTLpjpbdLsFOsLatA"
     ],
     [
@@ -17203,7 +17295,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.hildegard.com/composer_detail.php?id=30"
     ],
     [
@@ -17249,7 +17341,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Anna_Bon"
     ],
     [
@@ -17387,7 +17479,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Carrie_Jacobs-Bond"
     ],
     [
@@ -17479,7 +17571,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Margaret_Bonds"
     ],
     [
@@ -17525,7 +17617,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/M%C3%A9lanie_Bonis"
     ],
     [
@@ -17801,7 +17893,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/John_William_Boone"
     ],
     [
@@ -18215,7 +18307,7 @@
       "",
       "N/A",
       "N/A",
-      "Netherlands",
+      "N/A",
       "https://en.wikipedia.org/wiki/Henri%C3%ABtte_Bosmans"
     ],
     [
@@ -18353,7 +18445,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Marianna_Bottini"
     ],
     [
@@ -18489,9 +18581,9 @@
       "",
       "",
       "",
-      "Paris",
-      "Paris",
-      "France",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Lili_Boulanger"
     ],
     [
@@ -18537,7 +18629,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Nadia_Boulanger"
     ],
     [
@@ -18675,7 +18767,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Lester_Bowie"
     ],
     [
@@ -19227,7 +19319,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ant%C3%B4nio_Francisco_Braga"
     ],
     [
@@ -19273,7 +19365,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ernani_Braga"
     ],
     [
@@ -19365,7 +19457,7 @@
       "",
       "N/A",
       "N/A",
-      "Australia",
+      "N/A",
       "https://en.wikipedia.org/wiki/May_Brahe"
     ],
     [
@@ -19641,7 +19733,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://www.loc.gov/item/ihas.200185352/"
     ],
     [
@@ -19967,29 +20059,15 @@
       "http://www.kitbraz.com/worksG.html"
     ],
     [
-      "Bremer, Carolyn",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
+      "Bremer, Carolyn (d. 2018)",
       "",
       "X",
       "",
       "X",
       "",
-      "",
-      "",
+      "X",
+      "X",
+      "X",
       "X",
       "X",
       "",
@@ -20000,6 +20078,19 @@
       "",
       "X",
       "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
       "",
       "",
       "",
@@ -20007,9 +20098,10 @@
       "",
       "",
       "",
-      "Long Beach, CA",
-      "Long Beach, California",
-      "USA",
+      "",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://carolynbremer.com/"
     ],
     [
@@ -20193,7 +20285,7 @@
       "",
       "N/A",
       "N/A",
-      "Poland",
+      "N/A",
       "https://en.wikipedia.org/wiki/George_Bridgetower#Compositions"
     ],
     [
@@ -20285,7 +20377,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dora_Bright"
     ],
     [
@@ -20331,7 +20423,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Anne_Louise_Brillon_de_Jouy"
     ],
     [
@@ -20607,7 +20699,7 @@
       "",
       "N/A",
       "N/A",
-      "Canada",
+      "N/A",
       "http://www.thecanadianencyclopedia.ca/en/article/annie-glen-broder-emc/Chicago"
     ],
     [
@@ -20653,7 +20745,7 @@
       "",
       "N/A",
       "N/A",
-      "Germany",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ingeborg_Bronsart_von_Schellendorf"
     ],
     [
@@ -20835,9 +20927,9 @@
       "",
       "",
       "",
-      "San Diego, CA",
-      "San Diego, California",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Joanna_Brouk"
     ],
     [
@@ -21251,7 +21343,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Rosemary_Brown_(spiritualist)"
     ],
     [
@@ -21343,7 +21435,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://britishmusiccollection.org.uk/composer/margaret-c-bruce"
     ],
     [
@@ -21387,9 +21479,9 @@
       "",
       "",
       "",
-      "Vilnius",
-      "Vilnius",
-      "Lithuania",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://www.mic.lt/en/database/classical/composers/brundzaite/"
     ],
     [
@@ -21619,7 +21711,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/James_Tim_Brymn"
     ],
     [
@@ -21849,7 +21941,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Olivia_Buckley"
     ],
     [
@@ -22125,8 +22217,54 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Harry_Burleigh#Arrangements_and_compositions"
+    ],
+    [
+      "Burns, Joanna",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Hazlet, NJ",
+      "Hazlet, New Jersey",
+      "USA",
+      "http://joannaburns.com"
     ],
     [
       "Burrell, Diana ",
@@ -22355,7 +22493,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://voxturturis.wordpress.com/2013/10/13/winifred-bury-biography-composer-singer-pianist-1897-1977/"
     ],
     [
@@ -22815,7 +22953,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Bustamante"
     ],
     [
@@ -22861,7 +22999,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.m.wikipedia.org/wiki/Helen_May_Butler"
     ],
     [
@@ -23321,7 +23459,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://www.lib.uchicago.edu/efts/IWW/BIOS/A0083.html"
     ],
     [
@@ -23367,7 +23505,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Settimia_Caccini"
     ],
     [
@@ -23781,7 +23919,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Francesca_Campana"
     ],
     [
@@ -24011,7 +24149,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Lina_Pires_de_Campos"
     ],
     [
@@ -24149,7 +24287,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Marguerite_Canal"
     ],
     [
@@ -24287,7 +24425,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Am%C3%A9lie-Julie_Candeille"
     ],
     [
@@ -24471,7 +24609,7 @@
       "",
       "N/A",
       "N/A",
-      "Portugal",
+      "N/A",
       "https://en.wikipedia.org/wiki/Constan%C3%A7a_Capdeville"
     ],
     [
@@ -24563,7 +24701,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "http://www2.cpdl.org/wiki/index.php/Francisco_L%C3%B3pez_Capillas"
     ],
     [
@@ -24609,7 +24747,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Iseut_de_Capio"
     ],
     [
@@ -24655,7 +24793,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Matilde_Capuis"
     ],
     [
@@ -25115,7 +25253,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mary_Grant_Carmichael"
     ],
     [
@@ -25211,52 +25349,6 @@
       "http://mistralwindquintet.com/"
     ],
     [
-      "Caroline Ahn",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Carmel, IN",
-      "Carmel, Indiana",
-      "USA",
-      "http://www.carolineahncomposer.com/"
-    ],
-    [
       "Caron-Legris, Albertine (d. 1972)",
       "",
       "X",
@@ -25299,7 +25391,7 @@
       "",
       "N/A",
       "N/A",
-      "Canada",
+      "N/A",
       "https://en.wikipedia.org/wiki/Albertine_Caron-Legris"
     ],
     [
@@ -25437,7 +25529,7 @@
       "",
       "N/A",
       "N/A",
-      "Venezuela",
+      "N/A",
       "https://en.wikipedia.org/wiki/Teresa_Carre%C3%B1o"
     ],
     [
@@ -25529,7 +25621,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Juli%C3%A1n_Carrillo"
     ],
     [
@@ -25897,7 +25989,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dinor%C3%A1_de_Carvalho"
     ],
     [
@@ -25989,7 +26081,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://www.musicweb-international.com/classrev/2003/Apr03/Carwithen.htm"
     ],
     [
@@ -26219,7 +26311,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Castelloza"
     ],
     [
@@ -26265,7 +26357,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Almucs_de_Castelnau"
     ],
     [
@@ -26311,7 +26403,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "http://www.instantencore.com/contributor/bio.aspx?CId=5029476"
     ],
     [
@@ -26357,7 +26449,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maddalena_Casulana"
     ],
     [
@@ -26403,7 +26495,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Angelica_Catalani"
     ],
     [
@@ -26449,7 +26541,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Daniel_Cat%C3%A1n"
     ],
     [
@@ -26495,7 +26587,7 @@
       "",
       "N/A",
       "N/A",
-      "Cuba",
+      "N/A",
       "https://en.wikipedia.org/wiki/Alejandro_Garc%C3%ADa_Caturla"
     ],
     [
@@ -26817,7 +26909,7 @@
       "",
       "N/A",
       "N/A",
-      "Cuba",
+      "N/A",
       "https://www.allmusic.com/artist/ignacio-cervantes-mn0001513479/biography"
     ],
     [
@@ -26953,9 +27045,9 @@
       "",
       "",
       "",
-      "Modena",
-      "Modena",
-      "Italy",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Sulpitia_Cesis"
     ],
     [
@@ -27231,7 +27323,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/C%C3%A9cile_Chaminade"
     ],
     [
@@ -27369,7 +27461,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Bhaskar_Chandavarkar"
     ],
     [
@@ -27415,7 +27507,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://www.prestoclassical.co.uk/sm/composer%7C2704-b/1"
     ],
     [
@@ -27829,7 +27921,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Carlos_Ch%C3%A1vez#Musical_style"
     ],
     [
@@ -28937,6 +29029,52 @@
       "http://www.fluxquartet.com/bio.html"
     ],
     [
+      "Choi, Saunder",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "Los Angeles, CA / Manila",
+      "Los Angeles, CA / Manila",
+      "USA / Philippines",
+      "http://www.saunderchoi.com/"
+    ],
+    [
       "Chou, Sarana",
       "X",
       "",
@@ -29071,7 +29209,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Hedwige_Chr%C3%A9tien"
     ],
     [
@@ -29715,7 +29853,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://www.rebeccaclarke.org/"
     ],
     [
@@ -30819,7 +30957,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Isabella_Colbran"
     ],
     [
@@ -30865,7 +31003,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ulric_Cole"
     ],
     [
@@ -31003,7 +31141,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://www.loc.gov/item/ihas.200038836/"
     ],
     [
@@ -31095,7 +31233,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ellen_Coleman"
     ],
     [
@@ -31279,7 +31417,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ornette_Coleman"
     ],
     [
@@ -31371,7 +31509,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://musicalics.com/en/composer/Avril-Coleridge-Taylor"
     ],
     [
@@ -31417,7 +31555,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Samuel_Coleridge-Taylor"
     ],
     [
@@ -31693,7 +31831,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://www.alicecoltrane.com/"
     ],
     [
@@ -31739,7 +31877,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/John_Coltrane#Avant-garde_jazz_and_the_second_quartet_(1965%E2%80%931967)"
     ],
     [
@@ -32153,7 +32291,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Will_Marion_Cook"
     ],
     [
@@ -32475,7 +32613,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://www.lindsaycoopermusic.com/"
     ],
     [
@@ -32613,7 +32751,7 @@
       "",
       "N/A",
       "N/A",
-      "Panama",
+      "N/A",
       "https://en.wikipedia.org/wiki/Roque_Cordero"
     ],
     [
@@ -33169,6 +33307,52 @@
       "http://www.sergiocote.com/"
     ],
     [
+      "Cotoman, Diana",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Montreal, Québec",
+      "Montreal, Québec",
+      "Canada",
+      "https://dianacotoman.com/en/"
+    ],
+    [
       "Cotten, Elizabeth (d. 1987)",
       "",
       "X",
@@ -33211,7 +33395,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Elizabeth_Cotten"
     ],
     [
@@ -33349,7 +33533,7 @@
       "",
       "N/A",
       "N/A",
-      "Canada",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jean_Coulthard"
     ],
     [
@@ -33393,9 +33577,9 @@
       "",
       "",
       "",
-      "Santa Barbara, CA",
-      "Santa Barbara, CA",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://wingedsun.com/couper-m/"
     ],
     [
@@ -33671,7 +33855,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Chiara_Margarita_Cozzolani"
     ],
     [
@@ -33717,7 +33901,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://www.fabermusic.com/composers/guirne-creith/biography"
     ],
     [
@@ -33993,7 +34177,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.conniecrothers.net/index.html"
     ],
     [
@@ -34177,7 +34361,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Sof%C3%ADa_Cancino_de_Cuevas"
     ],
     [
@@ -34223,7 +34407,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Arthur_Cunningham"
     ],
     [
@@ -34407,7 +34591,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://adp.library.ucsb.edu/index.php/talent/detail/65372/Curran_Pearl_G._composer"
     ],
     [
@@ -34867,7 +35051,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://britishmusiccollection.org.uk/composer/melanie-daiken"
     ],
     [
@@ -34957,9 +35141,9 @@
       "",
       "",
       "",
-      "Copenhagen",
-      "Copenhagen, Denmark",
-      "Denmark",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://www.edition-s.dk/composer/nancy-dalberg"
     ],
     [
@@ -35327,7 +35511,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://www.loc.gov/item/ihas.200153249/"
     ],
     [
@@ -35557,7 +35741,7 @@
       "",
       "N/A",
       "N/A",
-      "Germany",
+      "N/A",
       "https://en.wikipedia.org/wiki/Hanne_Darboven#Work"
     ],
     [
@@ -35649,7 +35833,7 @@
       "",
       "N/A",
       "N/A",
-      "Scotland",
+      "N/A",
       "http://www.saltiresociety.org.uk/discuss-and-debate/saltire-women/outstanding-women-of-scotland-community/2015-celebration/marie-dare/"
     ],
     [
@@ -36247,7 +36431,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Gussie_Davis"
     ],
     [
@@ -36339,7 +36523,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.allmusic.com/artist/katherine-k-davis-mn0002190348/biography"
     ],
     [
@@ -36477,7 +36661,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Miles_Davis"
     ],
     [
@@ -36615,7 +36799,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.prestoclassical.co.uk/c/Davison%252C_H"
     ],
     [
@@ -36707,7 +36891,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://chevalierdesaintgeorges.homestead.com/Dawson.html"
     ],
     [
@@ -37075,7 +37259,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://upclosed.com/people/dame-maroie/"
     ],
     [
@@ -37259,7 +37443,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://www.britannica.com/biography/Elisabeth-Claude-Jacquet-de-la-Guerre"
     ],
     [
@@ -37489,7 +37673,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://www.wnyc.org/story/leonard-de-paur/"
     ],
     [
@@ -37581,7 +37765,7 @@
       "",
       "N/A",
       "N/A",
-      "Australia",
+      "N/A",
       "https://dictionaryofsydney.org/entry/de_cairos_rego_iris"
     ],
     [
@@ -37903,7 +38087,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "http://www.fernandedecruck.com/biography"
     ],
     [
@@ -37949,7 +38133,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://chevalierdesaintgeorges.homestead.com/dede.html"
     ],
     [
@@ -38317,7 +38501,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Teresa_del_Riego"
     ],
     [
@@ -38409,7 +38593,7 @@
       "",
       "N/A",
       "N/A",
-      "Belgium",
+      "N/A",
       "https://en.wikipedia.org/wiki/Eva_Dell%27Acqua"
     ],
     [
@@ -38501,7 +38685,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "http://data.bnf.fr/13965845/theresia_demar/"
     ],
     [
@@ -38593,7 +38777,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jeanne_Demessieux"
     ],
     [
@@ -39053,7 +39237,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://www.delia-derbyshire.org/"
     ],
     [
@@ -39099,7 +39283,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://imslp.org/wiki/Category:Dering%2C_Mary"
     ],
     [
@@ -39421,7 +39605,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Yvonne_Desportes#Works"
     ],
     [
@@ -39467,7 +39651,7 @@
       "",
       "N/A",
       "N/A",
-      "Canada",
+      "N/A",
       "https://en.wikipedia.org/wiki/Robert_Nathaniel_Dett"
     ],
     [
@@ -39971,9 +40155,9 @@
       "",
       "",
       "",
-      "",
-      "",
-      "Venezuela",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Alirio_D%C3%ADaz"
     ],
     [
@@ -40249,7 +40433,7 @@
       "",
       "N/A",
       "N/A",
-      "Ireland",
+      "N/A",
       "http://www.sophie-drinker-institut.de/cms/index.php/dickenson-auner-mary"
     ],
     [
@@ -40759,6 +40943,52 @@
       "https://elizabethditmanson.weebly.com/"
     ],
     [
+      "Dixon, Ailsa (d. 2017)",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "N/A",
+      "N/A",
+      "N/A",
+      "http://www.ailsadixon.co.uk/"
+    ],
+    [
       "Dixon, Akua ",
       "X",
       "",
@@ -40803,52 +41033,6 @@
       "Rhinebeck, New York",
       "USA",
       "http://akuadixon.com/"
-    ],
-    [
-      "Dixon, Alisa",
-      "X",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "X",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "Hampshire",
-      "Hampshire",
-      "UK",
-      "http://www.ailsadixon.co.uk/"
     ],
     [
       "Dixon, Sakari",
@@ -40985,7 +41169,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Lucia_Dlugoszewski"
     ],
     [
@@ -41353,7 +41537,7 @@
       "",
       "N/A",
       "N/A",
-      "Russia",
+      "N/A",
       "http://www.prestoclassical.co.uk/c/Dolgorouky/all/1"
     ],
     [
@@ -41445,7 +41629,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Eric_Dolphy"
     ],
     [
@@ -41629,7 +41813,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Barbara_Donald"
     ],
     [
@@ -41997,7 +42181,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/John_Thomas_Douglass"
     ],
     [
@@ -42503,7 +42687,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Madeleine_Dring"
     ],
     [
@@ -42595,7 +42779,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://www.anndrivertrust.co.uk/about-ann-driver.html"
     ],
     [
@@ -42641,7 +42825,7 @@
       "",
       "N/A",
       "N/A",
-      "Canada",
+      "N/A",
       "https://www.musiccentre.ca/node/139620/showcase"
     ],
     [
@@ -42733,7 +42917,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://www.worldcat.org/title/papers-ca-1900-1951/oclc/122394300"
     ],
     [
@@ -42871,7 +43055,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Pauline_Duchambge"
     ],
     [
@@ -42961,9 +43145,9 @@
       "",
       "",
       "",
-      "Alhambra, CA",
-      "Alhambra, California",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://sites.google.com/site/amyjoduell/home"
     ],
     [
@@ -43147,7 +43331,7 @@
       "",
       "N/A",
       "N/A",
-      "Guyana",
+      "N/A",
       "https://en.wikipedia.org/wiki/Rudolph_Dunbar"
     ],
     [
@@ -43469,7 +43653,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://www.prestoclassical.co.uk/sm/composer%7C43178-b"
     ],
     [
@@ -43657,6 +43841,52 @@
       "http://www.nickdunston.org/"
     ],
     [
+      "Dupuis, Léa",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Montréal",
+      "Montréal",
+      "Canada",
+      "https://leadupuisflutiste-60.webself.net/"
+    ],
+    [
       "Dupuis, Misty",
       "X",
       "",
@@ -43837,7 +44067,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss14_bioghist.html"
     ],
     [
@@ -43929,7 +44159,7 @@
       "",
       "N/A",
       "N/A",
-      "Scotland",
+      "N/A",
       "https://en.wikipedia.org/wiki/Sophia_Dussek"
     ],
     [
@@ -44021,7 +44251,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mlle_Duval"
     ],
     [
@@ -44251,7 +44481,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Julius_Eastman"
     ],
     [
@@ -44527,7 +44757,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Sophie_Carmen_Eckhardt-Gramatt%C3%A9"
     ],
     [
@@ -44665,7 +44895,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Clara_Edwards_(composer)"
     ],
     [
@@ -44711,7 +44941,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.musiccentre.ca/node/37169/showcase"
     ],
     [
@@ -44803,7 +45033,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jean_Eichelberger_Ivey"
     ],
     [
@@ -45493,7 +45723,7 @@
       "",
       "N/A",
       "N/A",
-      "Haiti",
+      "N/A",
       "https://en.wikipedia.org/wiki/Justin_Elie"
     ],
     [
@@ -45539,7 +45769,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://www.newmusicusa.org/profile/aelisha/"
     ],
     [
@@ -45585,7 +45815,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jos%C3%A9_Mariano_El%C3%ADzaga"
     ],
     [
@@ -45631,7 +45861,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Rosalind_Ellicott"
     ],
     [
@@ -45677,7 +45907,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.dukeellington.com/home.html"
     ],
     [
@@ -45723,7 +45953,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mercer_Ellington"
     ],
     [
@@ -45907,7 +46137,7 @@
       "",
       "N/A",
       "N/A",
-      "Guinea",
+      "N/A",
       "http://www.emidy.com/"
     ],
     [
@@ -46091,7 +46321,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "http://www.manuelenriquez.com/start/start.htm"
     ],
     [
@@ -46919,7 +47149,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/James_Reese_Europe"
     ],
     [
@@ -47241,7 +47471,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maddalena_Fagandini"
     ],
     [
@@ -47425,7 +47655,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://composers.com/margaret-fairlie-kennedy"
     ],
     [
@@ -47471,7 +47701,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Clara_Mathilda_Faisst"
     ],
     [
@@ -48023,7 +48253,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Louise_Farrenc"
     ],
     [
@@ -48253,7 +48483,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.citylightsmusic.org/nancyfaxon.htm"
     ],
     [
@@ -48901,6 +49131,52 @@
       "https://en.wikipedia.org/wiki/Amber_Ferenz"
     ],
     [
+      "Fergus, Phyllis (d. 1964)",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "N/A",
+      "N/A",
+      "N/A",
+      "http://www.nlapw.org/legends-legacies-phyllis-fergus/"
+    ],
+    [
       "Fernandes, Gaspar (d. 1629)",
       "",
       "X",
@@ -48943,7 +49219,7 @@
       "",
       "N/A",
       "N/A",
-      "Portugal",
+      "N/A",
       "https://en.wikipedia.org/wiki/Gaspar_Fernandes"
     ],
     [
@@ -48989,7 +49265,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "http://imslp.org/wiki/Category:Fern%C3%A1ndez%2C_Oscar_Lorenzo"
     ],
     [
@@ -49127,7 +49403,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Carlotta_Ferrari"
     ],
     [
@@ -49587,7 +49863,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.vivianfine.org/main/home.htm"
     ],
     [
@@ -49955,7 +50231,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://operaprojects2.wordpress.com/2007/12/28/jennifer-fitzgerald-1975-2007/"
     ],
     [
@@ -50599,7 +50875,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Eug%C3%A9nie-Emilie_Juliette_Folville#Works"
     ],
     [
@@ -51243,7 +51519,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dorothea_Anne_Franchi"
     ],
     [
@@ -51381,7 +51657,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Joan_Franks_Williams"
     ],
     [
@@ -51519,7 +51795,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.universaledition.com/composers-and-works/shena-fraser-910"
     ],
     [
@@ -51703,7 +51979,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.dorothyfreed.com/"
     ],
     [
@@ -51795,7 +52071,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://usopera.com/composers/freeman.html"
     ],
     [
@@ -51841,7 +52117,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Eleanor_Everest_Freer"
     ],
     [
@@ -52163,7 +52439,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ilse_Fromm-Michaels"
     ],
     [
@@ -52347,7 +52623,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.allmusic.com/artist/lillian-fuchs-mn0002341180/compositions"
     ],
     [
@@ -52393,7 +52669,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://wikivisually.com/lang-es/wiki/Luis_Herrera_de_la_Fuente"
     ],
     [
@@ -52441,6 +52717,52 @@
       "Tokyo",
       "Japan",
       "http://www.satokofujii.com/index.html"
+    ],
+    [
+      "Fujiie, Keiko",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Tokyo",
+      "Tokyo",
+      "Japan",
+      "https://www.keiko-fujiie.com/"
     ],
     [
       "Fukuoka, Nina",
@@ -52807,7 +53129,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Virginia_Gabriel"
     ],
     [
@@ -52899,7 +53221,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Juan_Navarro_Gaditanus"
     ],
     [
@@ -52945,7 +53267,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Varvara_Adrianovna_Gaigerova"
     ],
     [
@@ -52991,7 +53313,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Sophie_Gail"
     ],
     [
@@ -53221,7 +53543,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Blas_Galindo"
     ],
     [
@@ -53589,7 +53911,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.cayambismusicpress.com/alejandro-garcia-caturla-s/1872.htm"
     ],
     [
@@ -53681,7 +54003,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/José_Maur%C3%ADcio_Nunes_Garcia"
     ],
     [
@@ -53865,7 +54187,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.musiccentre.ca/node/37415/biography"
     ],
     [
@@ -54049,7 +54371,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Kay_Gardner_(composer)"
     ],
     [
@@ -54095,7 +54417,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Erroll_Garner"
     ],
     [
@@ -54371,7 +54693,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Garsenda,_Countess_of_Forcalquier"
     ],
     [
@@ -54417,7 +54739,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Odette_Gartenlaub"
     ],
     [
@@ -54463,7 +54785,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.musicabaltica.com/en/composers-and-authors/garuta-lucija/works"
     ],
     [
@@ -54739,7 +55061,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jessie_Gaynor"
     ],
     [
@@ -54785,7 +55107,7 @@
       "",
       "N/A",
       "N/A",
-      "Ghana",
+      "N/A",
       "https://en.wikipedia.org/wiki/Philip_Gbeho"
     ],
     [
@@ -55383,7 +55705,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Pannalal_Ghosh"
     ],
     [
@@ -55429,7 +55751,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Luis_Gianneo"
     ],
     [
@@ -55659,7 +55981,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.allmusic.com/artist/miriam-gideon-mn0002174731/compositions"
     ],
     [
@@ -55981,7 +56303,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.ragpiano.com/comps/igiles.shtml"
     ],
     [
@@ -56073,7 +56395,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dizzy_Gillespie"
     ],
     [
@@ -56441,7 +56763,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Teodora_Gin%C3%A9s"
     ],
     [
@@ -56579,7 +56901,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ruth_Gipps"
     ],
     [
@@ -56671,7 +56993,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://translate.google.com/translate?hl=en&sl=es&u=https://es.wikipedia.org/wiki/Tom%25C3%25A1s_Giribaldi&prev=search"
     ],
     [
@@ -57039,7 +57361,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Peggy_Glanville-Hicks"
     ],
     [
@@ -57131,7 +57453,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Helen_Glatz"
     ],
     [
@@ -57221,9 +57543,9 @@
       "",
       "",
       "",
-      "Philadelphia, PA",
-      "Philadelphia, Pennsylvania",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://hildegard.com/composer_detail.php?id=75"
     ],
     [
@@ -57361,7 +57683,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.slipcue.com/music/brazil/gnattali_radames_01.html"
     ],
     [
@@ -57821,7 +58143,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Julia_Gomelskaya"
     ],
     [
@@ -57867,7 +58189,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Antônio_Carlos_Gomes#Bibliography"
     ],
     [
@@ -57913,7 +58235,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Fernando_González_Casellas"
     ],
     [
@@ -57959,7 +58281,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Chiquinha_Gonzaga"
     ],
     [
@@ -58143,7 +58465,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dexter_Gordon"
     ],
     [
@@ -58511,7 +58833,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.utoledo.edu/library/canaday/HTML_findingaids/MSS-108.html"
     ],
     [
@@ -58695,7 +59017,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dorothy_Gow"
     ],
     [
@@ -58785,9 +59107,9 @@
       "",
       "",
       "",
-      "N/A (Poland)",
-      "N/A (Poland)",
-      "Poland",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Klementyna_Grabowska"
     ],
     [
@@ -58925,7 +59247,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Harold_Gramatges"
     ],
     [
@@ -59017,7 +59339,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Cl%C3%A9mence_de_Grandval#Concertante"
     ],
     [
@@ -59481,6 +59803,52 @@
       "https://composers.com/laura-greenberg"
     ],
     [
+      "Greene, Hannah",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Atlanta, GA",
+      "Atlanta, Georgia",
+      "USA",
+      "https://www.hannahygreene.com/"
+    ],
+    [
       "Greene, Lindsay",
       "X",
       "",
@@ -59707,7 +60075,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Iris_du_Pr%C3%A9"
     ],
     [
@@ -59751,9 +60119,9 @@
       "",
       "",
       "",
-      "Kassel",
-      "Kassel",
-      "Germany",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://greger-luise.com"
     ],
     [
@@ -60029,7 +60397,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Lucile_Gr%C3%A9try"
     ],
     [
@@ -60075,7 +60443,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mar%C3%ADa_Grever"
     ],
     [
@@ -60581,7 +60949,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maria_Margherita_Grimani"
     ],
     [
@@ -60857,7 +61225,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://imslp.org/wiki/Category:Backer-Gr%C3%B8ndahl,_Agathe"
     ],
     [
@@ -60999,6 +61367,52 @@
       "http://sbmp.com/ComposerPage.php?ComposerNum=176"
     ],
     [
+      "Guardia, Alejandro",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Miami, FL",
+      "Miami, Florida",
+      "USA",
+      "https://www.alejandroguardia.com/"
+    ],
+    [
       "Guarnieri, Mozart Camargo (d.1993)",
       "",
       "X",
@@ -61041,7 +61455,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Camargo_Guarnieri"
     ],
     [
@@ -61133,7 +61547,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Emilia_Gubitosi"
     ],
     [
@@ -61271,7 +61685,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.guerrapeixe.com/index.html"
     ],
     [
@@ -61639,7 +62053,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://upclosed.com/people/rosa-guraieb/"
     ],
     [
@@ -61777,7 +62191,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Felipe_de_Jesús_Villanueva_Gutiérrez"
     ],
     [
@@ -61823,7 +62237,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Harry_P._Guy"
     ],
     [
@@ -62007,7 +62421,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Elizabeth_Gyring"
     ],
     [
@@ -62147,6 +62561,52 @@
       "Kobe-shi, Hyogo",
       "Japan",
       "http://www.hacohaco.net/haco/home.html"
+    ],
+    [
+      "Haddad, Saad",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "New York, NY",
+      "New York, New York",
+      "USA",
+      "http://www.saadnhaddad.com/"
     ],
     [
       "Hagan, Kerry",
@@ -62329,7 +62789,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Reynaldo_Hahn#Works"
     ],
     [
@@ -62467,7 +62927,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.oxfordmusiconline.com/grovemusic/view/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-0000048282"
     ],
     [
@@ -62881,7 +63341,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Pauline_Hall_(composer)"
     ],
     [
@@ -63709,7 +64169,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/W._C._Handy"
     ],
     [
@@ -64031,7 +64491,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.hildegard.com/composer_detail.php?id=81"
     ],
     [
@@ -64721,7 +65181,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Annie_Fortescue_Harrison"
     ],
     [
@@ -64997,7 +65457,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.pamelaharrisoncomposer.co.uk/index.html"
     ],
     [
@@ -65089,7 +65549,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Susie_Frances_Harrison"
     ],
     [
@@ -65181,7 +65641,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Henry_Hart_(musician)"
     ],
     [
@@ -65411,7 +65871,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Lady_Mary_Dering"
     ],
     [
@@ -65917,7 +66377,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Scott_Hayden"
     ],
     [
@@ -66653,7 +67113,7 @@
       "",
       "N/A",
       "N/A",
-      "N/A (France)",
+      "N/A",
       "http://dx.doi.org/10.1017/S0961137102002012"
     ],
     [
@@ -66699,7 +67159,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Julius_Hemphill"
     ],
     [
@@ -66745,7 +67205,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Fletcher_Henderson#Selected_discography"
     ],
     [
@@ -66791,7 +67251,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Luther_Henderson"
     ],
     [
@@ -67067,7 +67527,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://www.allmusic.com/artist/waldemar-henrique-mn0001520868/biography"
     ],
     [
@@ -67205,7 +67665,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Muriel_Herbert"
     ],
     [
@@ -67389,7 +67849,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Eduardo_Hernández_Moncada#Selected_works"
     ],
     [
@@ -67619,7 +68079,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Herrad_of_Landsberg"
     ],
     [
@@ -67665,7 +68125,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://translate.google.com/translate?hl=en&sl=es&u=https://es.wikipedia.org/wiki/Luis_Herrera_de_la_Fuente&prev=search"
     ],
     [
@@ -67941,7 +68401,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://musicalics.com/en/node/98964"
     ],
     [
@@ -68035,6 +68495,52 @@
       "",
       "Canada",
       "https://www.musiccentre.ca/node/139634/sheet_music"
+    ],
+    [
+      "Hier, Ethel Glenn (d. 1971)",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "N/A",
+      "N/",
+      "N/A",
+      "https://en.wikipedia.org/wiki/Ethel_Glenn_Hier"
     ],
     [
       "Higdon, Jennifer",
@@ -68171,7 +68677,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Hildegard_of_Bingen"
     ],
     [
@@ -68309,7 +68815,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mirrie_Hill#Works"
     ],
     [
@@ -69091,7 +69597,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Fred_Ho"
     ],
     [
@@ -69365,9 +69871,9 @@
       "",
       "",
       "",
-      "Amsterdam",
-      "Amsterdam",
-      "Netherlands",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://hoenderdos.bandcamp.com/"
     ],
     [
@@ -69689,7 +70195,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ernest_Hogan"
     ],
     [
@@ -69735,7 +70241,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.moseshogan.com/"
     ],
     [
@@ -69827,7 +70333,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.discogs.com/artist/5088985-Dorothy-Hogben"
     ],
     [
@@ -69919,7 +70425,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.musicalion.com/en/scores/sheet-music/202272/anna-ovena-hoijer"
     ],
     [
@@ -70011,7 +70517,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Billie_Holiday"
     ],
     [
@@ -70057,7 +70563,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.australianmusiccentre.com.au/artist/holland-dulcie"
     ],
     [
@@ -70241,7 +70747,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Augusta_Holm%C3%A8s"
     ],
     [
@@ -70333,7 +70839,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Borghild_Holmsen"
     ],
     [
@@ -70425,7 +70931,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Imogen_Holst"
     ],
     [
@@ -70517,7 +71023,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Nora_Holt"
     ],
     [
@@ -70563,7 +71069,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.musiccentre.ca/node/37213"
     ],
     [
@@ -70839,7 +71345,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://composers.com/joyce-hope-suskind"
     ],
     [
@@ -70931,7 +71437,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Helen_Hopekirk"
     ],
     [
@@ -71161,7 +71667,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Amy_Elsie_Horrocks"
     ],
     [
@@ -71529,7 +72035,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://neumarecordsandpublications.com/_artists/hovda.html"
     ],
     [
@@ -71759,7 +72265,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.ripopmusic.org/musical-artists/composers/julia-ward-howe/"
     ],
     [
@@ -71805,7 +72311,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mary_Howe"
     ],
     [
@@ -71851,7 +72357,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dorothy_Howell"
     ],
     [
@@ -72219,7 +72725,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Freddie_Hubbard"
     ],
     [
@@ -72357,7 +72863,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.cdandlp.com/hubicki-margaret-1915-2006/dedication-in-time:-chamber-music/cd/r116179449/"
     ],
     [
@@ -73507,7 +74013,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.australianmusiccentre.com.au/search?type=work&wfc[]=Miriam+Hyde"
     ],
     [
@@ -73921,7 +74427,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Anna_Inglese"
     ],
     [
@@ -74243,7 +74749,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Isabella_Leonarda"
     ],
     [
@@ -74289,7 +74795,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Isang_Yun"
     ],
     [
@@ -74473,7 +74979,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://musicalics.com/en/node/98811"
     ],
     [
@@ -74657,7 +75163,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Najla_Jabor"
     ],
     [
@@ -74841,7 +75347,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://www.michaeljackson.com"
     ],
     [
@@ -74887,7 +75393,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Tony_Jackson_(pianist)"
     ],
     [
@@ -75117,7 +75623,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://fr.wikipedia.org/wiki/%C3%89lisabeth_Jacquet_de_La_Guerre"
     ],
     [
@@ -75163,7 +75669,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Marie_Ja%C3%ABll"
     ],
     [
@@ -75623,7 +76129,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Natalia_Janotha"
     ],
     [
@@ -75715,7 +76221,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.thecanadianencyclopedia.ca/en/article/rhene-jaque-emc/"
     ],
     [
@@ -75761,7 +76267,7 @@
       "",
       "N/A",
       "N/A",
-      "Chile",
+      "N/A",
       "https://en.wikipedia.org/wiki/V%C3%ADctor_Jara"
     ],
     [
@@ -76175,7 +76681,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Leroy_Jenkins_(jazz_musician)"
     ],
     [
@@ -76405,7 +76911,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ramashreya_Jha"
     ],
     [
@@ -76497,7 +77003,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://portal.dnb.de/opac.htm?method=simpleSearch&query=134418050&sortOrderIndex=&cqlMode=false&hitnumber="
     ],
     [
@@ -76543,7 +77049,7 @@
       "",
       "N/A",
       "N/A",
-      "Cuba",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jos%C3%A9_Juli%C3%A1n_Jim%C3%A9nez"
     ],
     [
@@ -76589,7 +77095,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/José_Manuel_Jiménez_Berroa#Works"
     ],
     [
@@ -76681,7 +77187,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://translate.google.com/translate?hl=en&sl=es&u=https://es.wikipedia.org/wiki/Miguel_Bernal_Jim%25C3%25A9nez&prev=search"
     ],
     [
@@ -76865,7 +77371,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Antônio_Carlos_Jobim#Discography_and_compositions"
     ],
     [
@@ -77003,7 +77509,7 @@
       "",
       "N/A",
       "N/A",
-      "USA (Yup'ik)",
+      "N/A",
       "https://en.wikipedia.org/wiki/Paul_John_(Yupik_elder)"
     ],
     [
@@ -77099,6 +77605,52 @@
       "http://bridgetdjohnson.com/bio"
     ],
     [
+      "Johnson, Darryl",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Los Angeles, CA",
+      "Los Angeles, California",
+      "USA",
+      "http://darryl2.com/"
+    ],
+    [
       "Johnson, Francis (d. 1844)",
       "",
       "X",
@@ -77187,7 +77739,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Hall_Johnson"
     ],
     [
@@ -77279,7 +77831,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/J._J._Johnson"
     ],
     [
@@ -77325,7 +77877,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/J._Rosamond_Johnson#Musical_works"
     ],
     [
@@ -77371,7 +77923,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/James_P._Johnson#Film_scores"
     ],
     [
@@ -77969,7 +78521,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Thad_Jones"
     ],
     [
@@ -78107,7 +78659,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Scott_Joplin"
     ],
     [
@@ -78199,7 +78751,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Joe_Jordan_(musician)"
     ],
     [
@@ -79119,7 +79671,7 @@
       "X",
       "N/A",
       "N/A",
-      "Hawaiian Kingdom",
+      "N/A",
       "http://onipaa.org/pages/her-history"
     ],
     [
@@ -79625,7 +80177,7 @@
       "X",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.kapralova.org/"
     ],
     [
@@ -80085,7 +80637,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Kassiani"
     ],
     [
@@ -80269,7 +80821,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Eunice_Katunda"
     ],
     [
@@ -80292,17 +80844,17 @@
       "",
       "",
       "",
-      "",
-      "",
-      "",
-      "",
-      "X",
-      "X",
       "X",
       "",
       "",
       "",
+      "X",
       "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
       "",
       "X",
       "",
@@ -80545,7 +81097,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ulysses_Kay"
     ],
     [
@@ -80683,7 +81235,7 @@
       "X",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.musicweb-international.com/keal/index.htm"
     ],
     [
@@ -80821,7 +81373,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.musiccentre.ca/node/37474"
     ],
     [
@@ -80915,6 +81467,52 @@
       "Nottingham",
       "UK",
       "http://www.elizabethakelly.com"
+    ],
+    [
+      "Kelly, Elizabeth Joan",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "New Orleans, LA",
+      "New Orleans, Louisiana",
+      "USA",
+      "https://elizabethjoankelly.com"
     ],
     [
       "Kelly, Jessica",
@@ -81511,7 +82109,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Louise_Lincoln_Kerr"
     ],
     [
@@ -81557,7 +82155,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Minuetta_Kessler"
     ],
     [
@@ -81695,7 +82293,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Allauddin_Khan"
     ],
     [
@@ -81833,7 +82431,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Tanrus_Khan"
     ],
     [
@@ -82201,7 +82799,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://moltonativemusic.com/JKilpatrick.htm"
     ],
     [
@@ -82937,7 +83535,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.bettyjacksonking.com"
     ],
     [
@@ -82983,7 +83581,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Johanna_Kinkel"
     ],
     [
@@ -83029,7 +83627,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/L._Viola_Kinney"
     ],
     [
@@ -83305,7 +83903,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.theguardian.com/news/2000/mar/15/guardianobituaries1"
     ],
     [
@@ -83351,7 +83949,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.bardic-music.com/Kirkwood.htm"
     ],
     [
@@ -83397,7 +83995,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.legacy.com/obituaries/heraldandnews/obituary.aspx?pid=166431713"
     ],
     [
@@ -84821,9 +85419,9 @@
       "",
       "",
       "",
-      "Athens / Paris",
-      "Athens / Paris",
-      "Greece/France",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://fr.wikipedia.org/wiki/%C3%8Drma_Kol%C3%A1ssi"
     ],
     [
@@ -85375,7 +85973,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.classicalarchives.com/composer/87424.html#tvf=tracks&tv=music"
     ],
     [
@@ -85559,7 +86157,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://it.wikipedia.org/wiki/Natal%27ja_Ivanovna_Kurakina"
     ],
     [
@@ -85973,7 +86571,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mathilde_Kralik#Works"
     ],
     [
@@ -86295,7 +86893,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Nallan_Chakravartula_Krishnamacharyulu"
     ],
     [
@@ -86801,7 +87399,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Felicitas_Kukuck"
     ],
     [
@@ -87031,7 +87629,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.margaritakuss.ru/en/works.php"
     ],
     [
@@ -87169,7 +87767,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Elisabeth_Kuyper#Works"
     ],
     [
@@ -87537,7 +88135,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Élisabeth_Jacquet_de_La_Guerre"
     ],
     [
@@ -87721,7 +88319,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "http://www3.uakron.edu/bmca/composers/Lacerda/"
     ],
     [
@@ -87905,7 +88503,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://chevalierdesaintgeorges.homestead.com/White.html"
     ],
     [
@@ -88365,7 +88963,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Charles_Lucien_Lambert"
     ],
     [
@@ -88457,7 +89055,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "http://www.blackpast.org/gah/lambert-lucien-leon-guillaume-1858-1945"
     ],
     [
@@ -88503,7 +89101,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://imslp.org/wiki/Category:Lambert%2C_Sidney"
     ],
     [
@@ -88779,7 +89377,7 @@
       "",
       "N/A",
       "N/A",
-      "Haiti",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ludovic_Lamothe"
     ],
     [
@@ -89009,7 +89607,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Josephine_Lang#List_of_Principle_Published_Works.5B1.5D"
     ],
     [
@@ -89055,7 +89653,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Margaret_Ruthven_Lang"
     ],
     [
@@ -89193,7 +89791,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://nl.wikipedia.org/wiki/Coby_Lankester"
     ],
     [
@@ -89791,7 +90389,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.annalarson.com"
     ],
     [
@@ -90021,7 +90619,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://musicalics.com/en/composer/Joan-Mary-Last"
     ],
     [
@@ -90479,9 +91077,9 @@
       "",
       "",
       "",
-      "",
-      "",
-      "Venezuela",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://www.internationalopus.com/cgi-bin/io.pl?mode=composer&composer=11"
     ],
     [
@@ -90525,9 +91123,9 @@
       "",
       "",
       "",
-      "NYC, NY",
-      "NYC, New York",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://www.elodielauten.net/video.html"
     ],
     [
@@ -90803,7 +91401,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Luise_Adolpha_Le_Beau#Compositions"
     ],
     [
@@ -91125,7 +91723,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Francesca_Lebrun"
     ],
     [
@@ -91171,7 +91769,7 @@
       "",
       "N/A",
       "N/A",
-      "Cuba",
+      "N/A",
       "https://www.allmusic.com/artist/ernesto-lecuona-mn0000010414/biography"
     ],
     [
@@ -91723,7 +92321,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jeanne_Lee"
     ],
     [
@@ -91861,7 +92459,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://peggylee.com/"
     ],
     [
@@ -92275,7 +92873,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Liza_Lehmann"
     ],
     [
@@ -92551,7 +93149,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Clarisse_Leite"
     ],
     [
@@ -92781,7 +93379,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jeanne_Leleu"
     ],
     [
@@ -93149,7 +93747,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://imslp.org/wiki/Category:Leonarda,_Isabella"
     ],
     [
@@ -93563,7 +94161,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Zara_Levina"
     ],
     [
@@ -93793,7 +94391,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/John_Lewis_(pianist)"
     ],
     [
@@ -94161,7 +94759,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Elizabeth_Liddell"
     ],
     [
@@ -94253,7 +94851,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://translate.google.com/translate?hl=en&sl=nl&u=https://nl.wikipedia.org/wiki/Helene_Liebmann&prev=search"
     ],
     [
@@ -94345,7 +94943,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Juan_de_Lienas"
     ],
     [
@@ -95035,7 +95633,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Melba_Liston"
     ],
     [
@@ -95357,7 +95955,7 @@
       "",
       "N/A",
       "N/A",
-      "Ecuador (Inca)",
+      "N/A",
       "https://www.britannica.com/biography/Lobato-Diego"
     ],
     [
@@ -95403,7 +96001,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "http://www.abmusica.org.br/academico.php?n=relias-alvares-lobo&id=102"
     ],
     [
@@ -95451,6 +96049,52 @@
       "NYC, New York",
       "USA",
       "http://www.annealockwood.com/"
+    ],
+    [
+      "Loew, Chelsea",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "NY",
+      "New York",
+      "USA",
+      "https://www.chelsealoew.com/"
     ],
     [
       "Logan, Jennifer",
@@ -95725,7 +96369,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://imslp.org/wiki/Category:Sirmen,_Maddalena_Laura"
     ],
     [
@@ -95771,7 +96415,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://ruthlomon.com"
     ],
     [
@@ -96001,7 +96645,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Francisco_L%C3%B3pez_Capillas"
     ],
     [
@@ -96277,7 +96921,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ivana_Loudov%C3%A1"
     ],
     [
@@ -96553,7 +97197,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Katharine_Emily_Eggar"
     ],
     [
@@ -96829,7 +97473,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mary_Lucas"
     ],
     [
@@ -96875,7 +97519,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Sam_Lucas"
     ],
     [
@@ -97105,7 +97749,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://imslp.org/wiki/Special:CategoryWalker/Lund-Skabo,_Signe/"
     ],
     [
@@ -97151,7 +97795,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://imslp.org/wiki/Category:Lund%2C_Birgit"
     ],
     [
@@ -97427,7 +98071,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://mollyluther.com/"
     ],
     [
@@ -97473,7 +98117,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://fr.wikipedia.org/wiki/Elisabeth_Lutyens"
     ],
     [
@@ -97979,7 +98623,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Carlos_Jim%C3%A9nez_Mabarak"
     ],
     [
@@ -98351,6 +98995,52 @@
       "https://en.wikipedia.org/wiki/Clare_Maclean"
     ],
     [
+      "MacLeod, Erica",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "San Francisco, CA",
+      "San Francisco, California",
+      "USA",
+      "https://www.ericamacleodcomposer.com/"
+    ],
+    [
       "MacNeil, Mavis",
       "X",
       "",
@@ -98439,7 +99129,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.fabermusic.com/composers/elizabeth-maconchy/biography"
     ],
     [
@@ -99037,7 +99727,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Alma_Mahler#Works"
     ],
     [
@@ -99083,7 +99773,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Alma_Mahler"
     ],
     [
@@ -99221,7 +99911,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Amanda_Röntgen-Maier"
     ],
     [
@@ -99313,7 +100003,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Nina_Makarova"
     ],
     [
@@ -99497,7 +100187,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maria_Malibran"
     ],
     [
@@ -99681,7 +100371,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Carin_Malmlöf-Forssling"
     ],
     [
@@ -99727,7 +100417,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.ursulamamlok.com/"
     ],
     [
@@ -100049,7 +100739,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.manningsongs.com/"
     ],
     [
@@ -100325,7 +101015,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Marcelle_de_Manziarly"
     ],
     [
@@ -100417,7 +101107,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Myriam_Marbe"
     ],
     [
@@ -100739,7 +101429,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ljubica_Marić"
     ],
     [
@@ -100923,7 +101613,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/W%C5%82adys%C5%82awa_Markiewicz%C3%B3wna"
     ],
     [
@@ -101153,7 +101843,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Louisa_Melvin_Delos_Mars"
     ],
     [
@@ -101337,7 +102027,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Arthur_Marshall_(composer)"
     ],
     [
@@ -101935,7 +102625,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Marianna_Martines"
     ],
     [
@@ -102165,7 +102855,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Hugh_Masekela"
     ],
     [
@@ -102303,7 +102993,7 @@
       "",
       "N/A",
       "N/A",
-      "Cuba",
+      "N/A",
       "https://musicalics.com/en/node/90059"
     ],
     [
@@ -102349,7 +103039,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "http://www.lieder.net/lieder/get_settings.html?ComposerId=19826"
     ],
     [
@@ -102809,7 +103499,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.paulemaurice.com/"
     ],
     [
@@ -103085,7 +103775,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Emilie_Mayer"
     ],
     [
@@ -104189,7 +104879,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://shepaintsred.com/my-fathers-music/duna-by-josephine-mcgill/"
     ],
     [
@@ -105247,7 +105937,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Bianca_Maria_Meda"
     ],
     [
@@ -105569,7 +106259,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://oasis.lib.harvard.edu/oasis/deliver/~mus00004"
     ],
     [
@@ -105753,7 +106443,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Fanny_Mendelssohn"
     ],
     [
@@ -105799,7 +106489,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "http://www.newconsonantmusic.com/composers/index.php?ID=188&CompositeurName=Gilberto%20MENDES"
     ],
     [
@@ -106535,7 +107225,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Emerico_Lobo_de_Mesquita"
     ],
     [
@@ -107087,7 +107777,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Francisco_Mignone"
     ],
     [
@@ -108237,7 +108927,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Charles_Mingus"
     ],
     [
@@ -108615,9 +109305,9 @@
       "",
       "X",
       "",
-      "",
-      "",
-      "",
+      "X",
+      "X",
+      "X",
       "X",
       "X",
       "",
@@ -109341,7 +110031,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Eduardo_Hern%C3%A1ndez_Moncada"
     ],
     [
@@ -109387,7 +110077,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jos%C3%A9_Pablo_Moncayo"
     ],
     [
@@ -109663,7 +110353,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Thelonious_Monk"
     ],
     [
@@ -109937,9 +110627,9 @@
       "",
       "",
       "",
-      "",
-      "",
-      "Venezuela",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jos%C3%A9_%C3%81ngel_Montero"
     ],
     [
@@ -109985,7 +110675,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/H%C3%A9l%C3%A8ne_de_Montgeroult"
     ],
     [
@@ -110399,7 +111089,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mary_Carr_Moore"
     ],
     [
@@ -110491,7 +111181,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Undine_Smith_Moore"
     ],
     [
@@ -110537,7 +111227,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Charlotte_Moorman"
     ],
     [
@@ -110629,7 +111319,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Melesio_Morales"
     ],
     [
@@ -110997,7 +111687,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.angelamorley.com/"
     ],
     [
@@ -111227,7 +111917,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Butch_Morris"
     ],
     [
@@ -111457,7 +112147,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jelly_Roll_Morton"
     ],
     [
@@ -111595,7 +112285,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Katie_Moss"
     ],
     [
@@ -111641,7 +112331,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Krystyna_Moszuma%C5%84ska-Nazar"
     ],
     [
@@ -111963,7 +112653,7 @@
       "",
       "N/A",
       "N/A",
-      "Austria",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maria_Anna_Mozart"
     ],
     [
@@ -112147,7 +112837,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Johanna_M%C3%BCller-Hermann"
     ],
     [
@@ -112193,7 +112883,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.lieder.net/lieder/get_settings.html?ComposerId=5125"
     ],
     [
@@ -112377,7 +113067,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Helena_Munktell"
     ],
     [
@@ -114171,7 +114861,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://imslp.org/wiki/Category:Nathan%2C_Mathilde_Berendsen"
     ],
     [
@@ -114309,7 +114999,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://it.wikipedia.org/wiki/Francesca_D%27Adda"
     ],
     [
@@ -114815,7 +115505,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Neeta_Sen"
     ],
     [
@@ -115183,7 +115873,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.allmusic.com/album/marie-barker-nelson-in-a-lighter-touch-mw0001552216"
     ],
     [
@@ -115229,7 +115919,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Oliver_Nelson"
     ],
     [
@@ -115367,7 +116057,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Alberto_Nepomuceno"
     ],
     [
@@ -115459,7 +116149,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Laura_Netzel"
     ],
     [
@@ -116425,7 +117115,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Julia_Lee_Niebergall"
     ],
     [
@@ -117437,7 +118127,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Gladys_Nordenstrom"
     ],
     [
@@ -117941,9 +118631,9 @@
       "",
       "",
       "",
-      "Bogotá",
-      "Bogotá",
-      "Colombia",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://issuu.com/elmamm/docs/album_jnova/1?ff=true&e=8569033%2F52163968"
     ],
     [
@@ -118313,6 +119003,52 @@
       "Evanston, Illinois",
       "USA",
       "http://carolynobrienmusic.com/"
+    ],
+    [
+      "O'Connor-Ballantyne, Kathleen",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Trumansburg, NY",
+      "Trumansburg, New York",
+      "USA",
+      "http://kathleenballantyne.com"
     ],
     [
       "O'Connor, Cindy",
@@ -118817,7 +119553,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jana_Obrovsk%C3%A1"
     ],
     [
@@ -119505,9 +120241,9 @@
       "",
       "",
       "",
-      "Pennington, NJ",
-      "Pennington, New Jersey",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Olga_Gorelli"
     ],
     [
@@ -119553,7 +120289,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Elisabeth_Olin"
     ],
     [
@@ -119783,7 +120519,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://paulineoliveros.us/"
     ],
     [
@@ -120197,7 +120933,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://daphneoram.org/"
     ],
     [
@@ -120243,7 +120979,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Anne-Marie_%C3%98rbeck"
     ],
     [
@@ -120381,7 +121117,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Aniceto_Ortega"
     ],
     [
@@ -120519,7 +121255,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://arsantiguapresents.com/archives/live-concerts/past-live-concerts-by-or-with-ars-antigua-2/2004-programs-reviews-photos-and-audio/march-14-2004/"
     ],
     [
@@ -120795,7 +121531,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Henrique_Oswald"
     ],
     [
@@ -121117,7 +121853,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://composers.com/terry-winter-owens"
     ],
     [
@@ -121163,7 +121899,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.terademarezoyens.nl/en/"
     ],
     [
@@ -121393,8 +122129,54 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Juan_Guti%C3%A9rrez_de_Padilla"
+    ],
+    [
+      "Page, Mimi",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Los Angeles, CA",
+      "Los Angeles, California",
+      "USA",
+      "https://www.mimipage.com/"
     ],
     [
       "Page, Rosalind",
@@ -121761,7 +122543,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://musicalics.com/en/node/93905"
     ],
     [
@@ -121995,6 +122777,52 @@
       "https://soundcloud.com/yan-pang"
     ],
     [
+      "Pangan, Jaimie",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "CA",
+      "California",
+      "USA",
+      "http://soundcloud.com/jaimiepmusic/"
+    ],
+    [
       "Paniagua, Cenobio (d. 1882)",
       "",
       "X",
@@ -122037,7 +122865,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Cenobio_Paniagua"
     ],
     [
@@ -122313,7 +123141,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maria_Theresia_von_Paradis"
     ],
     [
@@ -122405,7 +123233,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.gp-magma.net/home.html"
     ],
     [
@@ -122773,7 +123601,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maria_Hester_Park"
     ],
     [
@@ -122865,7 +123693,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dorothy_Parke"
     ],
     [
@@ -122957,7 +123785,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Charlie_Parker"
     ],
     [
@@ -123003,7 +123831,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Katharine_Parker"
     ],
     [
@@ -123049,7 +123877,7 @@
       "",
       "",
       "",
-      "USA",
+      "Canada",
       "https://soundcloud.com/lavinia-kell-parker"
     ],
     [
@@ -123601,7 +124429,7 @@
       "",
       "N/A",
       "N/A",
-      "Argentina",
+      "N/A",
       "https://en.wikipedia.org/wiki/Juan_Carlos_Paz"
     ],
     [
@@ -124015,7 +124843,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dora_Peja%C4%8Devi%C4%87"
     ],
     [
@@ -124107,7 +124935,7 @@
       "",
       "N/A",
       "N/A",
-      "Chile",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jorge_Pe%C3%B1a_Hen"
     ],
     [
@@ -124291,7 +125119,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.musiccentre.ca/node/37281"
     ],
     [
@@ -124429,7 +125257,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jim_Pepper"
     ],
     [
@@ -124613,7 +125441,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Daniel_Ayala_P%C3%A9rez"
     ],
     [
@@ -124751,7 +125579,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Coleridge-Taylor_Perkinson"
     ],
     [
@@ -125027,7 +125855,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Julia_Perry"
     ],
     [
@@ -125073,7 +125901,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.zenobiapowellperry.org/"
     ],
     [
@@ -125211,7 +126039,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maria_Xaveria_Perucona"
     ],
     [
@@ -125303,7 +126131,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Elena_Petrov%C3%A1"
     ],
     [
@@ -125351,6 +126179,52 @@
       "Oslo",
       "Norway",
       "http://agnesidapettersen.com"
+    ],
+    [
+      "Pettersson, Ragnhild",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Stockholm",
+      "Stockholm",
+      "Sweden",
+      "http://ragnhildpettersson.com/"
     ],
     [
       "Pettigrew, Laura ",
@@ -125625,7 +126499,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.australianmusiccentre.com.au/artist/phillips-linda"
     ],
     [
@@ -125763,7 +126637,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Krishnarao_Phulambrikar"
     ],
     [
@@ -125993,7 +126867,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/K._C._Kesava_Pillai"
     ],
     [
@@ -126131,7 +127005,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Julie_Pinel"
     ],
     [
@@ -126177,7 +127051,7 @@
       "",
       "N/A",
       "N/A",
-      "Peru",
+      "N/A",
       "https://en.wikipedia.org/wiki/Felipe_Pinglo_Alva"
     ],
     [
@@ -126453,7 +127327,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Armand_J._Piron"
     ],
     [
@@ -126733,6 +127607,52 @@
       "http://www.ingridplum.com/"
     ],
     [
+      "Plum, Ingrid ",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Brighton",
+      "Brighton",
+      "UK",
+      "http://www.ingridplum.com/"
+    ],
+    [
       "Poe, Lara",
       "X",
       "",
@@ -126821,7 +127741,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Poldowski"
     ],
     [
@@ -127281,7 +128201,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Manuel_Ponce"
     ],
     [
@@ -127741,7 +128661,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.boosey.com/pages/cr/composer/composer_main?composerid=4885"
     ],
     [
@@ -127925,7 +128845,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Baden_Powell_(guitarist)"
     ],
     [
@@ -128155,7 +129075,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jos%C3%A9_Ant%C3%B4nio_Rezende_de_Almeida_Prado"
     ],
     [
@@ -128339,7 +129259,7 @@
       "",
       "N/A",
       "N/A",
-      "Cuba",
+      "N/A",
       "http://sydney.edu.au/music/staff-profiles/eduardo.diazmunoz.php#publications-by-year"
     ],
     [
@@ -128615,7 +129535,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Florence_Price"
     ],
     [
@@ -128661,7 +129581,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/John_Elwood_Price"
     ],
     [
@@ -128891,7 +129811,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Prince_(musician)"
     ],
     [
@@ -129397,7 +130317,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dudu_Pukwana"
     ],
     [
@@ -129995,7 +130915,7 @@
       "",
       "N/A",
       "N/A",
-      "USA (Choctaw)",
+      "N/A",
       "http://www.amerinda.org/naar/quincy/composer/quincycomposer.htm"
     ],
     [
@@ -130273,6 +131193,52 @@
       "Mumbai",
       "India",
       "http://www.taufiqqureshi.com/"
+    ],
+    [
+      "Ra, James",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "New York, NY",
+      "New York, New York",
+      "USA",
+      "http://jamesra.com/"
     ],
     [
       "Rabe, Marci",
@@ -130639,7 +131605,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Priaulx_Rainier"
     ],
     [
@@ -130867,9 +131833,9 @@
       "",
       "",
       "",
-      "NYC, NY",
-      "NYC, New York",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Eda_Rapoport"
     ],
     [
@@ -131375,7 +132341,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.allmusic.com/artist/lilian-ray-mn0002174196/credits"
     ],
     [
@@ -131789,7 +132755,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.layneredmond.com/Home.html"
     ],
     [
@@ -132111,7 +133077,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://composers-classical-music.com/r/ReichardGrossClara.htm"
     ],
     [
@@ -132157,7 +133123,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Louise_Reichardt"
     ],
     [
@@ -132709,7 +133675,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.elinorremickwarren.com"
     ],
     [
@@ -132847,7 +133813,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Henriette_Renié"
     ],
     [
@@ -132985,7 +133951,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Silvestre_Revueltas"
     ],
     [
@@ -133445,7 +134411,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Kathleen_Richards"
     ],
     [
@@ -133859,7 +134825,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.thefreelibrary.com/Joan+Rimmer+(1918-2014).-a0436541947"
     ],
     [
@@ -133905,7 +134871,7 @@
       "",
       "N/A",
       "N/A",
-      "Russia",
+      "N/A",
       "https://en.wikipedia.org/wiki/Nadezhda_Rimskaya-Korsakova"
     ],
     [
@@ -134179,9 +135145,9 @@
       "",
       "",
       "",
-      "Frontignan, Hérault",
-      "Frontignan, Hérault",
-      "France",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://parlorsongs.com/bios/aprisher/aprisher.php"
     ],
     [
@@ -134871,7 +135837,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Fanny_Arthur_Robinson"
     ],
     [
@@ -135147,7 +136113,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mary_Rodgers"
     ],
     [
@@ -135331,7 +136297,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://musiccentre.ca/node/37363"
     ],
     [
@@ -135653,7 +136619,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.swedishmusicalheritage.com/composers/maier-rontgen-amanda/"
     ],
     [
@@ -135699,7 +136665,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://translate.google.com/translate?hl=en&sl=fr&u=https://fr.wikipedia.org/wiki/Marguerite_Roesgen-Champion&prev=search"
     ],
     [
@@ -135745,7 +136711,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://translate.google.com/translate?hl=en&sl=it&u=http://www.justclassicalguitar.com/en/guitar-history/20th-century-guitar/composers-guitarists/teresa-de-rogatis&prev=search"
     ],
     [
@@ -135975,7 +136941,7 @@
       "",
       "N/A",
       "N/A",
-      "Cuba",
+      "N/A",
       "http://africlassical.blogspot.com/2014/07/amadeo-roldan-y-gardes-1900-1939-afro.html"
     ],
     [
@@ -136527,7 +137493,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Juventino_Rosas"
     ],
     [
@@ -137401,7 +138367,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Camilla_de_Rossi"
     ],
     [
@@ -138091,7 +139057,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jeanine_Rueff"
     ],
     [
@@ -138367,7 +139333,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://oxfordindex.oup.com/view/10.1093/gmo/9781561592630.article.2021307"
     ],
     [
@@ -139015,6 +139981,52 @@
       "http://saariaho.org/"
     ],
     [
+      "Sabet Sarvestani, Parisa",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "X",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "Aurora, Ontario",
+      "Aurora, Ontario",
+      "Canada",
+      "http://www.parisasabet.com/"
+    ],
+    [
       "Sabzghabaei, Daniel Reza",
       "X",
       "",
@@ -139425,7 +140437,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Chevalier_de_Saint-Georges"
     ],
     [
@@ -139471,7 +140483,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://fr.wikipedia.org/wiki/Micheline_Coulombe_Saint-Marcoux"
     ],
     [
@@ -139609,7 +140621,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Antonio_de_Salazar_(composer)"
     ],
     [
@@ -139747,7 +140759,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Luis_H._Salgado"
     ],
     [
@@ -139839,7 +140851,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://imslp.org/wiki/Category:Salter,_Mary_Turner"
     ],
     [
@@ -139885,7 +140897,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://web.archive.org/web/20061212234000/http://matildesalvador.el-atril.com:80/index.html"
     ],
     [
@@ -140391,7 +141403,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Luis_Sandi"
     ],
     [
@@ -140667,7 +141679,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "http://www.claudiosantoro.art.br/"
     ],
     [
@@ -140851,7 +141863,7 @@
       "",
       "N/A",
       "N/A",
-      "Greece",
+      "N/A",
       "https://en.wikipedia.org/wiki/Sappho"
     ],
     [
@@ -141403,7 +142415,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Princess_Marie_Elisabeth_of_Saxe-Meiningen"
     ],
     [
@@ -141495,7 +142507,7 @@
       "",
       "N/A",
       "N/A",
-      "Turkey",
+      "N/A",
       "https://en.wikipedia.org/wiki/Leyla_Saz"
     ],
     [
@@ -141771,7 +142783,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://de.wikipedia.org/wiki/Philippine_Schick"
     ],
     [
@@ -142277,7 +143289,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ruth_Sch%C3%B6nthal"
     ],
     [
@@ -142461,7 +143473,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Clara_Schumann"
     ],
     [
@@ -142829,7 +143841,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Esther_Scliar"
     ],
     [
@@ -142875,7 +143887,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/James_Scott_(composer)"
     ],
     [
@@ -143151,7 +144163,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.allmusic.com/artist/ruth-crawford-seeger-mn0001195281"
     ],
     [
@@ -143289,7 +144301,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Hilda_Sehested"
     ],
     [
@@ -143703,7 +144715,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Johanna_Senfter"
     ],
     [
@@ -143979,7 +144991,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://onbaroque.com/2013/09/10/claudia-sessa-c-1570-c-1619/"
     ],
     [
@@ -144025,7 +145037,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Raghunath_Seth"
     ],
     [
@@ -144163,7 +145175,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.wjpublications.com/wj/composer-bio.jsp?key=seward_nancy"
     ],
     [
@@ -144347,7 +145359,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jeanne_Ellison_Shaffer"
     ],
     [
@@ -144623,7 +145635,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Gloria_Shayne_Baker"
     ],
     [
@@ -145313,7 +146325,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Verdina_Shlonsky"
     ],
     [
@@ -146191,6 +147203,52 @@
       "http://www.elzbietasikora.com/?lang=en"
     ],
     [
+      "Silke",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Los Angeles, CA",
+      "Los Angeles, California",
+      "USA",
+      "http://silkematzpohl.com/"
+    ],
+    [
       "Sillano, Carlotta (aka Carlot-ta)",
       "X",
       "",
@@ -146325,7 +147383,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.newyorkwomencomposers.org/profiles.php4?zdm_id=SIL01"
     ],
     [
@@ -146371,7 +147429,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Francisco_Manuel_da_Silva"
     ],
     [
@@ -146601,7 +147659,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Claude_Arrieu"
     ],
     [
@@ -146693,7 +147751,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Nina_Simone"
     ],
     [
@@ -146785,7 +147843,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Netty_Simons"
     ],
     [
@@ -147153,7 +148211,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.newyorkwomencomposers.org/profiles.php4?zdm_id=SIN01"
     ],
     [
@@ -147199,7 +148257,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jagjit_Singh"
     ],
     [
@@ -147291,7 +148349,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maddalena_Laura_Sirmen"
     ],
     [
@@ -147705,7 +148763,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Anita_Sleeman"
     ],
     [
@@ -147843,7 +148901,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Alice_Mary_Smith"
     ],
     [
@@ -147935,7 +148993,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Chris_Smith_(composer)"
     ],
     [
@@ -147981,7 +149039,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://asteria.fivecolleges.edu/findaids/sophiasmith/mnsss14.html"
     ],
     [
@@ -148073,7 +149131,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://chevalierdesaintgeorges.homestead.com/Smith.html"
     ],
     [
@@ -148119,7 +149177,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://de.wikipedia.org/wiki/Irene_Britton_Smith"
     ],
     [
@@ -148165,7 +149223,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Julia_Smith_(composer)"
     ],
     [
@@ -148303,7 +149361,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ethel_Smyth"
     ],
     [
@@ -148579,7 +149637,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Joan%C3%ADdia_Sodr%C3%A9"
     ],
     [
@@ -149085,7 +150143,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jacqueline_Nova"
     ],
     [
@@ -149451,9 +150509,9 @@
       "",
       "",
       "",
-      "Porto",
-      "Porto",
-      "Portugal",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://www.mic.pt/dispatcher?where=0&what=2&show=0&pessoa_id=156&lang=PT&site=ic"
     ],
     [
@@ -149499,7 +150557,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ann_Southam"
     ],
     [
@@ -149637,7 +150695,7 @@
       "",
       "N/A",
       "N/A",
-      "Nigeria",
+      "N/A",
       "https://en.wikipedia.org/wiki/Fela_Sowande"
     ],
     [
@@ -149683,7 +150741,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Susan_Spain-Dunk"
     ],
     [
@@ -149729,7 +150787,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.unsungcomposers.com/forum/index.php?topic=6232.0"
     ],
     [
@@ -151661,7 +152719,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/William_Grant_Still"
     ],
     [
@@ -151707,7 +152765,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Elizabeth_Stirling"
     ],
     [
@@ -151983,7 +153041,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Billy_Strayhorn"
     ],
     [
@@ -152167,7 +153225,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://www.sciway.net/hist/people/lily-strickland.html"
     ],
     [
@@ -152351,7 +153409,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maurice_Arnold_Strothotte"
     ],
     [
@@ -152397,7 +153455,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Barbara_Strozzi"
     ],
     [
@@ -152627,7 +153685,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dana_Suesse"
     ],
     [
@@ -152811,7 +153869,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Sun_Ra"
     ],
     [
@@ -153133,7 +154191,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://adb.anu.edu.au/biography/sutherland-margaret-ada-15821"
     ],
     [
@@ -153252,11 +154310,11 @@
       "",
       "",
       "",
+      "X",
       "",
       "",
       "",
-      "",
-      "",
+      "X",
       "",
       "",
       "",
@@ -153317,7 +154375,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Elizabeth_Swados"
     ],
     [
@@ -153363,7 +154421,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Freda_Swain"
     ],
     [
@@ -153409,7 +154467,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://www.georgiaencyclopedia.org/articles/arts-culture/howard-swanson-1907-1978"
     ],
     [
@@ -153501,7 +154559,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Kay_Swift"
     ],
     [
@@ -153823,7 +154881,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maria_Szymanowska"
     ],
     [
@@ -154099,7 +155157,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Germaine_Tailleferre"
     ],
     [
@@ -154329,7 +155387,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/talma-louise-juliette"
     ],
     [
@@ -154927,7 +155985,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Phyllis_Tate"
     ],
     [
@@ -155019,7 +156077,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Billy_Taylor"
     ],
     [
@@ -155065,7 +156123,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Cecil_Taylor"
     ],
     [
@@ -155479,7 +156537,7 @@
       "",
       "N/A",
       "N/A",
-      "India",
+      "N/A",
       "https://en.wikipedia.org/wiki/Narayana_Teertha"
     ],
     [
@@ -155571,7 +156629,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Alice_Tegn%C3%A9r"
     ],
     [
@@ -155617,7 +156675,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Miguel_Lerdo_de_Tejada_(composer)"
     ],
     [
@@ -156307,7 +157365,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://britishmusiccollection.org.uk/composer/janet-owen-thomas"
     ],
     [
@@ -157779,7 +158837,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://britishmusiccollection.org.uk/composer/greta-tomlins"
     ],
     [
@@ -158101,7 +159159,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "http://www.eugeniotoussaint.com/"
     ],
     [
@@ -158653,7 +159711,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Joan_Trimble"
     ],
     [
@@ -159021,7 +160079,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Tui_St._George_Tucker"
     ],
     [
@@ -159297,7 +160355,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mary_Elizabeth_Turner_Salter"
     ],
     [
@@ -159389,7 +160447,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "https://en.wikipedia.org/wiki/Tyagaraja#Films_on_Tyagaraja_(biographical)"
     ],
     [
@@ -159481,7 +160539,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://composers-classical-music.com/t/TysonMildredLund.htm"
     ],
     [
@@ -159895,7 +160953,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ludmila_Ulehla"
     ],
     [
@@ -160263,7 +161321,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Catherine_Murphy_Urner"
     ],
     [
@@ -160309,7 +161367,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Alicia_Urreta"
     ],
     [
@@ -160355,7 +161413,7 @@
       "",
       "N/A",
       "N/A",
-      "Chile",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jorge_Urrutia"
     ],
     [
@@ -160585,7 +161643,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://ustvolskaya.org/eng/"
     ],
     [
@@ -160769,7 +161827,7 @@
       "",
       "N/A",
       "N/A",
-      "Peru",
+      "N/A",
       "https://es.wikipedia.org/wiki/Theodoro_Valc%C3%A1rcel"
     ],
     [
@@ -161045,7 +162103,7 @@
       "",
       "N/A",
       "N/A",
-      "",
+      "N/A",
       "http://www.allmusic.com/artist/mary-jeanne-van-appledorn-mn0001660235/compositions"
     ],
     [
@@ -161185,6 +162243,52 @@
       "Berlin",
       "Germany",
       "http://www.no1girl.net/"
+    ],
+    [
+      "van der Putten, Janneke",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Rotterdam",
+      "Rotterdam",
+      "The Netherlands",
+      "https://jannekevanderputten.nl"
     ],
     [
       "van der Sluis, Samantha",
@@ -161965,7 +163069,7 @@
       "",
       "N/A",
       "N/A",
-      "Spain",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mat%C3%ADas_Juan_de_Veana"
     ],
     [
@@ -162103,7 +163207,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Consuelo_Vel%C3%A1zquez"
     ],
     [
@@ -162149,7 +163253,7 @@
       "",
       "N/A",
       "N/A",
-      "Belgium",
+      "N/A",
       "https://en.wikipedia.org/wiki/Lucie_Vell%C3%A8re"
     ],
     [
@@ -162563,7 +163667,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Pauline_Viardot#Compositions"
     ],
     [
@@ -162655,7 +163759,7 @@
       "",
       "N/A",
       "N/A",
-      "Iceland",
+      "N/A",
       "http://shop.mic.is/OriginatorDetail/57674/?hidemenu"
     ],
     [
@@ -162839,7 +163943,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://en.wikipedia.org/wiki/Alba_Rosa_Vi%C3%ABtor"
     ],
     [
@@ -162885,7 +163989,7 @@
       "",
       "N/A",
       "N/A",
-      "France",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jane_Vieu"
     ],
     [
@@ -162931,7 +164035,7 @@
       "",
       "N/A",
       "N/A",
-      "Brazil",
+      "N/A",
       "https://en.wikipedia.org/wiki/Heitor_Villa-Lobos#Music"
     ],
     [
@@ -163069,7 +164173,7 @@
       "",
       "N/A",
       "N/A",
-      "Cuba",
+      "N/A",
       "http://imslp.org/wiki/Category:Villate,_Gaspar"
     ],
     [
@@ -163437,7 +164541,7 @@
       "",
       "N/A",
       "N/A",
-      "Belgium",
+      "N/A",
       "https://en.wikipedia.org/wiki/Berthe_di_Vito-Delvaux"
     ],
     [
@@ -163529,7 +164633,7 @@
       "",
       "N/A",
       "N/A",
-      "Italy",
+      "N/A",
       "https://www.allmusic.com/artist/lucrezia-orsina-vizzana-mn0001648897/biography"
     ],
     [
@@ -164403,7 +165507,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Shirley_Walker"
     ],
     [
@@ -164541,7 +165645,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Fats_Waller"
     ],
     [
@@ -164725,7 +165829,7 @@
       "",
       "N/A",
       "N/A",
-      "Germany",
+      "N/A",
       "https://en.wikipedia.org/wiki/Duchess_Maria_Antonia_of_Bavaria"
     ],
     [
@@ -164771,7 +165875,7 @@
       "",
       "N/A",
       "N/A",
-      "Argentina",
+      "N/A",
       "https://web.archive.org/web/20050915185035/http://www.todo-argentina.net:80/biografias/Personajes/maria_elena_walsh.htm"
     ],
     [
@@ -165185,7 +166289,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://adp.library.ucsb.edu/index.php/talent/detail/47196/Ware_Harriet_composer"
     ],
     [
@@ -165277,7 +166381,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://keyworksmusic.com/home/"
     ],
     [
@@ -165323,7 +166427,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://prabook.com/web/katharine_mulky.warne/238310"
     ],
     [
@@ -165415,7 +166519,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "http://www.elinorremickwarren.com/"
     ],
     [
@@ -165484,7 +166588,7 @@
       "X",
       "",
       "",
-      "",
+      "X",
       "",
       "",
       "",
@@ -165967,7 +167071,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://www.prestoclassical.co.uk/sheet-music/composers/5792--webb-evelyn"
     ],
     [
@@ -166103,9 +167207,9 @@
       "",
       "",
       "",
-      "Vienna",
-      "Vienna",
-      "Austria",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://de.wikipedia.org/wiki/Vilma_von_Webenau"
     ],
     [
@@ -166197,7 +167301,7 @@
       "",
       "N/A",
       "N/A",
-      "Czech Republic",
+      "N/A",
       "https://en.wikipedia.org/wiki/Ilse_Weber"
     ],
     [
@@ -166519,7 +167623,7 @@
       "",
       "N/A",
       "N/A",
-      "Austria",
+      "N/A",
       "https://fr.wikipedia.org/wiki/Vally_Weigl"
     ],
     [
@@ -167163,7 +168267,7 @@
       "",
       "N/A",
       "N/A",
-      "Netherlands",
+      "N/A",
       "https://en.wikipedia.org/wiki/Rosy_Wertheim"
     ],
     [
@@ -167209,7 +168313,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/John_Wesley_Work_III"
     ],
     [
@@ -167349,6 +168453,52 @@
       "Madison, New Jersey",
       "USA",
       "http://www.trevorweston.com/"
+    ],
+    [
+      "Westwood, Sarah",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Oxford",
+      "Oxford",
+      "UK",
+      "https://www.sarah-westwood.com/"
     ],
     [
       "Whandal, Syporca",
@@ -167531,7 +168681,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Dennison_Wheelock"
     ],
     [
@@ -167715,7 +168865,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Clarence_Cameron_White"
     ],
     [
@@ -167853,7 +169003,7 @@
       "",
       "N/A",
       "N/A",
-      "Cuba",
+      "N/A",
       "https://en.wikipedia.org/wiki/Jos%C3%A9_White_Lafitte"
     ],
     [
@@ -167899,7 +169049,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Maude_Valerie_White"
     ],
     [
@@ -168405,7 +169555,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Blind_Tom_Wiggins"
     ],
     [
@@ -168819,7 +169969,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Clarence_Williams_(musician)"
     ],
     [
@@ -168911,7 +170061,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "http://gracewilliamscompo.wixsite.com/officialwebsite/compositions"
     ],
     [
@@ -169049,7 +170199,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mary_Lou_Williams"
     ],
     [
@@ -169417,7 +170567,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Olly_Wilson"
     ],
     [
@@ -170059,9 +171209,9 @@
       "",
       "",
       "",
-      "Augsburg",
-      "Augsburg",
-      "Germany",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Erna_Woll"
     ],
     [
@@ -170291,7 +171441,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://en.wikipedia.org/wiki/Mary_Knight_Wood"
     ],
     [
@@ -170429,7 +171579,7 @@
       "",
       "N/A",
       "N/A",
-      "UK",
+      "N/A",
       "https://en.wikipedia.org/wiki/Amy_Woodforde-Finden"
     ],
     [
@@ -170709,6 +171859,52 @@
       "http://catalinavonwrangell.com/"
     ],
     [
+      "Wright, Lindsay",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "London",
+      "London",
+      "UK",
+      "https://www.lindsay-wright.com/"
+    ],
+    [
       "Wright, Mary (d. 2014)",
       "",
       "X",
@@ -170749,9 +171945,9 @@
       "",
       "",
       "",
-      "Portland, OR",
-      "Portland, Oregon",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "http://www.leisureplanetmusic.com/composer/wright/bio.htm"
     ],
     [
@@ -171073,7 +172269,7 @@
       "",
       "N/A",
       "N/A",
-      "USA",
+      "N/A",
       "https://www.allmusic.com/artist/ann-wyeth-mccoy-mn0003662550"
     ],
     [
@@ -171121,6 +172317,52 @@
       "Dallas, Texas",
       "USA",
       "http://www.xiwangcomposer.com/"
+    ],
+    [
+      "Xian Xinghai (d. 1945)",
+      "",
+      "X",
+      "X",
+      "",
+      "",
+      "X",
+      "",
+      "X",
+      "X",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "X",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "N/A",
+      "N/A",
+      "N/A",
+      "https://en.wikipedia.org/wiki/Sinn_Sing_Hoi"
     ],
     [
       "Xiao-Fen Min",
@@ -171669,9 +172911,9 @@
       "",
       "X",
       "",
-      "N/A (Comanche)",
-      "N/A (Comanche)",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://www.badeagle.com/about-david-yeagley/"
     ],
     [
@@ -173417,9 +174659,9 @@
       "",
       "",
       "",
-      "Wellesley, MA",
-      "Wellesley, Massachusetts",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Arlene_Zallman"
     ],
     [
@@ -173787,7 +175029,7 @@
       "",
       "N/A",
       "N/A",
-      "Germany",
+      "N/A",
       "http://www.ruthzechlin.de/"
     ],
     [
@@ -173879,7 +175121,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Juan_Garc%C3%ADa_de_Z%C3%A9spedes"
     ],
     [
@@ -174201,7 +175443,7 @@
       "",
       "N/A",
       "N/A",
-      "Austria",
+      "N/A",
       "http://musicalics.com/en/node/97462"
     ],
     [
@@ -174245,9 +175487,9 @@
       "",
       "",
       "",
-      "Concord, NH",
-      "Concord, New Hampshire",
-      "USA",
+      "N/A",
+      "N/A",
+      "N/A",
       "https://en.wikipedia.org/wiki/Marilyn_J._Ziffrin"
     ],
     [
@@ -174431,7 +175673,7 @@
       "",
       "N/A",
       "N/A",
-      "Germany",
+      "N/A",
       "https://www.sheetmusicplus.com/composers/emely-zobel-sheet-music/1809098"
     ],
     [
@@ -174523,7 +175765,7 @@
       "",
       "N/A",
       "N/A",
-      "Argentina",
+      "N/A",
       "https://en.wikipedia.org/wiki/Juan_Carlos_Zorzi"
     ],
     [
@@ -174661,7 +175903,7 @@
       "",
       "N/A",
       "N/A",
-      "Mexico",
+      "N/A",
       "https://en.wikipedia.org/wiki/Manuel_de_Zumaya"
     ],
     [
@@ -174707,7 +175949,7 @@
       "",
       "N/A",
       "N/A",
-      "Germany",
+      "N/A",
       "https://en.wikipedia.org/wiki/Emilie_Zumsteeg"
     ],
     [
@@ -174753,7 +175995,7 @@
       "",
       "N/A",
       "N/A",
-      "Denmark",
+      "N/A",
       "https://en.wikipedia.org/wiki/Isabelle_de_Charri%C3%A8re"
     ],
     [
